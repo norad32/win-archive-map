@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Win Archive Map</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="vendor/leaflet.css" />
+    <link rel="stylesheet" href="vendor/MarkerCluster.css" />
+    <link rel="stylesheet" href="vendor/MarkerCluster.Default.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h1 class="visually-hidden">Win Archive Map</h1>
+
+      <button id="sidebarToggle" aria-expanded="false" aria-controls="sidebar">
+        ☰ Filter
+      </button>
+
+      <main id="map" aria-label="Building year map"></main>
+
+      <aside id="sidebar">
+        <h2>Filter</h2>
+
+        <div class="filter-group">
+          <label for="titleSearch">Title</label>
+          <input
+            type="text"
+            id="titleSearch"
+            placeholder="e.g. Mörsburg."
+            autocomplete="off"
+          />
+        </div>
+
+        <div class="filter-group">
+          <label for="stadtkreisSelect">Stadtkreis</label>
+          <select id="stadtkreisSelect">
+            <option value="">All</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="strasseInput">Strasse</label>
+          <input
+            type="text"
+            id="strasseInput"
+            list="strasseOptions"
+            placeholder="e.g. Scheideggstrasse"
+          />
+          <datalist id="strasseOptions"></datalist>
+        </div>
+
+        <div class="filter-group">
+          <label>Year range</label>
+          <div class="year-inputs">
+            <input type="number" id="yearFrom" placeholder="From" />
+            <span>–</span>
+            <input type="number" id="yearTo" placeholder="To" />
+          </div>
+        </div>
+
+        <div id="stats">No data loaded yet.</div>
+
+        <h2>Details</h2>
+        <div id="details" aria-live="polite">
+          <p class="placeholder">Click a point or line to see details here.</p>
+        </div>
+
+        <button id="aboutBtn" aria-haspopup="dialog" aria-controls="aboutModal">
+          ℹ️ About
+        </button>
+      </aside>
+
+      <div id="aboutModalOverlay" hidden>
+        <div
+          id="aboutModal"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="aboutTitle"
+        >
+          <button id="aboutModalClose" aria-label="Close modal">×</button>
+
+          <h2 id="aboutTitle">About Win Archive Map</h2>
+
+          <!-- DESCRIPTION -->
+          <section class="modal-section">
+            <h3>What is Win Archive Map?</h3>
+            <p>
+              Win Archive Map is an interactive map viewer for the
+              <a
+                href="https://bilddatenbank.winterthur.ch"
+                target="_blank"
+                rel="noopener"
+              >
+                Bildarchiv Winterthur </a
+              >.
+            </p>
+            <p>It lets you:</p>
+            <ul>
+              <li>
+                Browse image archive entries in their geographical context
+              </li>
+              <li>Filter results by title, street, district, and date range</li>
+            </ul>
+          </section>
+
+          <!-- DATA SOURCE -->
+          <section class="modal-section">
+            <h3>Data Source</h3>
+            <p>
+              Image metadata (address, year, title) is sourced from the
+              <a
+                href="https://bilddatenbank.winterthur.ch"
+                target="_blank"
+                rel="noopener"
+              >
+                Bildarchiv Winterthur </a
+              >.
+            </p>
+          </section>
+
+          <!-- CREDITS -->
+          <section class="modal-section">
+            <h3>Built With</h3>
+
+            <div class="credits-list">
+              <div class="credit-item">
+                <strong
+                  ><a
+                    href="https://bilddatenbank.winterthur.ch"
+                    target="_blank"
+                    rel="noopener"
+                    >Bildarchiv Winterthur</a
+                  ></strong
+                >
+                <p>Metadata source</p>
+              </div>
+
+              <div class="credit-item">
+                <strong
+                  ><a
+                    href="https://www.geo.admin.ch"
+                    target="_blank"
+                    rel="noopener"
+                    >geo.admin.ch</a
+                  ></strong
+                >
+                <p>Swiss federal geospatial API used for address geocoding.</p>
+              </div>
+
+              <div class="credit-item">
+                <strong
+                  ><a
+                    href="https://www.openstreetmap.org"
+                    target="_blank"
+                    rel="noopener"
+                    >OpenStreetMap</a
+                  ></strong
+                >
+                <p>Free, editable map data used as the base layer.</p>
+              </div>
+
+              <div class="credit-item">
+                <strong
+                  ><a
+                    href="https://leafletjs.com"
+                    target="_blank"
+                    rel="noopener"
+                    >Leaflet</a
+                  ></strong
+                >
+                <p>Open-source JavaScript library for interactive maps.</p>
+              </div>
+
+              <div class="credit-item">
+                <strong
+                  ><a
+                    href="https://github.com/Leaflet/Leaflet.markercluster"
+                    target="_blank"
+                    rel="noopener"
+                    >Leaflet.markercluster</a
+                  ></strong
+                >
+                <p>
+                  Marker clustering plugin for organizing large point datasets.
+                </p>
+              </div>
+
+              <div class="credit-item">
+                <strong
+                  ><a
+                    href="https://playwright.dev/python/"
+                    target="_blank"
+                    rel="noopener"
+                    >Playwright</a
+                  ></strong
+                >
+                <p>
+                  Browser automation for scraping dynamic web pages and fetching
+                  archive detail pages.
+                </p>
+              </div>
+
+              <div class="credit-item">
+                <strong
+                  ><a
+                    href="https://www.crummy.com/software/BeautifulSoup/"
+                    target="_blank"
+                    rel="noopener"
+                    >BeautifulSoup4</a
+                  ></strong
+                >
+                <p>
+                  HTML/XML parsing library for extracting address metadata from
+                  archive pages.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- TECHNICAL STACK -->
+          <section class="modal-section">
+            <h3>Technical Stack</h3>
+            <ul class="tech-list">
+              <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+              <li><strong>Mapping:</strong> Leaflet, Leaflet.markercluster</li>
+              <li>
+                <strong>Backend:</strong> Python (Playwright, BeautifulSoup,
+                httpx)
+              </li>
+              <li><strong>Geocoding:</strong> geo.admin.ch REST API</li>
+              <li><strong>Data Format:</strong> GeoJSON</li>
+            </ul>
+          </section>
+
+          <!--AUTHOR -->
+          <section class="modal-section">
+            <p>
+              Made with <span aria-label="love" role="img">❤️</span> by
+              <a
+                href="https://github.com/norad32"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                norad32
+              </a>
+            </p>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <script src="vendor/leaflet.js" defer></script>
+    <script src="vendor/leaflet.markercluster.js" defer></script>
+    <script src="map-viewer.js" defer></script>
+    <script src="modal.js" defer></script>
+  </body>
+</html>

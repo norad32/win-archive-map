@@ -1,0 +1,677 @@
+/* ===========================================================
+   DESIGN TOKENS
+   =========================================================== */
+:root {
+  --color-brand: #ff1900;
+  --color-brand-hover: color-mix(in srgb, var(--color-brand) 82%, black);
+  --color-surface: #ececea;
+  --color-border: #ddd;
+  --color-text: #1a1a1a;
+  --color-text-muted: #666;
+  --color-text-subtle: #999;
+  --color-text-label: #444;
+  --color-text-heading-muted: #555;
+  --focus-ring: 2px solid var(--color-brand);
+
+  --font-sans:
+    system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-surface: #1e1e1e;
+    --color-border: #3a3a3a;
+    --color-text: #eee;
+    --color-text-muted: #aaa;
+    --color-text-subtle: #888;
+    --color-text-label: #ccc;
+    --color-text-heading-muted: #bbb;
+  }
+
+  body {
+    background: #121212;
+    color: var(--color-text);
+  }
+}
+
+/* ===========================================================
+   BASE
+   =========================================================== */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-text);
+}
+
+#app {
+  display: flex;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+#map {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ===========================================================
+   SIDEBAR
+   =========================================================== */
+#sidebar {
+  width: clamp(280px, 25vw, 360px);
+  background: var(--color-surface);
+  border-left: 1px solid var(--color-border);
+  padding: 16px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+#sidebar h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.filter-group {
+  margin-bottom: 16px;
+}
+
+.filter-group label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 4px;
+  color: var(--color-text-label);
+}
+
+.year-inputs {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.year-inputs input {
+  width: 80px;
+  padding: 4px;
+}
+
+#stats {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin-bottom: 12px;
+}
+
+/* ===========================================================
+   DETAILS PANEL
+   =========================================================== */
+#details {
+  border-top: 1px solid var(--color-border);
+  background: var(--color-surface);
+  padding-top: 12px;
+}
+
+#details table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  table-layout: fixed;
+}
+
+#details td {
+  padding: 4px 2px;
+  vertical-align: top;
+  word-break: break-word;
+}
+
+#details td.key {
+  font-weight: bold;
+  width: 40%;
+  color: var(--color-text-label);
+}
+
+#details a.gen-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: var(--color-brand);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 13px;
+  transition: background 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+#details a.gen-link:hover,
+#details a.gen-link:active {
+  background: var(--color-brand-hover);
+}
+
+.placeholder {
+  color: var(--color-text-subtle);
+  font-size: 13px;
+}
+
+/* ===========================================================
+   BUTTONS / CONTROLS
+   =========================================================== */
+button#applyFilter {
+  padding: 6px 14px;
+  cursor: pointer;
+  background: var(--color-brand);
+  border: 1px solid var(--color-brand);
+  color: #fff;
+  transition: background 0.2s;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+button#applyFilter:hover,
+button#applyFilter:active {
+  background: var(--color-brand-hover);
+  border-color: var(--color-brand-hover);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/* ===========================================================
+   SIDEBAR FOOTER & ABOUT BUTTON
+   =========================================================== */
+#aboutBtn {
+  margin-top: auto;
+  padding: 8px 12px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--color-text);
+  transition: all 0.2s;
+  font-family: var(--font-sans);
+}
+
+#aboutBtn:hover {
+  background: color-mix(in srgb, var(--color-surface) 80%, var(--color-brand));
+  border-color: var(--color-brand);
+}
+
+#aboutBtn:active {
+  background: color-mix(in srgb, var(--color-surface) 60%, var(--color-brand));
+}
+
+/* ===========================================================
+   MODAL STYLES
+   =========================================================== */
+#aboutModalOverlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.2s ease-out;
+}
+
+#aboutModalOverlay:not([hidden]) {
+  display: flex;
+}
+
+#aboutModal {
+  position: relative;
+  background: var(--color-surface);
+  color: var(--color-text);
+  max-width: 500px;
+  width: 90%;
+  max-height: 85vh;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  animation: slideUp 0.3s ease-out;
+}
+
+@media (prefers-color-scheme: dark) {
+  #aboutModal {
+    background: #2a2a2a;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+#aboutModalClose {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: all 0.2s;
+  padding: 0;
+}
+
+#aboutModalClose:hover {
+  background: var(--color-border);
+  color: var(--color-text);
+}
+
+#aboutModalClose:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/* ===========================================================
+   MODAL CONTENT SECTIONS
+   =========================================================== */
+#aboutTitle {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.modal-section {
+  margin-bottom: 24px;
+}
+
+.modal-section:last-child {
+  margin-bottom: 0;
+}
+
+.modal-section h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-text-heading-muted);
+}
+
+.modal-section p {
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+.modal-section p:last-child {
+  margin-bottom: 0;
+}
+
+.modal-section ul,
+.modal-section ol {
+  margin: 12px 0;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.modal-section li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+.modal-section li:last-child {
+  margin-bottom: 0;
+}
+
+.modal-section a {
+  color: var(--color-brand);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .modal-section a {
+    color: #58a6ff;
+  }
+
+  .modal-section a:hover {
+    color: #79c0ff;
+  }
+}
+
+.modal-section a:hover {
+  color: var(--color-brand-hover);
+  text-decoration: underline;
+}
+
+.modal-section a:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/* ===========================================================
+   CREDITS LIST
+   =========================================================== */
+.credits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.credit-item {
+  padding: 12px;
+  background: color-mix(in srgb, var(--color-surface) 70%, var(--color-border));
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-brand);
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.credit-item:hover {
+  background: color-mix(in srgb, var(--color-surface) 80%, var(--color-brand));
+  border-left-color: var(--color-brand-hover);
+  border-color: var(--color-brand);
+}
+
+.credit-item strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--color-text);
+  font-size: 14px;
+}
+
+.credit-item strong a {
+  color: var(--color-brand);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .credit-item strong a {
+    color: #58a6ff;
+  }
+
+  .credit-item strong a:hover {
+    color: #79c0ff;
+  }
+}
+
+.credit-item strong a:hover {
+  color: var(--color-brand-hover);
+  text-decoration: underline;
+}
+
+.credit-item strong a:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.credit-item p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--color-text-muted);
+}
+
+/* ===========================================================
+   TECH LIST
+   =========================================================== */
+.tech-list {
+  margin: 12px 0 0 20px;
+  padding: 0;
+  list-style: disc;
+}
+
+.tech-list li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+.tech-list li:last-child {
+  margin-bottom: 0;
+}
+
+.tech-list strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+/* ===========================================================
+   MISC UI ELEMENTS
+   =========================================================== */
+.count-circle {
+  background: var(--color-brand);
+  color: #fff;
+  border: 2px solid var(--color-surface);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.entry-block {
+  margin-bottom: 10px;
+}
+
+.entry-block h3 {
+  font-size: 13px;
+  margin: 8px 0 4px;
+  color: var(--color-text-heading-muted);
+}
+
+.entry-separator {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 10px 0;
+}
+
+/* ===========================================================
+   MOBILE SIDEBAR TOGGLE BUTTON (hidden on desktop)
+   =========================================================== */
+#sidebarToggle {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+  background: var(--color-brand);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#sidebarToggle:hover,
+#sidebarToggle:active {
+  background: var(--color-brand-hover);
+}
+
+/* ===========================================================
+   RESPONSIVE BREAKPOINT
+   =========================================================== */
+@media (max-width: 768px) {
+  #app {
+    flex-direction: column;
+  }
+
+  #map {
+    width: 100%;
+    height: 100%;
+  }
+
+  #sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 85%;
+    max-width: 360px;
+    z-index: 998;
+    transform: translateX(100%);
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  #sidebar.open {
+    transform: translateX(0);
+  }
+
+  #sidebarToggle {
+    display: block;
+  }
+
+  .year-inputs input {
+    flex: 1;
+    min-width: 70px;
+  }
+
+  /* Prevent iOS auto-zoom on focus + bigger touch targets */
+  input[type="number"],
+  input[type="text"],
+  select,
+  button {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  button#applyFilter {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+  }
+
+  #details a.gen-link {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 12px;
+  }
+
+  .count-circle {
+    width: 28px;
+    height: 28px;
+    font-size: 13px;
+  }
+
+  #sidebar h2 {
+    font-size: 16px;
+  }
+
+  #details table {
+    font-size: 14px;
+  }
+
+  /* Modal on mobile */
+  #aboutModal {
+    width: 95%;
+    max-height: 90vh;
+    padding: 20px;
+  }
+
+  #aboutTitle {
+    font-size: 18px;
+  }
+
+  .modal-section h3 {
+    font-size: 15px;
+  }
+
+  .credit-item {
+    padding: 10px;
+  }
+}
+
+/* Extra-small phones */
+@media (max-width: 380px) {
+  #sidebar {
+    width: 100%;
+    max-width: none;
+  }
+
+  .year-inputs {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .year-inputs input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #aboutModal {
+    width: 100%;
+    max-height: 100vh;
+    padding: 16px;
+    border-radius: 0;
+  }
+
+  #aboutModalClose {
+    top: 8px;
+    right: 8px;
+    width: 28px;
+    height: 28px;
+    font-size: 20px;
+  }
+}
+
+/* ===========================================================
+   ACCESSIBILITY UTILITIES
+   =========================================================== */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
