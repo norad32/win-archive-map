@@ -2,7 +2,7 @@
 
 Interactive map viewer for the [Bildarchiv Winterthur](https://bilddatenbank.winterthur.ch) image archive.
 
-**[View Live](https://norad32.github.io/win-archive-explorer/)**
+**[View Live](https://norad32.github.io/win-archive-map/)**
 
 ## Quick start
 
