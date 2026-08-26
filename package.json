@@ -1,0 +1,31 @@
+{
+  "name": "win-archive-explorer",
+  "version": "1.0.0",
+  "description": "Interactive map viewer for Bildarchiv Winterthur",
+  "type": "module",
+  "scripts": {
+    "dev": "npx http-server src -p 8000 -o",
+    "build": "node scripts/build.js",
+    "deploy": "npm run build && gh-pages -d dist",
+    "lint": "eslint src/**/*.js --max-warnings=0",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "gh-pages": "^6.1.0",
+    "http-server": "^14.1.1",
+    "prettier": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/norad32/win-archive-map.git"
+  },
+  "keywords": [
+    "winterthur",
+    "bildarchiv",
+    "map",
+    "geojson"
+  ],
+  "author": "norad32",
+  "license": "MIT"
+}
