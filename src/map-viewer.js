@@ -265,22 +265,9 @@ function coordKey(coords) {
 }
 
 /**
- * Cheap dedupe key-
- * @param {!Object<string, *>} props Feature properties.
- * @return {string} Composite metadata key.
- */
-function metadataKey(props) {
-  return (
-    `${props.id ?? ""}|${props.title ?? ""}|${props.year ?? ""}|` +
-    `${props.street ?? ""}|${props.housenumber ?? ""}|${props.district ?? ""}`
-  );
-}
-
-/**
  * @typedef {{
  *   repCoord: !Array<number>,
  *   entries: !Array<!Object<string, *>>,
- *   seenMetadata: !Set<string>,
  * }} FeatureGroup
  */
 
@@ -304,17 +291,11 @@ function groupFeatures(features) {
       groups.set(key, {
         repCoord,
         entries: [],
-        seenMetadata: new Set(),
       });
     }
 
     const group = groups.get(key);
     const props = f.properties || {};
-    const mKey = metadataKey(props);
-
-    if (group.seenMetadata.has(mKey)) continue;
-
-    group.seenMetadata.add(mKey);
     group.entries.push(props);
   }
 
