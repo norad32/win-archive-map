@@ -736,5 +736,24 @@
     "Wässerwiesenstrasse",
     "Wülflingerstrasse",
     "Zypressenstrasse"
+  ],
+  "Brütten": [
+    "Unterdorfstrasse"
+  ],
+  "Ellikon a.d. Thur": [
+    "Üesslingerstrasse"
+  ],
+  "Elgg": [
+    "Lindenplatz"
+  ],
+  "Hettlingen": [
+    "Stationsstrasse"
+  ],
+  "Neftenbach": [
+    "Weiachstrasse"
+  ],
+  "Kyburg": [
+    "Schloss",
+    "Dorfstrasse"
   ]
 }

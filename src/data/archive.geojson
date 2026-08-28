@@ -4625,7 +4625,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.762368202209473, 47.48200988769531]
+        "coordinates": [8.734066575463547, 47.49744870157218]
       },
       "properties": {
         "title": "Tösstalstrasse 27, \"Tiefenbrunnen\", Hafnerei Meyer",
@@ -13130,7 +13130,7 @@
         "year": "um 1960",
         "street": "Weberstrasse",
         "housenumber": "85-87",
-        "district": ""
+        "district": "Mattenbach"
       }
     },
     {
@@ -32597,7 +32597,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.766097068786621, 47.47505187988281]
+        "coordinates": [8.734649579170219, 47.49670575582146]
       },
       "properties": {
         "title": "Tösstalstrasse 32, Christl. Vereinslokal",
@@ -32611,7 +32611,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.766097068786621, 47.47505187988281]
+        "coordinates": [8.734649579170219, 47.49670575582146]
       },
       "properties": {
         "title": "Tösstalstrasse 32, Christl. Vereinslokal",
@@ -32639,7 +32639,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.766097068786621, 47.47505187988281]
+        "coordinates": [8.734649579170219, 47.49670575582146]
       },
       "properties": {
         "title": "Tösstalstrasse 32, Christl. Vereinslokal",
@@ -96633,14 +96633,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.762368202209473, 47.48200988769531]
+        "coordinates": [8.734066575463547, 47.49744870157218]
       },
       "properties": {
         "title": "Tösstalstrasse 27, \"Tiefenbrunnen\", Obergasse 32, \"Minerva\", Wappen Meyer (rechts) und Hegner",
         "year": "1800er",
         "street": "Tösstalstrasse",
         "housenumber": "27",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -149791,7 +149791,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.68661880493164, 47.51285934448242]
+        "coordinates": [8.705857874253155, 47.47751349211927]
       },
       "properties": {
         "title": "Zürcherstrasse 315, ehemaliges Bahnwärterhaus, Blick vom Bahnwärterhaus Richtung Stadt",
@@ -149805,7 +149805,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.68661880493164, 47.51285934448242]
+        "coordinates": [8.705857874253155, 47.47751349211927]
       },
       "properties": {
         "title": "Zürcherstrasse 315, ehemaliges Bahnwärterhaus, Blick vom Bahnwärterhaus Richtung Stadt",
@@ -149819,7 +149819,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.68661880493164, 47.51285934448242]
+        "coordinates": [8.705857874253155, 47.47751349211927]
       },
       "properties": {
         "title": "Zürcherstrasse 315, ehemaliges Bahnwärterhaus, Blick vom Bahnwärterhaus Richtung Stadt",
@@ -149833,7 +149833,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.68661880493164, 47.51285934448242]
+        "coordinates": [8.705857874253155, 47.47751349211927]
       },
       "properties": {
         "title": "Zürcherstrasse 315, ehemaliges Bahnwärterhaus, Blick vom Bahnwärterhaus Richtung Stadt",
@@ -149847,7 +149847,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, Bauplan",
@@ -149861,7 +149861,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, Situationsplan",
@@ -149875,7 +149875,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, Querschnitt",
@@ -149889,7 +149889,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, Bauplan",
@@ -149903,7 +149903,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, Bauplan Anbau",
@@ -149917,7 +149917,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, Bauplan Anbau",
@@ -149931,7 +149931,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, Bauplan Anbau",
@@ -149945,7 +149945,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, Bauplan Querschnitt",
@@ -149959,7 +149959,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, Situationsplan",
@@ -149973,7 +149973,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, Bauplan",
@@ -149987,7 +149987,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, Bauplan",
@@ -150001,7 +150001,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150015,7 +150015,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150029,7 +150029,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150043,7 +150043,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150057,7 +150057,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150071,7 +150071,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150085,7 +150085,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150099,7 +150099,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150113,7 +150113,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150127,7 +150127,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150141,7 +150141,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150155,7 +150155,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150169,7 +150169,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150183,7 +150183,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150197,7 +150197,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150211,7 +150211,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150225,7 +150225,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150239,7 +150239,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150253,7 +150253,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150267,7 +150267,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150281,7 +150281,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150295,7 +150295,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150309,7 +150309,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150323,7 +150323,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150337,7 +150337,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150351,7 +150351,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150365,7 +150365,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150379,7 +150379,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150393,7 +150393,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150407,7 +150407,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150421,7 +150421,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150435,7 +150435,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -150449,7 +150449,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, vor Abbruch",
@@ -150463,7 +150463,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, vor Abbruch",
@@ -150477,7 +150477,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, vor Abbruch",
@@ -150491,7 +150491,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, vor Abbruch",
@@ -150505,7 +150505,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, vor Abbruch",
@@ -150519,7 +150519,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, vor Abbruch",
@@ -150533,7 +150533,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, vor Abbruch",
@@ -150547,7 +150547,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, vor Abbruch",
@@ -150561,7 +150561,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, vor Abbruch",
@@ -150575,7 +150575,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, vor Abbruch",
@@ -150589,7 +150589,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, vor Abbruch",
@@ -150603,7 +150603,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, vor Abbruch",
@@ -150617,7 +150617,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss, vor Abbruch",
@@ -150631,7 +150631,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690207481384277, 47.51163864135742]
+        "coordinates": [8.70291289965198, 47.48277017045016]
       },
       "properties": {
         "title": "Zürcherstrasse 284, NOK-Unterwerk Töss",
@@ -156245,7 +156245,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.774145126342773, 47.54251480102539]
+        "coordinates": [8.705501556396484, 47.492652893066406]
       },
       "properties": {
         "title": "Gätzibrunnenstrasse 11 und 15",
@@ -161565,7 +161565,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690288543701172, 47.51859664916992]
+        "coordinates": [8.708073159648677, 47.48860083851529]
       },
       "properties": {
         "title": "Hofstrasse 6, Abbruchliegenschaft, ehem. Gärtnerhaus Rieter",
@@ -161579,7 +161579,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690288543701172, 47.51859664916992]
+        "coordinates": [8.708073159648677, 47.48860083851529]
       },
       "properties": {
         "title": "Hofstrasse 6, Abbruchliegenschaft, ehem. Gärtnerhaus Rieter",
@@ -161593,7 +161593,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690288543701172, 47.51859664916992]
+        "coordinates": [8.708073159648677, 47.48860083851529]
       },
       "properties": {
         "title": "Hofstrasse 6, Abbruchliegenschaft, ehem. Gärtnerhaus Rieter",
@@ -161607,7 +161607,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690288543701172, 47.51859664916992]
+        "coordinates": [8.708073159648677, 47.48860083851529]
       },
       "properties": {
         "title": "Hofstrasse 6, Abbruchliegenschaft, ehem. Gärtnerhaus Rieter",
@@ -161621,7 +161621,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690288543701172, 47.51859664916992]
+        "coordinates": [8.708073159648677, 47.48860083851529]
       },
       "properties": {
         "title": "Hofstrasse 6, Abbruchliegenschaft, ehem. Gärtnerhaus Rieter",
@@ -168761,7 +168761,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.716102600097656, 47.49308776855469]
+        "coordinates": [8.717780057497807, 47.508435568500076]
       },
       "properties": {
         "title": "Feldstrasse 13",
@@ -175061,7 +175061,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.698269844055176, 47.48035430908203]
+        "coordinates": [8.71382128171448, 47.50800396470701]
       },
       "properties": {
         "title": "Wiesenstrasse 22, Kindergarten Pavillon",
@@ -176629,7 +176629,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.724052429199219, 47.50420379638672]
+        "coordinates": [8.719540963449282, 47.50614784253591]
       },
       "properties": {
         "title": "Ruhtalstrasse 41, kurz vor Abbruch 1975",
@@ -176643,7 +176643,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.724052429199219, 47.50420379638672]
+        "coordinates": [8.719540963449282, 47.50614784253591]
       },
       "properties": {
         "title": "Ruhtalstrasse 41, kurz vor Abbruch 1975",
@@ -178680,7 +178680,7 @@
         "year": "12.03.1946",
         "street": "Lettenstrasse",
         "housenumber": "49-55",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -181305,7 +181305,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.724449157714844, 47.50303268432617]
+        "coordinates": [8.72139539701338, 47.5138433201007]
       },
       "properties": {
         "title": "Schaffhauserstrasse 123, Liegenschaft Chrumme Grabe, abgebrochen 1963 für den Neubau der reformierten Kirche Rosenberg, Blick von der Schaffhauserstrasse",
@@ -181347,7 +181347,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.724449157714844, 47.50303268432617]
+        "coordinates": [8.72139539701338, 47.5138433201007]
       },
       "properties": {
         "title": "Schaffhauserstrasse 123, Liegenschaft Chrumme Grabe, abgebrochen 1963 für den Neubau der reformierten Kirche Rosenberg, Blick westwärts",
@@ -181361,7 +181361,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.724449157714844, 47.50303268432617]
+        "coordinates": [8.72139539701338, 47.5138433201007]
       },
       "properties": {
         "title": "Schaffhauserstrasse 123, Bauernhof Burkhalter",
@@ -199988,7 +199988,7 @@
         "year": "um 1905",
         "street": "Museumstrasse",
         "housenumber": "2",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -200016,105 +200016,105 @@
         "year": "1917",
         "street": "Neumühlestrasse",
         "housenumber": "40",
-        "district": ""
+        "district": "Töss"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.761913299560547, 47.53364562988281]
+        "coordinates": [8.670715866839036, 47.47142831340832]
       },
       "properties": {
         "title": "Brütten, Restaurant Hofacker",
         "year": "1925 (Poststempel)",
         "street": "Unterdorfstrasse",
         "housenumber": "1",
-        "district": ""
+        "district": "Brütten"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.763033866882324, 47.49655532836914]
+        "coordinates": [8.82501491899069, 47.56441501249214]
       },
       "properties": {
         "title": "Ellikon a.d. Thur, Restaurant Löwen",
         "year": "1950er",
         "street": "Üesslingerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Ellikon a.d. Thur"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.693668365478516, 47.510986328125]
+        "coordinates": [8.866833432870624, 47.490537580302394]
       },
       "properties": {
         "title": "Elgg, Lindenplatz 3, Neubau",
         "year": "1971",
         "street": "Lindenplatz",
         "housenumber": "3",
-        "district": ""
+        "district": "Elgg"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.707266807556152, 47.49148178100586]
+        "coordinates": [8.706995388034079, 47.545823985403516]
       },
       "properties": {
         "title": "Hettlingen, Stationsstrasse 18",
         "year": "1920er",
         "street": "Stationsstrasse",
         "housenumber": "18",
-        "district": ""
+        "district": "Hettlingen"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.707266807556152, 47.49148178100586]
+        "coordinates": [8.706995388034079, 47.545823985403516]
       },
       "properties": {
         "title": "Hettlingen, Stationsstrasse 18",
         "year": "1920er",
         "street": "Stationsstrasse",
         "housenumber": "18",
-        "district": ""
+        "district": "Hettlingen"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723697662353516, 47.50791549682617]
+        "coordinates": [8.67194251954047, 47.518417939700115]
       },
       "properties": {
         "title": "Neftenbach, Weiachstrasse 9",
         "year": "08.1994",
         "street": "Weiachstrasse",
         "housenumber": "9",
-        "district": ""
+        "district": "Neftenbach"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723697662353516, 47.50791549682617]
+        "coordinates": [8.67194251954047, 47.518417939700115]
       },
       "properties": {
         "title": "Neftenbach, Weiachstrasse 9",
         "year": "08.1994",
         "street": "Weiachstrasse",
         "housenumber": "9",
-        "district": ""
+        "district": "Neftenbach"
       }
     },
     {
@@ -251760,7 +251760,7 @@
         "year": "1992",
         "street": "Holzlegistrasse",
         "housenumber": "50",
-        "district": "Seen"
+        "district": "Wülflingen"
       }
     },
     {
@@ -251774,7 +251774,7 @@
         "year": "1992",
         "street": "Holzlegistrasse",
         "housenumber": "50",
-        "district": "Seen"
+        "district": "Wülflingen"
       }
     },
     {
@@ -251788,7 +251788,7 @@
         "year": "1992",
         "street": "Holzlegistrasse",
         "housenumber": "50",
-        "district": "Seen"
+        "district": "Wülflingen"
       }
     },
     {
@@ -251802,7 +251802,7 @@
         "year": "1992",
         "street": "Holzlegistrasse",
         "housenumber": "50",
-        "district": "Seen"
+        "district": "Wülflingen"
       }
     },
     {
@@ -251816,7 +251816,7 @@
         "year": "1992",
         "street": "Holzlegistrasse",
         "housenumber": "53",
-        "district": "Seen"
+        "district": "Wülflingen"
       }
     },
     {
@@ -251830,7 +251830,7 @@
         "year": "1992",
         "street": "Holzlegistrasse",
         "housenumber": "55/57",
-        "district": "Seen"
+        "district": "Wülflingen"
       }
     },
     {
@@ -259808,7 +259808,7 @@
       "properties": {
         "title": "Köhlbergstrasse 2",
         "year": "1992",
-        "street": "Kirchweg",
+        "street": "Köhlbergstrasse",
         "housenumber": "2",
         "district": "Seen"
       }
@@ -259822,7 +259822,7 @@
       "properties": {
         "title": "Köhlbergstrasse 2",
         "year": "1992",
-        "street": "Kirchweg",
+        "street": "Köhlbergstrasse",
         "housenumber": "2",
         "district": "Seen"
       }
@@ -259836,7 +259836,7 @@
       "properties": {
         "title": "Köhlbergstrasse 5-9",
         "year": "1992",
-        "street": "Kirchweg",
+        "street": "Köhlbergstrasse",
         "housenumber": "5-9",
         "district": "Seen"
       }
@@ -259850,7 +259850,7 @@
       "properties": {
         "title": "Köhlbergstrasse 5-9",
         "year": "1992",
-        "street": "Kirchweg",
+        "street": "Köhlbergstrasse",
         "housenumber": "5-9",
         "district": "Seen"
       }
@@ -259864,7 +259864,7 @@
       "properties": {
         "title": "Köhlbergstrasse 8",
         "year": "1992",
-        "street": "Kirchweg",
+        "street": "Köhlbergstrasse",
         "housenumber": "8",
         "district": "Seen"
       }
@@ -259878,7 +259878,7 @@
       "properties": {
         "title": "Köhlbergstrasse 8",
         "year": "1992",
-        "street": "Kirchweg",
+        "street": "Köhlbergstrasse",
         "housenumber": "8",
         "district": "Seen"
       }
@@ -259892,7 +259892,7 @@
       "properties": {
         "title": "Köhlbergstrasse 8",
         "year": "1992",
-        "street": "Kirchweg",
+        "street": "Köhlbergstrasse",
         "housenumber": "8",
         "district": "Seen"
       }
@@ -259906,7 +259906,7 @@
       "properties": {
         "title": "Köhlbergstrasse 9A",
         "year": "1992",
-        "street": "Kirchweg",
+        "street": "Köhlbergstrasse",
         "housenumber": "9A",
         "district": "Seen"
       }
@@ -259920,7 +259920,7 @@
       "properties": {
         "title": "Köhlbergstrasse 9A",
         "year": "1992",
-        "street": "Kirchweg",
+        "street": "Köhlbergstrasse",
         "housenumber": "9A",
         "district": "Seen"
       }
@@ -263835,14 +263835,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.762754440307617, 47.480796813964844]
+        "coordinates": [8.745230993963748, 47.49262461535053]
       },
       "properties": {
         "title": "Tösstalstrasse, Blöcke 38-34 und 32-28, Blick vom Hachhaus Weberstrasse 91",
         "year": "um 1960",
-        "street": "Tösstalstrasse",
+        "street": "Hörnlistrasse",
         "housenumber": "28-34",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -272571,7 +272571,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.690288543701172, 47.51859664916992]
+        "coordinates": [8.708073159648677, 47.48860083851529]
       },
       "properties": {
         "title": "Radhofstrasse 6",
@@ -283827,13 +283827,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.722654342651367, 47.50066375732422]
+        "coordinates": [8.70331208742278, 47.50840414243363]
       },
       "properties": {
-        "title": "Wartstrasse 283",
+        "title": "Wartstrasse 236",
         "year": "1992",
         "street": "Wartstrasse",
-        "housenumber": "283",
+        "housenumber": "236",
         "district": "Wülflingen"
       }
     },
@@ -287754,7 +287754,7 @@
         "year": "1992",
         "street": "Wülflingerstrasse",
         "housenumber": "56",
-        "district": "Wülflingen"
+        "district": "Veltheim"
       }
     },
     {
@@ -288377,7 +288377,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.68661880493164, 47.51285934448242]
+        "coordinates": [8.705857874253155, 47.47751349211927]
       },
       "properties": {
         "title": "Wülflingerstrasse 315",
@@ -288391,7 +288391,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.68661880493164, 47.51285934448242]
+        "coordinates": [8.705857874253155, 47.47751349211927]
       },
       "properties": {
         "title": "Wülflingerstrasse 315",
@@ -289490,7 +289490,7 @@
         "year": "",
         "street": "Technikumstrasse",
         "housenumber": "9",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -299794,7 +299794,7 @@
         "year": "02.06.2005",
         "street": "Rudolfstrasse",
         "housenumber": "21",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -300424,7 +300424,7 @@
         "year": "27.08.2004",
         "street": "Eichwaldstrasse",
         "housenumber": "3",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -300704,7 +300704,7 @@
         "year": "16.01.2009",
         "street": "Schlosstalstrasse",
         "housenumber": "1",
-        "district": ""
+        "district": "Töss"
       }
     },
     {
@@ -303084,7 +303084,7 @@
         "year": "1917",
         "street": "Technikumstrasse",
         "housenumber": "81",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -303490,7 +303490,7 @@
         "year": "20.04.2010",
         "street": "Schickstrasse",
         "housenumber": "11",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -303504,7 +303504,7 @@
         "year": "20.04.2010",
         "street": "Schickstrasse",
         "housenumber": "11",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -306178,7 +306178,7 @@
         "year": "2010",
         "street": "Stadthausstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -307634,7 +307634,7 @@
         "year": "24.01.1993",
         "street": "Wülflingerstrasse",
         "housenumber": "42",
-        "district": "Wülflingen"
+        "district": "Veltheim"
       }
     },
     {
@@ -311008,7 +311008,7 @@
         "year": "ca. 1915",
         "street": "Geiselweidstrasse",
         "housenumber": "34",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -311022,7 +311022,7 @@
         "year": "ca. 1904-1915",
         "street": "Geiselweidstrasse",
         "housenumber": "34",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -311155,7 +311155,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.763022422790527, 47.51490020751953]
+        "coordinates": [8.716397191310602, 47.508045338223596]
       },
       "properties": {
         "title": "Werbepostkarte Gebrüder Wyler Mechanische Schreinerei und Glaserei, mit Abbildung Fabrikareal",
@@ -312380,7 +312380,7 @@
         "year": "1910er-Jahre",
         "street": "Oberer Graben",
         "housenumber": "48",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -314193,14 +314193,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.69338321685791, 47.50157928466797]
+        "coordinates": [8.743316255775946, 47.458370104086086]
       },
       "properties": {
         "title": "Kyburg, Schloss und Garten",
         "year": "2011",
         "street": "Schloss",
         "housenumber": "1",
-        "district": ""
+        "district": "Kyburg"
       }
     },
     {
@@ -314536,7 +314536,7 @@
         "year": "2011",
         "street": "Schlosstalstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Wülflingen"
       }
     },
     {
@@ -315082,7 +315082,7 @@
         "year": "2011",
         "street": "Schaffhauserstrasse",
         "housenumber": "6",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -315166,7 +315166,7 @@
         "year": "2011",
         "street": "Zürcherstrasse",
         "housenumber": "320-324",
-        "district": ""
+        "district": "Töss"
       }
     },
     {
@@ -315180,7 +315180,7 @@
         "year": "2011",
         "street": "Zürcherstrasse",
         "housenumber": "320-324",
-        "district": ""
+        "district": "Töss"
       }
     },
     {
@@ -315194,7 +315194,7 @@
         "year": "2011",
         "street": "Zürcherstrasse",
         "housenumber": "320-324",
-        "district": ""
+        "district": "Töss"
       }
     },
     {
@@ -315208,7 +315208,7 @@
         "year": "2011",
         "street": "Zürcherstrasse",
         "housenumber": "320-324",
-        "district": ""
+        "district": "Töss"
       }
     },
     {
@@ -316062,7 +316062,7 @@
         "year": "2011",
         "street": "Schickstrasse",
         "housenumber": "11",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -316076,7 +316076,7 @@
         "year": "2011",
         "street": "Schickstrasse",
         "housenumber": "11",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -316090,7 +316090,7 @@
         "year": "2011",
         "street": "Schickstrasse",
         "housenumber": "11",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -316104,7 +316104,7 @@
         "year": "2011",
         "street": "Schickstrasse",
         "housenumber": "11",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -316937,14 +316937,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.758147239685059, 47.50714874267578]
+        "coordinates": [8.744393474695297, 47.457589162406535]
       },
       "properties": {
         "title": "Kyburg Pfarrhaus",
         "year": "2011",
         "street": "Dorfstrasse",
         "housenumber": "18",
-        "district": ""
+        "district": "Kyburg"
       }
     },
     {
@@ -316958,7 +316958,7 @@
         "year": "2011",
         "street": "Lagerplatz",
         "housenumber": "21",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -316972,7 +316972,7 @@
         "year": "2011",
         "street": "Lagerplatz",
         "housenumber": "21",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -317112,7 +317112,7 @@
         "year": "2011",
         "street": "Grenzstrasse",
         "housenumber": "36",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -317126,7 +317126,7 @@
         "year": "2011",
         "street": "Grenzstrasse",
         "housenumber": "36",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -317140,7 +317140,7 @@
         "year": "2011",
         "street": "Grenzstrasse",
         "housenumber": "36",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -323090,7 +323090,7 @@
         "year": "2012",
         "street": "Scheideggstrasse",
         "housenumber": "50",
-        "district": "Altstadt"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -323104,7 +323104,7 @@
         "year": "2012",
         "street": "Scheideggstrasse",
         "housenumber": "50",
-        "district": "Altstadt"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -323118,7 +323118,7 @@
         "year": "2012",
         "street": "Scheideggstrasse",
         "housenumber": "50",
-        "district": "Altstadt"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -323132,7 +323132,7 @@
         "year": "2012",
         "street": "Scheideggstrasse",
         "housenumber": "50",
-        "district": "Altstadt"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -323559,28 +323559,28 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.69338321685791, 47.50157928466797]
+        "coordinates": [8.743316255775946, 47.458370104086086]
       },
       "properties": {
         "title": "Kyburg, Kyburgiade, Streichquartett mit Publikum",
         "year": "01.08.1992",
         "street": "Schloss",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Kyburg"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.69338321685791, 47.50157928466797]
+        "coordinates": [8.743316255775946, 47.458370104086086]
       },
       "properties": {
         "title": "Kyburg, Kyburgiade, Konzert mit Publikum",
         "year": "02.07.1984",
         "street": "Schloss",
         "housenumber": "1",
-        "district": ""
+        "district": "Kyburg"
       }
     },
     {
@@ -333716,7 +333716,7 @@
         "year": "23.09.1998",
         "street": "Industriestrasse",
         "housenumber": "11",
-        "district": "Altstadt"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -334276,7 +334276,7 @@
         "year": "um 1900",
         "street": "Technikumstrasse",
         "housenumber": "36",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -334696,7 +334696,7 @@
         "year": "11.06.1991",
         "street": "Tösstalstrasse",
         "housenumber": "24",
-        "district": "Wülflingen"
+        "district": "Altstadt"
       }
     },
     {
@@ -334710,7 +334710,7 @@
         "year": "01.04.1997",
         "street": "Tösstalstrasse",
         "housenumber": "24",
-        "district": "Wülflingen"
+        "district": "Altstadt"
       }
     },
     {
@@ -334724,7 +334724,7 @@
         "year": "27.04.1988",
         "street": "Tösstalstrasse",
         "housenumber": "24",
-        "district": "Wülflingen"
+        "district": "Altstadt"
       }
     },
     {
@@ -334738,7 +334738,7 @@
         "year": "27.04.1988",
         "street": "Tösstalstrasse",
         "housenumber": "24",
-        "district": "Wülflingen"
+        "district": "Altstadt"
       }
     },
     {
@@ -334752,7 +334752,7 @@
         "year": "27.04.1988",
         "street": "Tösstalstrasse",
         "housenumber": "24",
-        "district": "Wülflingen"
+        "district": "Altstadt"
       }
     },
     {
@@ -334766,7 +334766,7 @@
         "year": "27.04.1988",
         "street": "Tösstalstrasse",
         "housenumber": "26",
-        "district": "Wülflingen"
+        "district": "Altstadt"
       }
     },
     {
@@ -334780,7 +334780,7 @@
         "year": "02.11.1983",
         "street": "Tösstalstrasse",
         "housenumber": "26",
-        "district": "Wülflingen"
+        "district": "Altstadt"
       }
     },
     {
@@ -334794,7 +334794,7 @@
         "year": "02.11.1983",
         "street": "Tösstalstrasse",
         "housenumber": "26",
-        "district": "Wülflingen"
+        "district": "Altstadt"
       }
     },
     {
@@ -334808,7 +334808,7 @@
         "year": "08.12.1981",
         "street": "Tösstalstrasse",
         "housenumber": "26",
-        "district": "Wülflingen"
+        "district": "Altstadt"
       }
     },
     {
@@ -334822,7 +334822,7 @@
         "year": "01.01.1982",
         "street": "Tösstalstrasse",
         "housenumber": "26",
-        "district": "Wülflingen"
+        "district": "Altstadt"
       }
     },
     {
@@ -334836,7 +334836,7 @@
         "year": "02.11.1983",
         "street": "Tösstalstrasse",
         "housenumber": "26",
-        "district": "Wülflingen"
+        "district": "Altstadt"
       }
     },
     {
@@ -335998,7 +335998,7 @@
         "year": "01.02.1997",
         "street": "Tösstalstrasse",
         "housenumber": "26",
-        "district": "Wülflingen"
+        "district": "Altstadt"
       }
     },
     {
@@ -336012,7 +336012,7 @@
         "year": "01.02.1997",
         "street": "Tösstalstrasse",
         "housenumber": "26",
-        "district": "Wülflingen"
+        "district": "Altstadt"
       }
     },
     {
@@ -337454,7 +337454,7 @@
         "year": "05.04.1980",
         "street": "Feldstrasse",
         "housenumber": "8",
-        "district": "Wülflingen"
+        "district": "Veltheim"
       }
     },
     {
@@ -337468,7 +337468,7 @@
         "year": "05.12.1979",
         "street": "Feldstrasse",
         "housenumber": "8",
-        "district": "Wülflingen"
+        "district": "Veltheim"
       }
     },
     {
@@ -341528,7 +341528,7 @@
         "year": "1988",
         "street": "Stadthausstrasse",
         "housenumber": "4a",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -341542,7 +341542,7 @@
         "year": "1988",
         "street": "Stadthausstrasse",
         "housenumber": "4a",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -341556,7 +341556,7 @@
         "year": "1987",
         "street": "Stadthausstrasse",
         "housenumber": "4a",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -341570,7 +341570,7 @@
         "year": "1987",
         "street": "Stadthausstrasse",
         "housenumber": "4a",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -341584,7 +341584,7 @@
         "year": "1988",
         "street": "Stadthausstrasse",
         "housenumber": "4a",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -341598,7 +341598,7 @@
         "year": "1988",
         "street": "Stadthausstrasse",
         "housenumber": "4a",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -341612,7 +341612,7 @@
         "year": "1988",
         "street": "Stadthausstrasse",
         "housenumber": "4a",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -341626,7 +341626,7 @@
         "year": "1988",
         "street": "Stadthausstrasse",
         "housenumber": "4a",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -343355,56 +343355,56 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.69338321685791, 47.50157928466797]
+        "coordinates": [8.743316255775946, 47.458370104086086]
       },
       "properties": {
         "title": "Schloss Kyburg, Polizistenvereidigung, Stadtpräsident Martin Haas vereidigt einen Polizisten",
         "year": "1996",
         "street": "Schloss",
         "housenumber": "1",
-        "district": ""
+        "district": "Kyburg"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.69338321685791, 47.50157928466797]
+        "coordinates": [8.743316255775946, 47.458370104086086]
       },
       "properties": {
         "title": "Schloss Kyburg, Polizistenvereidigung,  Polizisten mit einer Winterthur-Flagge",
         "year": "1996",
         "street": "Schloss",
         "housenumber": "1",
-        "district": ""
+        "district": "Kyburg"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.69338321685791, 47.50157928466797]
+        "coordinates": [8.743316255775946, 47.458370104086086]
       },
       "properties": {
         "title": "Schloss Kyburg, Polizistenvereidigung",
         "year": "1996",
         "street": "Schloss",
         "housenumber": "1",
-        "district": ""
+        "district": "Kyburg"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.69338321685791, 47.50157928466797]
+        "coordinates": [8.743316255775946, 47.458370104086086]
       },
       "properties": {
         "title": "Schloss Kyburg, Polizistenvereidigung",
         "year": "1996",
         "street": "Schloss",
         "housenumber": "1",
-        "district": ""
+        "district": "Kyburg"
       }
     },
     {
@@ -343775,14 +343775,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.760995864868164, 47.486080169677734]
+        "coordinates": [8.760256587306213, 47.48630783325477] 
       },
       "properties": {
         "title": "Schwerzenbachstrasse 9-11, Brand, Fuewehrmann im Einsatz",
         "year": "07.08.1997",
         "street": "Schwerzenbachstrasse",
         "housenumber": "9-11",
-        "district": "Töss"
+        "district": "Seen"
       }
     },
     {
@@ -348836,7 +348836,7 @@
         "year": "17.05.1990",
         "street": "St. Gallerstrasse",
         "housenumber": "129",
-        "district": "Altstadt"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -350173,12 +350173,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.729979515075684, 47.49890899658203]
+        "coordinates": [8.717286109924316, 47.50909423828125]
       },
       "properties": {
         "title": "Feldstrasse 2, Trattoria Concordia, Aussenansicht, Brunnen, parkierte Autos, Passantin",
         "year": "1990er-Jahre?",
-        "street": "Schulgasse",
+        "street": "Feldstrasse",
         "housenumber": "2",
         "district": "Veltheim"
       }
@@ -350789,12 +350789,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.732193946838379, 47.498592376708984]
+        "coordinates": [8.717212369076483, 47.50935222647491]
       },
       "properties": {
         "title": "Bachtelstrasse 72, Restaurant zum Grünen Hund, Aussenansicht, Gartenbeiz mit Gästen",
         "year": "10.03.1998",
-        "street": "Neustadtgasse",
+        "street": "Bachtelstrasse",
         "housenumber": "72",
         "district": "Veltheim"
       }
@@ -358650,7 +358650,7 @@
         "year": "1990er-Jahre?",
         "street": "Hochwachtstrasse",
         "housenumber": "1",
-        "district": "Wülflingen"
+        "district": "Altstadt"
       }
     },
     {
@@ -363543,12 +363543,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.716533660888672, 47.50974655151367]
+        "coordinates": [8.694777612326543, 47.51117006845059]
       },
       "properties": {
         "title": "Screenshot der Homepage der Reformierten Kirche Wülflingen",
         "year": "12.01.1997",
-        "street": "Felsenhofstrasse",
+        "street": "Lindenplatz",
         "housenumber": "10",
         "district": "Wülflingen"
       }
@@ -364838,7 +364838,7 @@
         "year": "24.09.1977",
         "street": "Löwenstrasse",
         "housenumber": "3",
-        "district": "Töss"
+        "district": "Veltheim"
       }
     },
     {
@@ -396520,7 +396520,7 @@
         "year": "September 1972",
         "street": "Marktgasse",
         "housenumber": "70",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398228,7 +398228,7 @@
         "year": "März 1974",
         "street": "Eichliwaldstrasse",
         "housenumber": "3",
-        "district": "Altstadt"
+        "district": "Veltheim"
       }
     },
     {
@@ -398424,7 +398424,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398438,7 +398438,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398452,7 +398452,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398466,7 +398466,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398480,7 +398480,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398494,7 +398494,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398508,7 +398508,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398522,7 +398522,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398536,7 +398536,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398550,7 +398550,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398564,7 +398564,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398578,7 +398578,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398592,7 +398592,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398606,7 +398606,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398620,7 +398620,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398634,7 +398634,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398648,7 +398648,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398662,7 +398662,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398676,7 +398676,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398690,7 +398690,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398704,7 +398704,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -398718,7 +398718,7 @@
         "year": "Januar 1973",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -400706,7 +400706,7 @@
         "year": "Januar 1968",
         "street": "Oberer Graben",
         "housenumber": "46",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -400720,7 +400720,7 @@
         "year": "Januar 1968",
         "street": "Oberer Graben",
         "housenumber": "46",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -400734,7 +400734,7 @@
         "year": "Januar 1968",
         "street": "Oberer Graben",
         "housenumber": "46",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -400748,7 +400748,7 @@
         "year": "Januar 1968",
         "street": "Oberer Graben",
         "housenumber": "46",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -400762,7 +400762,7 @@
         "year": "Oktober 1968",
         "street": "Wartstrasse",
         "housenumber": "46",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -400776,7 +400776,7 @@
         "year": "Oktober 1968",
         "street": "Wartstrasse",
         "housenumber": "46",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -400790,7 +400790,7 @@
         "year": "Oktober 1968",
         "street": "Wartstrasse",
         "housenumber": "46",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -400804,7 +400804,7 @@
         "year": "Oktober 1968",
         "street": "Wartstrasse",
         "housenumber": "46",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -400818,7 +400818,7 @@
         "year": "Oktober 1968",
         "street": "Wartstrasse",
         "housenumber": "46",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -400832,7 +400832,7 @@
         "year": "Oktober 1968",
         "street": "Wartstrasse",
         "housenumber": "46",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415238,7 +415238,7 @@
         "year": "Juni 1968",
         "street": "St.-Georgen-Strasse",
         "housenumber": "5",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415252,7 +415252,7 @@
         "year": "Juni 1968",
         "street": "St.-Georgen-Strasse",
         "housenumber": "5",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415266,7 +415266,7 @@
         "year": "Juni 1968",
         "street": "St.-Georgen-Strasse",
         "housenumber": "5",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415280,7 +415280,7 @@
         "year": "September 1967",
         "street": "Scheideggstrasse",
         "housenumber": "1",
-        "district": ""
+        "district": "Mattenbach"
       }
     },
     {
@@ -415294,7 +415294,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415308,7 +415308,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415322,7 +415322,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415336,7 +415336,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415350,7 +415350,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415364,7 +415364,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415378,7 +415378,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415392,7 +415392,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415406,7 +415406,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415420,7 +415420,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415434,7 +415434,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415448,7 +415448,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415462,7 +415462,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415476,7 +415476,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415490,7 +415490,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415504,7 +415504,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415518,7 +415518,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415532,7 +415532,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415546,7 +415546,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415560,7 +415560,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415574,7 +415574,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415588,7 +415588,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415602,7 +415602,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415616,7 +415616,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415630,7 +415630,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415644,7 +415644,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415658,7 +415658,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415756,7 +415756,7 @@
         "year": "September 1968",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415770,7 +415770,7 @@
         "year": "September 1968",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415784,7 +415784,7 @@
         "year": "September 1968",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415798,7 +415798,7 @@
         "year": "September 1968",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415812,7 +415812,7 @@
         "year": "September 1968",
         "street": "Rychenbergstrasse",
         "housenumber": "110",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415826,7 +415826,7 @@
         "year": "September 1968",
         "street": "Rychenbergstrasse",
         "housenumber": "110",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415840,7 +415840,7 @@
         "year": "September 1968",
         "street": "Technikumstrasse",
         "housenumber": "9",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415854,7 +415854,7 @@
         "year": "September 1968",
         "street": "Technikumstrasse",
         "housenumber": "9",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415868,7 +415868,7 @@
         "year": "September 1968",
         "street": "Technikumstrasse",
         "housenumber": "9",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415882,7 +415882,7 @@
         "year": "September 1968",
         "street": "Technikumstrasse",
         "housenumber": "9",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415896,7 +415896,7 @@
         "year": "September 1968",
         "street": "Technikumstrasse",
         "housenumber": "9",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415910,7 +415910,7 @@
         "year": "September 1968",
         "street": "Technikumstrasse",
         "housenumber": "9",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415924,7 +415924,7 @@
         "year": "September 1968",
         "street": "Technikumstrasse",
         "housenumber": "9",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415952,7 +415952,7 @@
         "year": "Februar 1972",
         "street": "Oberer Graben",
         "housenumber": "40",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -415966,7 +415966,7 @@
         "year": "Februar 1972",
         "street": "Oberer Graben",
         "housenumber": "40",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -416148,7 +416148,7 @@
         "year": "Juni 1975",
         "street": "Mörsburgstrasse",
         "housenumber": "30",
-        "district": ""
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -416162,7 +416162,7 @@
         "year": "Juni 1975",
         "street": "Mörsburgstrasse",
         "housenumber": "30",
-        "district": ""
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -416176,7 +416176,7 @@
         "year": "Juni 1975",
         "street": "Mörsburgstrasse",
         "housenumber": "30",
-        "district": ""
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -416190,7 +416190,7 @@
         "year": "Juni 1975",
         "street": "Mörsburgstrasse",
         "housenumber": "30",
-        "district": ""
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -416204,7 +416204,7 @@
         "year": "Juni 1975",
         "street": "Mörsburgstrasse",
         "housenumber": "30",
-        "district": ""
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -416218,7 +416218,7 @@
         "year": "Juni 1975",
         "street": "Mörsburgstrasse",
         "housenumber": "30",
-        "district": ""
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -416232,7 +416232,7 @@
         "year": "Juni 1975",
         "street": "Mörsburgstrasse",
         "housenumber": "30",
-        "district": ""
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -416246,7 +416246,7 @@
         "year": "Juni 1975",
         "street": "Mörsburgstrasse",
         "housenumber": "30",
-        "district": ""
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -416260,7 +416260,7 @@
         "year": "Juni 1975",
         "street": "Mörsburgstrasse",
         "housenumber": "30",
-        "district": ""
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -416582,7 +416582,7 @@
         "year": "Februar 1975",
         "street": "Lindstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -416596,7 +416596,7 @@
         "year": "Februar 1975",
         "street": "Lindstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -416652,7 +416652,7 @@
         "year": "April 1975",
         "street": "Liebestrasse",
         "housenumber": "3",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -416666,7 +416666,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -416680,7 +416680,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -416694,7 +416694,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -416708,7 +416708,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -416722,7 +416722,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -416736,7 +416736,7 @@
         "year": "September 1967",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -416750,7 +416750,7 @@
         "year": "September 1967",
         "street": "Riedbachweg",
         "housenumber": "4",
-        "district": ""
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -416764,7 +416764,7 @@
         "year": "September 1967",
         "street": "Hegifeldstrasse",
         "housenumber": "125",
-        "district": ""
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -416778,7 +416778,7 @@
         "year": "September 1967",
         "street": "Hegifeldstrasse",
         "housenumber": "125",
-        "district": ""
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -416792,7 +416792,7 @@
         "year": "September 1967",
         "street": "Riedbachweg",
         "housenumber": "4",
-        "district": ""
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -417380,7 +417380,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417394,7 +417394,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417408,7 +417408,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417422,7 +417422,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417436,7 +417436,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417450,7 +417450,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417464,7 +417464,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417478,7 +417478,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417492,7 +417492,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417506,7 +417506,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417520,7 +417520,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417534,7 +417534,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417548,7 +417548,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417562,7 +417562,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417576,7 +417576,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417590,7 +417590,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417604,7 +417604,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417618,7 +417618,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417632,7 +417632,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417646,7 +417646,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417660,7 +417660,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417674,7 +417674,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417688,7 +417688,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417702,7 +417702,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417716,7 +417716,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417730,7 +417730,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417744,7 +417744,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417758,7 +417758,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417772,7 +417772,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417786,7 +417786,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417800,7 +417800,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417814,7 +417814,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417828,7 +417828,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417842,7 +417842,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417856,7 +417856,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417870,7 +417870,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417884,7 +417884,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417898,7 +417898,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417912,7 +417912,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417926,7 +417926,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417940,7 +417940,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417954,7 +417954,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417968,7 +417968,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417982,7 +417982,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -417996,7 +417996,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418010,7 +418010,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418024,7 +418024,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418038,7 +418038,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418052,7 +418052,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418066,7 +418066,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418080,7 +418080,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418094,7 +418094,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418108,7 +418108,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418122,7 +418122,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418136,7 +418136,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418150,7 +418150,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418164,7 +418164,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418178,7 +418178,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418192,7 +418192,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418206,7 +418206,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418220,7 +418220,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418234,7 +418234,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418248,7 +418248,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418262,7 +418262,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418276,7 +418276,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418290,7 +418290,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418304,7 +418304,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418318,7 +418318,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418332,7 +418332,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418346,7 +418346,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418360,7 +418360,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418374,7 +418374,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418388,7 +418388,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418402,7 +418402,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418416,7 +418416,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418430,7 +418430,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418444,7 +418444,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418458,7 +418458,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418472,7 +418472,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418486,7 +418486,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418500,7 +418500,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418514,7 +418514,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418528,7 +418528,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418542,7 +418542,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418556,7 +418556,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418570,7 +418570,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418584,7 +418584,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418598,7 +418598,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418612,7 +418612,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418626,7 +418626,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418640,7 +418640,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418654,7 +418654,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418668,7 +418668,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418682,7 +418682,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418696,7 +418696,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418710,7 +418710,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418724,7 +418724,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418738,7 +418738,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418752,7 +418752,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418766,7 +418766,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418780,7 +418780,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418794,7 +418794,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -418808,7 +418808,7 @@
         "year": "September 1972",
         "street": "Brauerstrasse",
         "housenumber": "15",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419228,7 +419228,7 @@
         "year": "Mai 1965",
         "street": "Brauerstrasse",
         "housenumber": "15",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419718,7 +419718,7 @@
         "year": "November 1970",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419732,7 +419732,7 @@
         "year": "November 1970",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419746,7 +419746,7 @@
         "year": "November 1970",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419760,7 +419760,7 @@
         "year": "November 1970",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419774,7 +419774,7 @@
         "year": "April 1969",
         "street": "Bachtelstrasse",
         "housenumber": "36",
-        "district": ""
+        "district": "Veltheim"
       }
     },
     {
@@ -419788,7 +419788,7 @@
         "year": "April 1969",
         "street": "Bachtelstrasse",
         "housenumber": "36",
-        "district": ""
+        "district": "Veltheim"
       }
     },
     {
@@ -419802,7 +419802,7 @@
         "year": "April 1969",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419816,7 +419816,7 @@
         "year": "April 1969",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419830,7 +419830,7 @@
         "year": "April 1969",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419844,7 +419844,7 @@
         "year": "April 1969",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419858,7 +419858,7 @@
         "year": "April 1969",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419872,7 +419872,7 @@
         "year": "April 1969",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419886,7 +419886,7 @@
         "year": "April 1969",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419900,7 +419900,7 @@
         "year": "April 1969",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419914,7 +419914,7 @@
         "year": "Januar 1970",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419928,7 +419928,7 @@
         "year": "Januar 1970",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419942,7 +419942,7 @@
         "year": "Januar 1970",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419956,7 +419956,7 @@
         "year": "Januar 1970",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419970,7 +419970,7 @@
         "year": "Januar 1970",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419984,7 +419984,7 @@
         "year": "Januar 1970",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -419998,7 +419998,7 @@
         "year": "Februar 1969",
         "street": "Eckwiesenstrasse",
         "housenumber": "2",
-        "district": ""
+        "district": "Wülflingen"
       }
     },
     {
@@ -420012,7 +420012,7 @@
         "year": "Februar 1969",
         "street": "Bergblumenstrasse",
         "housenumber": "23",
-        "district": ""
+        "district": "Wülflingen"
       }
     },
     {
@@ -420026,7 +420026,7 @@
         "year": "Januar 1969",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420040,7 +420040,7 @@
         "year": "Januar 1969",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420054,7 +420054,7 @@
         "year": "Januar 1969",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420068,7 +420068,7 @@
         "year": "Januar 1969",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420082,7 +420082,7 @@
         "year": "Januar 1969",
         "street": "Museumstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420138,7 +420138,7 @@
         "year": "März 1970",
         "street": "Tösstalstrasse",
         "housenumber": "48",
-        "district": ""
+        "district": "Mattenbach"
       }
     },
     {
@@ -420152,7 +420152,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420166,7 +420166,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420180,7 +420180,7 @@
         "year": "März 1970",
         "street": "Haldenstrasse",
         "housenumber": "95",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420194,7 +420194,7 @@
         "year": "März 1970",
         "street": "Stadthausstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420208,7 +420208,7 @@
         "year": "März 1970",
         "street": "Stadthausstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420222,7 +420222,7 @@
         "year": "März 1970",
         "street": "Stadthausstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420236,7 +420236,7 @@
         "year": "März 1970",
         "street": "Stadthausstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420250,7 +420250,7 @@
         "year": "März 1970",
         "street": "Stadthausstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420264,7 +420264,7 @@
         "year": "März 1970",
         "street": "Stadthausstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420278,7 +420278,7 @@
         "year": "März 1970",
         "street": "Stadthausstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420292,7 +420292,7 @@
         "year": "März 1970",
         "street": "Stadthausstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420306,7 +420306,7 @@
         "year": "März 1970",
         "street": "Stadthausstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420320,7 +420320,7 @@
         "year": "März 1970",
         "street": "Stadthausstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420334,7 +420334,7 @@
         "year": "März 1970",
         "street": "Stadthausstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420348,7 +420348,7 @@
         "year": "März 1970",
         "street": "Stadthausstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420362,7 +420362,7 @@
         "year": "März 1970",
         "street": "Stadthausstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420376,7 +420376,7 @@
         "year": "März 1970",
         "street": "Stadthausstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420390,7 +420390,7 @@
         "year": "März 1970",
         "street": "Stadthausstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420404,7 +420404,7 @@
         "year": "März 1970",
         "street": "Stadthausstrasse",
         "housenumber": "60",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420460,7 +420460,7 @@
         "year": "April 1970",
         "street": "Römerstrasse",
         "housenumber": "8",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420474,7 +420474,7 @@
         "year": "Mai 1969",
         "street": "Neuwiesenstrasse",
         "housenumber": "15",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420488,7 +420488,7 @@
         "year": "Mai 1969",
         "street": "Neuwiesenstrasse",
         "housenumber": "15",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420502,7 +420502,7 @@
         "year": "Mai 1969",
         "street": "Neuwiesenstrasse",
         "housenumber": "15",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420516,7 +420516,7 @@
         "year": "Mai 1969",
         "street": "Bettenstrasse",
         "housenumber": "3",
-        "district": ""
+        "district": "Veltheim"
       }
     },
     {
@@ -420530,7 +420530,7 @@
         "year": "Mai 1969",
         "street": "Bruderhausstrasse",
         "housenumber": "1",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420544,7 +420544,7 @@
         "year": "Mai 1969",
         "street": "Bruderhausstrasse",
         "housenumber": "1",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420558,7 +420558,7 @@
         "year": "Mai 1969",
         "street": "Bruderhausstrasse",
         "housenumber": "1",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -420572,469 +420572,469 @@
         "year": "Januar 1969",
         "street": "Schickstrasse",
         "housenumber": "11",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
+      },
+      "properties": {
+        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
+        "year": "Oktober 1970",
+        "street": "Römerstrasse",
+        "housenumber": "17",
+        "district": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735636911590788, 47.50056987914998]
       },
       "properties": {
         "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
         "year": "Oktober 1970",
         "street": "Römerstrasse",
         "housenumber": "15",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
+        "coordinates": [8.735636911590788, 47.50056987914998]
       },
       "properties": {
         "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
         "year": "Oktober 1970",
         "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
+        "housenumber": "17",
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
+        "coordinates": [8.735636911590788, 47.50056987914998]
       },
       "properties": {
         "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
         "year": "Oktober 1970",
         "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
+        "housenumber": "17",
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
+        "coordinates": [8.735636911590788, 47.50056987914998]
       },
       "properties": {
         "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
         "year": "Oktober 1970",
         "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
+        "housenumber": "17",
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
+        "coordinates": [8.735636911590788, 47.50056987914998]
       },
       "properties": {
         "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
         "year": "Oktober 1970",
         "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
+        "housenumber": "17",
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
+        "coordinates": [8.735636911590788, 47.50056987914998]
       },
       "properties": {
         "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
         "year": "Oktober 1970",
         "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
+        "housenumber": "17",
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
+        "coordinates": [8.735636911590788, 47.50056987914998]
       },
       "properties": {
         "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
         "year": "Oktober 1970",
         "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
+        "housenumber": "17",
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
+        "coordinates": [8.735636911590788, 47.50056987914998]
       },
       "properties": {
         "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
         "year": "Oktober 1970",
         "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
+        "housenumber": "17",
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
+        "coordinates": [8.735636911590788, 47.50056987914998]
       },
       "properties": {
         "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
         "year": "Oktober 1970",
         "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
+        "housenumber": "17",
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.749860763549805, 47.50484848022461]
-      },
-      "properties": {
-        "title": "Eisenplastik von Silvio Mattioli im Park des Personalrestaurant der Unfallversicherung",
-        "year": "Oktober 1970",
-        "street": "Römerstrasse",
-        "housenumber": "15",
-        "district": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.714591026306152, 47.51414489746094]
+        "coordinates": [8.731662333487192, 47.51127659488827]
       },
       "properties": {
         "title": "Sammlung Oskar Reinhart \"Am Römerholz\", Garten, Skulptur \"Grasendes Fohlen\" von Renée Sintenis",
         "year": "Juli 1968",
         "street": "Haldenstrasse",
-        "housenumber": "65",
-        "district": ""
+        "housenumber": "95",
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.714591026306152, 47.51414489746094]
+        "coordinates": [8.731662333487192, 47.51127659488827]
       },
       "properties": {
         "title": "Sammlung Oskar Reinhart \"Am Römerholz\", Garten, Skulptur \"Grasendes Fohlen\" von Renée Sintenis",
         "year": "Juli 1968",
         "street": "Haldenstrasse",
-        "housenumber": "65",
-        "district": ""
+        "housenumber": "95",
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.714591026306152, 47.51414489746094]
+        "coordinates": [8.731662333487192, 47.51127659488827]
       },
       "properties": {
         "title": "Sammlung Oskar Reinhart \"Am Römerholz\", Garten, Skulptur \"Daphnis und Chloë\" von Hermann Hubacher",
         "year": "Juli 1968",
         "street": "Haldenstrasse",
-        "housenumber": "65",
-        "district": ""
+        "housenumber": "95",
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.714591026306152, 47.51414489746094]
+        "coordinates": [8.731662333487192, 47.51127659488827]
       },
       "properties": {
         "title": "Sammlung Oskar Reinhart \"Am Römerholz\", Garten, Skulptur \"Grosse Kniende\" von Pierre-August Renoir",
         "year": "Juli 1968",
         "street": "Haldenstrasse",
-        "housenumber": "65",
-        "district": ""
+        "housenumber": "95",
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.714591026306152, 47.51414489746094]
+        "coordinates": [8.731662333487192, 47.51127659488827]
       },
       "properties": {
         "title": "Sammlung Oskar Reinhart \"Am Römerholz\", Garten, Skulptur \"Daphnis und Chloë\" von Hermann Hubacher",
         "year": "Juli 1968",
         "street": "Haldenstrasse",
-        "housenumber": "65",
-        "district": ""
+        "housenumber": "95",
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.714591026306152, 47.51414489746094]
+        "coordinates": [8.731662333487192, 47.51127659488827]
       },
       "properties": {
         "title": "Sammlung Oskar Reinhart \"Am Römerholz\", Garten",
         "year": "Juli 1968",
         "street": "Haldenstrasse",
-        "housenumber": "65",
-        "district": ""
+        "housenumber": "95",
+        "district": "Altstadt"
       }
     },
     {
@@ -421384,7 +421384,7 @@
         "year": "Juli 1968",
         "street": "Brauerstrasse",
         "housenumber": "10",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -421622,7 +421622,7 @@
         "year": "August 1969",
         "street": "Meisenstrasse",
         "housenumber": "4",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -425556,7 +425556,7 @@
         "year": "August 1980",
         "street": "Museumstrasse",
         "housenumber": "52",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -427236,7 +427236,7 @@
         "year": "1957",
         "street": "Gottfried-Keller-Strasse",
         "housenumber": "67",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -427250,7 +427250,7 @@
         "year": "1957",
         "street": "Gottfried-Keller-Strasse",
         "housenumber": "67",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -427264,7 +427264,7 @@
         "year": "1957",
         "street": "Gottfried-Keller-Strasse",
         "housenumber": "67",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -427278,7 +427278,7 @@
         "year": "1957",
         "street": "Gottfried-Keller-Strasse",
         "housenumber": "67",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -427292,7 +427292,7 @@
         "year": "1957",
         "street": "Gottfried-Keller-Strasse",
         "housenumber": "67",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -427306,7 +427306,7 @@
         "year": "1957",
         "street": "Gottfried-Keller-Strasse",
         "housenumber": "67",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -427320,7 +427320,7 @@
         "year": "1957",
         "street": "Gottfried-Keller-Strasse",
         "housenumber": "67",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -427670,7 +427670,7 @@
         "year": "1960",
         "street": "Gottfried-Keller-Strasse",
         "housenumber": "67",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -427684,7 +427684,7 @@
         "year": "1960",
         "street": "Gottfried-Keller-Strasse",
         "housenumber": "67",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -427698,7 +427698,7 @@
         "year": "1960",
         "street": "Gottfried-Keller-Strasse",
         "housenumber": "67",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -427712,7 +427712,7 @@
         "year": "1960",
         "street": "Gottfried-Keller-Strasse",
         "housenumber": "67",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -427726,7 +427726,7 @@
         "year": "1960",
         "street": "Gottfried-Keller-Strasse",
         "housenumber": "67",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -427740,7 +427740,7 @@
         "year": "1959",
         "street": "Gottfried-Keller-Strasse",
         "housenumber": "67",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -429154,7 +429154,7 @@
         "year": "2023",
         "street": "Zürcherstrasse",
         "housenumber": "14",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -435454,7 +435454,7 @@
         "year": "1970er-Jahre",
         "street": "General-Guisan-Strasse",
         "housenumber": "7",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -436196,7 +436196,7 @@
         "year": "undatiert",
         "street": "Bleichestrasse",
         "housenumber": "5",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -437750,7 +437750,7 @@
         "year": "2005",
         "street": "Stadthausstrasse",
         "housenumber": "4a",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -437764,7 +437764,7 @@
         "year": "2005",
         "street": "Stadthausstrasse",
         "housenumber": "4a",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -437778,7 +437778,7 @@
         "year": "2005",
         "street": "Stadthausstrasse",
         "housenumber": "4a",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -438408,7 +438408,7 @@
         "year": "um 1895",
         "street": "Wülflingerstrasse",
         "housenumber": "4",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -438422,7 +438422,7 @@
         "year": "um 1895",
         "street": "Wülflingerstrasse",
         "housenumber": "4",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
@@ -438450,7 +438450,7 @@
         "year": "1895",
         "street": "Wülflingerstrasse",
         "housenumber": "4",
-        "district": ""
+        "district": "Altstadt"
       }
     },
     {
