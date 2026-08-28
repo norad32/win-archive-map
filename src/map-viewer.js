@@ -103,6 +103,7 @@ let hasFitInitialBounds = false; // only auto-fit bounds once, on first load
 
 let districtsData = {};
 let loadAbortController = null;
+let lastUpdated = null;
 
 /** @type {?L.Map} Leaflet map instance, created in {@link initMap}. */
 let map = null;
@@ -116,9 +117,10 @@ let statsEl = null;
 let titleSearchEl = null;
 let yearFromEl = null;
 let yearToEl = null;
-let strasseInputEl = null;
-let stadtkreisSelectEl = null;
-let strasseOptionsEl = null;
+let streetInputEl = null;
+let districtSelectEl = null;
+let streetOptionsEl = null;
+let lastUpdatedEl = null;
 
 // ===========================================================
 // UTIL: safe HTML escaping
@@ -496,6 +498,12 @@ async function loadData() {
     ]);
 
     if (!geoRes.ok) throw new Error(`HTTP ${geoRes.status}`);
+
+    const lastModifiedHeader = geoRes.headers.get("Last-Modified");
+    if (lastModifiedHeader) {
+      lastUpdated = new Date(lastModifiedHeader);
+    }
+
     const data = await geoRes.json();
 
     debugLog("Data loaded successfully:", data.features.length, "features");
@@ -507,6 +515,7 @@ async function loadData() {
 
     renderGroups(precomputedGroups, { fitBounds: true });
     updateStats(allFeatures.length, allFeatures.length);
+    updateLastUpdated();
 
     populateStadtkreisOptions();
     populateStrasseOptions("");
@@ -544,7 +553,7 @@ function populateStadtkreisOptions() {
     sorted
       .map((k) => `<option value="${escapeHtml(k)}">${escapeHtml(k)}</option>`)
       .join("");
-  setInnerHtml(stadtkreisSelectEl, html);
+  setInnerHtml(districtSelectEl, html);
 }
 
 /**
@@ -571,7 +580,7 @@ function populateStrasseOptions(stadtkreisVal) {
   const html = sorted
     .map((s) => `<option value="${escapeHtml(s)}"></option>`)
     .join("");
-  setInnerHtml(strasseOptionsEl, html);
+  setInnerHtml(streetOptionsEl, html);
 }
 
 // ===========================================================
@@ -663,6 +672,32 @@ function renderGroups(groups, options = {}) {
  */
 function updateStats(shown, total) {
   statsEl.textContent = `Showing ${shown} of ${total} entries`;
+}
+
+/**
+ * Formats a Date as a locale-aware "last updated" string.
+ * @param {?Date} date
+ * @return {string}
+ */
+function formatLastUpdated(date) {
+  if (!date || Number.isNaN(date.getTime())) return "";
+  return date.toLocaleString(undefined, {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
+/**
+ * Updates the "last updated" status text, if the element exists.
+ * @return {void}
+ */
+function updateLastUpdated() {
+  if (!lastUpdatedEl) return;
+  const formatted = formatLastUpdated(lastUpdated);
+  lastUpdatedEl.textContent = formatted ? `Last updated: ${formatted}` : "";
 }
 
 // ===========================================================
@@ -758,8 +793,8 @@ function applyFilters() {
   filterTimeout = setTimeout(() => {
     const fromVal = yearFromEl.value;
     const toVal = yearToEl.value;
-    const strasseVal = strasseInputEl.value;
-    const stadtkreisVal = stadtkreisSelectEl.value;
+    const strasseVal = streetInputEl.value;
+    const stadtkreisVal = districtSelectEl.value;
     const titleVal = titleSearchEl.value.trim();
 
     const from = parseYearBound(fromVal, -Infinity);
@@ -806,9 +841,10 @@ function initDomRefs() {
   titleSearchEl = getRequiredElement("titleSearch");
   yearFromEl = getRequiredElement("yearFrom");
   yearToEl = getRequiredElement("yearTo");
-  strasseInputEl = getRequiredElement("strasseInput");
-  stadtkreisSelectEl = getRequiredElement("stadtkreisSelect");
-  strasseOptionsEl = getRequiredElement("strasseOptions");
+  streetInputEl = getRequiredElement("strasseInput");
+  districtSelectEl = getRequiredElement("stadtkreisSelect");
+  streetOptionsEl = getRequiredElement("strasseOptions");
+  lastUpdatedEl = document.getElementById("lastUpdated");
 
   // Sidebar toggle is optional (e.g. desktop-only layouts might omit it),
   // so these use direct lookups rather than getRequiredElement.
@@ -825,12 +861,12 @@ function attachEventListeners() {
   titleSearchEl.addEventListener("input", applyFilters);
   yearFromEl.addEventListener("input", applyFilters);
   yearToEl.addEventListener("input", applyFilters);
-  strasseInputEl.addEventListener("change", applyFilters);
+  streetInputEl.addEventListener("change", applyFilters);
 
-  stadtkreisSelectEl.addEventListener("change", (e) => {
+  districtSelectEl.addEventListener("change", (e) => {
     const stadtkreisVal = e.target.value;
     populateStrasseOptions(stadtkreisVal);
-    strasseInputEl.value = "";
+    streetInputEl.value = "";
     applyFilters();
   });
 

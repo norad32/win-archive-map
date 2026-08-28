@@ -106,6 +106,14 @@ body {
   margin-bottom: 12px;
 }
 
+#lastUpdated {
+  font-size: 13px;
+  font-family: var(--font-sans), cursive;
+  font-style: italic;
+  color: var(--color-text-subtle);
+  margin-bottom: 6px;
+}
+
 /* ===========================================================
    DETAILS PANEL
    =========================================================== */
