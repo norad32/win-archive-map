@@ -11,6 +11,7 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
+    "esbuild": "^0.28.2",
     "eslint": "^9.0.0",
     "gh-pages": "^6.1.0",
     "http-server": "^14.1.1",
@@ -27,5 +28,8 @@
     "geojson"
   ],
   "author": "norad32",
-  "license": "MIT"
+  "license": "MIT",
+  "allowScripts": {
+    "esbuild": true
+  }
 }
