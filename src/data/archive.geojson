@@ -52862,7 +52862,7 @@
         "year": "um 1930",
         "street": "Schaffhauserstrasse",
         "housenumber": "33",
-        "district": "Altstadt"
+        "district": "Veltheim"
       }
     },
     {
@@ -52876,7 +52876,7 @@
         "year": "um 1930",
         "street": "Schaffhauserstrasse",
         "housenumber": "33",
-        "district": "Altstadt"
+        "district": "Veltheim"
       }
     },
     {
@@ -52890,7 +52890,7 @@
         "year": "um 1930",
         "street": "Schaffhauserstrasse",
         "housenumber": "33",
-        "district": "Altstadt"
+        "district": "Veltheim"
       }
     },
     {
@@ -52904,7 +52904,7 @@
         "year": "1930",
         "street": "Schaffhauserstrasse",
         "housenumber": "33",
-        "district": "Altstadt"
+        "district": "Veltheim"
       }
     },
     {
@@ -54549,7 +54549,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.709875459100905, 47.49375915534631]
       },
       "properties": {
         "title": "Zürcherstrasse 72 zum Schöntal",
@@ -54563,7 +54563,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.709875459100905, 47.49375915534631]
       },
       "properties": {
         "title": "Zürcherstrasse 72",
@@ -67660,7 +67660,7 @@
         "year": "05.05.1983",
         "street": "Helgenstrasse",
         "housenumber": "21",
-        "district": "Altstadt"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -107700,7 +107700,7 @@
         "year": "27.10.1988",
         "street": "Brünnelihöhestrasse",
         "housenumber": "12",
-        "district": "Altstadt"
+        "district": "Töss"
       }
     },
     {
@@ -149623,7 +149623,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.701916433288224, 47.48637429744955]
       },
       "properties": {
         "title": "Zürcherstrasse 230-262, Autobahn N1, Blick Richtung Zürich",
@@ -152241,7 +152241,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.701937896598519, 47.48628350893206]
       },
       "properties": {
         "title": "Zürcherstrasse 132-82, gegen Nordosten",
@@ -153151,7 +153151,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.706687611317747, 47.49179373300337]
       },
       "properties": {
         "title": "Zürcherstrasse Kreuzung Emil-Klöti-Strasse, 112/114, Blickrichtung West",
@@ -153165,7 +153165,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.706687611317747, 47.49179373300337]
       },
       "properties": {
         "title": "Zürcherstrasse 112/108/106, heutiges Gelände des Zentrum Töss, Blickrichtung Nord",
@@ -153193,7 +153193,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.70580099662024, 47.49120635509016]
       },
       "properties": {
         "title": "Zürcherstrasse 114-106, Blickrichtung Nord",
@@ -153207,7 +153207,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.70580099662024, 47.49120635509016]
       },
       "properties": {
         "title": "Zürcherstrasse 114-128, Blickrichtung West",
@@ -153767,7 +153767,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.705395579941708, 47.491018354480815]
       },
       "properties": {
         "title": "Zürcherstrasse 122-136, Blickrichtung West",
@@ -153781,7 +153781,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.701937896598519, 47.48628350893206]
       },
       "properties": {
         "title": "Zürcherstrasse 132-138, Blickrichtung West",
@@ -153795,7 +153795,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.702086105850539, 47.48572588704142]
       },
       "properties": {
         "title": "Zürcherstrasse 138-144, Blickrichtung West",
@@ -153837,7 +153837,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.702086105850539, 47.48572588704142]
       },
       "properties": {
         "title": "Zürcherstrasse 138-156, Blickrichtung Nordost",
@@ -154047,7 +154047,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.704110631016936, 47.49014779829214]
       },
       "properties": {
         "title": "Zürcherstrasse 178, vorübergehendes Türkenheim, abgebrochen",
@@ -154061,7 +154061,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.704110631016936, 47.49014779829214]
       },
       "properties": {
         "title": "Zürcherstrasse 178, vor dem Abbruch",
@@ -154075,7 +154075,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.704110631016936, 47.49014779829214]
       },
       "properties": {
         "title": "Zürcherstrasse 178, vor dem Abbruch",
@@ -154089,7 +154089,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.704110631016936, 47.49014779829214]
       },
       "properties": {
         "title": "Zürcherstrasse 178 und J.C. Heerstrasse 51, vor dem Abbruch",
@@ -154103,7 +154103,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.704110631016936, 47.49014779829214]
       },
       "properties": {
         "title": "Zürcherstrasse 178 und J.C. Heerstrasse 51, vor dem Abbruch",
@@ -158233,14 +158233,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.709875459100905, 47.49375915534631]
       },
       "properties": {
         "title": "Zürcherstrasse 72, Brunnen",
         "year": "12.04.1995",
         "street": "Zürcherstrasse",
         "housenumber": "72",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -158499,7 +158499,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.704793125035701, 47.49018073724039]
       },
       "properties": {
         "title": "Zürcherstrasse 155, Bahnübergang",
@@ -158534,7 +158534,7 @@
         "year": "um 1975",
         "street": "Zürcherstrasse",
         "housenumber": "77-79",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -158548,7 +158548,7 @@
         "year": "12.1990",
         "street": "Zürcherstrasse",
         "housenumber": "77",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -158562,7 +158562,7 @@
         "year": "12.1990",
         "street": "Zürcherstrasse",
         "housenumber": "77",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -158576,7 +158576,7 @@
         "year": "12.1990",
         "street": "Zürcherstrasse",
         "housenumber": "77",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -158590,7 +158590,7 @@
         "year": "12.1990",
         "street": "Zürcherstrasse",
         "housenumber": "77",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -158604,7 +158604,7 @@
         "year": "12.1990",
         "street": "Zürcherstrasse",
         "housenumber": "77",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -158618,7 +158618,7 @@
         "year": "10.1993",
         "street": "Zürcherstrasse",
         "housenumber": "77",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -158632,7 +158632,7 @@
         "year": "10.1993",
         "street": "Zürcherstrasse",
         "housenumber": "77",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -158835,7 +158835,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [ 8.707947136713292, 47.492136906022296]
       },
       "properties": {
         "title": "Zürcherstrasse 105",
@@ -158849,7 +158849,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [ 8.707947136713292, 47.492136906022296]
       },
       "properties": {
         "title": "Zürcherstrasse 105-111",
@@ -158863,7 +158863,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [ 8.707947136713292, 47.492136906022296]
       },
       "properties": {
         "title": "Zürcherstrasse 105, 109, 103, 92",
@@ -158877,7 +158877,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [ 8.707947136713292, 47.492136906022296]
       },
       "properties": {
         "title": "Zürcherstrasse 105, 111",
@@ -158891,7 +158891,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.707859421351689, 47.492015494710245]
       },
       "properties": {
         "title": "Zürcherstrasse 109-111, Abbruchliegenschaften",
@@ -158905,7 +158905,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.707859421351689, 47.492015494710245]
       },
       "properties": {
         "title": "Zürcherstrasse 109-111, Abbruchliegenschaften",
@@ -158919,7 +158919,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.707754146564588, 47.491971091786304]
       },
       "properties": {
         "title": "Zürcherstrasse 111, Abbruchliegenschaft",
@@ -158933,7 +158933,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.707665633671267, 47.491918533575046]
       },
       "properties": {
         "title": "Zürcherstrasse 113-117",
@@ -158947,7 +158947,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.707665633671267, 47.491918533575046]
       },
       "properties": {
         "title": "Zürcherstrasse 113",
@@ -159507,7 +159507,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.704676216643241, 47.49002386433147]
       },
       "properties": {
         "title": "Zürcherstrasse 153-159, Einmündung Freihofstrasse",
@@ -160956,7 +160956,7 @@
         "year": "05.12.1994",
         "street": "Grenzstrasse",
         "housenumber": "27",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -160970,7 +160970,7 @@
         "year": "1971",
         "street": "Grenzstrasse",
         "housenumber": "39",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -161838,7 +161838,7 @@
         "year": "11.1988",
         "street": "Freiestrasse",
         "housenumber": "1-29",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -161852,7 +161852,7 @@
         "year": "11.1988",
         "street": "Freiestrasse",
         "housenumber": "1-29",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -161866,7 +161866,7 @@
         "year": "11.1988",
         "street": "Freiestrasse",
         "housenumber": "1-29",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -161880,7 +161880,7 @@
         "year": "11.1988",
         "street": "Freiestrasse",
         "housenumber": "1-29",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -161894,7 +161894,7 @@
         "year": "27.10.1988",
         "street": "Freiestrasse",
         "housenumber": "9-39",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -161908,7 +161908,7 @@
         "year": "11.1988",
         "street": "Freiestrasse",
         "housenumber": "5-25",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -161922,7 +161922,7 @@
         "year": "11.1988",
         "street": "Freiestrasse",
         "housenumber": "15-17",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -161936,7 +161936,7 @@
         "year": "27.10.1988",
         "street": "Freiestrasse",
         "housenumber": "9-29",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -162020,14 +162020,14 @@
         "year": "um 1951",
         "street": "Eichliackerstrasse",
         "housenumber": "1 ff.",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.7149076461792, 47.49020004272461]
+        "coordinates": [8.713392105886898, 47.48827188582789]
       },
       "properties": {
         "title": "Eichliackerstrasse 43-57, Arbeiterhäuser Rieter, vor Abbruch",
@@ -162048,7 +162048,7 @@
         "year": "11.1988",
         "street": "Eichliackerstrasse",
         "housenumber": "1-21",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -162062,7 +162062,7 @@
         "year": "11.1988",
         "street": "Eichliackerstrasse",
         "housenumber": "1-7",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -162076,7 +162076,7 @@
         "year": "11.1988",
         "street": "Eichliackerstrasse",
         "housenumber": "5-13",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -162090,7 +162090,7 @@
         "year": "11.1988",
         "street": "Eichliackerstrasse",
         "housenumber": "1-7",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -162104,7 +162104,7 @@
         "year": "11.1988",
         "street": "Eichliackerstrasse",
         "housenumber": "8-27",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -162118,7 +162118,7 @@
         "year": "11.1988",
         "street": "Eichliackerstrasse",
         "housenumber": "8-10",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -162132,7 +162132,7 @@
         "year": "11.1988",
         "street": "Eichliackerstrasse",
         "housenumber": "8-10",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -162146,7 +162146,7 @@
         "year": "11.1988",
         "street": "Eichliackerstrasse",
         "housenumber": "8-10",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -162160,7 +162160,7 @@
         "year": "11.1988",
         "street": "Eichliackerstrasse",
         "housenumber": "8-10",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -162174,7 +162174,7 @@
         "year": "11.1988",
         "street": "Eichliackerstrasse",
         "housenumber": "15-17",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -162216,7 +162216,7 @@
         "year": "27.10.1988",
         "street": "Eichliackerstrasse",
         "housenumber": "16ff.",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -162230,7 +162230,7 @@
         "year": "27.10.1988",
         "street": "Eichliackerstrasse",
         "housenumber": "21",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -162244,7 +162244,7 @@
         "year": "27.10.1988",
         "street": "Eichliackerstrasse",
         "housenumber": "16-8",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -162286,7 +162286,7 @@
         "year": "11.1988",
         "street": "Eichliackerstrasse",
         "housenumber": "14-24",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -162321,7 +162321,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.7149076461792, 47.49020004272461]
+        "coordinates": [8.713392105886898, 47.48827188582789]
       },
       "properties": {
         "title": "Eichliackerstrasse 43-57, Arbeiterhäuser Rieter, vor Abbruch",
@@ -162335,7 +162335,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.7149076461792, 47.49020004272461]
+        "coordinates": [8.713392105886898, 47.48827188582789]
       },
       "properties": {
         "title": "Eichliackerstrasse 43-57, Arbeiterhäuser Rieter, vor Abbruch",
@@ -162349,7 +162349,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.7149076461792, 47.49020004272461]
+        "coordinates": [8.713392105886898, 47.48827188582789]
       },
       "properties": {
         "title": "Eichliackerstrasse 43-57, Arbeiterhäuser Rieter, vor Abbruch",
@@ -162363,7 +162363,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.7149076461792, 47.49020004272461]
+        "coordinates": [8.713392105886898, 47.48827188582789]
       },
       "properties": {
         "title": "Eichliackerstrasse 43-57, Arbeiterhäuser Rieter, vor Abbruch",
@@ -162377,7 +162377,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.7149076461792, 47.49020004272461]
+        "coordinates": [8.713392105886898, 47.48827188582789]
       },
       "properties": {
         "title": "Eichliackerstrasse 43-57, Arbeiterhäuser Rieter, vor Abbruch",
@@ -162391,7 +162391,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.7149076461792, 47.49020004272461]
+        "coordinates": [8.713392105886898, 47.48827188582789]
       },
       "properties": {
         "title": "Eichliackerstrasse 43-57, Arbeiterhäuser Rieter, vor Abbruch",
@@ -162405,7 +162405,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.7149076461792, 47.49020004272461]
+        "coordinates": [8.713392105886898, 47.48827188582789]
       },
       "properties": {
         "title": "Eichliackerstrasse 43-57, Arbeiterhäuser Rieter, vor Abbruch",
@@ -162419,7 +162419,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.7149076461792, 47.49020004272461]
+        "coordinates": [8.713392105886898, 47.48827188582789]
       },
       "properties": {
         "title": "Eichliackerstrasse 43-57, Arbeiterhäuser Rieter, vor Abbruch",
@@ -162433,7 +162433,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.7149076461792, 47.49020004272461]
+        "coordinates": [8.713392105886898, 47.48827188582789]
       },
       "properties": {
         "title": "Eichliackerstrasse 43-57, Arbeiterhäuser Rieter, vor Abbruch",
@@ -162447,7 +162447,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.7149076461792, 47.49020004272461]
+        "coordinates": [8.713392105886898, 47.48827188582789]
       },
       "properties": {
         "title": "Eichliackerstrasse 43-57, Arbeiterhäuser Rieter, vor Abbruch",
@@ -162461,7 +162461,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.7149076461792, 47.49020004272461]
+        "coordinates": [8.713392105886898, 47.48827188582789]
       },
       "properties": {
         "title": "Eichliackerstrasse 43, Arbeiterhaus Rieter, Eingang, vor Abbruch",
@@ -162475,7 +162475,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.7149076461792, 47.49020004272461]
+        "coordinates": [8.713392105886898, 47.48827188582789]
       },
       "properties": {
         "title": "Eichliackerstrasse 43-57, Arbeiterhäuser Rieter, vor Abbruch",
@@ -209340,7 +209340,7 @@
         "year": "1993",
         "street": "Palmstrasse",
         "housenumber": "2",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -210026,7 +210026,7 @@
         "year": "01.1965",
         "street": "Heimstrasse",
         "housenumber": "9",
-        "district": "Altstadt"
+        "district": "Veltheim"
       }
     },
     {
@@ -212350,7 +212350,7 @@
         "year": "05.1980",
         "street": "Wülflingerstrasse",
         "housenumber": "30",
-        "district": "Altstadt"
+        "district": "Veltheim"
       }
     },
     {
@@ -212497,7 +212497,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.74930191040039, 47.50685501098633]
+        "coordinates": [8.732015479719763, 47.50736524415323]
       },
       "properties": {
         "title": "Rychenbergstrasse 77, Villa Lindberg, Wohnhaus Familie Sulzer-Schmid, Innenansicht",
@@ -212511,7 +212511,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.74930191040039, 47.50685501098633]
+        "coordinates": [8.732015479719763, 47.50736524415323]
       },
       "properties": {
         "title": "Rychenbergstrasse 77, Villa Lindberg, Wohnhaus Familie Sulzer-Schmid",
@@ -212525,7 +212525,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.74930191040039, 47.50685501098633]
+        "coordinates": [8.732015479719763, 47.50736524415323]
       },
       "properties": {
         "title": "Rychenbergstrasse 77, Villa Lindberg, Wohnhaus Familie Sulzer-Schmid",
@@ -212539,7 +212539,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.74930191040039, 47.50685501098633]
+        "coordinates": [8.732015479719763, 47.50736524415323]
       },
       "properties": {
         "title": "Rychenbergstrasse 77, Villa Lindberg, Wohnhaus Familie Sulzer-Schmid",
@@ -212553,7 +212553,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.74930191040039, 47.50685501098633]
+        "coordinates": [8.732015479719763, 47.50736524415323]
       },
       "properties": {
         "title": "Rychenbergstrasse 77, Villa Lindberg, Wohnhaus Familie Sulzer-Schmid, Innenansicht",
@@ -212567,7 +212567,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.74930191040039, 47.50685501098633]
+        "coordinates": [8.732015479719763, 47.50736524415323]
       },
       "properties": {
         "title": "Rychenbergstrasse 77, Villa Lindberg, Wohnhaus Familie Sulzer-Schmid, Innenansicht",
@@ -212581,7 +212581,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.74930191040039, 47.50685501098633]
+        "coordinates": [8.732015479719763, 47.50736524415323]
       },
       "properties": {
         "title": "Rychenbergstrasse 77, Villa Lindberg, Wohnhaus Familie Sulzer-Schmid, Innenansicht",
@@ -212595,7 +212595,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.74930191040039, 47.50685501098633]
+        "coordinates": [8.732015479719763, 47.50736524415323]
       },
       "properties": {
         "title": "Rychenbergstrasse 77, Villa Lindberg, Wohnhaus Familie Sulzer-Schmid, Innenansicht",
@@ -212609,7 +212609,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.74930191040039, 47.50685501098633]
+        "coordinates": [8.732015479719763, 47.50736524415323]
       },
       "properties": {
         "title": "Rychenbergstrasse 77, Villa Lindberg, Wohnhaus Familie Sulzer-Schmid, Innenansicht mit Kinderspielzeug",
@@ -212623,7 +212623,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.74930191040039, 47.50685501098633]
+        "coordinates": [8.732015479719763, 47.50736524415323]
       },
       "properties": {
         "title": "Rychenbergstrasse 77, Villa Lindberg, Wohnhaus Familie Sulzer-Schmid, Innenansicht mit Kinderspielzeug",
@@ -212637,7 +212637,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.74930191040039, 47.50685501098633]
+        "coordinates": [8.732015479719763, 47.50736524415323]
       },
       "properties": {
         "title": "Rychenbergstrasse 77, Villa Lindberg, Wohnhaus Familie Sulzer-Schmid, Innenansicht mit Kinderspielzeug",
@@ -219553,7 +219553,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.69338321685791, 47.50157928466797]
+        "coordinates": [8.73426385414625, 47.4960888845605]
       },
       "properties": {
         "title": "Mühlestrasse 1, Obermühle",
@@ -220218,7 +220218,7 @@
         "year": "20.12.2002",
         "street": "Wasserfurristrasse",
         "housenumber": "31",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -220232,7 +220232,7 @@
         "year": "20.12.2002",
         "street": "Wasserfurristrasse",
         "housenumber": "31",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -220526,7 +220526,7 @@
         "year": "26.02.2004",
         "street": "Grenzstrasse",
         "housenumber": "36",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -226294,7 +226294,7 @@
         "year": "1967",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -226308,7 +226308,7 @@
         "year": "1967",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -226322,7 +226322,7 @@
         "year": "1967",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -257696,7 +257696,7 @@
         "year": "2003",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -257864,7 +257864,7 @@
         "year": "2003",
         "street": "Grüzenstrasse",
         "housenumber": "45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -257878,7 +257878,7 @@
         "year": "2003",
         "street": "Grüzenstrasse",
         "housenumber": "45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -257892,7 +257892,7 @@
         "year": "2003",
         "street": "Grüzenstrasse",
         "housenumber": "45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -257906,7 +257906,7 @@
         "year": "2003",
         "street": "Grüzenstrasse",
         "housenumber": "45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -257920,7 +257920,7 @@
         "year": "2003",
         "street": "Grüzenstrasse",
         "housenumber": "45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -266278,7 +266278,7 @@
         "year": "1970er-Jahre",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -266292,7 +266292,7 @@
         "year": "1970er-Jahre",
         "street": "Palmstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -266306,7 +266306,7 @@
         "year": "1970er-Jahre",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -266320,7 +266320,7 @@
         "year": "1970er-Jahre",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -266334,7 +266334,7 @@
         "year": "1970er-Jahre",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -266348,7 +266348,7 @@
         "year": "1970er-Jahre",
         "street": "Palmstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -266362,7 +266362,7 @@
         "year": "1970er-Jahre",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -271724,7 +271724,7 @@
         "year": "1975",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -271780,7 +271780,7 @@
         "year": "1960er-Jahre",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -271794,7 +271794,7 @@
         "year": "1960er-Jahre",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -271808,7 +271808,7 @@
         "year": "1960er-Jahre",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -271822,7 +271822,7 @@
         "year": "1960er-Jahre",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -271836,7 +271836,7 @@
         "year": "1970er-Jahre",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -271850,7 +271850,7 @@
         "year": "1970er-Jahre",
         "street": "Palmstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -271864,7 +271864,7 @@
         "year": "1970er-Jahre",
         "street": "Palmstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -271878,7 +271878,7 @@
         "year": "1970er-Jahre",
         "street": "Palmstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -271892,7 +271892,7 @@
         "year": "1970er-Jahre",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -271906,7 +271906,7 @@
         "year": "1970er-Jahre",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -271920,7 +271920,7 @@
         "year": "1970er-Jahre",
         "street": "Palmstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -279487,7 +279487,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.69338321685791, 47.50157928466797]
+        "coordinates": [8.73426385414625, 47.4960888845605]
       },
       "properties": {
         "title": "Mühlestrasse 1, Obermühle",
@@ -291002,7 +291002,7 @@
         "year": "1952",
         "street": "Tösstalstrasse",
         "housenumber": "57",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -291016,7 +291016,7 @@
         "year": "1952",
         "street": "Tösstalstrasse",
         "housenumber": "57",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -291030,7 +291030,7 @@
         "year": "1952",
         "street": "Tösstalstrasse",
         "housenumber": "57",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -294761,7 +294761,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.711207389831543, 47.504859924316406]
+        "coordinates": [8.719958553978856, 47.50176132146307]
       },
       "properties": {
         "title": "Wartstrasse 42, Wohnheim Heilsarmee, Innenansicht Zimmer",
@@ -297890,7 +297890,7 @@
         "year": "11.07.2002",
         "street": "Zeughausstrasse",
         "housenumber": "60",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -299248,7 +299248,7 @@
         "year": "14.09.2007",
         "street": "Untere Schöntalstrasse",
         "housenumber": "19",
-        "district": "Altstadt"
+        "district": "Töss"
       }
     },
     {
@@ -302496,7 +302496,7 @@
         "year": "14.07.2010",
         "street": "Zeughausstrasse",
         "housenumber": "60",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -302510,7 +302510,7 @@
         "year": "14.07.2010",
         "street": "Zeughausstrasse",
         "housenumber": "60",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -302524,7 +302524,7 @@
         "year": "14.07.2010",
         "street": "Zeughausstrasse",
         "housenumber": "60",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -302538,7 +302538,7 @@
         "year": "14.07.2010",
         "street": "Zeughausstrasse",
         "housenumber": "60",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -303098,7 +303098,7 @@
         "year": "16.05.2010",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -307361,7 +307361,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.74930191040039, 47.50685501098633]
+        "coordinates": [8.732015479719763, 47.50736524415323]
       },
       "properties": {
         "title": "Rychenbergstrasse 77, Villa Karl Sulzer-Schmid, Villa Lindberg, erbaut 1901, Gartengestaltung Gebrüder Mertens (DG 332)",
@@ -310882,7 +310882,7 @@
         "year": "1991",
         "street": "Palmstrasse",
         "housenumber": "2-4",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -313570,7 +313570,7 @@
         "year": "2011",
         "street": "Grüzenstrasse",
         "housenumber": "44",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -313584,7 +313584,7 @@
         "year": "2011",
         "street": "Grüzenstrasse",
         "housenumber": "44",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -313598,7 +313598,7 @@
         "year": "2011",
         "street": "Grüzenstrasse",
         "housenumber": "44",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -316104,7 +316104,7 @@
         "year": "2011",
         "street": "Zeughausstrasse",
         "housenumber": "60",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329628,7 +329628,7 @@
         "year": "21.08.1997",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329642,7 +329642,7 @@
         "year": "01.01.1995",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329656,7 +329656,7 @@
         "year": "12.05.1990",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329670,7 +329670,7 @@
         "year": "12.05.1990",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329684,7 +329684,7 @@
         "year": "01.01.1995",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329698,7 +329698,7 @@
         "year": "21.08.1997",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329712,7 +329712,7 @@
         "year": "27.06.1991",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329726,7 +329726,7 @@
         "year": "07.05.1998",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329740,7 +329740,7 @@
         "year": "20.08.1997",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329754,7 +329754,7 @@
         "year": "07.05.1998",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329768,7 +329768,7 @@
         "year": "04.10.1996",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329782,7 +329782,7 @@
         "year": "17.04.1997",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329796,7 +329796,7 @@
         "year": "17.04.1997",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329810,7 +329810,7 @@
         "year": "21.08.1997",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329824,7 +329824,7 @@
         "year": "20.08.1997",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329838,7 +329838,7 @@
         "year": "20.08.1997",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329852,7 +329852,7 @@
         "year": "26.09.1996",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329866,7 +329866,7 @@
         "year": "15.07.1996",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329880,7 +329880,7 @@
         "year": "01.05.1995",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329894,7 +329894,7 @@
         "year": "01.01.1984",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329908,7 +329908,7 @@
         "year": "30.09.1987",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329922,7 +329922,7 @@
         "year": "10.04.1998",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329936,7 +329936,7 @@
         "year": "28.05.1998",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329950,7 +329950,7 @@
         "year": "02.07.1999",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329964,7 +329964,7 @@
         "year": "01.08.1997",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329978,7 +329978,7 @@
         "year": "01.01.1995",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -329992,7 +329992,7 @@
         "year": "01.01.1995",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -330006,7 +330006,7 @@
         "year": "01.01.1995",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -330020,7 +330020,7 @@
         "year": "01.01.1995",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -333303,14 +333303,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.715201377868652, 47.49097442626953]
+        "coordinates": [8.71263177373381, 47.49244773631073]
       },
       "properties": {
         "title": "Untere Briggerstrasse 41",
         "year": "02.07.1998",
         "street": "Untere Briggerstrasse",
         "housenumber": "41",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -334080,7 +334080,7 @@
         "year": "14.03.1997",
         "street": "Untere Schöntalstrasse",
         "housenumber": "12",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -337440,7 +337440,7 @@
         "year": "07.01.1986",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -337454,7 +337454,7 @@
         "year": "07.01.1986",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -337468,7 +337468,7 @@
         "year": "1990er-Jahre?",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -337482,7 +337482,7 @@
         "year": "01.07.1999",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -337496,7 +337496,7 @@
         "year": "01.07.1999",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -337510,7 +337510,7 @@
         "year": "09.06.1992",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -337524,7 +337524,7 @@
         "year": "10.06.1991",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -337538,7 +337538,7 @@
         "year": "10.06.1991",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -337552,7 +337552,7 @@
         "year": "09.06.1992",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -337566,7 +337566,7 @@
         "year": "02.07.1999",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -337580,7 +337580,7 @@
         "year": "13.07.1999",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -337594,7 +337594,7 @@
         "year": "01.07.1999",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -337664,7 +337664,7 @@
         "year": "18.03.1998",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -337678,7 +337678,7 @@
         "year": "26.08.1993",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -337706,7 +337706,7 @@
         "year": "12.01.1997",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -342326,7 +342326,7 @@
         "year": "08.07.1993",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -345224,7 +345224,7 @@
         "year": "September 1996",
         "street": "Untere Schöntalstrasse",
         "housenumber": "12",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -345238,7 +345238,7 @@
         "year": "September 1996",
         "street": "Untere Schöntalstrasse",
         "housenumber": "12",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -345686,7 +345686,7 @@
         "year": "13.07.1994",
         "street": "Tösstalstrasse",
         "housenumber": "76",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -346764,7 +346764,7 @@
         "year": "01.03.1973",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -346778,7 +346778,7 @@
         "year": "14.01.1998",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -346792,7 +346792,7 @@
         "year": "01.11.1999",
         "street": "Palmstrasse",
         "housenumber": "2",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -346806,7 +346806,7 @@
         "year": "14.01.1998",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -346820,7 +346820,7 @@
         "year": "14.01.1998",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -346834,7 +346834,7 @@
         "year": "1990er-Jahre?",
         "street": "Adlerstrasse",
         "housenumber": "2b",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -346848,7 +346848,7 @@
         "year": "07.12.1987",
         "street": "Adlerstrasse",
         "housenumber": "2b",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -346862,7 +346862,7 @@
         "year": "08.09.1977",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -346876,7 +346876,7 @@
         "year": "09.12.1994",
         "street": "Adlerstrasse",
         "housenumber": "2b",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -346890,7 +346890,7 @@
         "year": "22.01.1997",
         "street": "Adlerstrasse",
         "housenumber": "2b",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -346904,7 +346904,7 @@
         "year": "03.12.1987",
         "street": "Adlerstrasse",
         "housenumber": "2b",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -346918,7 +346918,7 @@
         "year": "04.11.1987",
         "street": "Adlerstrasse",
         "housenumber": "2b",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -346932,7 +346932,7 @@
         "year": "1980er-Jahre?",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -346946,7 +346946,7 @@
         "year": "1980er-Jahre?",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -346960,7 +346960,7 @@
         "year": "1980er-Jahre?",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -346974,7 +346974,7 @@
         "year": "14.09.1982",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -346988,7 +346988,7 @@
         "year": "1970er-Jahre?",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -347002,7 +347002,7 @@
         "year": "1980er-Jahre",
         "street": "Adlerstrasse",
         "housenumber": "2b",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -347016,7 +347016,7 @@
         "year": "1980er-Jahre?",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -347030,7 +347030,7 @@
         "year": "14.03.1995",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -347044,7 +347044,7 @@
         "year": "14.03.1995",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -347058,7 +347058,7 @@
         "year": "1980er-Jahre",
         "street": "Adlerstrasse",
         "housenumber": "2b",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -347072,7 +347072,7 @@
         "year": "10.02.1996",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -348500,7 +348500,7 @@
         "year": "01.01.1998",
         "street": "Pflanzschulstrasse",
         "housenumber": "9",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -348514,7 +348514,7 @@
         "year": "01.01.1998",
         "street": "Pflanzschulstrasse",
         "housenumber": "9",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -348528,7 +348528,7 @@
         "year": "01.01.1998",
         "street": "Pflanzschulstrasse",
         "housenumber": "9",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -349130,7 +349130,7 @@
         "year": "28.10.1999",
         "street": "Bürglistrasse",
         "housenumber": "31a",
-        "district": "Altstadt"
+        "district": "Veltheim"
       }
     },
     {
@@ -349144,7 +349144,7 @@
         "year": "16.02.1999",
         "street": "Bürglistrasse",
         "housenumber": "31a",
-        "district": "Altstadt"
+        "district": "Veltheim"
       }
     },
     {
@@ -349158,7 +349158,7 @@
         "year": "16.02.1999",
         "street": "Bürglistrasse",
         "housenumber": "31a",
-        "district": "Altstadt"
+        "district": "Veltheim"
       }
     },
     {
@@ -349172,7 +349172,7 @@
         "year": "16.02.1999",
         "street": "Bürglistrasse",
         "housenumber": "31a",
-        "district": "Altstadt"
+        "district": "Veltheim"
       }
     },
     {
@@ -352532,7 +352532,7 @@
         "year": "März 1960",
         "street": "St. Gallerstrasse",
         "housenumber": "30",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -353274,7 +353274,7 @@
         "year": "22.08.1994",
         "street": "Grüzenstrasse",
         "housenumber": "44-45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -353288,7 +353288,7 @@
         "year": "26.10.1994",
         "street": "Grüzenstrasse",
         "housenumber": "44-45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -353302,7 +353302,7 @@
         "year": "27.10.1998",
         "street": "Grüzenstrasse",
         "housenumber": "44-45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -353316,7 +353316,7 @@
         "year": "22.08.1994",
         "street": "Grüzenstrasse",
         "housenumber": "44-45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -353330,7 +353330,7 @@
         "year": "27.10.1998",
         "street": "Grüzenstrasse",
         "housenumber": "44-45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -353344,7 +353344,7 @@
         "year": "20.03.1995",
         "street": "Grüzenstrasse",
         "housenumber": "44-45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -353358,7 +353358,7 @@
         "year": "29.01.1993",
         "street": "Grüzenstrasse",
         "housenumber": "44-45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -353372,7 +353372,7 @@
         "year": "22.11.1998",
         "street": "Grüzenstrasse",
         "housenumber": "44-45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -353386,7 +353386,7 @@
         "year": "20.12.1993",
         "street": "Grüzenstrasse",
         "housenumber": "44-45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -353400,7 +353400,7 @@
         "year": "20.12.1993",
         "street": "Grüzenstrasse",
         "housenumber": "44-45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -353414,7 +353414,7 @@
         "year": "26.10.1994",
         "street": "Grüzenstrasse",
         "housenumber": "44-45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -353428,7 +353428,7 @@
         "year": "13.09.1999",
         "street": "Grüzenstrasse",
         "housenumber": "44-45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -353442,7 +353442,7 @@
         "year": "13.09.1999",
         "street": "Grüzenstrasse",
         "housenumber": "44-45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -353456,7 +353456,7 @@
         "year": "13.09.1999",
         "street": "Grüzenstrasse",
         "housenumber": "44-45",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -360610,7 +360610,7 @@
         "year": "10.02.1988",
         "street": "Tösstalstrasse",
         "housenumber": "54",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -366126,7 +366126,7 @@
         "year": "28.08.1980",
         "street": "St. Gallerstrasse",
         "housenumber": "42",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -366140,7 +366140,7 @@
         "year": "29.06.1995",
         "street": "St. Gallerstrasse",
         "housenumber": "42",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -366154,7 +366154,7 @@
         "year": "30.09.1995",
         "street": "St. Gallerstrasse",
         "housenumber": "42",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -366168,7 +366168,7 @@
         "year": "08.06.1998",
         "street": "St. Gallerstrasse",
         "housenumber": "42",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -366182,7 +366182,7 @@
         "year": "28.08.1980",
         "street": "St. Gallerstrasse",
         "housenumber": "42",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -366196,7 +366196,7 @@
         "year": "01.07.1983",
         "street": "St. Gallerstrasse",
         "housenumber": "42",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -367232,7 +367232,7 @@
         "year": "01.07.2000",
         "street": "Zeughausstrasse",
         "housenumber": "60",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -367246,7 +367246,7 @@
         "year": "01.07.2000",
         "street": "Zeughausstrasse",
         "housenumber": "60",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -367260,7 +367260,7 @@
         "year": "01.07.2000",
         "street": "Zeughausstrasse",
         "housenumber": "60",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -367274,7 +367274,7 @@
         "year": "08.11.1999",
         "street": "Zeughausstrasse",
         "housenumber": "60",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -367288,7 +367288,7 @@
         "year": "08.11.1999",
         "street": "Zeughausstrasse",
         "housenumber": "60",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -367302,7 +367302,7 @@
         "year": "23.06.1999",
         "street": "Zeughausstrasse",
         "housenumber": "60",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -367316,7 +367316,7 @@
         "year": "24.03.1999",
         "street": "Zeughausstrasse",
         "housenumber": "60",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -367330,7 +367330,7 @@
         "year": "20.10.1998",
         "street": "Zeughausstrasse",
         "housenumber": "60",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -367344,7 +367344,7 @@
         "year": "12.11.1998",
         "street": "Zeughausstrasse",
         "housenumber": "60",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -367358,7 +367358,7 @@
         "year": "01.11.1998",
         "street": "Zeughausstrasse",
         "housenumber": "60",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -369710,7 +369710,7 @@
         "year": "06.07.1998",
         "street": "Eichliackerstrasse",
         "housenumber": "8",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -375212,7 +375212,7 @@
         "year": "1970er-Jahre",
         "street": "Zeughausstrasse",
         "housenumber": "56",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -386643,7 +386643,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.701916433288224, 47.48637429744955]
       },
       "properties": {
         "title": "Doppelhaus Zürcherstrasse 230-232, abgebrochen 2011",
@@ -386657,7 +386657,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.701916433288224, 47.48637429744955]
       },
       "properties": {
         "title": "Doppelhaus Zürcherstrasse 230-232, abgebrochen 2011",
@@ -386671,7 +386671,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.701916433288224, 47.48637429744955]
       },
       "properties": {
         "title": "Doppelhaus Zürcherstrasse 230-232, abgebrochen 2011",
@@ -386685,7 +386685,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.7019384643878, 47.4862998581071]
       },
       "properties": {
         "title": "Zürcherstrasse 232, abgebrochen 2011, Innenaufnahme",
@@ -386699,7 +386699,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.7019384643878, 47.4862998581071]
       },
       "properties": {
         "title": "Zürcherstrasse 232, abgebrochen 2011, Innenaufnahme",
@@ -386713,7 +386713,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.7019384643878, 47.4862998581071]
       },
       "properties": {
         "title": "Zürcherstrasse 232, abgebrochen 2011, Innenaufnahme",
@@ -386727,7 +386727,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.7019384643878, 47.4862998581071]
       },
       "properties": {
         "title": "Zürcherstrasse 232, abgebrochen 2011, Innenaufnahme",
@@ -386741,7 +386741,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.7019384643878, 47.4862998581071]
       },
       "properties": {
         "title": "Zürcherstrasse 232, abgebrochen 2011, Innenaufnahme",
@@ -386755,7 +386755,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.7019384643878, 47.4862998581071]
       },
       "properties": {
         "title": "Zürcherstrasse 232, abgebrochen 2011, Innenaufnahme, Toilette",
@@ -386769,7 +386769,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.7019384643878, 47.4862998581071]
       },
       "properties": {
         "title": "Zürcherstrasse 232, abgebrochen 2011, Innenaufnahme, Glühbirne",
@@ -386783,7 +386783,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.7019384643878, 47.4862998581071]
       },
       "properties": {
         "title": "Zürcherstrasse 232, abgebrochen 2011, Innenaufnahme",
@@ -386797,7 +386797,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.7019384643878, 47.4862998581071]
       },
       "properties": {
         "title": "Zürcherstrasse 232, abgebrochen 2011, Innenaufnahme, Treppenhaus",
@@ -386811,7 +386811,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.7019384643878, 47.4862998581071]
       },
       "properties": {
         "title": "Zürcherstrasse 232, abgebrochen 2011, Innenaufnahme",
@@ -386825,7 +386825,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.7019384643878, 47.4862998581071]
       },
       "properties": {
         "title": "Zürcherstrasse 232, abgebrochen 2011, Innenaufnahme",
@@ -386839,7 +386839,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.7019384643878, 47.4862998581071]
       },
       "properties": {
         "title": "Zürcherstrasse 232, abgebrochen 2011, Innenaufnahme",
@@ -403744,7 +403744,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403758,7 +403758,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403772,7 +403772,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403786,7 +403786,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403800,7 +403800,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403814,7 +403814,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403828,7 +403828,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403842,7 +403842,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403856,7 +403856,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403870,7 +403870,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403884,7 +403884,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403898,7 +403898,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403912,7 +403912,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403926,7 +403926,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403940,7 +403940,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403954,7 +403954,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403968,7 +403968,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403982,7 +403982,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -403996,7 +403996,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -404010,7 +404010,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -404024,7 +404024,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -404038,7 +404038,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -404052,7 +404052,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -404066,7 +404066,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -404080,7 +404080,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -404094,7 +404094,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -404108,7 +404108,7 @@
         "year": "April 1968",
         "street": "Gärtnerstrasse",
         "housenumber": "1",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -410709,7 +410709,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.70485404257427, 47.49013734231974]
       },
       "properties": {
         "title": "Zürcherstrasse (?) 150",
@@ -410723,7 +410723,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.70485404257427, 47.49013734231974]
       },
       "properties": {
         "title": "Zürcherstrasse (?) 150",
@@ -410737,7 +410737,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.70485404257427, 47.49013734231974]
       },
       "properties": {
         "title": "Zürcherstrasse (?) 150; Garten",
@@ -419557,7 +419557,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.705246454376399, 47.49085403418088]
       },
       "properties": {
         "title": "Konditorei Eberle (später: A. Glesti-Huber), Belegschaft",
@@ -419613,7 +419613,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.705246454376399, 47.49085403418088]
       },
       "properties": {
         "title": "Konditorei Eberle (später: A. Glesti-Huber), Belegschaft",
@@ -424240,7 +424240,7 @@
         "year": "Dezember 1969",
         "street": "Stadtfallenweg",
         "housenumber": "5",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -425724,7 +425724,7 @@
         "year": "14.12.1974",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -425738,7 +425738,7 @@
         "year": "14.12.1974",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -425752,7 +425752,7 @@
         "year": "14.12.1974",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -425766,7 +425766,7 @@
         "year": "14.12.1974",
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -427117,7 +427117,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.705395579941708, 47.491018354480815]
       },
       "properties": {
         "title": "Zürcherstrasse 122-126",
@@ -428034,7 +428034,7 @@
         "year": "2021",
         "street": "Untere Schöntalstrasse",
         "housenumber": "12",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -428986,7 +428986,7 @@
         "year": "2023",
         "street": "Bürglistrasse",
         "housenumber": "21-23",
-        "district": "Altstadt"
+        "district": "Veltheim"
       }
     },
     {
@@ -429056,7 +429056,7 @@
         "year": "2023",
         "street": "Bürglistrasse",
         "housenumber": "31a",
-        "district": "Altstadt"
+        "district": "Veltheim"
       }
     },
     {
@@ -435195,7 +435195,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.74930191040039, 47.50685501098633]
+        "coordinates": [8.732015479719763, 47.50736524415323]
       },
       "properties": {
         "title": "Villa Lindberg, Garten",
@@ -435223,7 +435223,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.74930191040039, 47.50685501098633]
+        "coordinates": [8.732015479719763, 47.50736524415323]
       },
       "properties": {
         "title": "Villa Lindberg, Garten",
@@ -435237,7 +435237,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.74930191040039, 47.50685501098633]
+        "coordinates": [8.732015479719763, 47.50736524415323]
       },
       "properties": {
         "title": "Villa Lindberg, Garten",
@@ -436518,7 +436518,7 @@
         "year": "undatiert",
         "street": "Geiselweidstrasse",
         "housenumber": "38",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -437393,7 +437393,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.71351432800293, 47.504112243652344]
+        "coordinates": [8.72232672564409, 47.50101657578457]
       },
       "properties": {
         "title": "Portfolio Paul Lüber: Werbung Tapezierer- und Polsterwerkstätte F. Krämer",
@@ -437778,7 +437778,7 @@
         "year": "April 2008",
         "street": "Untere Schöntalstrasse",
         "housenumber": "12",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
