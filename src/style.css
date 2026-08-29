@@ -167,56 +167,28 @@ body {
 }
 
 /* ===========================================================
-   BUTTONS / CONTROLS
-   =========================================================== */
-button#applyFilter {
-  padding: 6px 14px;
-  cursor: pointer;
-  background: var(--color-brand);
-  border: 1px solid var(--color-brand);
-  color: #fff;
-  transition: background 0.2s;
-  border-radius: 4px;
-  font-size: 13px;
-}
-
-button#applyFilter:hover,
-button#applyFilter:active {
-  background: var(--color-brand-hover);
-  border-color: var(--color-brand-hover);
-}
-
-a:focus-visible,
-button:focus-visible,
-input:focus-visible,
-select:focus-visible {
-  outline: var(--focus-ring);
-  outline-offset: 2px;
-}
-
-/* ===========================================================
-   SIDEBAR FOOTER & ABOUT BUTTON
+   ABOUT BUTTON
    =========================================================== */
 #aboutBtn {
-  margin-top: auto;
-  padding: 8px 12px;
-  background: var(--color-surface);
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 999;
+  padding: 10px 14px;
+  background: var(--color-brand);
   border: 1px solid var(--color-border);
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 13px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
   color: var(--color-text);
-  transition: all 0.2s;
-  font-family: var(--font-sans);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background 0.2s;
 }
 
-#aboutBtn:hover {
-  background: color-mix(in srgb, var(--color-surface) 80%, var(--color-brand));
-  border-color: var(--color-brand);
-}
-
+#aboutBtn:hover,
 #aboutBtn:active {
-  background: color-mix(in srgb, var(--color-surface) 60%, var(--color-brand));
+  background: var(--color-brand-hover);
 }
 
 /* ===========================================================
@@ -587,12 +559,6 @@ select:focus-visible {
   button {
     font-size: 16px;
     padding: 8px;
-  }
-
-  button#applyFilter {
-    width: 100%;
-    padding: 10px;
-    margin-top: 6px;
   }
 
   #details a.gen-link {
