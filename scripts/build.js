@@ -56,5 +56,3 @@ function copyRecursive(src, dest) {
 
 copyRecursive(path.join(srcDir, "vendor"), path.join(distDir, "vendor"));
 copyRecursive(path.join(srcDir, "data"), path.join(distDir, "data"));
-
-console.log("Build complete → dist/");
