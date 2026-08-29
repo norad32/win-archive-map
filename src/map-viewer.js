@@ -198,16 +198,22 @@ function extractFirstYear(jahr) {
  * @return {string} A fully-encoded search URL.
  */
 function buildCustomLink(props) {
-  const jahr = extractFirstYear(props.year);
-  const strasse = props.street || "";
-  const hausnr = extractFirstHouseNumber(props.housenumber);
-  const stadtkreis = props.district || "";
+  const year = extractFirstYear(props.year);
+  const street = props.street || "";
+  const housenumber = extractFirstHouseNumber(props.housenumber);
+
+  let district = props.district || "";
+  if (district === "Other") {
+    district = "";
+  } else if (district === "Winterthur-Stadt") {
+    district = "Altstadt";
+  }
 
   const parts = [];
-  if (hausnr !== "") parts.push(`HAUSNUMMER=${hausnr}`);
+  if (housenumber !== "") parts.push(`HAUSNUMMER=${housenumber}`);
   if (jahr !== "") parts.push(`JAHR=${jahr}`);
-  if (stadtkreis !== "") parts.push(`STADTKREIS=${stadtkreis}`);
-  if (strasse !== "") parts.push(`STRASSE=${strasse}`);
+  if (district !== "") parts.push(`STADTKREIS=${district}`);
+  if (street !== "") parts.push(`STRASSE=${street}`);
 
   const query = parts.join(" ");
   return `https://bilddatenbank.winterthur.ch/ims_publisher/images?query=${encodeURIComponent(query)}`;
