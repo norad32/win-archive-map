@@ -4534,7 +4534,7 @@
         "year": "1918",
         "street": "Gärtnerstrasse",
         "housenumber": "15",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5022,8 +5022,8 @@
       "properties": {
         "title": "Obermühlestrasse 42, Feuerwehrgebäude im Bau",
         "year": "19.03.2000",
-        "street": "Obermühlestrasse",
-        "housenumber": "42",
+        "street": "Zeughausstrasse",
+        "housenumber": "60",
         "district": "Mattenbach"
       }
     },
@@ -5500,7 +5500,7 @@
         "year": "um 1912",
         "street": "St. Gallerstrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5514,7 +5514,7 @@
         "year": "um 1920",
         "street": "St. Gallerstrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5528,7 +5528,7 @@
         "year": "1954",
         "street": "St. Gallerstrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5542,7 +5542,7 @@
         "year": "1954",
         "street": "St. Gallerstrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5556,7 +5556,7 @@
         "year": "1954",
         "street": "St. Gallerstrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5570,7 +5570,7 @@
         "year": "1954",
         "street": "St. Gallerstrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5584,7 +5584,7 @@
         "year": "1954",
         "street": "St. Gallerstrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5598,7 +5598,7 @@
         "year": "02.1973",
         "street": "St. Gallerstrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5612,7 +5612,7 @@
         "year": "07.02.1983",
         "street": "St. Gallerstrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5626,7 +5626,7 @@
         "year": "07.02.1983",
         "street": "St. Gallerstrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5640,7 +5640,7 @@
         "year": "07.02.1983",
         "street": "St. Gallerstrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5654,7 +5654,7 @@
         "year": "07.02.1983",
         "street": "St. Gallerstrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5668,7 +5668,7 @@
         "year": "07.02.1983",
         "street": "St. Gallerstrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5682,7 +5682,7 @@
         "year": "07.02.1983",
         "street": "St. Gallerstrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5696,7 +5696,7 @@
         "year": "07.02.1983",
         "street": "St. Gallerstrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5710,7 +5710,7 @@
         "year": "07.02.1983",
         "street": "St. Gallerstrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5724,7 +5724,7 @@
         "year": "07.02.1983",
         "street": "St. Gallerstrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -5976,7 +5976,7 @@
         "year": "1931",
         "street": "Hermannstrasse",
         "housenumber": "16",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -6424,7 +6424,7 @@
         "year": "04.1983",
         "street": "Pflanzschulstrasse",
         "housenumber": "32",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
@@ -10323,7 +10323,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.763590514159254, 47.499885126547575]
       },
       "properties": {
         "title": "Restaurant Schönengrund, St.Gallerstrasse 243, Viehschau",
@@ -10337,7 +10337,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.763590514159254, 47.499885126547575]
       },
       "properties": {
         "title": "Restaurant Schönengrund, St.Gallerstrasse 243, Luftbild",
@@ -10351,7 +10351,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.763590514159254, 47.499885126547575]
       },
       "properties": {
         "title": "Restaurant Schönengrund, St.Gallerstrasse 243",
@@ -10365,7 +10365,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.751725394811974, 47.498246852738625]
       },
       "properties": {
         "title": "St.Gallerstrasse 150, Abbruchliegenschaften",
@@ -10379,7 +10379,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.751725394811974, 47.498246852738625]
       },
       "properties": {
         "title": "St.Gallerstrasse 150, Abbruchliegenschaften",
@@ -10393,7 +10393,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.751725394811974, 47.498246852738625]
       },
       "properties": {
         "title": "St.Gallerstrasse 150, Abbruchliegenschaften",
@@ -10407,7 +10407,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.751725394811974, 47.498246852738625]
       },
       "properties": {
         "title": "St.Gallerstrasse 150, Abbruchliegenschaften",
@@ -10421,7 +10421,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.751725394811974, 47.498246852738625]
       },
       "properties": {
         "title": "St.Gallerstrasse 150, Abbruchliegenschaften",
@@ -10435,7 +10435,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.751725394811974, 47.498246852738625]
       },
       "properties": {
         "title": "St.Gallerstrasse 150, Abbruchliegenschaften",
@@ -10449,7 +10449,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.751725394811974, 47.498246852738625]
       },
       "properties": {
         "title": "St.Gallerstrasse 150, Abbruchliegenschaften",
@@ -10463,7 +10463,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.751725394811974, 47.498246852738625]
       },
       "properties": {
         "title": "St.Gallerstrasse 150, Abbruchliegenschaften",
@@ -10477,7 +10477,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.751725394811974, 47.498246852738625]
       },
       "properties": {
         "title": "St.Gallerstrasse 150, Abbruchliegenschaften",
@@ -10491,7 +10491,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.751725394811974, 47.498246852738625]
       },
       "properties": {
         "title": "St.Gallerstrasse 150, Abbruchliegenschaften",
@@ -10505,7 +10505,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.751725394811974, 47.498246852738625]
       },
       "properties": {
         "title": "St.Gallerstrasse 150, Abbruchliegenschaften",
@@ -20312,7 +20312,7 @@
         "year": "1988",
         "street": "Langgasse",
         "housenumber": "21-23",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -32653,7 +32653,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora (aus Ms fol 384, Album Piet Deutsch)",
@@ -32667,7 +32667,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora, Garten (aus Ms fol 384, Album Piet Deutsch)",
@@ -32681,7 +32681,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora",
@@ -32695,7 +32695,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora",
@@ -32709,7 +32709,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora",
@@ -32723,21 +32723,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.73466682434082, 47.49632263183594]
+        "coordinates": [8.733914362546225, 47.49602677837466]
       },
       "properties": {
         "title": "Obermühlestrasse 10, Gesindehaus der Villa Flora",
         "year": "1973",
         "street": "Obermühlestrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora",
@@ -32751,21 +32751,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.73466682434082, 47.49632263183594]
+        "coordinates": [8.733914362546225, 47.49602677837466]
       },
       "properties": {
         "title": "Obermühlestrasse 10, Gesindehaus der Villa Flora",
         "year": "1973",
         "street": "Obermühlestrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora",
@@ -32779,7 +32779,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora, Garten",
@@ -32793,7 +32793,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora, Garten, Hedy Hahnloser-Bühler",
@@ -32807,7 +32807,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora, Garten, Hedy Hahnloser-Bühler",
@@ -32821,7 +32821,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora",
@@ -32835,63 +32835,63 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.73466682434082, 47.49632263183594]
+        "coordinates": [8.733914362546225, 47.49602677837466]
       },
       "properties": {
         "title": "Obermühlestrasse 10, Gesindehaus der Villa Flora",
         "year": "1973",
         "street": "Obermühlestrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.73466682434082, 47.49632263183594]
+        "coordinates": [8.733914362546225, 47.49602677837466]
       },
       "properties": {
         "title": "Obermühlestrasse 10, Gesindehaus der Villa Flora",
         "year": "1973",
         "street": "Obermühlestrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.73466682434082, 47.49632263183594]
+        "coordinates": [8.733914362546225, 47.49602677837466]
       },
       "properties": {
         "title": "Obermühlestrasse 10, Gesindehaus der Villa Flora",
         "year": "1975",
         "street": "Obermühlestrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.73466682434082, 47.49632263183594]
+        "coordinates": [8.733914362546225, 47.49602677837466]
       },
       "properties": {
         "title": "Obermühlestrasse 10, Gesindehaus der Villa Flora",
         "year": "1975",
         "street": "Obermühlestrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora",
@@ -32905,7 +32905,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora",
@@ -32919,7 +32919,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora",
@@ -32933,7 +32933,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora",
@@ -32947,7 +32947,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora",
@@ -32961,49 +32961,49 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.73466682434082, 47.49632263183594]
+        "coordinates": [8.733914362546225, 47.49602677837466]
       },
       "properties": {
         "title": "Obermühlestrasse 10, Gesindehaus der Villa Flora",
         "year": "1979",
         "street": "Obermühlestrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.73466682434082, 47.49632263183594]
+        "coordinates": [8.733914362546225, 47.49602677837466]
       },
       "properties": {
         "title": "Obermühlestrasse 10, Gesindehaus der Villa Flora",
         "year": "1979",
         "street": "Obermühlestrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.73466682434082, 47.49632263183594]
+        "coordinates": [8.733914362546225, 47.49602677837466]
       },
       "properties": {
         "title": "Obermühlestrasse 10, Gesindehaus der Villa Flora",
         "year": "1979",
         "street": "Obermühlestrasse",
         "housenumber": "10",
-        "district": "Mattenbach"
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora",
@@ -33017,7 +33017,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora",
@@ -33031,7 +33031,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora",
@@ -33045,7 +33045,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora, Museum",
@@ -33059,7 +33059,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora, Museum, Garten",
@@ -33339,7 +33339,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora",
@@ -61213,7 +61213,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759191513061523, 47.4853630065918]
+        "coordinates": [8.757594932547677, 47.50657635059948]
       },
       "properties": {
         "title": "Seenerstrasse 22, Haus Dinkelacker",
@@ -78545,7 +78545,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.765518188476562, 47.47803497314453]
+        "coordinates": [8.774951065923632, 47.50224173367606]
       },
       "properties": {
         "title": "St. Gallerstrasse 308+312",
@@ -92083,14 +92083,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.798101425170898, 47.48683166503906]
+        "coordinates": [8.801146237937623, 47.48598826860068]
       },
       "properties": {
         "title": "Räteschenstrasse 105-125",
         "year": "11.11.1988",
-        "street": "Räterschenstrasse",
+        "street": "Ricketwilerstrasse",
         "housenumber": "105-125",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -92104,7 +92104,7 @@
         "year": "11.11.1988",
         "street": "Räterschenstrasse",
         "housenumber": "3",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -92118,7 +92118,7 @@
         "year": "11.11.1988",
         "street": "Räterschenstrasse",
         "housenumber": "34",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -92132,7 +92132,7 @@
         "year": "15.03.1978",
         "street": "Hulmenweg",
         "housenumber": "90",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -92146,7 +92146,7 @@
         "year": "15.03.1978",
         "street": "Hulmenweg",
         "housenumber": "90",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -92160,7 +92160,7 @@
         "year": "15.03.1978",
         "street": "Hulmenweg",
         "housenumber": "90",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -92174,7 +92174,7 @@
         "year": "15.03.1978",
         "street": "Hulmenweg",
         "housenumber": "90",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -92188,7 +92188,7 @@
         "year": "15.03.1978",
         "street": "Hulmenweg",
         "housenumber": "90",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -92202,7 +92202,7 @@
         "year": "15.03.1978",
         "street": "Hulmenweg",
         "housenumber": "90",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -92216,7 +92216,7 @@
         "year": "15.03.1978",
         "street": "Hulmenweg",
         "housenumber": "90",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -92230,7 +92230,7 @@
         "year": "15.03.1978",
         "street": "Hulmenweg",
         "housenumber": "90",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -92244,7 +92244,7 @@
         "year": "15.03.1978",
         "street": "Hulmenweg",
         "housenumber": "90",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -92258,7 +92258,7 @@
         "year": "15.03.1978",
         "street": "Hulmenweg",
         "housenumber": "90",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -92272,7 +92272,7 @@
         "year": "1970er",
         "street": "Hulmenweg",
         "housenumber": "91-95",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -94323,7 +94323,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.775431632995605, 47.479591369628906]
+        "coordinates": [8.775496914249528, 47.47958044006075]
       },
       "properties": {
         "title": "Köhlbergstrasse 8",
@@ -94337,7 +94337,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.775431632995605, 47.479591369628906]
+        "coordinates": [8.775496914249528, 47.47958044006075]
       },
       "properties": {
         "title": "Köhlbergstrasse 8",
@@ -94351,7 +94351,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.775431632995605, 47.479591369628906]
+        "coordinates": [8.775496914249528, 47.47958044006075]
       },
       "properties": {
         "title": "Köhlbergstrasse 8",
@@ -95758,7 +95758,7 @@
         "year": "09.1979",
         "street": "Waldeggstrasse",
         "housenumber": "61",
-        "district": "Seen"
+        "district": "Mattenbach"
       }
     },
     {
@@ -95772,7 +95772,7 @@
         "year": "09.1979",
         "street": "Waldeggstrasse",
         "housenumber": "61",
-        "district": "Seen"
+        "district": "Mattenbach"
       }
     },
     {
@@ -95786,7 +95786,7 @@
         "year": "09.1979",
         "street": "Waldeggstrasse",
         "housenumber": "61",
-        "district": "Seen"
+        "district": "Mattenbach"
       }
     },
     {
@@ -95800,7 +95800,7 @@
         "year": "09.1979",
         "street": "Waldeggstrasse",
         "housenumber": "61",
-        "district": "Seen"
+        "district": "Mattenbach"
       }
     },
     {
@@ -95814,7 +95814,7 @@
         "year": "09.1979",
         "street": "Waldeggstrasse",
         "housenumber": "61",
-        "district": "Seen"
+        "district": "Mattenbach"
       }
     },
     {
@@ -95828,7 +95828,7 @@
         "year": "12.1983",
         "street": "Waldeggstrasse",
         "housenumber": "61",
-        "district": "Seen"
+        "district": "Mattenbach"
       }
     },
     {
@@ -107420,7 +107420,7 @@
         "year": "1988",
         "street": "Büelweg",
         "housenumber": "4-6",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -108386,7 +108386,7 @@
         "year": "11.11.1988",
         "street": "Räterschenstrasse",
         "housenumber": "34",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -108400,7 +108400,7 @@
         "year": "11.11.1988",
         "street": "Räterschenstrasse",
         "housenumber": "34",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -108414,7 +108414,7 @@
         "year": "11.11.1988",
         "street": "Hulmenweg",
         "housenumber": "91-95",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -153851,7 +153851,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.705205514216066, 47.4908152460537]
       },
       "properties": {
         "title": "Zürcherstrasse 152-128 während Abbrucharbeiten, Blickrichtung Nord",
@@ -153907,7 +153907,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.705205514216066, 47.4908152460537]
       },
       "properties": {
         "title": "Zürcherstrasse 154-164, Blickrichtung Nord",
@@ -153991,7 +153991,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.705205514216066, 47.4908152460537]
       },
       "properties": {
         "title": "Zürcherstrasse 152-162, Blickrichtung West",
@@ -154005,7 +154005,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.705205514216066, 47.4908152460537]
       },
       "properties": {
         "title": "Zürcherstrasse 154-180, mit Bahnübergang, Blickrichtung West",
@@ -154033,7 +154033,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.705205514216066, 47.4908152460537]
       },
       "properties": {
         "title": "Zürcherstrasse 152-180, vor dem Bau der Bahnunterführung",
@@ -154887,7 +154887,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721307754516602, 47.4902458190918]
+        "coordinates": [8.703773405171896, 47.49089740012155]
       },
       "properties": {
         "title": "J.C.Heerstrasse 45, Abbruchliegenschaft",
@@ -154901,7 +154901,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721307754516602, 47.4902458190918]
+        "coordinates": [8.703773405171896, 47.49089740012155]
       },
       "properties": {
         "title": "J.C.Heerstrasse 45, Abbruchliegenschaft",
@@ -154915,7 +154915,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721307754516602, 47.4902458190918]
+        "coordinates": [8.703773405171896, 47.49089740012155]
       },
       "properties": {
         "title": "J.C.Heerstrasse 45, Abbruchliegenschaft",
@@ -154929,7 +154929,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721307754516602, 47.4902458190918]
+        "coordinates": [8.703773405171896, 47.49089740012155]
       },
       "properties": {
         "title": "J.C.Heerstrasse 45, Abbruchliegenschaft",
@@ -154943,7 +154943,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721307754516602, 47.4902458190918]
+        "coordinates": [8.703773405171896, 47.49089740012155]
       },
       "properties": {
         "title": "J.C.Heerstrasse 45, Abbruchliegenschaft",
@@ -155013,7 +155013,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.720131874084473, 47.48945999145508]
+        "coordinates": [8.702622737516013, 47.48968580457413]
       },
       "properties": {
         "title": "J.C.Heerstrasse 69, Seidenhof (Ordner 14.01.009)",
@@ -155027,7 +155027,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.720131874084473, 47.48945999145508]
+        "coordinates": [8.702622737516013, 47.48968580457413]
       },
       "properties": {
         "title": "J.C.Heerstrasse 69, Seidenhof (Ordner 14.01.009)",
@@ -158177,7 +158177,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.704824368688255, 47.49011656176815]
       },
       "properties": {
         "title": "Zürcherstrasse 151 (rechts), Blick gegen Osten",
@@ -158485,7 +158485,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.704824368688255, 47.49011656176815]
       },
       "properties": {
         "title": "Zürcherstrasse 151-165, Bahnübergang",
@@ -159437,7 +159437,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.704824368688255, 47.49011656176815]
       },
       "properties": {
         "title": "Zürcherstrasse 151, Restaurant Freihof mit Fuhrwerken für Weintransport",
@@ -159451,7 +159451,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.704824368688255, 47.49011656176815]
       },
       "properties": {
         "title": "Zürcherstrasse 151, Fällen der Bäume für Strassenvebreiterung",
@@ -159465,7 +159465,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.704824368688255, 47.49011656176815]
       },
       "properties": {
         "title": "Zürcherstrasse 151, Restaurant Freihof, während Bau der Bahnunterführung",
@@ -159479,7 +159479,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.704824368688255, 47.49011656176815]
       },
       "properties": {
         "title": "Zürcherstrasse 151, Restaurant Freihof, abgebrochen",
@@ -159493,7 +159493,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721128463745117, 47.49848937988281]
+        "coordinates": [8.704824368688255, 47.49011656176815]
       },
       "properties": {
         "title": "Zürcherstrasse 151, Restaurant Freihof, abgebrochen",
@@ -162958,7 +162958,7 @@
         "year": "1925",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -162972,7 +162972,7 @@
         "year": "um 1940",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -162986,7 +162986,7 @@
         "year": "um 1940",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163000,7 +163000,7 @@
         "year": "um 1940",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163014,7 +163014,7 @@
         "year": "08.1971",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163028,7 +163028,7 @@
         "year": "08.1971",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163042,7 +163042,7 @@
         "year": "08.1971",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163056,7 +163056,7 @@
         "year": "08.1971",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163070,7 +163070,7 @@
         "year": "08.1971",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163084,7 +163084,7 @@
         "year": "24.02.1977",
         "street": "Im Grafenstein",
         "housenumber": "4-6",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163098,7 +163098,7 @@
         "year": "24.02.1977",
         "street": "Im Grafenstein",
         "housenumber": "4-6",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163112,7 +163112,7 @@
         "year": "24.02.1977",
         "street": "Im Grafenstein",
         "housenumber": "4-6",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163126,7 +163126,7 @@
         "year": "24.02.1977",
         "street": "Im Grafenstein",
         "housenumber": "4-6",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163140,7 +163140,7 @@
         "year": "24.02.1977",
         "street": "Im Grafenstein",
         "housenumber": "4-6",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163154,7 +163154,7 @@
         "year": "24.02.1977",
         "street": "Im Grafenstein",
         "housenumber": "4-6",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163168,7 +163168,7 @@
         "year": "11.1983",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163182,7 +163182,7 @@
         "year": "11.1983",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163196,7 +163196,7 @@
         "year": "11.1983",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163210,7 +163210,7 @@
         "year": "11.1983",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163224,7 +163224,7 @@
         "year": "11.1983",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163238,7 +163238,7 @@
         "year": "11.1983",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163252,7 +163252,7 @@
         "year": "11.1983",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163266,7 +163266,7 @@
         "year": "07.1989",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163280,7 +163280,7 @@
         "year": "07.12.1994",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -163294,7 +163294,7 @@
         "year": "31.01.1995",
         "street": "Schlosstalstrasse",
         "housenumber": "92",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -170154,7 +170154,7 @@
         "year": "1990er",
         "street": "Winzerstrasse",
         "housenumber": "58",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -173444,7 +173444,7 @@
         "year": "1933",
         "street": "Weinbergstrasse",
         "housenumber": "69",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -181753,7 +181753,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.693884533150124, 47.510730165723295]
       },
       "properties": {
         "title": "Wülflingerstrasse 252, Lädeli Bösiger, später Café Krikus, abgebrochen",
@@ -181767,7 +181767,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.693884533150124, 47.510730165723295]
       },
       "properties": {
         "title": "Wülflingerstrasse 252,  Café Krikus, abgebrochen",
@@ -181781,7 +181781,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.693884533150124, 47.510730165723295]
       },
       "properties": {
         "title": "Wülflingerstrasse 252,  Café Krikus, abgebrochen",
@@ -181795,7 +181795,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.693884533150124, 47.510730165723295]
       },
       "properties": {
         "title": "Wülflingerstrasse 252,  Café Krikus, abgebrochen",
@@ -181809,7 +181809,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.693884533150124, 47.510730165723295]
       },
       "properties": {
         "title": "Wülflingerstrasse 252,  Café Krikus, abgebrochen",
@@ -181823,7 +181823,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.693884533150124, 47.510730165723295]
       },
       "properties": {
         "title": "Wülflingerstrasse 252,  Café Krikus, abgebrochen",
@@ -183265,7 +183265,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69591202488596, 47.51069508147563]
       },
       "properties": {
         "title": "Wülflingerstrasse 241, Mathey Haus, abgebrochen",
@@ -183279,7 +183279,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69591202488596, 47.51069508147563]
       },
       "properties": {
         "title": "Wülflingerstrasse 241, Mathey Haus, Konsumverein, abgebrochen für Neubau",
@@ -183293,7 +183293,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69591202488596, 47.51069508147563]
       },
       "properties": {
         "title": "Wülflingerstrasse 241, Mathey Haus, Konsumverein, abgebrochen für Neubau",
@@ -183307,7 +183307,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69591202488596, 47.51069508147563]
       },
       "properties": {
         "title": "Wülflingerstrasse 241, Mathey Haus, Konsumverein, abgebrochen für Neubau",
@@ -183377,7 +183377,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, Julius Müller mit Belegschaft",
@@ -183447,7 +183447,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, abgebrochen, Blick aus Wieshofstrasse",
@@ -183475,7 +183475,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.695047378540039, 47.51061248779297]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, abgebrochen",
@@ -183489,7 +183489,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, abgebrochen, im Hintergrunf Hirschen und alte Post",
@@ -183503,7 +183503,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, abgebrochen (WUEL 1.030)",
@@ -183517,7 +183517,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, abgebrochen",
@@ -183531,7 +183531,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, abgebrochen",
@@ -183545,7 +183545,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, abgebrochen",
@@ -183559,7 +183559,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, abgebrochen",
@@ -183573,7 +183573,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, während Abbruch",
@@ -183587,7 +183587,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, vor Abbruch",
@@ -183601,7 +183601,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, vor Abbruch",
@@ -183615,7 +183615,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, vor Abbruch",
@@ -183629,7 +183629,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, vor Abbruch",
@@ -183643,7 +183643,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, vor Abbruch",
@@ -183657,7 +183657,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, vor Abbruch",
@@ -183671,7 +183671,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, vor Abbruch",
@@ -183685,7 +183685,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, vor Abbruch",
@@ -183699,7 +183699,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.69449593708203, 47.51053043353365]
       },
       "properties": {
         "title": "Wülflingerstrasse 249, alte Schmiede, vor Abbruch",
@@ -183713,7 +183713,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.693884533150124, 47.510730165723295]
       },
       "properties": {
         "title": "Wülflingerstrasse 252, Café Crokus, Lindenplatz",
@@ -184147,7 +184147,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267",
@@ -184175,7 +184175,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267",
@@ -184189,7 +184189,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267, Abbruchliegenschaft",
@@ -184203,7 +184203,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267, Abbruchliegenschaft",
@@ -184217,7 +184217,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267, Abbruchliegenschaft",
@@ -184231,7 +184231,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267, Abbruchliegenschaft",
@@ -184245,7 +184245,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267, Abbruchliegenschaft",
@@ -184259,7 +184259,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267, Abbruchliegenschaft",
@@ -184273,7 +184273,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267, Abbruchliegenschaft",
@@ -184287,7 +184287,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267, Abbruchliegenschaft, Innenansicht",
@@ -184301,7 +184301,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267, Abbruchliegenschaft, Innenansicht",
@@ -184315,7 +184315,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267, Abbruchliegenschaft, Innenansicht",
@@ -184329,7 +184329,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267, Abbruchliegenschaft, Innenansicht",
@@ -184343,7 +184343,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267, Abbruchliegenschaft, Innenansicht",
@@ -184357,7 +184357,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267, Abbruchliegenschaft, Innenansicht",
@@ -184371,7 +184371,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267, Abbruchliegenschaft, Innenansicht",
@@ -184385,7 +184385,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267, Abbruchliegenschaft, Innenansicht",
@@ -184399,7 +184399,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267, Abbruchliegenschaft, Innenansicht",
@@ -184413,7 +184413,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.691581749853064, 47.51015828856927]
       },
       "properties": {
         "title": "Wülflingerstrasse 267, Abbruchliegenschaft, Innenansicht",
@@ -193905,7 +193905,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.701255855968968, 47.51049680933364]
       },
       "properties": {
         "title": "Wülflingerstrasse 194, Restaurant Thalhof",
@@ -193919,7 +193919,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.701255855968968, 47.51049680933364]
       },
       "properties": {
         "title": "Wülflingerstrasse 194, Restaurant Thalhof",
@@ -204062,14 +204062,14 @@
         "year": "1929",
         "street": "Agnesstrasse",
         "housenumber": "18",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759422302246094, 47.48435592651367]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Hedy Hahnloser-Bühler (1873-1952), Kunstsammlerin, in der Villa Flora",
@@ -204083,7 +204083,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759422302246094, 47.48435592651367]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Hedy Hahnloser-Bühler (1873-1952), Kunstsammlerin, in der Villa Flora",
@@ -204097,7 +204097,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759422302246094, 47.48435592651367]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Hedy Hahnloser-Bühler (1873-1952), Kunstsammlerin, in der Villa Flora",
@@ -204111,7 +204111,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759422302246094, 47.48435592651367]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Hedy Hahnloser-Bühler (1873-1952), Kunstsammlerin, in der Villa Flora",
@@ -204125,7 +204125,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759422302246094, 47.48435592651367]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Hedy Hahnloser-Bühler (1873-1952), Kunstsammlerin, in der Villa Flora",
@@ -204139,7 +204139,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759422302246094, 47.48435592651367]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Hedy Hahnloser-Bühler (1873-1952), Kunstsammlerin, in der Villa Flora",
@@ -204153,7 +204153,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759422302246094, 47.48435592651367]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Hedy Hahnloser-Bühler (1873-1952), Kunstsammlerin, in der Villa Flora",
@@ -204167,7 +204167,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759422302246094, 47.48435592651367]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Hedy Hahnloser-Bühler (1873-1952), Kunstsammlerin, in der Villa Flora",
@@ -204181,7 +204181,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759422302246094, 47.48435592651367]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Hedy Hahnloser-Bühler (1873-1952), Kunstsammlerin, in der Villa Flora",
@@ -204195,7 +204195,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759422302246094, 47.48435592651367]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Hedy Hahnloser-Bühler (1873-1952), Kunstsammlerin, in der Villa Flora, mit Arthur Hahnloser-Bühler (1870-1936), Kunstmaler Henri Charles Manguin (1874-1943) und Frau Manguin (GRUP/FAMILIE:HAHNLOSER)",
@@ -205616,7 +205616,7 @@
         "year": "11.02.2002",
         "street": "Rudolf-Diesel-Strasse",
         "housenumber": "12",
-        "district": "Mattenbach"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -205630,7 +205630,7 @@
         "year": "11.02.2002",
         "street": "Rudolf-Diesel-Strasse",
         "housenumber": "12",
-        "district": "Mattenbach"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -205644,7 +205644,7 @@
         "year": "11.02.2002",
         "street": "Rudolf-Diesel-Strasse",
         "housenumber": "12",
-        "district": "Mattenbach"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -205826,7 +205826,7 @@
         "year": "18.04.2002",
         "street": "Zürcherstrasse",
         "housenumber": "7",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -205868,7 +205868,7 @@
         "year": "02.04.2002",
         "street": "Zeughausstrasse",
         "housenumber": "22",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -205882,7 +205882,7 @@
         "year": "02.04.2002",
         "street": "Zeughausstrasse",
         "housenumber": "22",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -205896,7 +205896,7 @@
         "year": "02.04.2002",
         "street": "Zeughausstrasse",
         "housenumber": "22",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -206603,12 +206603,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.730283737182617, 47.495548248291016]
+        "coordinates": [8.70993709564209, 47.488277435302734]
       },
       "properties": {
         "title": "Schulhaus Eichliacker",
         "year": "25.09.2002",
-        "street": "Rosenstrasse",
+        "street": "Klosterstrasse",
         "housenumber": "59",
         "district": "Töss"
       }
@@ -207135,7 +207135,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora",
@@ -209501,7 +209501,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.749168522669725, 47.498154147509695]
       },
       "properties": {
         "title": "St. Gallerstrasse 132, Notschlafstelle, Aussenansicht",
@@ -217621,7 +217621,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora, Innenansicht Gesellschaftsraum",
@@ -217635,7 +217635,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora, Innenansicht, Gesellschaftsraum",
@@ -217649,7 +217649,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora, Innenansicht, Gesellschaftsraum",
@@ -217663,7 +217663,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora, Innenansicht Gesellschaftsraum",
@@ -217677,7 +217677,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora, Innenansicht Gesellschaftsraum",
@@ -219567,7 +219567,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759422302246094, 47.48435592651367]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Schlafzimmer von Hedy Hahnloser-Bühler (1873-1952), Kunstsammlerin, in der Villa Flora. Über dem Bett Gemälde von Bonnard mit Arthur und Hedy Hahnloser mit Tochter.",
@@ -219959,13 +219959,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.754237174987793, 47.49388885498047]
+        "coordinates": [8.742356300354004, 47.49298095703125]
       },
       "properties": {
         "title": "Busdepot Deutweg, beschädigter Bus",
         "year": "02.02.2003",
-        "street": "Grüzefeldstrasse",
-        "housenumber": "35",
+        "street": "Tösstalstrasse",
+        "housenumber": "86",
         "district": "Mattenbach"
       }
     },
@@ -225160,7 +225160,7 @@
         "year": "1960er-Jahre",
         "street": "Industriestrasse",
         "housenumber": "8",
-        "district": "Mattenbach"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -225174,7 +225174,7 @@
         "year": "1960er-Jahre",
         "street": "Industriestrasse",
         "housenumber": "8",
-        "district": "Mattenbach"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -225188,7 +225188,7 @@
         "year": "1960er-Jahre",
         "street": "Industriestrasse",
         "housenumber": "8",
-        "district": "Mattenbach"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -225202,7 +225202,7 @@
         "year": "1960er-Jahre",
         "street": "Industriestrasse",
         "housenumber": "8",
-        "district": "Mattenbach"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -225216,7 +225216,7 @@
         "year": "1960er-Jahre",
         "street": "Industriestrasse",
         "housenumber": "8",
-        "district": "Mattenbach"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -225664,7 +225664,7 @@
         "year": "1960er-Jahre",
         "street": "Langgasse",
         "housenumber": "40",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -226896,7 +226896,7 @@
         "year": "1960er-Jahre",
         "street": "Weberstrasse",
         "housenumber": "2",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -226910,7 +226910,7 @@
         "year": "1960er-Jahre",
         "street": "Weberstrasse",
         "housenumber": "2",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -231838,7 +231838,7 @@
         "year": "1992",
         "street": "Hulmenweg",
         "housenumber": "82",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -231852,7 +231852,7 @@
         "year": "1992",
         "street": "Hulmenweg",
         "housenumber": "82",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -235912,7 +235912,7 @@
         "year": "14.09.2003",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -242597,7 +242597,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.792760848999023, 47.486610412597656]
+        "coordinates": [8.766799851741112, 47.49037357589178]
       },
       "properties": {
         "title": "Etzbergstrasse 35/37",
@@ -242611,7 +242611,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.792760848999023, 47.486610412597656]
+        "coordinates": [8.766799851741112, 47.49037357589178]
       },
       "properties": {
         "title": "Etzbergstrasse 35",
@@ -245054,7 +245054,7 @@
         "year": "1992",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -245068,7 +245068,7 @@
         "year": "1992",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -245082,7 +245082,7 @@
         "year": "1992",
         "street": "Flüelistrasse",
         "housenumber": "1/3",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -253314,7 +253314,7 @@
         "year": "1992",
         "street": "Hulmenweg",
         "housenumber": "88/90",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -253328,7 +253328,7 @@
         "year": "1992",
         "street": "Hulmenweg",
         "housenumber": "88/90",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -253342,7 +253342,7 @@
         "year": "1992",
         "street": "Hulmenweg",
         "housenumber": "88/90",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -253356,7 +253356,7 @@
         "year": "1992",
         "street": "Hulmenweg",
         "housenumber": "82",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -253370,7 +253370,7 @@
         "year": "1992",
         "street": "Hulmenweg",
         "housenumber": "82",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -253384,7 +253384,7 @@
         "year": "1992",
         "street": "Hulmenweg",
         "housenumber": "88/90",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -253398,7 +253398,7 @@
         "year": "1992",
         "street": "Hulmenweg",
         "housenumber": "88/90",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -253664,7 +253664,7 @@
         "year": "2003",
         "street": "Wülflingerstrasse",
         "housenumber": "147",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -253678,7 +253678,7 @@
         "year": "2003",
         "street": "Wülflingerstrasse",
         "housenumber": "147",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -253692,7 +253692,7 @@
         "year": "2003",
         "street": "Wülflingerstrasse",
         "housenumber": "147",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -255246,7 +255246,7 @@
         "year": "1992",
         "street": "Im Grafenstein",
         "housenumber": "2",
-        "district": "Wülflingen"
+        "district": "Töss"
       }
     },
     {
@@ -255435,7 +255435,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.698512077331543, 47.49798583984375]
+        "coordinates": [8.697264974153601, 47.49939566277612]
       },
       "properties": {
         "title": "Im Grafenstein 32 A-C",
@@ -255449,7 +255449,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.698512077331543, 47.49798583984375]
+        "coordinates": [8.697264974153601, 47.49939566277612]
       },
       "properties": {
         "title": "Im Grafenstein 32 A-C",
@@ -257815,13 +257815,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.749927520751953, 47.496246337890625]
+        "coordinates": [8.759556077880054, 47.46507650719903]
       },
       "properties": {
         "title": "Sennhof, Volg Laden, Innenansicht",
         "year": "2004",
-        "street": "Industriestrasse",
-        "housenumber": "8",
+        "street": "Oberzelgweg",
+        "housenumber": "2",
         "district": "Seen"
       }
     },
@@ -257843,7 +257843,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.735346888883193, 47.49644182894274]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse 42, Villa Flora, Innenansicht mit Flügel",
@@ -259845,7 +259845,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.755366325378418, 47.509769439697266]
+        "coordinates": [8.775496914249528, 47.47958044006075]
       },
       "properties": {
         "title": "Köhlbergstrasse 8",
@@ -259859,7 +259859,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.755366325378418, 47.509769439697266]
+        "coordinates": [8.775496914249528, 47.47958044006075]
       },
       "properties": {
         "title": "Köhlbergstrasse 8",
@@ -259873,7 +259873,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.755366325378418, 47.509769439697266]
+        "coordinates": [8.775496914249528, 47.47958044006075]
       },
       "properties": {
         "title": "Köhlbergstrasse 8",
@@ -259887,7 +259887,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.755374908447266, 47.51007080078125]
+        "coordinates": [8.775161880524681, 47.48004936235053]
       },
       "properties": {
         "title": "Köhlbergstrasse 9A",
@@ -259901,7 +259901,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.755374908447266, 47.51007080078125]
+        "coordinates": [8.775161880524681, 47.48004936235053]
       },
       "properties": {
         "title": "Köhlbergstrasse 9A",
@@ -272557,7 +272557,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.708073159648677, 47.48860083851529]
+        "coordinates": [8.69031208010392, 47.518658863764514]
       },
       "properties": {
         "title": "Radhofstrasse 6",
@@ -273257,14 +273257,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.801222801208496, 47.485992431640625]
+        "coordinates": [8.79672908782959, 47.48733901977539]
       },
       "properties": {
         "title": "Ricketwilerstrasse 81-83",
         "year": "1992",
         "street": "Ricketwilerstrasse",
-        "housenumber": "10-12",
-        "district": "Seen"
+        "housenumber": "81-83",
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273278,7 +273278,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "81-83",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273292,7 +273292,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "81-83",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273306,7 +273306,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "81-83",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273320,7 +273320,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "81-83",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273334,7 +273334,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "105",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273348,7 +273348,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "105",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273362,7 +273362,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "105",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273376,7 +273376,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "105",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273390,7 +273390,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "105",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273404,7 +273404,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "105",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273418,7 +273418,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "107",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273432,7 +273432,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "107",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273446,7 +273446,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "109",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273460,7 +273460,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "109",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273474,7 +273474,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "115",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273488,7 +273488,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "115",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273502,7 +273502,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "119",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273516,7 +273516,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "119",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273530,7 +273530,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "125",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273544,7 +273544,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "125",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273558,7 +273558,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "126",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273572,7 +273572,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "126",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273586,7 +273586,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "126",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273600,7 +273600,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "126",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273614,7 +273614,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "129",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273628,7 +273628,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "129",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273656,7 +273656,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "140",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -273670,7 +273670,7 @@
         "year": "1992",
         "street": "Ricketwilerstrasse",
         "housenumber": "140",
-        "district": "Seen"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -275049,7 +275049,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.693739891052246, 47.50260925292969]
+        "coordinates": [8.755509579156334, 47.507783852779596]
       },
       "properties": {
         "title": "Römerstrasse 183-185, links Bäckerei",
@@ -275819,7 +275819,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723331451416016, 47.50987243652344]
+        "coordinates": [8.75063050944708, 47.507324176272526]
       },
       "properties": {
         "title": "Rychenbergstrasse 278-280",
@@ -275833,7 +275833,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723331451416016, 47.50987243652344]
+        "coordinates": [8.75063050944708, 47.507324176272526]
       },
       "properties": {
         "title": "Rychenbergstrasse 278-280",
@@ -277303,14 +277303,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.699250221252441, 47.49767303466797]
+        "coordinates": [8.701178585351403, 47.49701305995388]
       },
       "properties": {
         "title": "Schlosstalstrasse 66/68",
         "year": "1992",
         "street": "Schlosstalstrasse",
         "housenumber": "88",
-        "district": "Wülflingen"
+        "district": "Töss"
       }
     },
     {
@@ -277324,7 +277324,7 @@
         "year": "1992",
         "street": "Schlosstalstrasse",
         "housenumber": "90",
-        "district": "Wülflingen"
+        "district": "Töss"
       }
     },
     {
@@ -277338,7 +277338,7 @@
         "year": "1992",
         "street": "Schlosstalstrasse",
         "housenumber": "90",
-        "district": "Wülflingen"
+        "district": "Töss"
       }
     },
     {
@@ -277443,7 +277443,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.708280563354492, 47.49295425415039]
+        "coordinates": [8.69621486455251, 47.49863738131047]
       },
       "properties": {
         "title": "Schlosstalstrasse 100 (?)",
@@ -277457,7 +277457,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.708280563354492, 47.49295425415039]
+        "coordinates": [8.69621486455251, 47.49863738131047]
       },
       "properties": {
         "title": "Schlosstalstrasse 100 (?)",
@@ -278661,13 +278661,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759160995483398, 47.50527572631836]
+        "coordinates": [8.758479118347168, 47.49127197265625]
       },
       "properties": {
         "title": "Seenerstrasse 166-170",
         "year": "1992",
         "street": "Seenerstrasse",
-        "housenumber": "1",
+        "housenumber": "166-170",
         "district": "Seen"
       }
     },
@@ -279165,13 +279165,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.708280563354492, 47.49295425415039]
+        "coordinates": [8.691929513039073, 47.5023650498048]
       },
       "properties": {
         "title": "Schlosstalstrasse 504, Schlosshof, Restaurant Hotel Garni",
         "year": "1992",
         "street": "Schlosstalstrasse",
-        "housenumber": "504",
+        "housenumber": "166",
         "district": "Wülflingen"
       }
     },
@@ -287663,7 +287663,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.696162150617528, 47.51087968450586]
       },
       "properties": {
         "title": "Wülflingerstrasse 232",
@@ -288363,7 +288363,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.705857874253155, 47.47751349211927]
+        "coordinates": [8.686552870333216, 47.51284933929728]
       },
       "properties": {
         "title": "Wülflingerstrasse 315",
@@ -288377,7 +288377,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.705857874253155, 47.47751349211927]
+        "coordinates": [8.686552870333216, 47.51284933929728]
       },
       "properties": {
         "title": "Wülflingerstrasse 315",
@@ -289770,7 +289770,7 @@
         "year": "2019",
         "street": "Grüzefeldstrasse",
         "housenumber": "1",
-        "district": "Mattenbach"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -289784,7 +289784,7 @@
         "year": "2019",
         "street": "Grüzefeldstrasse",
         "housenumber": "1",
-        "district": "Mattenbach"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -289798,7 +289798,7 @@
         "year": "2019",
         "street": "Grüzefeldstrasse",
         "housenumber": "1",
-        "district": "Mattenbach"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -289812,7 +289812,7 @@
         "year": "2019",
         "street": "Grüzefeldstrasse",
         "housenumber": "1",
-        "district": "Mattenbach"
+        "district": "Oberwinterthur"
       }
     },
     {
@@ -295622,7 +295622,7 @@
         "year": "10.04.2005",
         "street": "Brühlbergstrasse",
         "housenumber": "7",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -295636,7 +295636,7 @@
         "year": "10.04.2005",
         "street": "Brühlbergstrasse",
         "housenumber": "7",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -298114,7 +298114,7 @@
         "year": "23.05.2007",
         "street": "Flüelistrasse",
         "housenumber": "3",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -298128,7 +298128,7 @@
         "year": "23.05.2007",
         "street": "Flüelistrasse",
         "housenumber": "3",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -303910,7 +303910,7 @@
         "year": "23.08.1994",
         "street": "Flüelistrasse",
         "housenumber": "3",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -304148,7 +304148,7 @@
         "year": "01.02.1992",
         "street": "Flüelistrasse",
         "housenumber": "3",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -306955,7 +306955,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759422302246094, 47.48435592651367]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Stadtpräsident Ernst Wohlwend und Zürcher Stadtpräsidentin Corinne Mauch im Garten der Villa Flora",
@@ -313080,7 +313080,7 @@
         "year": "2011",
         "street": "Schlosstalstrasse",
         "housenumber": "96",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -313094,7 +313094,7 @@
         "year": "2011",
         "street": "Schlosstalstrasse",
         "housenumber": "96",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -314536,7 +314536,7 @@
         "year": "2011",
         "street": "Schlosstalstrasse",
         "housenumber": "95",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -315880,7 +315880,7 @@
         "year": "2011",
         "street": "Tösstalstrasse",
         "housenumber": "86",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -316412,7 +316412,7 @@
         "year": "2011",
         "street": "Rychenbergstrasse",
         "housenumber": "110",
-        "district": "Oberwinterthur"
+        "district": "Altstadt"
       }
     },
     {
@@ -316426,7 +316426,7 @@
         "year": "2011",
         "street": "Rychenbergstrasse",
         "housenumber": "110",
-        "district": "Oberwinterthur"
+        "district": "Altstadt"
       }
     },
     {
@@ -317420,7 +317420,7 @@
         "year": "2011",
         "street": "Schlosstalstrasse",
         "housenumber": "95 - 139",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -317434,7 +317434,7 @@
         "year": "2011",
         "street": "Schlosstalstrasse",
         "housenumber": "95 - 139",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -323363,13 +323363,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.72215461730957, 47.497352600097656]
+        "coordinates": [8.707880020141602, 47.49443054199219]
       },
       "properties": {
         "title": "Gaswerk, Jungbürgerfeier",
         "year": "18.12.1999",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "6",
+        "street": "Untere Schöntalstrasse",
+        "housenumber": "19",
         "district": "Töss"
       }
     },
@@ -323567,34 +323567,6 @@
         "street": "Schloss",
         "housenumber": "1",
         "district": "Other"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.69338321685791, 47.50157928466797]
-      },
-      "properties": {
-        "title": "Laufsporttag, Kinderrennen",
-        "year": "01.01.1995",
-        "street": "Schloss",
-        "housenumber": "1",
-        "district": "Altstadt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.69338321685791, 47.50157928466797]
-      },
-      "properties": {
-        "title": "Laufsporttag, Männerennen",
-        "year": "26.05.1997",
-        "street": "Schloss",
-        "housenumber": "1",
-        "district": "Altstadt"
       }
     },
     {
@@ -327626,7 +327598,7 @@
         "year": "22.06.1998",
         "street": "Am Rosenberg",
         "housenumber": "19",
-        "district": "Veltheim"
+        "district": "Altstadt"
       }
     },
     {
@@ -330692,7 +330664,7 @@
         "year": "23.09.1991",
         "street": "Tösstalstrasse",
         "housenumber": "188",
-        "district": "Seen"
+        "district": "Mattenbach"
       }
     },
     {
@@ -333170,7 +333142,7 @@
         "year": "01.08.1996",
         "street": "Zürcherstrasse",
         "housenumber": "28",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -333184,7 +333156,7 @@
         "year": "01.08.1996",
         "street": "Zürcherstrasse",
         "housenumber": "28",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -333219,14 +333191,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.725020408630371, 47.49040603637695]
+        "coordinates": [8.720890279012815, 47.49504733272556]
       },
       "properties": {
         "title": "Wylandstrasse, Wylandbücke, Blick von Untere Vogelsangstrasse, Güterwagon",
         "year": "19.06.1997",
         "street": "Wylandstrasse",
         "housenumber": "28",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -333240,7 +333212,7 @@
         "year": "11.06.1997",
         "street": "Jägerstrasse",
         "housenumber": "25-47",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -333254,7 +333226,7 @@
         "year": "31.10.1990",
         "street": "Jägerstrasse",
         "housenumber": "25-47",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -333268,7 +333240,7 @@
         "year": "31.10.1990",
         "street": "Jägerstrasse",
         "housenumber": "25-47",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -333282,7 +333254,7 @@
         "year": "11.06.1997",
         "street": "Jägerstrasse",
         "housenumber": "29-31",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -333296,7 +333268,7 @@
         "year": "10.02.1996",
         "street": "Jägerstrasse",
         "housenumber": "25-47",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -333310,7 +333282,7 @@
         "year": "31.10.1990",
         "street": "Jägerstrasse",
         "housenumber": "41-43",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -333324,7 +333296,7 @@
         "year": "17.05.1996",
         "street": "Jägerstrasse",
         "housenumber": "35-47",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -333352,7 +333324,7 @@
         "year": "05.01.2000",
         "street": "Zürcherstrasse",
         "housenumber": "28",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -337048,7 +337020,7 @@
         "year": "09.09.1995",
         "street": "Brühlbergstrasse",
         "housenumber": "5",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -337062,7 +337034,7 @@
         "year": "16.03.1995",
         "street": "Brühlbergstrasse",
         "housenumber": "5",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -337076,7 +337048,7 @@
         "year": "Oktober 1997",
         "street": "Brühlbergstrasse",
         "housenumber": "5",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -337090,7 +337062,7 @@
         "year": "Oktober 1997",
         "street": "Brühlbergstrasse",
         "housenumber": "5",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -337104,7 +337076,7 @@
         "year": "Oktober 1997",
         "street": "Brühlbergstrasse",
         "housenumber": "5",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -337118,7 +337090,7 @@
         "year": "30.01.1995",
         "street": "Brühlbergstrasse",
         "housenumber": "5",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -337132,7 +337104,7 @@
         "year": "16.03.1995",
         "street": "Brühlbergstrasse",
         "housenumber": "5",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -338070,7 +338042,7 @@
         "year": "07.07.1999",
         "street": "Talgutstrasse",
         "housenumber": "71",
-        "district": "Oberwinterthur"
+        "district": "Mattenbach"
       }
     },
     {
@@ -342284,7 +342256,7 @@
         "year": "22.09.1994",
         "street": "Reitplatzstrasse",
         "housenumber": "30",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -344055,7 +344027,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.749168522669725, 47.498154147509695]
       },
       "properties": {
         "title": "St. Gallerstrasse 132, Notschlafstelle, Schild",
@@ -344069,7 +344041,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.749168522669725, 47.498154147509695]
       },
       "properties": {
         "title": "St. Gallerstrasse 132, Notschlafstelle, Schild",
@@ -344083,7 +344055,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.749168522669725, 47.498154147509695]
       },
       "properties": {
         "title": "St. Gallerstrasse 132, Notschlafstelle, Eingangstür",
@@ -344097,7 +344069,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.749168522669725, 47.498154147509695]
       },
       "properties": {
         "title": "St. Gallerstrasse 132, Notschlafstelle",
@@ -344111,7 +344083,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.749168522669725, 47.498154147509695]
       },
       "properties": {
         "title": "St. Gallerstrasse 132, Notschlafstelle, Schild mit Öffnungszeiten",
@@ -344125,7 +344097,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733329772949219, 47.4986457824707]
+        "coordinates": [8.749168522669725, 47.498154147509695]
       },
       "properties": {
         "title": "St. Gallerstrasse 132, Notschlafstelle",
@@ -345602,7 +345574,7 @@
         "year": "14.06.1998",
         "street": "Am Rosenberg",
         "housenumber": "19",
-        "district": "Veltheim"
+        "district": "Altstadt"
       }
     },
     {
@@ -345616,7 +345588,7 @@
         "year": "14.06.1998",
         "street": "Am Rosenberg",
         "housenumber": "19",
-        "district": "Veltheim"
+        "district": "Altstadt"
       }
     },
     {
@@ -348738,7 +348710,7 @@
         "year": "22.06.1978",
         "street": "Breitestrasse",
         "housenumber": "18",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -348752,7 +348724,7 @@
         "year": "22.06.1978",
         "street": "Breitestrasse",
         "housenumber": "18",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -348766,7 +348738,7 @@
         "year": "01.11.1994",
         "street": "Breitestrasse",
         "housenumber": "18",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -350404,7 +350376,7 @@
         "year": "02.06.1999",
         "street": "Zürcherstrasse",
         "housenumber": "50",
-        "district": "Töss"
+        "district": "Altstadt"
       }
     },
     {
@@ -350887,12 +350859,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.70296573638916, 47.49398422241211]
+        "coordinates": [8.693777084350586, 47.513065338134766]
       },
       "properties": {
         "title": "Riedhofstrasse 51, Motel Wülflingen, Aussenansicht Eingangsbereich",
         "year": "1990er-Jahre?",
-        "street": "Friedhofstrasse",
+        "street": "Riedhofstrasse",
         "housenumber": "51",
         "district": "Wülflingen"
       }
@@ -358678,7 +358650,7 @@
         "year": "1990er-Jahre",
         "street": "Schlosstalstrasse",
         "housenumber": "139",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -367960,7 +367932,7 @@
         "year": "08.09.1990",
         "street": "Zeughausstrasse",
         "housenumber": "52",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -367974,7 +367946,7 @@
         "year": "12.04.1990",
         "street": "Zeughausstrasse",
         "housenumber": "52",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -381344,7 +381316,7 @@
         "year": "1910-1920",
         "street": "Breitestrasse",
         "housenumber": "48",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -398172,7 +398144,7 @@
         "year": "März 1974",
         "street": "Eichliwaldstrasse",
         "housenumber": "3",
-        "district": "Veltheim"
+        "district": "Altstadt"
       }
     },
     {
@@ -398200,7 +398172,7 @@
         "year": "März 1974",
         "street": "Eichliwaldstrasse",
         "housenumber": "3",
-        "district": "Veltheim"
+        "district": "Altstadt"
       }
     },
     {
@@ -413467,7 +413439,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759422302246094, 47.48435592651367]
+        "coordinates": [8.735172271728516, 47.4964485168457]
       },
       "properties": {
         "title": "Tösstalstrasse, \"Sunnehus\" nach Brand",
@@ -413880,7 +413852,7 @@
         "year": "September 1969",
         "street": "Unterer Deutweg",
         "housenumber": "83",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -427005,7 +426977,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.693739891052246, 47.50260925292969]
+        "coordinates": [8.755509579156334, 47.507783852779596]
       },
       "properties": {
         "title": "Römerstrasse 183-185, Bäckerei Conditorei R. Hänni",
@@ -427866,7 +427838,7 @@
         "year": "2021",
         "street": "Rebwiesenstrasse",
         "housenumber": "15",
-        "district": "Wülflingen"
+        "district": "Töss"
       }
     },
     {
@@ -427880,7 +427852,7 @@
         "year": "2021",
         "street": "Rebwiesenstrasse",
         "housenumber": "15",
-        "district": "Wülflingen"
+        "district": "Töss"
       }
     },
     {
@@ -427922,7 +427894,7 @@
         "year": "2021",
         "street": "Unterer Deutweg",
         "housenumber": "83",
-        "district": "Altstadt"
+        "district": "Mattenbach"
       }
     },
     {
@@ -428006,7 +427978,7 @@
         "year": "2021",
         "street": "Wolfensbergstrasse",
         "housenumber": "165",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -428020,7 +427992,7 @@
         "year": "2021",
         "street": "Wolfensbergstrasse",
         "housenumber": "165",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -428363,7 +428335,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.696162150617528, 47.51087968450586]
       },
       "properties": {
         "title": "Wülflingerstrasse 232, Haus Familie Strebel",
@@ -428377,7 +428349,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.696162150617528, 47.51087968450586]
       },
       "properties": {
         "title": "Wülflingerstrasse 232, Haus Familie Strebel",
@@ -428391,7 +428363,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.723776817321777, 47.502716064453125]
+        "coordinates": [8.696162150617528, 47.51087968450586]
       },
       "properties": {
         "title": "Wülflingerstrasse 232, Haus Familie Strebel",
@@ -428650,7 +428622,7 @@
         "year": "2023",
         "street": "Schlosstalstrasse",
         "housenumber": "95",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -429000,7 +428972,7 @@
         "year": "2023",
         "street": "Schlosstalstrasse",
         "housenumber": "95",
-        "district": "Töss"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435608,7 +435580,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435622,7 +435594,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435636,7 +435608,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435650,7 +435622,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435664,7 +435636,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435678,7 +435650,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435692,7 +435664,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435706,7 +435678,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435720,7 +435692,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435734,7 +435706,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435748,7 +435720,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435762,7 +435734,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435776,7 +435748,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435790,7 +435762,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435804,7 +435776,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435818,7 +435790,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435832,7 +435804,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
@@ -435846,7 +435818,7 @@
         "year": "1999",
         "street": "Flüelistrasse",
         "housenumber": "9",
-        "district": "Veltheim"
+        "district": "Wülflingen"
       }
     },
     {
