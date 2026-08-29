@@ -747,8 +747,13 @@ function buildFilterPredicate({
   const normalizedStrasseVal = (strasseVal || "").trim().toLowerCase();
 
   return (props) => {
-    const year = Number.parseInt(props.year, 10);
-    const yearOk = Number.isNaN(year) ? true : year >= from && year <= to;
+    const extractedYear = extractFirstYear(props.year);
+    const year =
+      extractedYear === "" ? NaN : Number.parseInt(extractedYear, 10);
+    const yearFilterActive = from !== -Infinity || to !== Infinity;
+    const yearOk = yearFilterActive
+      ? !Number.isNaN(year) && year >= from && year <= to
+      : true;
 
     const strasse = (props.street || "").trim().toLowerCase();
     const strasseOk =
