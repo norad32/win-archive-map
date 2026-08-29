@@ -169,24 +169,24 @@ function getRequiredElement(id) {
 /**
  * Extracts the first run of digits from a house-number string, e.g.
  * `"12a-14"` -> `"12"`.
- * @param {?string} hausnr Raw house-number value.
+ * @param {?string} housenumber Raw house-number value.
  * @return {string} The first digit sequence found, or `''`.
  */
-function extractFirstHouseNumber(hausnr) {
-  if (!hausnr) return "";
-  const match = String(hausnr).match(/\d+/);
+function extractFirstHouseNumber(housenumber) {
+  if (!housenumber) return "";
+  const match = String(housenumber).match(/\d+/);
   return match ? match[0] : "";
 }
 
 /**
  * Extracts the first 4-digit year found in a string, e.g. `"um 1920"` ->
  * `"1920"`.
- * @param {?string} jahr Raw year value.
+ * @param {?string} year Raw year value.
  * @return {string} The first 4-digit year found, or `''`.
  */
-function extractFirstYear(jahr) {
-  if (!jahr) return "";
-  const match = String(jahr).match(/\d{4}/);
+function extractFirstYear(year) {
+  if (!year) return "";
+  const match = String(year).match(/\d{4}/);
   return match ? match[0] : "";
 }
 
@@ -211,7 +211,7 @@ function buildCustomLink(props) {
 
   const parts = [];
   if (housenumber !== "") parts.push(`HAUSNUMMER=${housenumber}`);
-  if (jahr !== "") parts.push(`JAHR=${jahr}`);
+  if (year !== "") parts.push(`JAHR=${year}`);
   if (district !== "") parts.push(`STADTKREIS=${district}`);
   if (street !== "") parts.push(`STRASSE=${street}`);
 
