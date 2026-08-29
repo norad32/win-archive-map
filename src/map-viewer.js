@@ -705,9 +705,13 @@ function renderGroups(groups, options = {}) {
   geoLayer.clearLayers();
   geoLayer.addLayers(markers);
 
-  if (fitBounds && !hasFitInitialBounds && markers.length > 0) {
+  if (fitBounds && markers.length > 0) {
     try {
-      map.fitBounds(geoLayer.getBounds(), { maxZoom: 16, animate: false });
+      const isInitialLoad = !hasFitInitialBounds;
+      map.fitBounds(geoLayer.getBounds(), {
+        maxZoom: isInitialLoad ? 16 : 17,
+        animate: !isInitialLoad,
+      });
       hasFitInitialBounds = true;
     } catch (e) {
       console.error("Bounds error:", e);
@@ -878,7 +882,7 @@ function applyFilters() {
       }
     }
 
-    renderGroups(filteredGroups, { fitBounds: false });
+    renderGroups(filteredGroups, { fitBounds: true });
     updateStats(shownCount, allFeatures.length);
   }, 300);
 }
