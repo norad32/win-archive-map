@@ -491,6 +491,31 @@ body {
   margin: 10px 0;
 }
 
+.entry-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.report-error-link {
+  font-size: 0.8rem;
+  color: var(--color-text-muted, #888);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  opacity: 0.75;
+  transition:
+    opacity 0.15s ease,
+    color 0.15s ease;
+}
+
+.report-error-link:hover,
+.report-error-link:focus-visible {
+  opacity: 1;
+  color: var(--color-brand, #d81400);
+}
+
 /* ===========================================================
    MOBILE SIDEBAR TOGGLE BUTTON (hidden on desktop)
    =========================================================== */

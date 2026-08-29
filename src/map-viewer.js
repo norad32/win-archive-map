@@ -3,6 +3,9 @@
 // ===========================================================
 const GEOJSON_URL = "data/archive.geojson";
 const DISTRICTS_URL = "data/districts.json";
+
+const GITHUB_REPO = "norad32/win-archive-map";
+
 const MOBILE_BREAKPOINT = 768; // keep in sync with style.css @media rule
 
 const MARKER_COLOR = "#d81400"; // matches --color-brand in style.css
@@ -210,6 +213,38 @@ function buildCustomLink(props) {
   return `https://bilddatenbank.winterthur.ch/ims_publisher/images?query=${encodeURIComponent(query)}`;
 }
 
+/**
+ * Builds a GitHub "new issue" URL pre-filled with a title and body referencing the
+ * given feature.
+ * @param {!Object<string, *>} props Feature properties.
+ * @return {string} A fully-encoded GitHub issue URL.
+ */
+function buildReportIssueUrl(props) {
+  const title = props.title || "Untitled entry";
+  const issueTitle = `Incorrect metadata: ${title}`;
+
+  const bodyLines = [
+    "## Reported entry metadata",
+    "",
+    `- Title: ${props.title || "(none)"}`,
+    `- Year: ${props.year || "(none)"}`,
+    `- Street: ${props.street || "(none)"}`,
+    `- House number: ${props.housenumber || "(none)"}`,
+    `- District: ${props.district || "(none)"}`,
+    "",
+    "## What's incorrect?",
+    "",
+    "<!-- Please describe what's wrong and, if known, what the correct value should be. -->",
+  ];
+  const issueBody = bodyLines.join("\n");
+
+  const params = new URLSearchParams({
+    title: issueTitle,
+    body: issueBody,
+    labels: "metadata",
+  });
+  return `https://github.com/${GITHUB_REPO}/issues/new?${params.toString()}`;
+}
 // ===========================================================
 // MAP INIT
 // ===========================================================
@@ -398,18 +433,18 @@ function buildEntryBlock(props) {
 
   for (const [label, value] of rows) {
     const tr = document.createElement("tr");
-
     const keyCell = document.createElement("td");
     keyCell.className = "key";
     keyCell.textContent = label;
-
     const valueCell = document.createElement("td");
     valueCell.textContent = value;
-
     tr.append(keyCell, valueCell);
     table.appendChild(tr);
   }
   block.appendChild(table);
+
+  const linkRow = document.createElement("div");
+  linkRow.className = "entry-links";
 
   const link = document.createElement("a");
   link.className = "gen-link";
@@ -417,7 +452,17 @@ function buildEntryBlock(props) {
   link.target = "_blank";
   link.rel = "noopener noreferrer";
   link.textContent = "Search in Bildarchiv Winterthur";
-  block.appendChild(link);
+  linkRow.appendChild(link);
+
+  const reportLink = document.createElement("a");
+  reportLink.className = "report-error-link";
+  reportLink.href = buildReportIssueUrl(props);
+  reportLink.target = "_blank";
+  reportLink.rel = "noopener noreferrer";
+  reportLink.textContent = "Report incorrect metadata";
+  linkRow.appendChild(reportLink);
+
+  block.appendChild(linkRow);
 
   return block;
 }
