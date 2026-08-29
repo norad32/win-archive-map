@@ -176,7 +176,7 @@ body {
   z-index: 999;
   padding: 10px 14px;
   background: var(--color-brand);
-  border: 1px solid var(--color-border);
+  border: none;
   border-radius: 6px;
   font-size: 14px;
   font-weight: bold;
