@@ -3,16 +3,17 @@
 // ===========================================================
 const GEOJSON_URL = "data/archive.geojson";
 const DISTRICTS_URL = "data/districts.json";
+const DISTRICTS_GEOJSON_URL = "data/districts.geojson";
+const NEIGHBOURHOODS_GEOJSON_URL = "data/neighbourhoods.geojson";
 
 const GITHUB_REPO = "norad32/win-archive-map";
 
 const MOBILE_BREAKPOINT = 768; // keep in sync with style.css @media rule
 
-const MARKER_COLOR = "#d81400"; // matches --color-brand in style.css
-const MARKER_STROKE = "#ececea"; // matches --color-surface in style.css
+const OUTLINE_COLOR = "#d81400"; // matches --color-brand in style.css
 
 const MAP_INITIAL_CENTER = [47.5001, 8.724];
-const MAP_INITIAL_ZOOM = 14;
+const MAP_INITIAL_ZOOM = 13;
 
 /**
  * Toggle for verbose logging.
@@ -105,6 +106,17 @@ let filterTimeout;
 let hasFitInitialBounds = false; // only auto-fit bounds once, on first load
 
 let districtsData = {};
+
+let districtFeatures = [];
+let neighbourhoodFeatures = [];
+
+let districtLayerGroup = null;
+let neighbourhoodLayerGroup = null;
+let districtLabelGroup = null;
+let neighbourhoodLabelGroup = null;
+
+let districtToNeighbourhoods = new Map();
+
 let loadAbortController = null;
 let lastUpdated = null;
 
@@ -122,6 +134,7 @@ let yearFromEl = null;
 let yearToEl = null;
 let streetInputEl = null;
 let districtSelectEl = null;
+let neighbourhoodSelectEl = null;
 let streetOptionsEl = null;
 let lastUpdatedEl = null;
 
@@ -263,16 +276,21 @@ function buildReportIssueUrl(props) {
  * @return {!L.Map} The initialized Leaflet map.
  */
 function initMap() {
-  const mapInstance = L.map("map").setView(
-    MAP_INITIAL_CENTER,
-    MAP_INITIAL_ZOOM,
-  );
+  const mapInstance = L.map("map", {
+    minZoom: MAP_INITIAL_ZOOM,
+  }).setView(MAP_INITIAL_CENTER, MAP_INITIAL_ZOOM);
 
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 19,
+  L.tileLayer("https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
     attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+      'Tiles style by <a href="https://www.hotosm.org/">Humanitarian OpenStreetMap Team</a> ' +
+      'hosted by <a href="https://openstreetmap.fr/">OpenStreetMap France</a>',
   }).addTo(mapInstance);
+
+
+  mapInstance.createPane("boundaryLabelPane");
+  mapInstance.getPane("boundaryLabelPane").style.zIndex = 650;
+  mapInstance.getPane("boundaryLabelPane").style.pointerEvents = "none";
 
   return mapInstance;
 }
@@ -473,6 +491,230 @@ function buildEntryBlock(props) {
   return block;
 }
 
+// ===========================================================
+// BOUNDARY POLYGON LAYERS (districts / neighbourhoods outlines)
+// ===========================================================
+
+
+/**
+ * Builds a map from district name to the list of neighbourhood names
+ * belonging to it, derived from the neighbourhood GeoJSON features.
+ * @param {!Array<!Object>} neighbourhoodFeatures GeoJSON features.
+ * @return {!Map<string, !Array<string>>} District name -> neighbourhood names.
+ */
+function buildDistrictToNeighbourhoodsMap(neighbourhoodFeatures) {
+  const map = new Map();
+  for (const feature of neighbourhoodFeatures) {
+    const district = feature.properties?.district;
+    const neighbourhood = feature.properties?.neighbourhood;
+    if (!district || !neighbourhood) continue;
+
+    if (!map.has(district)) {
+      map.set(district, []);
+    }
+    map.get(district).push(neighbourhood);
+  }
+
+  // Sort each list for a nicer dropdown order
+  for (const list of map.values()) {
+    list.sort((a, b) => a.localeCompare(b));
+  }
+
+  return map;
+}
+
+/**
+ * Builds the label content (plain text, multi-line) for a boundary
+ * feature, based on which property keys are present.
+ * @param {!Object} props Feature properties.
+ * @return {string} Label text, possibly multi-line.
+ */
+function buildBoundaryLabelText(props) {
+  if (props.neighbourhood == null) {
+    return String(props.district);
+  }
+
+  if (props.neighbourhood != null) {
+    const lines = [String(props.neighbourhood)];
+    if (props.number != null) lines.push(String(props.number));
+    return lines.join("\n");
+  }
+}
+
+/**
+ * Creates a non-interactive label marker centered on a layer's bounds,
+ * added to the given label layer group.
+ * @param {!L.Layer} layer Leaflet layer for a single polygon feature.
+ * @param {!Object} feature GeoJSON feature.
+ * @param {!L.LayerGroup} labelGroup Group to add the label marker to.
+ * @param {string} labelClassName CSS class for the label's divIcon.
+ * @return {void}
+ */
+function addBoundaryLabel(layer, feature, labelGroup, labelClassName) {
+  const props = feature.properties || {};
+  const text = buildBoundaryLabelText(props);
+  if (!text) return;
+
+  const center = layer.getBounds().getCenter();
+  const htmlLines = text
+    .split("\n")
+    .map((line) => `<div>${escapeHtml(line)}</div>`)
+    .join("");
+
+  const icon = L.divIcon({
+    className: labelClassName,
+    html: htmlLines,
+    iconSize: null, // let CSS size it based on content
+  });
+
+  const labelMarker = L.marker(center, {
+    icon,
+    interactive: false,
+    keyboard: false,
+    pane: "boundaryLabelPane",
+  });
+  labelGroup.addLayer(labelMarker);
+}
+
+/**
+ * Fetches a GeoJSON file and builds a Leaflet layer for it, styled as an
+ * outline-only boundary layer.
+ * @param {string} url URL of the GeoJSON file.
+ * @param {AbortSignal=} signal Optional abort signal.
+ * @return {!Promise<?L.GeoJSON>} The built layer, or `null` on failure.
+ */
+async function loadBoundaryLayer(url, signal) {
+  try {
+    const res = await fetch(url, { signal });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    return data.features || [];
+  } catch (err) {
+    if (err.name === "AbortError") throw err;
+    console.error(`Failed to load boundary layer (${url}):`, err);
+    return [];
+  }
+}
+
+
+/**
+ * Loads the districts and neighbourhoods boundary GeoJSON files and adds
+ * them to the map as togglable overlay layers via a Leaflet layer control.
+ * @param {AbortSignal=} signal Optional abort signal.
+ * @return {!Promise<void>}
+ */
+async function loadBoundaryLayers(signal) {
+  const [districts, neighbourhoods] = await Promise.all([
+    loadBoundaryLayer(DISTRICTS_GEOJSON_URL, signal),
+    loadBoundaryLayer(NEIGHBOURHOODS_GEOJSON_URL, signal),
+  ]);
+
+  districtFeatures = districts;
+  neighbourhoodFeatures = neighbourhoods;
+
+  districtToNeighbourhoods = buildDistrictToNeighbourhoodsMap(neighbourhoodFeatures);
+
+  updateNeighbourhoodOptions(districtSelectEl.value);
+  renderBoundaryLayers(); // initial render, no filters applied
+}
+
+/**
+ * Renders district and neighbourhood boundary layers on the map,
+ * filtered by the currently selected district/neighbourhood values.
+ * Clears and rebuilds both layer groups each call.
+ * @return {void}
+ */
+function renderBoundaryLayers() {
+  const selectedDistrict = document.getElementById("districtSelect").value;
+  const selectedNeighbourhood = document.getElementById("neighbourhoodSelect").value;
+
+  // --- Determine which features to show ---
+  let districtsToShow = districtFeatures;
+  let neighbourhoodsToShow = neighbourhoodFeatures;
+
+  if (selectedNeighbourhood) {
+    // Show only the selected neighbourhood (and its parent district)
+    neighbourhoodsToShow = neighbourhoodFeatures.filter(
+      (f) => f.properties.neighbourhood === selectedNeighbourhood
+    );
+    const parentDistrict = neighbourhoodsToShow[0]?.properties.district;
+    districtsToShow = parentDistrict
+      ? districtFeatures.filter((f) => f.properties.district === parentDistrict)
+      : [];
+  } else if (selectedDistrict) {
+    // Show the selected district and only its neighbourhoods
+    districtsToShow = districtFeatures.filter(
+      (f) => f.properties.district === selectedDistrict
+    );
+    neighbourhoodsToShow = neighbourhoodFeatures.filter(
+      (f) => f.properties.district === selectedDistrict
+    );
+  }
+
+  // --- Clear existing layers ---
+  if (districtLayerGroup) map.removeLayer(districtLayerGroup);
+  if (neighbourhoodLayerGroup) map.removeLayer(neighbourhoodLayerGroup);
+  if (districtLabelGroup) map.removeLayer(districtLabelGroup);
+  if (neighbourhoodLabelGroup) map.removeLayer(neighbourhoodLabelGroup);
+
+  districtLayerGroup = L.layerGroup();
+  neighbourhoodLayerGroup = L.layerGroup();
+  districtLabelGroup = L.layerGroup();
+  neighbourhoodLabelGroup = L.layerGroup();
+
+  // --- Build district polygons + labels ---
+  for (const feature of districtsToShow) {
+    const layer = L.geoJSON(feature, {
+      style: {
+        color: OUTLINE_COLOR,
+        weight: 2,
+        fill: false,
+      },
+    });
+    layer.addTo(districtLayerGroup);
+    addBoundaryLabel(layer, feature, districtLabelGroup, "district-label");
+  }
+
+  // --- Build neighbourhood polygons + labels ---
+  for (const feature of neighbourhoodsToShow) {
+    const layer = L.geoJSON(feature, {
+      style: {
+        color: OUTLINE_COLOR,
+        weight: 1,
+        fill: false,
+      },
+    });
+    layer.addTo(neighbourhoodLayerGroup);
+    addBoundaryLabel(layer, feature, neighbourhoodLabelGroup, "neighbourhood-label");
+  }
+
+  // --- Add to map (respecting layer control checkboxes if present) ---
+  districtLayerGroup.addTo(map);
+  neighbourhoodLayerGroup.addTo(map);
+  districtLabelGroup.addTo(map);
+  neighbourhoodLabelGroup.addTo(map);
+}
+
+/**
+ * Populates the neighbourhood <select> with all distinct neighbourhood
+ * names, sorted alphabetically.
+ * @return {void}
+ */
+function populateNeighbourhoodOptions() {
+  const select = document.getElementById("neighbourhoodSelect");
+  const names = [...new Set(
+    neighbourhoodFeatures.map((f) => f.properties.neighbourhood)
+  )].sort((a, b) => a.localeCompare(b));
+
+  select.innerHTML = '<option value="">All</option>';
+  for (const name of names) {
+    const opt = document.createElement("option");
+    opt.value = name;
+    opt.textContent = name;
+    select.appendChild(opt);
+  }
+}
+
 /**
  * Renders the details panel for a set of feature entries (typically all
  * entries sharing one map marker/coordinate). Clears any previous content.
@@ -548,6 +790,8 @@ async function loadData() {
       loadDistricts(signal),
     ]);
 
+    loadBoundaryLayers(signal);
+
     if (!geoRes.ok) throw new Error(`HTTP ${geoRes.status}`);
 
     const lastModifiedHeader = geoRes.headers.get("Last-Modified");
@@ -568,8 +812,8 @@ async function loadData() {
     updateStats(allFeatures.length, allFeatures.length);
     updateLastUpdated();
 
-    populateStadtkreisOptions();
-    populateStrasseOptions("");
+    populateDistrictOptions();
+    populateStreetOptions("");
 
     dataLoaded = true;
   } catch (err) {
@@ -589,11 +833,11 @@ async function loadData() {
 // ===========================================================
 
 /**
- * Populates the Stadtkreis (district) `<select>` with an "All" option plus
+ * Populates the District (district) `<select>` with an "All" option plus
  * one option per known district, sorted using German collation rules.
  * @return {void}
  */
-function populateStadtkreisOptions() {
+function populateDistrictOptions() {
   const keys = Object.keys(districtsData);
   const sorted = keys
     .filter((k) => k !== "")
@@ -613,7 +857,7 @@ function populateStadtkreisOptions() {
  * @param {string} stadtkreisVal Selected district name, or `''` for all.
  * @return {void}
  */
-function populateStrasseOptions(stadtkreisVal) {
+function populateStreetOptions(stadtkreisVal) {
   let strassen;
   if (stadtkreisVal === "") {
     const set = new Set();
@@ -782,6 +1026,7 @@ function matchesTitleSearch(title, query) {
  *   strasseVal: string,
  *   stadtkreisVal: string,
  *   titleVal: string,
+ *   neighbourhoodVal: string,
  * }} FilterCriteria
  */
 
@@ -798,6 +1043,7 @@ function buildFilterPredicate({
   strasseVal,
   stadtkreisVal,
   titleVal,
+  neighbourhoodVal,
 }) {
   const normalizedStrasseVal = (strasseVal || "").trim().toLowerCase();
 
@@ -818,9 +1064,13 @@ function buildFilterPredicate({
       props.district != null ? String(props.district).trim() : "";
     const stadtkreisOk = stadtkreisVal === "" || stadtkreis === stadtkreisVal;
 
+    const neighbourhood =
+      props.neighbourhood != null ? String(props.neighbourhood).trim() : "";
+    const neighbourhoodOk = neighbourhoodVal === "" || neighbourhood === neighbourhoodVal;
+
     const titleOk = matchesTitleSearch(props.title, titleVal);
 
-    return yearOk && strasseOk && stadtkreisOk && titleOk;
+    return yearOk && strasseOk && stadtkreisOk && neighbourhoodOk && titleOk;
   };
 }
 
@@ -855,6 +1105,7 @@ function applyFilters() {
     const toVal = yearToEl.value;
     const strasseVal = streetInputEl.value;
     const stadtkreisVal = districtSelectEl.value;
+    const neighbourhoodVal = neighbourhoodSelectEl.value;
     const titleVal = titleSearchEl.value.trim();
 
     const from = parseYearBound(fromVal, -Infinity);
@@ -866,6 +1117,7 @@ function applyFilters() {
       strasseVal,
       stadtkreisVal,
       titleVal,
+      neighbourhoodVal,
     });
 
     const filteredGroups = [];
@@ -901,9 +1153,10 @@ function initDomRefs() {
   titleSearchEl = getRequiredElement("titleSearch");
   yearFromEl = getRequiredElement("yearFrom");
   yearToEl = getRequiredElement("yearTo");
-  streetInputEl = getRequiredElement("strasseInput");
-  districtSelectEl = getRequiredElement("stadtkreisSelect");
-  streetOptionsEl = getRequiredElement("strasseOptions");
+  streetInputEl = getRequiredElement("streetInput");
+  districtSelectEl = getRequiredElement("districtSelect");
+  neighbourhoodSelectEl = getRequiredElement("neighbourhoodSelect");
+  streetOptionsEl = getRequiredElement("streetOptions");
   lastUpdatedEl = document.getElementById("lastUpdated");
 
   // Sidebar toggle is optional (e.g. desktop-only layouts might omit it),
@@ -924,11 +1177,20 @@ function attachEventListeners() {
   streetInputEl.addEventListener("change", applyFilters);
 
   districtSelectEl.addEventListener("change", (e) => {
-    const stadtkreisVal = e.target.value;
-    populateStrasseOptions(stadtkreisVal);
+    const districtVal = e.target.value;
+    populateStreetOptions(districtVal);
     streetInputEl.value = "";
+    updateNeighbourhoodOptions(districtVal);
+    renderBoundaryLayers();
     applyFilters();
   });
+
+  if (neighbourhoodSelectEl) {
+    neighbourhoodSelectEl.addEventListener("change", () => {
+      renderBoundaryLayers();
+      applyFilters(); // only if neighbourhood should also filter markers, otherwise omit
+    });
+  }
 
   if (sidebarToggleEl && sidebarEl) {
     sidebarToggleEl.addEventListener("click", () => {
@@ -945,6 +1207,40 @@ function attachEventListeners() {
   window.addEventListener("beforeunload", () => {
     if (loadAbortController) loadAbortController.abort();
   });
+}
+
+
+/**
+ * Repopulates the neighbourhood select with only the neighbourhoods
+ * belonging to the given district. If no district is selected, restores
+ * the full neighbourhood list.
+ * @param {string} selectedDistrict Currently selected district, or "" for all.
+ * @return {void}
+ */
+function updateNeighbourhoodOptions(selectedDistrict) {
+  const previousValue = neighbourhoodSelectEl.value; 
+
+  const neighbourhoods = selectedDistrict
+    ? districtToNeighbourhoods.get(selectedDistrict) || []
+    : [...districtToNeighbourhoods.values()].flat().sort((a, b) => a.localeCompare(b));
+
+  neighbourhoodSelectEl.innerHTML = ""; 
+
+  const allOption = document.createElement("option");
+  allOption.value = "";
+  allOption.textContent = "All";
+  neighbourhoodSelectEl.appendChild(allOption); 
+
+  for (const name of neighbourhoods) {
+    const option = document.createElement("option");
+    option.value = name;
+    option.textContent = name;
+    neighbourhoodSelectEl.appendChild(option); 
+  }
+
+  neighbourhoodSelectEl.value = neighbourhoods.includes(previousValue)
+    ? previousValue
+    : "";
 }
 
 // ===========================================================

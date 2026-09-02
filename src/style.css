@@ -661,7 +661,6 @@ body {
     padding-top: 48px;
     border-radius: 0;
     margin: 0;
-    /* removed: max-height: 100vh; */
   }
 
   #aboutModalClose {
@@ -690,4 +689,31 @@ body {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+/* ===========================================================
+   BOUNDARY POLYGON LABELS (districts / neighbourhoods)
+   =========================================================== */
+.district-label,
+.neighbourhood-label {
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 750;
+  text-shadow:
+      -1px -1px 0 var(--color-surface),
+      1px -1px 0 var(--color-surface),
+      -1px 1px 0 var(--color-surface),
+      1px 1px 0 var(--color-surface);
+}
+
+.district-label {
+  font-size: 0.75vw;
+  color: var(--color-text);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.neighbourhood-label {
+  font-size: 0.5vw;
+  color: var(--color-text);
 }
