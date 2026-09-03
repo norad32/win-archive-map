@@ -15,37 +15,6 @@ const OUTLINE_COLOR = "#d81400"; // matches --color-brand in style.css
 const MAP_INITIAL_CENTER = [47.5001, 8.724];
 const MAP_INITIAL_ZOOM = 13;
 
-/**
- * Toggle for verbose logging.
- */
-const DEBUG = false;
-
-/**
- * Debug-gated logger.
- * @param {...*} args Values to log, forwarded to `console.log`.
- * @return {void}
- */
-function debugLog(...args) {
-  if (DEBUG) console.log(...args);
-}
-
-/**
- * Debug-gated timer start. Pairs with {@link debugTimeEnd}.
- * @param {string} label Timer label.
- * @return {void}
- */
-function debugTime(label) {
-  if (DEBUG) console.time(label);
-}
-
-/**
- * Debug-gated timer end. Pairs with {@link debugTime}.
- * @param {string} label Timer label.
- * @return {void}
- */
-function debugTimeEnd(label) {
-  if (DEBUG) console.timeEnd(label);
-}
 
 // ===========================================================
 // TRUSTED TYPES POLICY
@@ -310,7 +279,6 @@ function getRepresentativeCoord(geometry) {
   if (geometry.type === "Point") {
     return geometry.coordinates;
   }
-  debugLog(`Unsupported geometry type skipped: ${geometry.type}`);
   return null;
 }
 
@@ -759,7 +727,6 @@ async function loadDistricts(signal) {
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const data = await res.json();
   districtsData = data || {};
-  debugLog("Districts loaded:", Object.keys(districtsData).length, "districts");
 }
 
 // ===========================================================
@@ -774,15 +741,12 @@ async function loadDistricts(signal) {
  */
 async function loadData() {
   if (dataLoaded || loadInProgress) {
-    debugLog("Data already loaded or load in progress");
     return;
   }
 
   loadInProgress = true;
   loadAbortController = new AbortController();
   const { signal } = loadAbortController;
-
-  debugLog("Starting data load...");
 
   try {
     const [geoRes] = await Promise.all([
@@ -801,12 +765,9 @@ async function loadData() {
 
     const data = await geoRes.json();
 
-    debugLog("Data loaded successfully:", data.features.length, "features");
     allFeatures = data.features || [];
 
-    debugTime("groupFeatures");
     precomputedGroups = groupFeatures(allFeatures);
-    debugTimeEnd("groupFeatures");
 
     renderGroups(precomputedGroups, { fitBounds: true });
     updateStats(allFeatures.length, allFeatures.length);
@@ -818,7 +779,6 @@ async function loadData() {
     dataLoaded = true;
   } catch (err) {
     if (err.name === "AbortError") {
-      debugLog("Data load aborted");
       return;
     }
     statsEl.textContent = `Error loading data: ${err.message}`;
@@ -1247,7 +1207,6 @@ function updateNeighbourhoodOptions(selectedDistrict) {
 // BOOTSTRAP
 // ===========================================================
 document.addEventListener("DOMContentLoaded", () => {
-  debugLog("DOM Content Loaded - initializing app");
 
   initDomRefs();
   map = initMap();
