@@ -1,21 +1,25 @@
 import { Config } from "./../config.js";
-import { buildBoundaryLabelText } from "./boundary-label-text.js";
 import { el } from "../dom/dom-builder.js";
 
+const DISTRICT_STYLE = { color: Config.OUTLINE_COLOR, weight: 2, fill: false };
+const NEIGHBOURHOOD_STYLE = {
+  color: Config.OUTLINE_COLOR,
+  weight: 1,
+  fill: false,
+};
+
+let districtFeatures = [];
+let neighbourhoodFeatures = [];
+
 export function createBoundaryLayers(map) {
-  let districtFeatures = [];
-  let neighbourhoodFeatures = [];
   let districtToNeighbourhoods = new Map();
 
-  let districtLayerGroup = null;
-  let neighbourhoodLayerGroup = null;
-  let districtLabelGroup = null;
-  let neighbourhoodLabelGroup = null;
+  /** @type {?{district: L.LayerGroup, neighbourhood: L.LayerGroup, districtLabels: L.LayerGroup, neighbourhoodLabels: L.LayerGroup}} */
+  let layers = null;
 
   function setData(data) {
-    districtFeatures = data.districtFeatures;
-    neighbourhoodFeatures = data.neighbourhoodFeatures;
-    districtToNeighbourhoods = data.districtToNeighbourhoods;
+    ({ districtFeatures, neighbourhoodFeatures, districtToNeighbourhoods } =
+      data);
   }
 
   function getDistrictToNeighbourhoods() {
@@ -28,121 +32,116 @@ export function createBoundaryLayers(map) {
       selectedNeighbourhood,
     );
 
-    clearLayerGroups();
-    createLayerGroups();
+    clearLayers();
+    layers = createLayers();
 
     for (const feature of districtsToShow) {
       addBoundaryFeature(
         feature,
-        districtLayerGroup,
-        districtLabelGroup,
+        layers.district,
+        layers.districtLabels,
         "district-label",
-        {
-          color: Config.OUTLINE_COLOR,
-          weight: 2,
-          fill: false,
-        },
+        DISTRICT_STYLE,
       );
     }
 
     for (const feature of neighbourhoodsToShow) {
       addBoundaryFeature(
         feature,
-        neighbourhoodLayerGroup,
-        neighbourhoodLabelGroup,
+        layers.neighbourhood,
+        layers.neighbourhoodLabels,
         "neighbourhood-label",
-        {
-          color: Config.OUTLINE_COLOR,
-          weight: 1,
-          fill: false,
-        },
+        NEIGHBOURHOOD_STYLE,
       );
     }
 
-    districtLayerGroup.addTo(map);
-    neighbourhoodLayerGroup.addTo(map);
-    districtLabelGroup.addTo(map);
-    neighbourhoodLabelGroup.addTo(map);
+    Object.values(layers).forEach((group) => group.addTo(map));
   }
 
-  function selectVisibleFeatures(selectedDistrict, selectedNeighbourhood) {
-    if (selectedNeighbourhood) {
-      const neighbourhoodsToShow = neighbourhoodFeatures.filter(
-        (f) => f.properties.neighbourhood === selectedNeighbourhood,
-      );
-      const parentDistrict = neighbourhoodsToShow[0]?.properties.district;
-      const districtsToShow = parentDistrict
-        ? districtFeatures.filter(
-            (f) => f.properties.district === parentDistrict,
-          )
-        : [];
-
-      return { districtsToShow, neighbourhoodsToShow };
-    }
-
-    if (selectedDistrict) {
-      return {
-        districtsToShow: districtFeatures.filter(
-          (f) => f.properties.district === selectedDistrict,
-        ),
-        neighbourhoodsToShow: neighbourhoodFeatures.filter(
-          (f) => f.properties.district === selectedDistrict,
-        ),
-      };
-    }
-
-    return {
-      districtsToShow: districtFeatures,
-      neighbourhoodsToShow: neighbourhoodFeatures,
-    };
-  }
-
-  function clearLayerGroups() {
-    if (districtLayerGroup) map.removeLayer(districtLayerGroup);
-    if (neighbourhoodLayerGroup) map.removeLayer(neighbourhoodLayerGroup);
-    if (districtLabelGroup) map.removeLayer(districtLabelGroup);
-    if (neighbourhoodLabelGroup) map.removeLayer(neighbourhoodLabelGroup);
-  }
-
-  function createLayerGroups() {
-    districtLayerGroup = L.layerGroup();
-    neighbourhoodLayerGroup = L.layerGroup();
-    districtLabelGroup = L.layerGroup();
-    neighbourhoodLabelGroup = L.layerGroup();
-  }
-
-  function addBoundaryFeature(
-    feature,
-    layerGroup,
-    labelGroup,
-    labelClassName,
-    style,
-  ) {
-    const layer = L.geoJSON(feature, { style });
-    layer.addTo(layerGroup);
-    addBoundaryLabel(layer, feature, labelGroup, labelClassName);
-  }
-
-  function addBoundaryLabel(layer, feature, labelGroup, labelClassName) {
-    const text = buildBoundaryLabelText(feature.properties ?? {});
-    if (!text) return;
-
-    const center = layer.getBounds().getCenter();
-    const lines = text.split("\n").map((line) => el("div", {}, line));
-
-    const labelMarker = L.marker(center, {
-      icon: L.divIcon({
-        className: labelClassName,
-        html: el("div", {}, lines),
-        iconSize: null,
-      }),
-      interactive: false,
-      keyboard: false,
-      pane: "boundaryLabelPane",
-    });
-
-    labelGroup.addLayer(labelMarker);
+  function clearLayers() {
+    if (!layers) return;
+    Object.values(layers).forEach((group) => map.removeLayer(group));
   }
 
   return { setData, getDistrictToNeighbourhoods, render };
+}
+
+function selectVisibleFeatures(selectedDistrict, selectedNeighbourhood) {
+  if (selectedNeighbourhood) {
+    const neighbourhoodsToShow = neighbourhoodFeatures.filter(
+      (f) => f.properties.neighbourhood === selectedNeighbourhood,
+    );
+    const parentDistrict = neighbourhoodsToShow[0]?.properties.district;
+    const districtsToShow = parentDistrict
+      ? districtFeatures.filter((f) => f.properties.district === parentDistrict)
+      : [];
+
+    return { districtsToShow, neighbourhoodsToShow };
+  }
+
+  if (selectedDistrict) {
+    return {
+      districtsToShow: districtFeatures.filter(
+        (f) => f.properties.district === selectedDistrict,
+      ),
+      neighbourhoodsToShow: neighbourhoodFeatures.filter(
+        (f) => f.properties.district === selectedDistrict,
+      ),
+    };
+  }
+
+  return {
+    districtsToShow: districtFeatures,
+    neighbourhoodsToShow: neighbourhoodFeatures,
+  };
+}
+
+function createLayers() {
+  return {
+    district: L.layerGroup(),
+    neighbourhood: L.layerGroup(),
+    districtLabels: L.layerGroup(),
+    neighbourhoodLabels: L.layerGroup(),
+  };
+}
+
+function addBoundaryFeature(
+  feature,
+  layerGroup,
+  labelGroup,
+  labelClassName,
+  style,
+) {
+  const layer = L.geoJSON(feature, { style });
+  layer.addTo(layerGroup);
+  addBoundaryLabel(layer, feature, labelGroup, labelClassName);
+}
+
+function addBoundaryLabel(layer, feature, labelGroup, labelClassName) {
+  const text = buildBoundaryLabelText(feature.properties ?? {});
+  if (!text) return;
+
+  const center = layer.getBounds().getCenter();
+  const lines = text.split("\n").map((line) => el("div", {}, line));
+
+  const labelMarker = L.marker(center, {
+    icon: L.divIcon({
+      className: labelClassName,
+      html: el("div", {}, lines),
+      iconSize: null,
+    }),
+    interactive: false,
+    keyboard: false,
+    pane: "boundaryLabelPane",
+  });
+
+  labelGroup.addLayer(labelMarker);
+}
+
+function buildBoundaryLabelText(props) {
+  if (props.neighbourhood == null) return String(props.district ?? "");
+
+  const lines = [String(props.neighbourhood)];
+  if (props.number != null) lines.push(String(props.number));
+  return lines.join("\n");
 }

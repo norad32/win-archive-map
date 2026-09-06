@@ -7,7 +7,6 @@ export function createMap(elId, onMarkerClick) {
 
   /** @type {?L.MarkerClusterGroup} */
   let geoLayer = null;
-
   let hasFitInitialBounds = false;
 
   function ensureGeoLayer() {
@@ -24,26 +23,23 @@ export function createMap(elId, onMarkerClick) {
       chunkInterval: 200,
     });
     map.addLayer(geoLayer);
-
     return geoLayer;
   }
 
-  function fitToLayerBounds() {
+  function fitToLayerBounds(layer) {
     const isInitialLoad = !hasFitInitialBounds;
-    try {
-      map.fitBounds(geoLayer.getBounds(), {
-        maxZoom: isInitialLoad ? 16 : 17,
-        animate: !isInitialLoad,
-      });
-      hasFitInitialBounds = true;
-    } catch (e) {
-      console.error("Bounds error:", e);
-    }
+    const bounds = layer.getBounds();
+
+    if (!bounds.isValid()) return;
+
+    map.fitBounds(bounds, {
+      maxZoom: isInitialLoad ? 16 : 17,
+      animate: !isInitialLoad,
+    });
+    hasFitInitialBounds = true;
   }
 
-  function renderGroups(groups, options = {}) {
-    const { fitBounds = false } = options;
-
+  function renderGroups(groups, { fitBounds = false } = {}) {
     const markers = buildMarkersForGroups(groups, onMarkerClick);
     const layer = ensureGeoLayer();
 
@@ -51,18 +47,14 @@ export function createMap(elId, onMarkerClick) {
     layer.addLayers(markers);
 
     if (fitBounds && markers.length > 0) {
-      fitToLayerBounds();
+      fitToLayerBounds(layer);
     }
-  }
-
-  function invalidateSize() {
-    map.invalidateSize();
   }
 
   return {
     map,
     renderGroups,
-    invalidateSize,
+    invalidateSize: () => map.invalidateSize(),
     boundaryLayers: createBoundaryLayers(map),
   };
 }
