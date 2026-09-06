@@ -24,17 +24,15 @@ await esbuild.build({
   loader: { ".css": "css" },
 });
 
-const jsFiles = ["map-viewer.js", "modal.js"];
-
 await esbuild.build({
-  entryPoints: jsFiles.map((f) => path.join(srcDir, f)),
-  outdir: distDir,
+  entryPoints: [path.join(srcDir, "js/main.js")],
+  outfile: path.join(distDir, "js/main.js"),
+  bundle: true,
   minify: true,
   format: "esm",
   target: "es2020",
 });
 
-// Recursive copy helper for vendor/data assets
 function copyRecursive(src, dest) {
   if (!fs.existsSync(dest)) {
     fs.mkdirSync(dest, { recursive: true });
