@@ -1,6 +1,6 @@
-import { Config } from "./config.js";
+import { Config } from "./../config.js";
 import { makeClusterIcon, buildMarkersForGroups } from "./markers.js";
-import { createBoundaryLayers } from "./boundaryLayers.js";
+import { createBoundaryLayers } from "./boundary-layers.js";
 
 export function createMap(elId, onMarkerClick) {
   const map = createLeafletMap(elId);

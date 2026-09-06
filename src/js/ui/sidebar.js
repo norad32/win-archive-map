@@ -1,8 +1,8 @@
 import { createFilters } from "./filter.js";
-import { populateDistrictOptions, populateStreetOptions } from "./districts.js";
+import { populateDistrictOptions, populateStreetOptions } from "../data/districts.js";
 import { updateStats, updateLastUpdated } from "./status.js";
-import { updateNeighbourhoodOptions } from "./neighbourhoodSelect.js";
-import { showDetails } from "./detailsPanel.js";
+import { updateNeighbourhoodOptions } from "./neighbourhood-select.js";
+import { showDetails } from "./details-panel.js";
 
 export function createSidebar({ domRefs, dataStore, map }) {
     const filters = createFilters({

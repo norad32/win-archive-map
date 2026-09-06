@@ -1,6 +1,6 @@
-import { Config } from "./config.js";
-import { buildBoundaryLabelText } from "./boundaryLabelText.js";
-import { el } from "./dom-builder.js";
+import { Config } from "./../config.js";
+import { buildBoundaryLabelText } from "./boundary-label-text.js";
+import { el } from "../dom/dom-builder.js";
 
 export function createBoundaryLayers(map) {
     let districtFeatures = [];

@@ -1,4 +1,4 @@
-import { buildCustomLink, buildReportIssueUrl } from "./linkBuilder.js";
+import { buildCustomLink, buildReportIssueUrl } from "./link-builder.js";
 
 export function showDetails(detailsEl, entries) {
     detailsEl.innerHTML = "";

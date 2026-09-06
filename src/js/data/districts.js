@@ -1,5 +1,5 @@
-import { Config } from "./config.js";
-import { populateSelect, setChildren } from "./dom-builder.js";
+import { Config } from "./../config.js";
+import { populateSelect, setChildren } from "../dom/dom-builder.js";
 
 export async function loadDistricts(signal) {
     const res = await fetch(Config.DISTRICTS_URL, { signal });

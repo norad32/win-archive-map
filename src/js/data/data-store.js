@@ -1,6 +1,6 @@
-import { Config } from "./config.js";
+import { Config } from "./../config.js";
 import { loadDistricts } from "./districts.js";
-import { loadBoundaryData } from "./boundaryData.js";
+import { loadBoundaryData } from "../map/boundary-data.js";
 import { groupFeatures } from "./grouping.js";
 
 function createEmitter() {

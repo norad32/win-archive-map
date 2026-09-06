@@ -1,4 +1,4 @@
-import { Config } from "./config.js";
+import { Config } from "./../config.js";
 
 export function buildCustomLink(props) {
     const year = extractFirstYear(props.year);

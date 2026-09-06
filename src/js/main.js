@@ -1,8 +1,8 @@
 import { Config } from "./config.js";
-import { initDomRefs } from "./domRefs.js";
-import { createDataStore } from "./data.js";
-import { createSidebar, showSidebar, updateNeighbourhoodOpts } from "./sidebar.js";
-import { createMap } from "./map.js";
+import { initDomRefs } from "./dom/dom-refs.js";
+import { createDataStore } from "./data/data-store.js";
+import { createSidebar, showSidebar, updateNeighbourhoodOpts } from "./ui/sidebar.js";
+import { createMap } from "./map/map.js";
 
 let map = null;
 let domRefs = null;

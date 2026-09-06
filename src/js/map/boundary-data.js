@@ -1,4 +1,4 @@
-import { Config } from "./config.js";
+import { Config } from "./../config.js";
 
 export async function fetchBoundaryFeatures(url, signal) {
     try {
