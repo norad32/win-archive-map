@@ -62,6 +62,8 @@ export function createMap(elId, onMarkerClick) {
 function createLeafletMap(elId) {
   const map = L.map(elId, {
     minZoom: Config.MAP_INITIAL_ZOOM,
+    maxBounds: Config.MAP_MAX_BOUNDS,
+    maxBoundsViscosity: 1.0,
   }).setView(Config.MAP_INITIAL_CENTER, Config.MAP_INITIAL_ZOOM);
 
   L.tileLayer(

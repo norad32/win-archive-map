@@ -16,4 +16,8 @@ export const Config = Object.freeze({
 
   MAP_INITIAL_CENTER: [47.5001, 8.724],
   MAP_INITIAL_ZOOM: 13,
+  MAP_MAX_BOUNDS: [
+    [47.42, 8.64], // south-west
+    [47.59, 8.89], // north-east
+  ],
 });
