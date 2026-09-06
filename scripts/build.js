@@ -33,7 +33,7 @@ await esbuild.build({
   target: "es2020",
 });
 
-function copyRecursive(src, dest) {
+function copyRecursive(src, dest, { minifyJson = false } = {}) {
   if (!fs.existsSync(dest)) {
     fs.mkdirSync(dest, { recursive: true });
   }
@@ -45,12 +45,34 @@ function copyRecursive(src, dest) {
     const destPath = path.join(dest, file);
 
     if (fs.statSync(srcPath).isDirectory()) {
-      copyRecursive(srcPath, destPath);
+      copyRecursive(srcPath, destPath, { minifyJson });
+    } else if (minifyJson && /\.(json|geojson)$/i.test(file)) {
+      minifyJsonFile(srcPath, destPath);
     } else {
       fs.copyFileSync(srcPath, destPath);
     }
   });
 }
 
+function minifyJsonFile(srcPath, destPath) {
+  try {
+    const raw = fs.readFileSync(srcPath, "utf8");
+    const parsed = JSON.parse(raw);
+    fs.writeFileSync(destPath, JSON.stringify(parsed));
+
+    const before = Buffer.byteLength(raw, "utf8");
+    const after = fs.statSync(destPath).size;
+    const saved = (((before - after) / before) * 100).toFixed(1);
+    console.log(
+      `  minified ${path.basename(srcPath)}: ${before}B -> ${after}B (-${saved}%)`,
+    );
+  } catch (err) {
+    console.error(`Failed to minify ${srcPath}, copying as-is:`, err.message);
+    fs.copyFileSync(srcPath, destPath);
+  }
+}
+
 copyRecursive(path.join(srcDir, "vendor"), path.join(distDir, "vendor"));
-copyRecursive(path.join(srcDir, "data"), path.join(distDir, "data"));
+copyRecursive(path.join(srcDir, "data"), path.join(distDir, "data"), {
+  minifyJson: true,
+});
