@@ -8,6 +8,8 @@ const NEIGHBOURHOOD_STYLE = {
   fill: false,
 };
 
+const NEIGHBOURHOOD_LABEL_MIN_ZOOM = 14; // tune to taste
+
 let districtFeatures = [];
 let neighbourhoodFeatures = [];
 
@@ -16,6 +18,8 @@ export function createBoundaryLayers(map) {
 
   /** @type {?{district: L.LayerGroup, neighbourhood: L.LayerGroup, districtLabels: L.LayerGroup, neighbourhoodLabels: L.LayerGroup}} */
   let layers = null;
+
+  let forceShowNeighbourhoodLabels = false;
 
   function setData(data) {
     ({ districtFeatures, neighbourhoodFeatures, districtToNeighbourhoods } =
@@ -55,13 +59,38 @@ export function createBoundaryLayers(map) {
       );
     }
 
-    Object.values(layers).forEach((group) => group.addTo(map));
+    layers.district.addTo(map);
+    layers.neighbourhood.addTo(map);
+    layers.districtLabels.addTo(map);
+
+    forceShowNeighbourhoodLabels = Boolean(selectedNeighbourhood);
+    updateNeighbourhoodLabelVisibility();
   }
 
   function clearLayers() {
     if (!layers) return;
     Object.values(layers).forEach((group) => map.removeLayer(group));
   }
+
+  function updateNeighbourhoodLabelVisibility() {
+    if (!layers) return;
+
+    const zoom = map.getZoom();
+    const shouldShow =
+      forceShowNeighbourhoodLabels || zoom >= NEIGHBOURHOOD_LABEL_MIN_ZOOM;
+
+    if (shouldShow) {
+      if (!map.hasLayer(layers.neighbourhoodLabels)) {
+        layers.neighbourhoodLabels.addTo(map);
+      }
+    } else {
+      if (map.hasLayer(layers.neighbourhoodLabels)) {
+        map.removeLayer(layers.neighbourhoodLabels);
+      }
+    }
+  }
+
+  map.on("zoomend", updateNeighbourhoodLabelVisibility);
 
   return { setData, getDistrictToNeighbourhoods, render };
 }
@@ -122,7 +151,6 @@ function addBoundaryLabel(feature, labelGroup, labelClassName) {
   if (!text) return;
 
   const center = feature.properties?.center;
-
   const [lon, lat] = center;
   const lines = text.split("\n").map((line) => el("div", {}, line));
 

@@ -717,3 +717,8 @@ body {
   font-size: 0.5vw;
   color: var(--color-text);
 }
+
+.district-label > div,
+.neighbourhood-label > div {
+  transform: translate(-50%, -50%);
+}
