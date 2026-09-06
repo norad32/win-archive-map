@@ -1,11 +1,9 @@
 import { Config } from "./config.js";
 import { initDomRefs } from "./dom/dom-refs.js";
 import { createDataStore } from "./data/data-store.js";
-import {
-  createSidebar,
-  showSidebar,
-  updateNeighbourhoodOpts,
-} from "./ui/sidebar.js";
+import { createSidebar } from "./ui/sidebar.js";
+import { updateNeighbourhoodOptions } from "./ui/neighbourhood-select.js";
+import { showDetails } from "./ui/details-panel.js";
 import { createMap } from "./map/map.js";
 import { initAboutModal } from "./ui/about-modal.js";
 
@@ -13,7 +11,7 @@ let map = null;
 let domRefs = null;
 
 function handleMarkerClick(group) {
-  showSidebar(domRefs.detailsEl, group.entries);
+  showDetails(domRefs.detailsEl, group.entries);
   const isMobile = window.matchMedia(
     `(max-width: ${Config.MOBILE_BREAKPOINT}px)`,
   ).matches;
@@ -51,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   dataStore.on("boundary-loaded", (boundaryData) => {
     map.boundaryLayers.setData(boundaryData);
-    updateNeighbourhoodOpts(
+    updateNeighbourhoodOptions(
       domRefs.neighbourhoodSelectEl,
       boundaryData.districtToNeighbourhoods,
       domRefs.districtSelectEl.value,
@@ -62,16 +60,11 @@ document.addEventListener("DOMContentLoaded", () => {
     );
   });
 
-  const sidebar = createSidebar({ domRefs, dataStore, map });
-
-  dataStore.on("districts-loaded", sidebar.handleDistrictsLoaded);
-
   dataStore.on("geo-loaded", (payload) => {
     map.renderGroups(payload.precomputedGroups, { fitBounds: true });
-    sidebar.handleGeoLoaded(payload);
   });
 
-  dataStore.on("error", sidebar.handleError);
+  const sidebar = createSidebar({ domRefs, dataStore, map });
 
   sidebar.attachListeners();
   attachGlobalListeners({ sidebar, dataStore });

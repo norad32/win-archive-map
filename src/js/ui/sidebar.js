@@ -5,7 +5,6 @@ import {
 } from "../data/districts.js";
 import { updateStats, updateLastUpdated } from "./status.js";
 import { updateNeighbourhoodOptions } from "./neighbourhood-select.js";
-import { showDetails } from "./details-panel.js";
 
 export function createSidebar({ domRefs, dataStore, map }) {
   const filters = createFilters({
@@ -32,6 +31,7 @@ export function createSidebar({ domRefs, dataStore, map }) {
 
   function handleDistrictChange(e) {
     const districtVal = e.target.value;
+
     populateStreetOptions(
       domRefs.streetOptionsEl,
       dataStore.getDistrictsData(),
@@ -59,42 +59,47 @@ export function createSidebar({ domRefs, dataStore, map }) {
     filters.applyFilters();
   }
 
+  const unsubscribers = [];
+
   function attachListeners() {
     domRefs.titleSearchEl.addEventListener("input", filters.applyFilters);
     domRefs.yearFromEl.addEventListener("input", filters.applyFilters);
     domRefs.yearToEl.addEventListener("input", filters.applyFilters);
     domRefs.streetInputEl.addEventListener("change", filters.applyFilters);
     domRefs.districtSelectEl.addEventListener("change", handleDistrictChange);
+    domRefs.neighbourhoodSelectEl?.addEventListener(
+      "change",
+      handleNeighbourhoodChange,
+    );
 
-    if (domRefs.neighbourhoodSelectEl) {
-      domRefs.neighbourhoodSelectEl.addEventListener(
-        "change",
-        handleNeighbourhoodChange,
-      );
-    }
+    unsubscribers.push(
+      dataStore.on("districts-loaded", handleDistrictsLoaded),
+      dataStore.on("geo-loaded", handleGeoLoaded),
+      dataStore.on("error", handleError),
+    );
+  }
+
+  function detachListeners() {
+    domRefs.titleSearchEl.removeEventListener("input", filters.applyFilters);
+    domRefs.yearFromEl.removeEventListener("input", filters.applyFilters);
+    domRefs.yearToEl.removeEventListener("input", filters.applyFilters);
+    domRefs.streetInputEl.removeEventListener("change", filters.applyFilters);
+    domRefs.districtSelectEl.removeEventListener(
+      "change",
+      handleDistrictChange,
+    );
+    domRefs.neighbourhoodSelectEl?.removeEventListener(
+      "change",
+      handleNeighbourhoodChange,
+    );
+
+    unsubscribers.forEach((unsub) => unsub());
+    unsubscribers.length = 0;
   }
 
   return {
     filters,
     attachListeners,
-    handleDistrictsLoaded,
-    handleGeoLoaded,
-    handleError,
+    detachListeners,
   };
-}
-
-export function showSidebar(detailsEl, entries) {
-  showDetails(detailsEl, entries);
-}
-
-export function updateNeighbourhoodOpts(
-  selectElement,
-  districtToNeighbourhoods,
-  selectedDistrict,
-) {
-  updateNeighbourhoodOptions(
-    selectElement,
-    districtToNeighbourhoods,
-    selectedDistrict,
-  );
 }

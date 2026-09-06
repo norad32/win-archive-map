@@ -1,74 +1,8 @@
-let modalPreviousFocus = null;
-
-let aboutBtnEl = null;
-let aboutModalOverlayEl = null;
-let aboutModalEl = null;
-let aboutModalCloseEl = null;
-
-function getModalFocusableElements() {
-  return Array.from(
-    aboutModalEl.querySelectorAll(
-      'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])',
-    ),
-  );
-}
-
-function handleModalTabKey(e) {
-  if (e.key !== "Tab") return;
-
-  const focusable = getModalFocusableElements();
-  if (focusable.length === 0) return;
-
-  const first = focusable[0];
-  const last = focusable[focusable.length - 1];
-  const current = document.activeElement;
-
-  if (e.shiftKey && current === first) {
-    e.preventDefault();
-    last.focus();
-  } else if (!e.shiftKey && current === last) {
-    e.preventDefault();
-    first.focus();
-  }
-}
-
-function handleModalEscapeKey(e) {
-  if (e.key === "Escape" && !aboutModalOverlayEl.hidden) {
-    closeAboutModal();
-  }
-}
-
-function handleModalBackdropClick(e) {
-  if (e.target === aboutModalOverlayEl) {
-    closeAboutModal();
-  }
-}
-
-function openAboutModal() {
-  modalPreviousFocus = document.activeElement;
-  aboutModalOverlayEl.hidden = false;
-  aboutModalCloseEl.focus();
-
-  document.addEventListener("keydown", handleModalTabKey);
-  document.addEventListener("keydown", handleModalEscapeKey);
-}
-
-function closeAboutModal() {
-  aboutModalOverlayEl.hidden = true;
-
-  document.removeEventListener("keydown", handleModalTabKey);
-  document.removeEventListener("keydown", handleModalEscapeKey);
-
-  if (modalPreviousFocus) {
-    modalPreviousFocus.focus();
-  }
-}
-
 export function initAboutModal() {
-  aboutBtnEl = document.getElementById("aboutBtn");
-  aboutModalOverlayEl = document.getElementById("aboutModalOverlay");
-  aboutModalEl = document.getElementById("aboutModal");
-  aboutModalCloseEl = document.getElementById("aboutModalClose");
+  const aboutBtnEl = document.getElementById("aboutBtn");
+  const aboutModalOverlayEl = document.getElementById("aboutModalOverlay");
+  const aboutModalEl = document.getElementById("aboutModal");
+  const aboutModalCloseEl = document.getElementById("aboutModalClose");
 
   if (
     !aboutBtnEl ||
@@ -77,10 +11,78 @@ export function initAboutModal() {
     !aboutModalCloseEl
   ) {
     console.warn("Modal DOM elements not found; modal will be unavailable");
-    return;
+    return null;
   }
 
-  aboutBtnEl.addEventListener("click", openAboutModal);
-  aboutModalCloseEl.addEventListener("click", closeAboutModal);
-  aboutModalOverlayEl.addEventListener("click", handleModalBackdropClick);
+  let previousFocus = null;
+
+  function handleTabKey(e) {
+    if (e.key !== "Tab") return;
+
+    const focusable = getModalFocusableElements(aboutModalEl);
+    if (focusable.length === 0) return;
+
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    const current = document.activeElement;
+
+    if (e.shiftKey && current === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && current === last) {
+      e.preventDefault();
+      first.focus();
+    }
+  }
+
+  function handleEscapeKey(e) {
+    if (e.key === "Escape" && !aboutModalOverlayEl.hidden) {
+      close();
+    }
+  }
+
+  function handleBackdropClick(e) {
+    if (e.target === aboutModalOverlayEl) {
+      close();
+    }
+  }
+
+  function open() {
+    previousFocus = document.activeElement;
+    aboutModalOverlayEl.hidden = false;
+    aboutModalCloseEl.focus();
+
+    document.addEventListener("keydown", handleTabKey);
+    document.addEventListener("keydown", handleEscapeKey);
+  }
+
+  function close() {
+    aboutModalOverlayEl.hidden = true;
+
+    document.removeEventListener("keydown", handleTabKey);
+    document.removeEventListener("keydown", handleEscapeKey);
+
+    previousFocus?.focus();
+  }
+
+  function destroy() {
+    close();
+    aboutBtnEl.removeEventListener("click", open);
+    aboutModalCloseEl.removeEventListener("click", close);
+    aboutModalOverlayEl.removeEventListener("click", handleBackdropClick);
+  }
+
+  aboutBtnEl.addEventListener("click", open);
+  aboutModalCloseEl.addEventListener("click", close);
+  aboutModalOverlayEl.addEventListener("click", handleBackdropClick);
+
+  return { open, close, destroy };
+}
+
+function getModalFocusableElements(modalEl) {
+  return Array.from(
+    modalEl.querySelectorAll(
+      'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])',
+    ),
+  );
 }
