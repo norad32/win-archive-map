@@ -1,9 +1,8 @@
-/* ===========================================================
-   DESIGN TOKENS
-   =========================================================== */
 :root {
   --color-brand: #ff1900;
   --color-brand-hover: color-mix(in srgb, var(--color-brand) 82%, black);
+  --color-link: var(--color-brand);
+  --color-link-hover: var(--color-brand-hover);
   --color-surface: #ececea;
   --color-border: #ddd;
   --color-text: #1a1a1a;
@@ -12,13 +11,14 @@
   --color-text-label: #444;
   --color-text-heading-muted: #555;
   --focus-ring: 2px solid var(--color-brand);
-
   --font-sans:
     system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --color-link: #58a6ff;
+    --color-link-hover: #79c0ff;
     --color-surface: #1e1e1e;
     --color-border: #3a3a3a;
     --color-text: #eee;
@@ -34,9 +34,6 @@
   }
 }
 
-/* ===========================================================
-   BASE
-   =========================================================== */
 html,
 body {
   height: 100%;
@@ -57,9 +54,6 @@ body {
   min-width: 0;
 }
 
-/* ===========================================================
-   SIDEBAR
-   =========================================================== */
 #sidebar {
   width: clamp(280px, 25vw, 360px);
   background: var(--color-surface);
@@ -108,15 +102,12 @@ body {
 
 #lastUpdated {
   font-size: 13px;
-  font-family: var(--font-sans), cursive;
+  font-family: var(--font-sans);
   font-style: italic;
   color: var(--color-text-subtle);
   margin-bottom: 6px;
 }
 
-/* ===========================================================
-   DETAILS PANEL
-   =========================================================== */
 #details {
   border-top: 1px solid var(--color-border);
   background: var(--color-surface);
@@ -166,9 +157,6 @@ body {
   font-size: 13px;
 }
 
-/* ===========================================================
-   ABOUT BUTTON
-   =========================================================== */
 #aboutBtn {
   position: fixed;
   bottom: 10px;
@@ -191,9 +179,6 @@ body {
   background: var(--color-brand-hover);
 }
 
-/* ===========================================================
-   MODAL STYLES
-   =========================================================== */
 #aboutModalOverlay {
   display: none;
   position: fixed;
@@ -284,9 +269,6 @@ body {
   outline-offset: 2px;
 }
 
-/* ===========================================================
-   MODAL CONTENT SECTIONS
-   =========================================================== */
 #aboutTitle {
   margin-top: 0;
   margin-bottom: 20px;
@@ -341,24 +323,14 @@ body {
 }
 
 .modal-section a {
-  color: var(--color-brand);
+  color: var(--color-link);
   text-decoration: none;
   font-weight: 500;
   transition: all 0.2s;
 }
 
-@media (prefers-color-scheme: dark) {
-  .modal-section a {
-    color: #58a6ff;
-  }
-
-  .modal-section a:hover {
-    color: #79c0ff;
-  }
-}
-
 .modal-section a:hover {
-  color: var(--color-brand-hover);
+  color: var(--color-link-hover);
   text-decoration: underline;
 }
 
@@ -367,9 +339,6 @@ body {
   outline-offset: 2px;
 }
 
-/* ===========================================================
-   CREDITS LIST
-   =========================================================== */
 .credits-list {
   display: flex;
   flex-direction: column;
@@ -399,23 +368,13 @@ body {
 }
 
 .credit-item strong a {
-  color: var(--color-brand);
+  color: var(--color-link);
   text-decoration: none;
   transition: all 0.2s;
 }
 
-@media (prefers-color-scheme: dark) {
-  .credit-item strong a {
-    color: #58a6ff;
-  }
-
-  .credit-item strong a:hover {
-    color: #79c0ff;
-  }
-}
-
 .credit-item strong a:hover {
-  color: var(--color-brand-hover);
+  color: var(--color-link-hover);
   text-decoration: underline;
 }
 
@@ -431,9 +390,6 @@ body {
   color: var(--color-text-muted);
 }
 
-/* ===========================================================
-   TECH LIST
-   =========================================================== */
 .tech-list {
   margin: 12px 0 0 20px;
   padding: 0;
@@ -456,9 +412,6 @@ body {
   font-weight: 600;
 }
 
-/* ===========================================================
-   MISC UI ELEMENTS
-   =========================================================== */
 .count-circle {
   background: var(--color-brand);
   color: #fff;
@@ -516,9 +469,6 @@ body {
   color: var(--color-brand, #d81400);
 }
 
-/* ===========================================================
-   MOBILE SIDEBAR TOGGLE BUTTON (hidden on desktop)
-   =========================================================== */
 #sidebarToggle {
   display: none;
   position: fixed;
@@ -542,9 +492,6 @@ body {
   background: var(--color-brand-hover);
 }
 
-/* ===========================================================
-   RESPONSIVE BREAKPOINT
-   =========================================================== */
 @media (max-width: 768px) {
   #app {
     flex-direction: column;
@@ -580,7 +527,6 @@ body {
     min-width: 70px;
   }
 
-  /* Prevent iOS auto-zoom on focus + bigger touch targets */
   input[type="number"],
   input[type="text"],
   select,
@@ -610,7 +556,6 @@ body {
     font-size: 14px;
   }
 
-  /* Modal on mobile */
   #aboutModalOverlay:not([hidden]) {
     padding: 12px 12px;
   }
@@ -633,7 +578,6 @@ body {
   }
 }
 
-/* Extra-small phones */
 @media (max-width: 380px) {
   #sidebar {
     width: 100%;
@@ -676,9 +620,6 @@ body {
   }
 }
 
-/* ===========================================================
-   ACCESSIBILITY UTILITIES
-   =========================================================== */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -691,9 +632,6 @@ body {
   border: 0;
 }
 
-/* ===========================================================
-   BOUNDARY POLYGON LABELS (districts / neighbourhoods)
-   =========================================================== */
 .district-label,
 .neighbourhood-label {
   text-align: center;
