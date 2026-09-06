@@ -700,10 +700,10 @@ body {
   white-space: nowrap;
   font-weight: 750;
   text-shadow:
-      -1px -1px 0 var(--color-surface),
-      1px -1px 0 var(--color-surface),
-      -1px 1px 0 var(--color-surface),
-      1px 1px 0 var(--color-surface);
+    -1px -1px 0 var(--color-surface),
+    1px -1px 0 var(--color-surface),
+    -1px 1px 0 var(--color-surface),
+    1px 1px 0 var(--color-surface);
 }
 
 .district-label {

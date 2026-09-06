@@ -1,7 +1,11 @@
 import { Config } from "./config.js";
 import { initDomRefs } from "./dom/dom-refs.js";
 import { createDataStore } from "./data/data-store.js";
-import { createSidebar, showSidebar, updateNeighbourhoodOpts } from "./ui/sidebar.js";
+import {
+  createSidebar,
+  showSidebar,
+  updateNeighbourhoodOpts,
+} from "./ui/sidebar.js";
 import { createMap } from "./map/map.js";
 import { initAboutModal } from "./ui/about-modal.js";
 
@@ -39,10 +43,9 @@ function attachGlobalListeners({ sidebar, dataStore }) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-
   domRefs = initDomRefs();
   map = createMap("map", handleMarkerClick);
-  initAboutModal(); 
+  initAboutModal();
 
   const dataStore = createDataStore();
 
@@ -53,7 +56,10 @@ document.addEventListener("DOMContentLoaded", () => {
       boundaryData.districtToNeighbourhoods,
       domRefs.districtSelectEl.value,
     );
-    map.boundaryLayers.render(domRefs.districtSelectEl.value, domRefs.neighbourhoodSelectEl.value);
+    map.boundaryLayers.render(
+      domRefs.districtSelectEl.value,
+      domRefs.neighbourhoodSelectEl.value,
+    );
   });
 
   const sidebar = createSidebar({ domRefs, dataStore, map });
