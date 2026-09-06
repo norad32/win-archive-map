@@ -1,6 +1,6 @@
 import { Config } from "./../config.js";
 import { loadDistricts } from "./districts.js";
-import { loadBoundaryData } from "../map/boundary-data.js";
+import { loadBoundaryData } from "./boundary.js";
 import { groupFeatures } from "./grouping.js";
 
 function createEmitter() {
@@ -17,6 +17,17 @@ function createEmitter() {
   }
 
   return { on, emit };
+}
+
+async function fetchGeoJson(url, signal) {
+  const res = await fetch(url, { signal });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+  const lastUpdatedHeader = res.headers.get("Last-Modified");
+  const lastUpdated = lastUpdatedHeader ? new Date(lastUpdatedHeader) : null;
+
+  const data = await res.json();
+  return { features: data.features ?? [], lastUpdated };
 }
 
 export function createDataStore() {
@@ -40,26 +51,42 @@ export function createDataStore() {
 
     emitter.emit("load-start");
 
-    try {
-      const [geoRes, loadedDistricts, boundaryData] = await Promise.all([
-        fetch(Config.GEOJSON_URL, { signal }),
-        loadDistricts(signal),
-        loadBoundaryData(signal),
-      ]);
+    const results = await Promise.allSettled([
+      fetchGeoJson(Config.GEOJSON_URL, signal),
+      loadDistricts(signal),
+      loadBoundaryData(signal),
+    ]);
 
-      districtsData = loadedDistricts;
+    const [geoResult, districtsResult, boundaryResult] = results;
+
+    // Any rejection due to abort short-circuits everything else silently.
+    const aborted = results.some(
+      (r) => r.status === "rejected" && r.reason?.name === "AbortError",
+    );
+    if (aborted) {
+      loadInProgress = false;
+      emitter.emit("load-end");
+      return;
+    }
+
+    if (districtsResult.status === "fulfilled") {
+      districtsData = districtsResult.value;
       emitter.emit("districts-loaded", districtsData);
-      emitter.emit("boundary-loaded", boundaryData);
+    } else {
+      emitter.emit("error", districtsResult.reason);
+    }
 
-      if (!geoRes.ok) throw new Error(`HTTP ${geoRes.status}`);
-
-      const lastModifiedHeader = geoRes.headers.get("Last-Modified");
-      if (lastModifiedHeader) {
-        lastUpdated = new Date(lastModifiedHeader);
+    if (boundaryResult.status === "fulfilled") {
+      emitter.emit("boundary-loaded", boundaryResult.value);
+      if (boundaryResult.value.errors?.length) {
+        emitter.emit("boundary-partial-error", boundaryResult.value.errors);
       }
+    } else {
+      emitter.emit("error", boundaryResult.reason);
+    }
 
-      const data = await geoRes.json();
-      allFeatures = data.features || [];
+    if (geoResult.status === "fulfilled") {
+      ({ features: allFeatures, lastUpdated } = geoResult.value);
       precomputedGroups = groupFeatures(allFeatures);
       dataLoaded = true;
 
@@ -68,17 +95,16 @@ export function createDataStore() {
         precomputedGroups,
         lastUpdated,
       });
-    } catch (err) {
-      if (err.name === "AbortError") return;
-      emitter.emit("error", err);
-    } finally {
-      loadInProgress = false;
-      emitter.emit("load-end");
+    } else {
+      emitter.emit("error", geoResult.reason);
     }
+
+    loadInProgress = false;
+    emitter.emit("load-end");
   }
 
   function abort() {
-    if (abortController) abortController.abort();
+    abortController?.abort();
   }
 
   return {

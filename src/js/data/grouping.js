@@ -1,10 +1,3 @@
-/**
- * @typedef {{
- *   repCoord: !Array<number>,
- *   entries: !Array<!Object<string, *>>,
- * }} FeatureGroup
- */
-
 export function groupFeatures(features) {
   const groups = new Map();
 
@@ -19,16 +12,16 @@ export function groupFeatures(features) {
       groups.set(key, { repCoord, entries: [] });
     }
 
-    groups.get(key).entries.push(f.properties || {});
+    groups.get(key).entries.push(f.properties ?? {});
   }
 
-  groups.forEach((g) => {
-    g.entries.sort((a, b) => {
+  for (const group of groups.values()) {
+    group.entries.sort((a, b) => {
       const ya = Number.parseInt(a.year, 10) || 0;
       const yb = Number.parseInt(b.year, 10) || 0;
       return ya - yb;
     });
-  });
+  }
 
   return Array.from(groups.values());
 }

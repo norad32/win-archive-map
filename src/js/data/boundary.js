@@ -1,19 +1,4 @@
-import { Config } from "./../config.js";
-
-export async function fetchBoundaryFeatures(url, signal) {
-  try {
-    const response = await fetch(url, { signal });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-    const data = await response.json();
-    return data.features ?? [];
-  } catch (error) {
-    if (error.name === "AbortError") throw error;
-
-    console.error(`Failed to load boundary layer: ${url}`, error);
-    return [];
-  }
-}
+import { Config } from "../config.js";
 
 export async function loadBoundaryData(signal) {
   const [districtFeatures, neighbourhoodFeatures] = await Promise.all([
@@ -28,6 +13,21 @@ export async function loadBoundaryData(signal) {
       neighbourhoodFeatures,
     ),
   };
+}
+
+async function fetchBoundaryFeatures(url, signal) {
+  try {
+    const response = await fetch(url, { signal });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+    const data = await response.json();
+    return data.features ?? [];
+  } catch (error) {
+    if (error.name === "AbortError") throw error;
+
+    console.error(`Failed to load boundary layer: ${url}`, error);
+    return [];
+  }
 }
 
 function buildDistrictToNeighbourhoodsMap(neighbourhoodFeatures) {

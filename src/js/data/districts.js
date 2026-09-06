@@ -1,16 +1,16 @@
 import { Config } from "./../config.js";
-import { populateSelect, setChildren } from "../dom/dom-builder.js";
+import { populateSelect, setChildren, el } from "../dom/dom-builder.js";
 
 export async function loadDistricts(signal) {
   const res = await fetch(Config.DISTRICTS_URL, { signal });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
   const data = await res.json();
-  return data || {};
+  return data ?? {};
 }
 
 export function populateDistrictOptions(districtSelectEl, districtsData) {
-  const keys = Object.keys(districtsData);
-  const sorted = keys
+  const sorted = Object.keys(districtsData)
     .filter((k) => k !== "")
     .sort((a, b) => a.localeCompare(b, "de", { numeric: true }));
 
@@ -22,26 +22,14 @@ export function populateStreetOptions(
   districtsData,
   districtVal,
 ) {
-  let strassen;
-  if (districtVal === "") {
-    const set = new Set();
-    Object.values(districtsData).forEach((list) => {
-      (list || []).forEach((s) => set.add(s));
-    });
-    strassen = Array.from(set);
-  } else {
-    strassen = districtsData[districtVal] || [];
-  }
+  const streets =
+    districtVal === ""
+      ? Object.values(districtsData).flat()
+      : (districtsData[districtVal] ?? []);
 
-  const sorted = Array.from(new Set(strassen)).sort((a, b) =>
-    a.localeCompare(b, "de"),
-  );
+  const sorted = [...new Set(streets)].sort((a, b) => a.localeCompare(b, "de"));
 
-  const options = sorted.map((s) => {
-    const opt = document.createElement("option");
-    opt.setAttribute("value", s);
-    return opt;
-  });
+  const options = sorted.map((s) => el("option", { value: s }));
 
   setChildren(streetOptionsEl, options);
 }
