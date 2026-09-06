@@ -3,6 +3,7 @@ import { initDomRefs } from "./dom/dom-refs.js";
 import { createDataStore } from "./data/data-store.js";
 import { createSidebar, showSidebar, updateNeighbourhoodOpts } from "./ui/sidebar.js";
 import { createMap } from "./map/map.js";
+import { initAboutModal } from "./ui/about-modal.js";
 
 let map = null;
 let domRefs = null;
@@ -41,6 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   domRefs = initDomRefs();
   map = createMap("map", handleMarkerClick);
+  initAboutModal(); 
 
   const dataStore = createDataStore();
 
