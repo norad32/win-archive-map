@@ -4,7 +4,10 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "district": "Seen" },
+      "properties": {
+        "district": "Seen",
+        "center": [8.777454, 47.4799653]
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3287,7 +3290,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "district": "Mattenbach" },
+      "properties": {
+        "district": "Mattenbach",
+        "center": [8.738422, 47.48731]
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -5902,7 +5908,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "district": "Töss" },
+      "properties": {
+        "district": "Töss",
+        "center": [8.706279, 47.487339]
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -7518,7 +7527,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "district": "Winterthur-Stadt" },
+      "properties": {
+        "district": "Winterthur-Stadt",
+        "center": [8.728729, 47.500792]
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -11367,7 +11379,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "district": "Veltheim" },
+      "properties": {
+        "district": "Veltheim",
+        "center": [8.717158, 47.512643]
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -12078,7 +12093,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "district": "Wülflingen" },
+      "properties": {
+        "district": "Wülflingen",
+        "center": [8.685679, 47.508853]
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -15932,7 +15950,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "district": "Oberwinterthur" },
+      "properties": {
+        "district": "Oberwinterthur",
+        "center": [8.758399, 47.512534]
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [

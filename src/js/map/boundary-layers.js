@@ -114,17 +114,19 @@ function addBoundaryFeature(
 ) {
   const layer = L.geoJSON(feature, { style });
   layer.addTo(layerGroup);
-  addBoundaryLabel(layer, feature, labelGroup, labelClassName);
+  addBoundaryLabel(feature, labelGroup, labelClassName);
 }
 
-function addBoundaryLabel(layer, feature, labelGroup, labelClassName) {
+function addBoundaryLabel(feature, labelGroup, labelClassName) {
   const text = buildBoundaryLabelText(feature.properties ?? {});
   if (!text) return;
 
-  const center = layer.getBounds().getCenter();
+  const center = feature.properties?.center;
+
+  const [lon, lat] = center;
   const lines = text.split("\n").map((line) => el("div", {}, line));
 
-  const labelMarker = L.marker(center, {
+  const labelMarker = L.marker([lat, lon], {
     icon: L.divIcon({
       className: labelClassName,
       html: el("div", {}, lines),

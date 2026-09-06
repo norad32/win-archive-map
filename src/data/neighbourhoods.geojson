@@ -7,7 +7,8 @@
       "properties": {
         "neighbourhood": "Waldegg",
         "number": 320,
-        "district": "Seen"
+        "district": "Seen",
+        "center": [8.74971, 47.48335]
       },
       "geometry": {
         "type": "Polygon",
@@ -177,7 +178,8 @@
       "properties": {
         "neighbourhood": "Iberg",
         "number": 380,
-        "district": "Seen"
+        "district": "Seen",
+        "center": [8.7711, 47.46441]
       },
       "geometry": {
         "type": "Polygon",
@@ -444,7 +446,8 @@
       "properties": {
         "neighbourhood": "Rossberg",
         "number": 440,
-        "district": "Töss"
+        "district": "Töss",
+        "center": [8.71443, 47.46268]
       },
       "geometry": {
         "type": "Polygon",
@@ -1109,7 +1112,8 @@
       "properties": {
         "neighbourhood": "Sennhof",
         "number": 390,
-        "district": "Seen"
+        "district": "Seen",
+        "center": [8.75971, 47.46727]
       },
       "geometry": {
         "type": "Polygon",
@@ -2329,7 +2333,8 @@
       "properties": {
         "neighbourhood": "Oberseen",
         "number": 350,
-        "district": "Seen"
+        "district": "Seen",
+        "center": [8.77587, 47.48218]
       },
       "geometry": {
         "type": "Polygon",
@@ -2844,7 +2849,8 @@
       "properties": {
         "neighbourhood": "Büelwiesen",
         "number": 315,
-        "district": "Seen"
+        "district": "Seen",
+        "center": [8.76475, 47.48435]
       },
       "geometry": {
         "type": "Polygon",
@@ -2970,7 +2976,8 @@
       "properties": {
         "neighbourhood": "Gotzenwil",
         "number": 360,
-        "district": "Seen"
+        "district": "Seen",
+        "center": [8.77672, 47.47253]
       },
       "geometry": {
         "type": "Polygon",
@@ -3287,7 +3294,8 @@
       "properties": {
         "neighbourhood": "Eidberg",
         "number": 370,
-        "district": "Seen"
+        "district": "Seen",
+        "center": [8.79456, 47.47408]
       },
       "geometry": {
         "type": "Polygon",
@@ -5145,7 +5153,8 @@
       "properties": {
         "neighbourhood": "Ganzenbühl",
         "number": 330,
-        "district": "Seen"
+        "district": "Seen",
+        "center": [8.76192, 47.47917]
       },
       "geometry": {
         "type": "Polygon",
@@ -5345,7 +5354,8 @@
       "properties": {
         "neighbourhood": "Endliker",
         "number": 730,
-        "district": "Mattenbach"
+        "district": "Mattenbach",
+        "center": [8.74424, 47.49027]
       },
       "geometry": {
         "type": "Polygon",
@@ -5509,7 +5519,8 @@
       "properties": {
         "neighbourhood": "Eichliacker",
         "number": 430,
-        "district": "Töss"
+        "district": "Töss",
+        "center": [8.70664, 47.48669]
       },
       "geometry": {
         "type": "Polygon",
@@ -5927,7 +5938,8 @@
       "properties": {
         "neighbourhood": "Dättnau",
         "number": 420,
-        "district": "Töss"
+        "district": "Töss",
+        "center": [8.69954, 47.47568]
       },
       "geometry": {
         "type": "Polygon",
@@ -6636,7 +6648,8 @@
       "properties": {
         "neighbourhood": "Gutschick",
         "number": 720,
-        "district": "Mattenbach"
+        "district": "Mattenbach",
+        "center": [8.753706, 47.490924]
       },
       "geometry": {
         "type": "Polygon",
@@ -6837,7 +6850,8 @@
       "properties": {
         "neighbourhood": "Ricketwil",
         "number": 290,
-        "district": "Oberwinterthur"
+        "district": "Oberwinterthur",
+        "center": [8.79977, 47.4859]
       },
       "geometry": {
         "type": "Polygon",
@@ -7758,7 +7772,8 @@
       "properties": {
         "neighbourhood": "Waser",
         "number": 310,
-        "district": "Seen"
+        "district": "Seen",
+        "center": [8.762197, 47.489572]
       },
       "geometry": {
         "type": "Polygon",
@@ -7979,7 +7994,8 @@
       "properties": {
         "neighbourhood": "Weinberg",
         "number": 610,
-        "district": "Wülflingen"
+        "district": "Wülflingen",
+        "center": [8.700694, 47.514186]
       },
       "geometry": {
         "type": "Polygon",
@@ -8172,7 +8188,8 @@
       "properties": {
         "neighbourhood": "Sonnenberg",
         "number": 340,
-        "district": "Seen"
+        "district": "Seen",
+        "center": [8.77489, 47.490667]
       },
       "geometry": {
         "type": "Polygon",
@@ -8433,7 +8450,8 @@
       "properties": {
         "neighbourhood": "Tössfeld",
         "number": 140,
-        "district": "Winterthur-Stadt"
+        "district": "Winterthur-Stadt",
+        "center": [8.715248, 47.494313]
       },
       "geometry": {
         "type": "Polygon",
@@ -8641,7 +8659,8 @@
       "properties": {
         "neighbourhood": "Heiligberg",
         "number": 130,
-        "district": "Winterthur-Stadt"
+        "district": "Winterthur-Stadt",
+        "center": [8.721771, 47.488477]
       },
       "geometry": {
         "type": "Polygon",
@@ -11421,7 +11440,8 @@
       "properties": {
         "neighbourhood": "Deutweg",
         "number": 710,
-        "district": "Mattenbach"
+        "district": "Mattenbach",
+        "center": [8.735847, 47.488521]
       },
       "geometry": {
         "type": "Polygon",
@@ -13882,7 +13902,8 @@
       "properties": {
         "neighbourhood": "Schlosstal",
         "number": 410,
-        "district": "Töss"
+        "district": "Töss",
+        "center": [8.702567, 47.494937]
       },
       "geometry": {
         "type": "Polygon",
@@ -14214,7 +14235,8 @@
       "properties": {
         "neighbourhood": "Altstadt",
         "number": 110,
-        "district": "Winterthur-Stadt"
+        "district": "Winterthur-Stadt",
+        "center": [8.728686, 47.499157]
       },
       "geometry": {
         "type": "Polygon",
@@ -14370,7 +14392,8 @@
       "properties": {
         "neighbourhood": "Brühlberg",
         "number": 150,
-        "district": "Winterthur-Stadt"
+        "district": "Winterthur-Stadt",
+        "center": [8.710168, 47.49859]
       },
       "geometry": {
         "type": "Polygon",
@@ -14719,7 +14742,8 @@
       "properties": {
         "neighbourhood": "Blumenau",
         "number": 520,
-        "district": "Veltheim"
+        "district": "Veltheim",
+        "center": [8.716165, 47.506356]
       },
       "geometry": {
         "type": "Polygon",
@@ -14993,7 +15017,8 @@
       "properties": {
         "neighbourhood": "Grüze",
         "number": 230,
-        "district": "Oberwinterthur"
+        "district": "Oberwinterthur",
+        "center": [8.75737, 47.49931]
       },
       "geometry": {
         "type": "Polygon",
@@ -15333,7 +15358,8 @@
       "properties": {
         "neighbourhood": "Lindenplatz",
         "number": 630,
-        "district": "Wülflingen"
+        "district": "Wülflingen",
+        "center": [8.6915642, 47.5096517]
       },
       "geometry": {
         "type": "Polygon",
@@ -15462,7 +15488,8 @@
       "properties": {
         "neighbourhood": "Neuwiesen",
         "number": 160,
-        "district": "Winterthur-Stadt"
+        "district": "Winterthur-Stadt",
+        "center": [8.7176085, 47.5022892]
       },
       "geometry": {
         "type": "Polygon",
@@ -15853,7 +15880,8 @@
       "properties": {
         "neighbourhood": "Hegmatten",
         "number": 240,
-        "district": "Oberwinterthur"
+        "district": "Oberwinterthur",
+        "center": [8.765566, 47.511853]
       },
       "geometry": {
         "type": "Polygon",
@@ -15980,7 +16008,8 @@
       "properties": {
         "neighbourhood": "Lind",
         "number": 120,
-        "district": "Winterthur-Stadt"
+        "district": "Winterthur-Stadt",
+        "center": [8.740032, 47.508092]
       },
       "geometry": {
         "type": "Polygon",
@@ -16592,7 +16621,8 @@
       "properties": {
         "neighbourhood": "Oberfeld",
         "number": 620,
-        "district": "Wülflingen"
+        "district": "Wülflingen",
+        "center": [8.697234, 47.504772]
       },
       "geometry": {
         "type": "Polygon",
@@ -16836,7 +16866,8 @@
       "properties": {
         "neighbourhood": "Niederfeld",
         "number": 640,
-        "district": "Wülflingen"
+        "district": "Wülflingen",
+        "center": [8.679317, 47.507403]
       },
       "geometry": {
         "type": "Polygon",
@@ -16991,7 +17022,8 @@
       "properties": {
         "neighbourhood": "Neuburg",
         "number": 650,
-        "district": "Wülflingen"
+        "district": "Wülflingen",
+        "center": [8.673749, 47.499351]
       },
       "geometry": {
         "type": "Polygon",
@@ -18831,7 +18863,8 @@
       "properties": {
         "neighbourhood": "Talacker",
         "number": 210,
-        "district": "Oberwinterthur"
+        "district": "Oberwinterthur",
+        "center": [8.751115, 47.508657]
       },
       "geometry": {
         "type": "Polygon",
@@ -19144,7 +19177,8 @@
       "properties": {
         "neighbourhood": "Härti",
         "number": 670,
-        "district": "Wülflingen"
+        "district": "Wülflingen",
+        "center": [8.685465, 47.512976]
       },
       "geometry": {
         "type": "Polygon",
@@ -19299,7 +19333,8 @@
       "properties": {
         "neighbourhood": "Hardau",
         "number": 660,
-        "district": "Wülflingen"
+        "district": "Wülflingen",
+        "center": [8.674811, 47.515346]
       },
       "geometry": {
         "type": "Polygon",
@@ -19737,7 +19772,8 @@
       "properties": {
         "neighbourhood": "Hegi",
         "number": 250,
-        "district": "Oberwinterthur"
+        "district": "Oberwinterthur",
+        "center": [8.775866, 47.504454]
       },
       "geometry": {
         "type": "Polygon",
@@ -23199,7 +23235,8 @@
       "properties": {
         "neighbourhood": "Zinzikon",
         "number": 260,
-        "district": "Oberwinterthur"
+        "district": "Oberwinterthur",
+        "center": [8.753775, 47.519034]
       },
       "geometry": {
         "type": "Polygon",
@@ -23420,7 +23457,8 @@
       "properties": {
         "neighbourhood": "Guggenbühl",
         "number": 220,
-        "district": "Oberwinterthur"
+        "district": "Oberwinterthur",
+        "center": [8.760899, 47.515201]
       },
       "geometry": {
         "type": "Polygon",
@@ -23755,7 +23793,8 @@
       "properties": {
         "neighbourhood": "Rosenberg",
         "number": 510,
-        "district": "Veltheim"
+        "district": "Veltheim",
+        "center": [8.716967, 47.515029]
       },
       "geometry": {
         "type": "Polygon",
@@ -24236,7 +24275,8 @@
       "properties": {
         "neighbourhood": "Reutlingen",
         "number": 270,
-        "district": "Oberwinterthur"
+        "district": "Oberwinterthur",
+        "center": [8.753614, 47.52809]
       },
       "geometry": {
         "type": "Polygon",
@@ -24797,7 +24837,8 @@
       "properties": {
         "neighbourhood": "Taggenberg",
         "number": 680,
-        "district": "Wülflingen"
+        "district": "Wülflingen",
+        "center": [8.69143, 47.522164]
       },
       "geometry": {
         "type": "Polygon",
@@ -26373,7 +26414,8 @@
       "properties": {
         "neighbourhood": "Stadel",
         "number": 280,
-        "district": "Oberwinterthur"
+        "district": "Oberwinterthur",
+        "center": [8.761146, 47.535993]
       },
       "geometry": {
         "type": "Polygon",
