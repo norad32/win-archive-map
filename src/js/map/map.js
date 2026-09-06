@@ -64,12 +64,15 @@ function createLeafletMap(elId) {
     minZoom: Config.MAP_INITIAL_ZOOM,
   }).setView(Config.MAP_INITIAL_CENTER, Config.MAP_INITIAL_ZOOM);
 
-  L.tileLayer("https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
-      'Tiles style by <a href="https://www.hotosm.org/">Humanitarian OpenStreetMap Team</a> ' +
-      'hosted by <a href="https://openstreetmap.fr/">OpenStreetMap France</a>',
-  }).addTo(map);
+  L.tileLayer(
+    "https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/{z}/{x}/{y}.jpeg",
+    {
+      attribution:
+        '&copy; <a href="https://www.swisstopo.admin.ch/">swisstopo</a>',
+      maxZoom: 18,
+      minZoom: Config.MAP_INITIAL_ZOOM,
+    },
+  ).addTo(map);
 
   map.createPane("boundaryLabelPane");
   map.getPane("boundaryLabelPane").style.zIndex = 650;
