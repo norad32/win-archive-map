@@ -69,7 +69,7 @@ function swisstopoWmts(
       attribution:
         '&copy; <a href="https://www.swisstopo.admin.ch/">swisstopo</a>',
       maxZoom,
-      minZoom: Config.MAP_INITIAL_ZOOM,
+      minZoom: Config.MAP_MIN_ZOOM,
     },
   );
 }
@@ -83,7 +83,7 @@ function swisstopoZeitreihen(year) {
 
 function createLeafletMap(elId) {
   const map = L.map(elId, {
-    minZoom: Config.MAP_INITIAL_ZOOM,
+    minZoom: Config.MAP_MIN_ZOOM,
     maxBounds: Config.MAP_MAX_BOUNDS,
     maxBoundsViscosity: 1.0,
     zoomControl: false,
