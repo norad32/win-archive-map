@@ -35,6 +35,7 @@ function buildEntryBlock(props) {
     ["Street", props.street || ""],
     ["House number", props.housenumber || ""],
     ["District", props.district || ""],
+    ["Neighbourhood", props.neighbourhood || ""],
   ];
 
   for (const [label, value] of rows) {
