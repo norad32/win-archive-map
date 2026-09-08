@@ -81,6 +81,33 @@
         <div id="lastUpdated"></div>
       </aside>
 
+      <div id="layerSelectorPanel" class="layer-selector-panel">
+        <div class="layer-mode-toggle">
+          <button class="mode-btn active" data-mode="digitalMap">
+            Digital Map
+          </button>
+          <button class="mode-btn" data-mode="aerialImage">Aerial Image</button>
+        </div>
+
+        <div class="year-slider-container">
+          <label for="yearSlider" class="year-label"
+            ><span id="yearDisplay">2026</span></label
+          >
+          <input
+            type="range"
+            id="yearSlider"
+            class="year-slider"
+            min="0"
+            max="9"
+            step="1"
+            value="9"
+            list="yearTicks"
+          />
+          <datalist id="yearTicks"></datalist>
+          <div class="year-range-labels" id="yearRangeLabels"></div>
+        </div>
+      </div>
+
       <div id="aboutModalOverlay" hidden>
         <div
           id="aboutModal"
