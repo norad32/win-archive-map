@@ -588,15 +588,12 @@ body {
     transform: none;
     max-width: none;
     min-width: 0;
+    width: auto;
     padding: 12px;
   }
 
   .mode-btn {
     padding: 8px 14px;
-    font-size: 12px;
-  }
-
-  .year-label {
     font-size: 12px;
   }
 
@@ -616,6 +613,10 @@ body {
 
   .year-range-labels {
     font-size: 9px;
+  }
+
+  #app:has(#sidebar.open) #aboutBtn {
+    display: none;
   }
 }
 
@@ -670,10 +671,6 @@ body {
 
   .mode-btn {
     padding: 6px 12px;
-    font-size: 11px;
-  }
-
-  .year-label {
     font-size: 11px;
   }
 
@@ -741,8 +738,8 @@ body {
   gap: 12px;
   z-index: 999;
   max-width: 90vw;
-  min-width: 480px;
-  width: 600px;
+  width: min(600px, calc(100vw - 20px));
+  box-sizing: border-box;
   font-size: 13px;
   transition:
     opacity 0.2s ease,
@@ -790,13 +787,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
-}
-
-.year-label {
-  color: var(--color-text-label);
-  font-weight: 500;
-  font-size: 14px;
-  text-align: center;
 }
 
 #yearDisplay {
@@ -873,6 +863,7 @@ body {
   flex: 1;
   text-align: center;
   white-space: nowrap;
+  min-width: 0;
 }
 
 .year-tick-label:first-child {
@@ -887,4 +878,54 @@ body {
 
 .year-tick-hidden {
   visibility: hidden;
+}
+
+.glossary-matches {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.glossary-matches h4 {
+  font-size: 13px;
+  margin: 0 0 6px;
+  color: var(--color-text-heading-muted);
+}
+
+.glossary-matches ul {
+  margin: 0;
+  padding-left: 18px;
+  list-style: disc;
+}
+
+.glossary-matches li {
+  font-size: 13px;
+  line-height: 1.4;
+  margin-bottom: 4px;
+  color: var(--color-text-muted);
+}
+
+.glossary-matches li:last-child {
+  margin-bottom: 0;
+}
+
+.glossary-matches a {
+  color: var(--color-link);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.glossary-matches a:hover {
+  color: var(--color-link-hover);
+  text-decoration: underline;
+}
+
+.glossary-matches a:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.glossary-category {
+  color: var(--color-text-subtle);
+  font-size: 12px;
 }

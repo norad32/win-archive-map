@@ -89,6 +89,8 @@ function createLeafletMap(elId) {
     zoomControl: false,
   }).setView(Config.MAP_INITIAL_CENTER, Config.MAP_INITIAL_ZOOM);
 
+  let selectedMapAttribution = "";
+
   const digitalMapCurrent = swisstopoWmts("ch.swisstopo.pixelkarte-farbe");
   const aerialImageCurrent = swisstopoWmts("ch.swisstopo.swissimage");
 
@@ -221,22 +223,35 @@ function createLeafletMap(elId) {
       }
       yearRangeLabels.appendChild(span);
     });
-
-    yearDisplay.textContent = formatYearLabel(years[years.length - 1]);
   }
 
   function updateLayer() {
-    const years = getYearsForMode(currentMode);
     const layerKeys = getLayerKeysForMode(currentMode);
     const index = parseInt(yearSlider.value, 10);
-    const year = years[index];
     const layerKey = layerKeys[index];
-
-    yearDisplay.textContent = formatYearLabel(year);
 
     if (currentLayer) map.removeLayer(currentLayer);
     currentLayer = layerMap[layerKey];
     map.addLayer(currentLayer);
+
+    updateMapAttribution();
+  }
+
+  function updateMapAttribution() {
+    const years = getYearsForMode(currentMode);
+    const index = Number(yearSlider.value);
+    const year = years[index];
+
+    const type = currentMode === "digitalMap" ? "digital map" : "aerial image";
+
+    const label = year === CURRENT_YEAR ? "current" : year;
+
+    if (selectedMapAttribution) {
+      map.attributionControl.removeAttribution(selectedMapAttribution);
+    }
+
+    selectedMapAttribution = `${type} ${label}`;
+    map.attributionControl.addAttribution(selectedMapAttribution);
   }
 
   document.querySelectorAll(".mode-btn").forEach((btn) => {
