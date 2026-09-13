@@ -10,15 +10,41 @@ import { initAboutModal } from "./ui/about-modal.js";
 let map = null;
 let domRefs = null;
 
+function isMobileViewport() {
+  return window.matchMedia(`(max-width: ${Config.MOBILE_BREAKPOINT}px)`)
+    .matches;
+}
+
+function closeSidebar() {
+  domRefs.sidebarEl.classList.remove("open");
+  domRefs.sidebarToggleEl?.setAttribute("aria-expanded", "false");
+}
+
 function handleMarkerClick(group) {
   showDetails(domRefs.detailsEl, group.entries);
-  const isMobile = window.matchMedia(
-    `(max-width: ${Config.MOBILE_BREAKPOINT}px)`,
-  ).matches;
-  if (isMobile && domRefs.sidebarEl) {
+  if (isMobileViewport() && domRefs.sidebarEl) {
     domRefs.sidebarEl.classList.add("open");
     domRefs.sidebarToggleEl?.setAttribute("aria-expanded", "true");
   }
+}
+
+function attachOutsideClickToClose() {
+  document.addEventListener(
+    "click",
+    (event) => {
+      if (!isMobileViewport()) return;
+      if (!domRefs.sidebarEl.classList.contains("open")) return;
+
+      const clickedInsideSidebar = domRefs.sidebarEl.contains(event.target);
+      const clickedToggle = domRefs.sidebarToggleEl?.contains(event.target);
+      const clickedMarker = event.target.closest(".leaflet-marker-icon");
+
+      if (!clickedInsideSidebar && !clickedToggle && !clickedMarker) {
+        closeSidebar();
+      }
+    },
+    true,
+  );
 }
 
 function attachGlobalListeners({ sidebar, dataStore }) {
@@ -68,6 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   sidebar.attachListeners();
   attachGlobalListeners({ sidebar, dataStore });
+  attachOutsideClickToClose();
 
   dataStore.load();
 });

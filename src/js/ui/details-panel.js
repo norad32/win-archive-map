@@ -12,7 +12,6 @@ export async function showDetails(detailsEl, entries) {
     return;
   }
 
-  // Load glossary once (cached after first call)
   let glossary = [];
   try {
     glossary = await loadGlossary();
@@ -20,7 +19,6 @@ export async function showDetails(detailsEl, entries) {
     console.warn("Glossary could not be loaded:", err);
   }
 
-  // Collect matches across all displayed (filtered) entries, dedupe by URL
   const combinedMatches = new Map(); // url -> match
   entries.forEach((props) => {
     const matches = findGlossaryMatches(props, glossary);

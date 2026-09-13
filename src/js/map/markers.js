@@ -30,7 +30,7 @@ export function buildMarkersForGroups(groups, onMarkerClick, map) {
       if (count === 1 && map) {
         const targetZoom = Math.min(
           Math.max(map.getZoom() + 2, 15),
-          Config.MAP_MAX_ZOOM
+          Config.MAP_MAX_ZOOM,
         );
         map.flyTo([lat, lon], targetZoom, {
           animate: true,

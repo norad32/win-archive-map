@@ -61,7 +61,11 @@ export function createMap(elId, onMarkerClick) {
 
 function swisstopoWmts(
   layerId,
-  { format = "jpeg", timestamp = "current", maxZoom = Config.MAP_MAX_ZOOM } = {},
+  {
+    format = "jpeg",
+    timestamp = "current",
+    maxZoom = Config.MAP_MAX_ZOOM,
+  } = {},
 ) {
   return L.tileLayer(
     `https://wmts.geo.admin.ch/1.0.0/${layerId}/default/${timestamp}/3857/{z}/{x}/{y}.${format}`,
