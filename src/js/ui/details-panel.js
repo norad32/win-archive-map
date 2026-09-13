@@ -1,6 +1,7 @@
 import { buildCustomLink, buildReportIssueUrl } from "./link-builder.js";
+import { loadGlossary, findGlossaryMatches } from "./glossary-matcher.js";
 
-export function showDetails(detailsEl, entries) {
+export async function showDetails(detailsEl, entries) {
   detailsEl.innerHTML = "";
 
   if (!entries || entries.length === 0) {
@@ -9,6 +10,35 @@ export function showDetails(detailsEl, entries) {
     placeholder.textContent = "No details available.";
     detailsEl.appendChild(placeholder);
     return;
+  }
+
+  // Load glossary once (cached after first call)
+  let glossary = [];
+  try {
+    glossary = await loadGlossary();
+  } catch (err) {
+    console.warn("Glossary could not be loaded:", err);
+  }
+
+  // Collect matches across all displayed (filtered) entries, dedupe by URL
+  const combinedMatches = new Map(); // url -> match
+  entries.forEach((props) => {
+    const matches = findGlossaryMatches(props, glossary);
+    matches.forEach((match) => {
+      if (!combinedMatches.has(match.url)) {
+        combinedMatches.set(match.url, match);
+      }
+    });
+  });
+
+  const sortedMatches = Array.from(combinedMatches.values()).sort((a, b) =>
+    (a.title || "")
+      .toLowerCase()
+      .localeCompare((b.title || "").toLowerCase(), "de"),
+  );
+
+  if (sortedMatches.length > 0) {
+    detailsEl.appendChild(buildGlossarySection(sortedMatches));
   }
 
   entries.forEach((props, idx) => {
@@ -71,4 +101,36 @@ function buildEntryBlock(props) {
 
   block.appendChild(linkRow);
   return block;
+}
+
+function buildGlossarySection(matches) {
+  const wrapper = document.createElement("div");
+  wrapper.className = "glossary-matches";
+
+  const heading = document.createElement("h4");
+  heading.textContent = "Related Articles from the 'Winterthur Glossar'";
+  wrapper.appendChild(heading);
+
+  const list = document.createElement("ul");
+  matches.forEach((match) => {
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.href = match.url;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.textContent = match.subtitle
+      ? `${match.title} — ${match.subtitle}`
+      : match.title;
+    li.appendChild(a);
+    if (match.category) {
+      const span = document.createElement("span");
+      span.className = "glossary-category";
+      span.textContent = ` (${match.category})`;
+      li.appendChild(span);
+    }
+    list.appendChild(li);
+  });
+  wrapper.appendChild(list);
+
+  return wrapper;
 }

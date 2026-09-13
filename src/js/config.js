@@ -1,12 +1,9 @@
-/**
- * Application-wide configuration constants.
- * @readonly
- */
 export const Config = Object.freeze({
   GEOJSON_URL: "data/archive.geojson",
   DISTRICTS_URL: "data/districts.json",
   DISTRICTS_GEOJSON_URL: "data/districts.geojson",
   NEIGHBOURHOODS_GEOJSON_URL: "data/neighbourhoods.geojson",
+  GLOSSARY_URL: "data/glossary.json",
 
   GITHUB_REPO: "norad32/win-archive-map",
 
