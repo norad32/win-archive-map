@@ -107,7 +107,7 @@ function buildGlossarySection(matches) {
   const wrapper = document.createElement("div");
   wrapper.className = "glossary-matches";
 
-  const heading = document.createElement("h4");
+  const heading = document.createElement("h3");
   heading.textContent = "Related Articles from the 'Winterthur Glossar'";
   wrapper.appendChild(heading);
 
