@@ -33,7 +33,7 @@ export function createMap(elId, onMarkerClick) {
     if (!bounds.isValid()) return;
 
     map.fitBounds(bounds, {
-      maxZoom: isInitialLoad ? 16 : 17,
+      maxZoom: Config.MAP_MAX_ZOOM,
       animate: !isInitialLoad,
     });
     hasFitInitialBounds = true;
@@ -61,7 +61,7 @@ export function createMap(elId, onMarkerClick) {
 
 function swisstopoWmts(
   layerId,
-  { format = "jpeg", timestamp = "current", maxZoom = 18 } = {},
+  { format = "jpeg", timestamp = "current", maxZoom = Config.MAP_MAX_ZOOM } = {},
 ) {
   return L.tileLayer(
     `https://wmts.geo.admin.ch/1.0.0/${layerId}/default/${timestamp}/3857/{z}/{x}/{y}.${format}`,
