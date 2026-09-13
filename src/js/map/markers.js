@@ -5,6 +5,8 @@
  * }} FeatureGroup
  */
 
+import { Config } from "../config.js";
+
 export function makeClusterIcon(cluster) {
   const total = cluster
     .getAllChildMarkers()
@@ -12,7 +14,7 @@ export function makeClusterIcon(cluster) {
   return makeCountIcon(total);
 }
 
-export function buildMarkersForGroups(groups, onMarkerClick) {
+export function buildMarkersForGroups(groups, onMarkerClick, map) {
   return groups.map((group) => {
     const [lon, lat] = group.repCoord;
     const count = group.entries.length;
@@ -21,7 +23,22 @@ export function buildMarkersForGroups(groups, onMarkerClick) {
       icon: makeCountIcon(count),
       entryCount: count,
     });
-    marker.on("click", () => onMarkerClick(group));
+
+    marker.on("click", () => {
+      onMarkerClick(group);
+
+      if (count === 1 && map) {
+        const targetZoom = Math.min(
+          Math.max(map.getZoom() + 2, 15),
+          Config.MAP_MAX_ZOOM
+        );
+        map.flyTo([lat, lon], targetZoom, {
+          animate: true,
+          duration: 0.5,
+        });
+      }
+    });
+
     return marker;
   });
 }

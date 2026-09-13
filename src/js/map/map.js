@@ -40,7 +40,7 @@ export function createMap(elId, onMarkerClick) {
   }
 
   function renderGroups(groups, { fitBounds = false } = {}) {
-    const markers = buildMarkersForGroups(groups, onMarkerClick);
+    const markers = buildMarkersForGroups(groups, onMarkerClick, map);
     const layer = ensureGeoLayer();
 
     layer.clearLayers();
