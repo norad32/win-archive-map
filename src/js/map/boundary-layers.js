@@ -1,14 +1,14 @@
 import { Config } from "./../config.js";
 import { el } from "../dom/dom-builder.js";
 
-const DISTRICT_STYLE = { color: Config.OUTLINE_COLOR, weight: 2, fill: false };
+const DISTRICT_STYLE = { color: Config.OUTLINE_COLOR, weight: 5, fill: false };
 const NEIGHBOURHOOD_STYLE = {
   color: Config.OUTLINE_COLOR,
-  weight: 1,
+  weight: 3,
   fill: false,
 };
 
-const NEIGHBOURHOOD_LABEL_MIN_ZOOM = 14; // tune to taste
+const NEIGHBOURHOOD_LABEL_MIN_ZOOM = 14;
 
 let districtFeatures = [];
 let neighbourhoodFeatures = [];
