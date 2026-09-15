@@ -2308,6 +2308,7 @@
     "subtitle": "Buchackerstrasse 123",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/expert-gabriel-ag",
+    "address": "Buchackerstrasse 123",
     "tags": ""
   },
   {
@@ -2322,6 +2323,7 @@
     "subtitle": "St. Gallerstrasse 50",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/familienzentrum-winterthur",
+    "address": "St. Gallerstrasse 50",
     "tags": ""
   },
   {
@@ -2336,6 +2338,7 @@
     "subtitle": "J.-C.-Heer-Strasse 2",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/j-c-heer-strasse-2",
+    "address": "J.-C.-Heer-Strasse 2",
     "tags": ""
   },
   {
@@ -2357,6 +2360,7 @@
     "subtitle": "Heinrich-Bosshard-Strasse 14",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/fc-phoenix",
+    "address": "Heinrich-Bosshard-Strasse 14",
     "tags": ""
   },
   {
@@ -2385,6 +2389,7 @@
     "subtitle": "Radhofstrasse 12",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/fc-wuelflingen",
+    "address": "Radhofstrasse 12",
     "tags": ""
   },
   {
@@ -2392,6 +2397,7 @@
     "subtitle": "Hegistrasse 33g",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/feilenfabrik-r-schwarz",
+    "address": "Hegistrasse 33",
     "tags": ""
   },
   {
@@ -2406,6 +2412,7 @@
     "subtitle": "Läden, Restaurants und Gewerbe entlang der Feldstrasse",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/feldstrasse1",
+    "street": "Feldstrasse",
     "tags": ""
   },
   {
@@ -2462,6 +2469,7 @@
     "subtitle": "Zeughausstrasse 60",
     "category": "Verwaltung",
     "url": "https://www.winterthur-glossar.ch/feuerwehr",
+    "address": "Zeughausstrasse 60",
     "tags": ""
   },
   {
@@ -2469,6 +2477,7 @@
     "subtitle": "Marktgasse 25",
     "category": "Musik und Theater",
     "url": "https://www.winterthur-glossar.ch/figurentheater-winterthur",
+    "address": "Marktgasse 25",
     "tags": ""
   },
   {
@@ -2483,6 +2492,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/flochenstrasse-8",
+    "address": "Flochenstrasse 8",
     "tags": ""
   },
   {
@@ -2490,6 +2500,7 @@
     "subtitle": "Römerstrasse 17",
     "category": "Natur und Pärke",
     "url": "https://www.winterthur-glossar.ch/flora-futura-park",
+    "address": "Römerstrasse 17",
     "tags": ""
   },
   {
@@ -2497,6 +2508,7 @@
     "subtitle": "Obertor 19",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/fortuna-brunnen",
+    "address": "Obertor 19",
     "tags": ""
   },
   {
@@ -2511,6 +2523,7 @@
     "subtitle": "Grüzenstrasse 44/45",
     "category": "Museen, Sammlungen und Bibliotheken",
     "url": "https://www.winterthur-glossar.ch/fotomuseum",
+    "address": "Grüzenstrasse 44/45",
     "tags": ""
   },
   {
@@ -2532,6 +2545,7 @@
     "subtitle": "Marktgasse 49",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/franz-carl-weber",
+    "address": "Marktgasse 49",
     "tags": ""
   },
   {
@@ -2567,6 +2581,7 @@
     "subtitle": "Tösstalstrasse 54",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/frauenbund-winterthur",
+    "address": "Tösstalstrasse 54",
     "tags": ""
   },
   {
@@ -2602,6 +2617,7 @@
     "subtitle": "Metzggasse 2",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/frauenzentrale-winterthur",
+    "address": "Metzggasse 2",
     "tags": ""
   },
   {
@@ -2623,6 +2639,7 @@
     "subtitle": "Pflanzschulstrasse 6a",
     "category": "Sport- und Freizeitanlagen",
     "url": "https://www.winterthur-glossar.ch/hallenbad-geiselweid",
+    "address": "Pflanzschulstrasse 6",
     "tags": ""
   },
   {
@@ -2630,6 +2647,7 @@
     "subtitle": "Heiligbergstrasse 54",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/freie-schule-winterthur",
+    "address": "Heiligbergstrasse 54",
     "tags": ""
   },
   {
@@ -2637,6 +2655,7 @@
     "subtitle": "Schwalmenackerstrassse 7",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/freimaurerloge-akazia",
+    "address": "Schwalmenackerstrassse 7",
     "tags": ""
   },
   {
@@ -2679,6 +2698,7 @@
     "subtitle": "am Rosenberg 5",
     "category": "Natur und Pärke",
     "url": "https://www.winterthur-glossar.ch/friedhof-rosenberg",
+    "address": "Am Rosenberg 5",
     "tags": ""
   },
   {
@@ -2749,6 +2769,7 @@
     "subtitle": "Wülflingerstrasse 261–263",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/frohsinn-areal",
+    "address": "Wülflingerstrasse 261–263",
     "tags": ""
   },
   {
@@ -2770,6 +2791,7 @@
     "subtitle": "Museumstrasse 52",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/galerieverein",
+    "address": "Museumstrasse 52",
     "tags": ""
   },
   {
@@ -2805,6 +2827,7 @@
     "subtitle": "Metzggasse 9",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/gasthof-zum-widder",
+    "address": "Metzggasse 9",
     "tags": ""
   },
   {
@@ -2854,6 +2877,7 @@
     "subtitle": "Werkstrasse 20",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/geilinger-ag",
+    "address": "Werkstrasse 20",
     "tags": ""
   },
   {
@@ -2869,6 +2893,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/geiselweidstrasse-37",
+    "address": "Geiselweidstrasse 37",
     "tags": ""
   },
   {
@@ -2883,6 +2908,7 @@
     "subtitle": "Zürcherstrasse 127",
     "category": "Öffentliche Bauten",
     "url": "https://www.winterthur-glossar.ch/gemeindehaus-toess",
+    "address": "Zürcherstrasse 127",
     "tags": ""
   },
   {
@@ -2904,6 +2930,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/general-guisan-strasse-9",
+    "address": "General-Guisan-Strasse 9",
     "tags": ""
   },
   {
@@ -2918,6 +2945,7 @@
     "subtitle": "Emil-Krebs-Gasse 10",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/gesewo",
+    "address": "Emil-Krebs-Gasse 10",
     "tags": ""
   },
   {
@@ -2925,6 +2953,7 @@
     "subtitle": "Wartstrasse 27",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/genossenschaft-konkordia-winterthur",
+    "address": "Wartstrasse 27",
     "tags": ""
   },
   {
@@ -2932,6 +2961,7 @@
     "subtitle": "Unterer Graben 1",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/genossenschaft-krankenfuersorge-winterthur",
+    "address": "Unterer Graben 1",
     "tags": ""
   },
   {
@@ -2995,6 +3025,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/gernstrasse-15-23",
+    "address": "Gernstrasse 15–23",
     "tags": ""
   },
   {
@@ -3002,6 +3033,7 @@
     "subtitle": "Hochadlige, Nonne, 1286–1322",
     "category": "Politik",
     "url": "https://www.winterthur-glossar.ch/gertrud-von-wart",
+    "street": "Gertrudstrasse",
     "tags": ""
   },
   {
@@ -3023,6 +3055,7 @@
     "subtitle": "Kirchplatz 14 (ehemaliges Mädchenschulhaus)",
     "category": "Museen, Sammlungen und Bibliotheken",
     "url": "https://www.winterthur-glossar.ch/gewerbemuseum-kirchplatz",
+    "address": "Kirchplatz 14",
     "tags": ""
   },
   {
@@ -3037,6 +3070,7 @@
     "subtitle": "Marktgasse 56, 58",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/marktgasse-56-und-58",
+    "address": "Marktgasse 56-58",
     "tags": ""
   },
   {
@@ -3051,6 +3085,7 @@
     "subtitle": "Untertor 21",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/goldschmid-co-ag",
+    "address": "Untertor 21",
     "tags": ""
   },
   {
@@ -3093,6 +3128,7 @@
     "subtitle": "Oberer Graben 34",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/grabe-beck",
+    "address": "Oberer Graben 34",
     "tags": ""
   },
   {
@@ -3142,6 +3178,7 @@
     "subtitle": "Grüzefeldstrasse 65",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/grueze-garage",
+    "address": "Grüzefeldstrasse 65",
     "tags": ""
   },
   {
@@ -3149,6 +3186,7 @@
     "subtitle": "Rudolf Diesel-Strasse 19",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/gruezenmaerkte",
+    "address": "Rudolf Diesel-Strasse 19",
     "tags": ""
   },
   {
@@ -3163,6 +3201,7 @@
     "subtitle": "Läden, Restaurants und Gewerbe entlang der Grüzestrasse",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/gruezestrasse",
+    "street": "Grüzestrasse",
     "tags": ""
   },
   {
@@ -3198,6 +3237,7 @@
     "subtitle": "Katharina-Sulzer-Platz 4",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/halle-53",
+    "address": "Katharina-Sulzer-Platz 4",
     "tags": ""
   },
   {
@@ -3205,6 +3245,7 @@
     "subtitle": "Barbara-Reinhart-Strasse 27",
     "category": "Sport- und Freizeitanlagen",
     "url": "https://www.winterthur-glossar.ch/halle-710",
+    "address": "Barbara-Reinhart-Strasse 27",
     "tags": ""
   },
   {
@@ -3408,6 +3449,7 @@
     "subtitle": "Katharina-Sulzer-Platz 9",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/haus-adeline-favre",
+    "address": "Katharina-Sulzer-Platz 9",
     "tags": ""
   },
   {
@@ -3415,6 +3457,7 @@
     "subtitle": "Marktgasse 16",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-berna",
+    "address": "Marktgasse 16",
     "tags": ""
   },
   {
@@ -3422,6 +3465,7 @@
     "subtitle": "General-Guisan-Strasse 33",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-caprera",
+    "address": "General-Guisan-Strasse 33",
     "tags": ""
   },
   {
@@ -3429,6 +3473,7 @@
     "subtitle": "Turmhaldenstrasse 10",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-corti",
+    "address": "Turmhaldenstrasse 10",
     "tags": ""
   },
   {
@@ -3436,6 +3481,7 @@
     "subtitle": "Technikumstrasse 100",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/eulacherhof",
+    "address": "Technikumstrasse 100",
     "tags": ""
   },
   {
@@ -3443,6 +3489,7 @@
     "subtitle": "Wildbachstrasse 2",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-helvetia",
+    "address": "Wildbachstrasse 2",
     "tags": ""
   },
   {
@@ -3450,6 +3497,7 @@
     "subtitle": "Leimeneggstrasse 24",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-reinhart-ganzoni",
+    "address": "Leimeneggstrasse 24",
     "tags": ""
   },
   {
@@ -3457,6 +3505,7 @@
     "subtitle": "Technikumstrasse 98",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-rhaetia",
+    "address": "Technikumstrasse 98",
     "tags": ""
   },
   {
@@ -3464,6 +3513,7 @@
     "subtitle": "Wölfflinweg 9",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-saas",
+    "address": "Wölfflinweg 9",
     "tags": ""
   },
   {
@@ -3471,6 +3521,7 @@
     "subtitle": "Wolfensbergstrasse 59+61",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-und-atelier-schoellhorn",
+    "address": "Wolfensbergstrasse 59-61",
     "tags": ""
   },
   {
@@ -3478,6 +3529,7 @@
     "subtitle": "Seidenstrasse 33-35",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-wachter-germann",
+    "address": "Seidenstrasse 33-35",
     "tags": ""
   },
   {
@@ -3485,6 +3537,7 @@
     "subtitle": "Technikumstrasse 59",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-wollenhof",
+    "address": "Technikumstrasse 59",
     "tags": ""
   },
   {
@@ -3492,6 +3545,7 @@
     "subtitle": "Obertorgasse 17",
     "category": "Öffentliche Bauten",
     "url": "https://www.winterthur-glossar.ch/haus-zum-adler",
+    "address": "Obertor 17",
     "tags": ""
   },
   {
@@ -3499,6 +3553,7 @@
     "subtitle": "Museumstrasse 71",
     "category": "Öffentliche Bauten",
     "url": "https://www.winterthur-glossar.ch/barockhaeuschen",
+    "address": "Museumstrasse 71",
     "tags": ""
   },
   {
@@ -3506,6 +3561,7 @@
     "subtitle": "Technikumstrasse 68 / Steinberggasse 61",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-bauhof",
+    "address": "Technikumstrasse 68, Steinberggasse 61",
     "tags": ""
   },
   {
@@ -3513,6 +3569,7 @@
     "subtitle": "Oberer Graben 8",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-baumgarten",
+    "address": "Oberer Graben 8",
     "tags": ""
   },
   {
@@ -3520,6 +3577,7 @@
     "subtitle": "Oberer Graben 12",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-baumwollbaum",
+    "address": "Oberer Graben 12",
     "tags": ""
   },
   {
@@ -3527,6 +3585,7 @@
     "subtitle": "Stadthausstrasse 8-12",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/delphin",
+    "address": "Stadthausstrasse 8-12",
     "tags": ""
   },
   {
@@ -3534,6 +3593,7 @@
     "subtitle": "Römerstrasse 176",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/haus-zum-freieck",
+    "address": "Römerstrasse 176",
     "tags": ""
   },
   {
@@ -3541,6 +3601,7 @@
     "subtitle": "Technikumstrasse 40",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-goldberg",
+    "address": "Technikumstrasse 40",
     "tags": ""
   },
   {
@@ -3548,6 +3609,7 @@
     "subtitle": "Oberer Graben 2",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-grabenfels",
+    "address": "Oberer Graben 2",
     "tags": ""
   },
   {
@@ -3555,6 +3617,7 @@
     "subtitle": "Marktgasse 50",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-grundstein",
+    "address": "Marktgasse 50",
     "tags": ""
   },
   {
@@ -3562,6 +3625,7 @@
     "subtitle": "Marktgasse 40",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-gruenen-berg",
+    "address": "Marktgasse 40",
     "tags": ""
   },
   {
@@ -3569,6 +3633,7 @@
     "subtitle": "Tösstalstrasse 2+4",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-hinteren-hecht",
+    "address": "Tösstalstrasse 2-4",
     "tags": ""
   },
   {
@@ -3576,6 +3641,7 @@
     "subtitle": "Obertor 9",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-hirschen",
+    "address": "Obertor 9",
     "tags": ""
   },
   {
@@ -3583,6 +3649,7 @@
     "subtitle": "Neustadtgasse 7",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-hohen-brunnen",
+    "address": "Neustadtgasse 7",
     "tags": ""
   },
   {
@@ -3590,6 +3657,7 @@
     "subtitle": "Obere Kirchgasse 16",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-licht",
+    "address": "Obere Kirchgasse 16",
     "tags": ""
   },
   {
@@ -3597,6 +3665,7 @@
     "subtitle": "Oberer Graben 50",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-lindenhof-ehemals-zum-tod",
+    "address": "Oberer Graben 50",
     "tags": ""
   },
   {
@@ -3604,6 +3673,7 @@
     "subtitle": "Zeughausstrasse 73",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-muehlebach",
+    "address": "Zeughausstrasse 73",
     "tags": ""
   },
   {
@@ -3611,6 +3681,7 @@
     "subtitle": "Römerstrasse 21",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-palmengarten",
+    "address": "Römerstrasse 21",
     "tags": ""
   },
   {
@@ -3618,6 +3689,7 @@
     "subtitle": "Obergasse 11",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-pelikan",
+    "address": "Obergasse 11",
     "tags": ""
   },
   {
@@ -3625,6 +3697,7 @@
     "subtitle": "Büelrainstrasse 15",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-schanzengarten",
+    "address": "Büelrainstrasse 15",
     "tags": ""
   },
   {
@@ -3632,6 +3705,7 @@
     "subtitle": "Unterer Graben 33/Marktgasse 1",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-silbernen-winkel",
+    "address": "Unterer Graben 33, Marktgasse 1",
     "tags": ""
   },
   {
@@ -3639,6 +3713,7 @@
     "subtitle": "Rundstrasse 18",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-sonnenblick",
+    "address": "Rundstrasse 18",
     "tags": ""
   },
   {
@@ -3646,6 +3721,7 @@
     "subtitle": "Marktgasse 9",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-steinadler",
+    "address": "Marktgasse 9",
     "tags": ""
   },
   {
@@ -3653,6 +3729,7 @@
     "subtitle": "Marktgasse 27",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/haus-zum-steinbock",
+    "address": "Marktgasse 27",
     "tags": ""
   },
   {
@@ -3660,6 +3737,7 @@
     "subtitle": "Marktgasse 7",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-steineck",
+    "address": "Marktgasse 7",
     "tags": ""
   },
   {
@@ -3667,6 +3745,7 @@
     "subtitle": "Obertor 32",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/obertor-32",
+    "address": "Obertor 32",
     "tags": ""
   },
   {
@@ -3674,6 +3753,7 @@
     "subtitle": "Marktgasse 36",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-sternen",
+    "address": "Marktgasse 36",
     "tags": ""
   },
   {
@@ -3681,6 +3761,7 @@
     "subtitle": "Steinberggasse 33",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-tiger",
+    "address": "Steinberggasse 33",
     "tags": ""
   },
   {
@@ -3688,6 +3769,7 @@
     "subtitle": "Stadthausstrasse 39",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-warteck",
+    "address": "Stadthausstrasse 39",
     "tags": ""
   },
   {
@@ -3695,6 +3777,7 @@
     "subtitle": "Kasinostrasse 2",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zum-zeit-wiegner-zum-zyt",
+    "address": "Kasinostrasse 2",
     "tags": ""
   },
   {
@@ -3702,6 +3785,7 @@
     "subtitle": "Steinberggasse 47",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zur-flora",
+    "address": "Steinberggasse 47",
     "tags": ""
   },
   {
@@ -3709,6 +3793,7 @@
     "subtitle": "Stadthausstrasse 135",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zur-gloria",
+    "address": "Stadthausstrasse 135",
     "tags": ""
   },
   {
@@ -3716,6 +3801,7 @@
     "subtitle": "Neustadtgasse 9",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zur-hoffnungsinsel",
+    "address": "Neustadtgasse 9",
     "tags": ""
   },
   {
@@ -3723,6 +3809,7 @@
     "subtitle": "Marktgasse 38",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zur-insel",
+    "address": "Marktgasse 38",
     "tags": ""
   },
   {
@@ -3730,6 +3817,7 @@
     "subtitle": "Technikumstrasse 96",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zur-linde",
+    "address": "Technikumstrasse 96",
     "tags": ""
   },
   {
@@ -3737,6 +3825,7 @@
     "subtitle": "St. Georgenstrasse 5",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/haus-zur-pflanzschule",
+    "address": "St. Georgenstrasse 5",
     "tags": ""
   },
   {
@@ -3744,6 +3833,7 @@
     "subtitle": "Tösstalstrasse 19",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zur-platane",
+    "address": "Tösstalstrasse 19",
     "tags": ""
   },
   {
@@ -3751,6 +3841,7 @@
     "subtitle": "Obertor 27+29",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zur-rose-und-zum-gaengli",
+    "address": "Obertor 27-29",
     "tags": ""
   },
   {
@@ -3758,6 +3849,7 @@
     "subtitle": "Unterer Graben 1",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/haus-zur-rosenstaude",
+    "address": "Unterer Graben 1",
     "tags": ""
   },
   {
@@ -3765,6 +3857,7 @@
     "subtitle": "Steiggasse 2",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zur-steinhuette",
+    "address": "Steiggasse 2",
     "tags": ""
   },
   {
@@ -3772,6 +3865,7 @@
     "subtitle": "Metzggasse 3",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zur-tanne",
+    "address": "Metzggasse 3",
     "tags": ""
   },
   {
@@ -3779,6 +3873,7 @@
     "subtitle": "Neustadtgasse 11",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zur-weinleiter",
+    "address": "Neustadtgasse 11",
     "tags": ""
   },
   {
@@ -3786,6 +3881,7 @@
     "subtitle": "Oberer Graben 48",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zur-weinrebe",
+    "address": "Oberer Graben 48",
     "tags": ""
   },
   {
@@ -3793,6 +3889,7 @@
     "subtitle": "Obere Kirchgasse 18",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haus-zur-weissen-rose",
+    "address": "Obere Kirchgasse 18",
     "tags": ""
   },
   {
@@ -3800,6 +3897,7 @@
     "subtitle": "St. Gallerstrasse 30",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/hausammann-textil-ag",
+    "address": "St. Gallerstrasse 30",
     "tags": ""
   },
   {
@@ -3807,6 +3905,7 @@
     "subtitle": "Lagerhausstrasse 11",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/hev",
+    "address": "Lagerhausstrasse 11",
     "tags": ""
   },
   {
@@ -3814,6 +3913,7 @@
     "subtitle": "Neumühlestrasse 40",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/neumuehle-toess",
+    "address": "Neumühlestrasse 40",
     "tags": ""
   },
   {
@@ -3821,6 +3921,7 @@
     "subtitle": "Untertor 39+41",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haeuser-zum-maulbeerbaum-und-zum-schwarzen-adler",
+    "address": "Untertor 39-41",
     "tags": ""
   },
   {
@@ -3828,6 +3929,7 @@
     "subtitle": "Technikumstrasse 42+44",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/steinberg",
+    "address": "Technikumstrasse 42-44",
     "tags": ""
   },
   {
@@ -3905,6 +4007,7 @@
     "subtitle": "Florenstrasse 11",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/michaelschule",
+    "address": "Florenstrasse 11",
     "tags": ""
   },
   {
@@ -3919,6 +4022,7 @@
     "subtitle": "Im Geren 20A",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/heimatschutz-winterthur",
+    "address": "Im Geren 20",
     "tags": ""
   },
   {
@@ -3926,6 +4030,7 @@
     "subtitle": "Technoparkstrasse 3",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/hgw",
+    "address": "Technoparkstrasse 3",
     "tags": ""
   },
   {
@@ -4129,6 +4234,7 @@
     "subtitle": "Römerstrasse 8",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/historischer-verein-winterthur-hvw",
+    "address": "Römerstrasse 8",
     "tags": ""
   },
   {
@@ -4136,6 +4242,7 @@
     "subtitle": "Hobelwerkweg 37-45, 8404 Winterthur",
     "category": "Siedlungen",
     "url": "https://www.winterthur-glossar.ch/hobelwerk",
+    "address": "Hobelwerkweg 37-45",
     "tags": ""
   },
   {
@@ -4164,6 +4271,7 @@
     "subtitle": "Stegackerstrasse 4",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/hofmeister-und-kuster",
+    "address": "Stegackerstrasse 4",
     "tags": ""
   },
   {
@@ -4171,6 +4279,7 @@
     "subtitle": "Turmhaldenstrasse 9",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/hofstadlerscheune",
+    "address": "Turmhaldenstrasse 9",
     "tags": ""
   },
   {
@@ -4185,6 +4294,7 @@
     "subtitle": "Hohlandstrasse 11",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/hohlandhaus",
+    "address": "Hohlandstrasse 11",
     "tags": ""
   },
   {
@@ -4192,6 +4302,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/hohlandstrasse-4-8",
+    "address": "Hohlandstrasse 4–8",
     "tags": ""
   },
   {
@@ -4213,6 +4324,7 @@
     "subtitle": "Technikumstrasse 61",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/hoelken-areal",
+    "address": "Technikumstrasse 61",
     "tags": ""
   },
   {
@@ -4227,6 +4339,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/hoernlistrasse-1",
+    "address": "Hörnlistrasse 1",
     "tags": ""
   },
   {
@@ -4234,6 +4347,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/hoernlistrasse-25-29",
+    "address": "Hörnlistrasse 25–29",
     "tags": ""
   },
   {
@@ -4255,6 +4369,7 @@
     "subtitle": "Lagerplatz 4",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/depot-195",
+    "address": "Lagerplatz 4",
     "tags": ""
   },
   {
@@ -4262,6 +4377,7 @@
     "subtitle": "Brunngasse 4",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/banane",
+    "address": "Brunngasse 4",
     "tags": ""
   },
   {
@@ -4269,6 +4385,7 @@
     "subtitle": "Zürcherstrasse 215",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/hotel-krone",
+    "address": "Zürcherstrasse 215",
     "tags": ""
   },
   {
@@ -4290,6 +4407,7 @@
     "subtitle": "Rudolfstrasse 15",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/hotel-wartmann",
+    "address": "Rudolfstrasse 15",
     "tags": ""
   },
   {
@@ -4297,6 +4415,7 @@
     "subtitle": "Unterer Graben 1",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/hotel-du-lion-dor-zum-goldenen-loewen",
+    "address": "Unterer Graben 1",
     "tags": ""
   },
   {
@@ -4304,6 +4423,7 @@
     "subtitle": "Stadthausstrasse 14",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/house-of-winterthur",
+    "address": "Stadthausstrasse 14",
     "tags": ""
   },
   {
@@ -4318,6 +4438,7 @@
     "subtitle": "Hulmenweg 82",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/hulmenhof-ricketwil",
+    "address": "Hulmenweg 82",
     "tags": ""
   },
   {
@@ -4360,6 +4481,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/ibergstrasse-87",
+    "address": "Ibergstrasse 87",
     "tags": ""
   },
   {
@@ -4367,6 +4489,7 @@
     "subtitle": "Brühlbergstrasse 7",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/ibis",
+    "address": "Brühlbergstrasse 7",
     "tags": ""
   },
   {
@@ -4416,6 +4539,7 @@
     "subtitle": "Wieshofstrasse 102",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/klinik-schlosstal",
+    "address": "Wieshofstrasse 102",
     "tags": ""
   },
   {
@@ -4430,6 +4554,7 @@
     "subtitle": "Steiggasse 2",
     "category": "Film und Literatur",
     "url": "https://www.winterthur-glossar.ch/internationale-kurzfilmtage-winterthur",
+    "address": "Steiggasse 2",
     "tags": ""
   },
   {
@@ -4444,6 +4569,7 @@
     "subtitle": "Schlachthofstrasse 16",
     "category": "Religiöse Gemeinden",
     "url": "https://www.winterthur-glossar.ch/islamischer-kulturverein-winterthur-qendra-kulturose-islame-winterthur",
+    "address": "Schlachthofstrasse 16",
     "tags": ""
   },
   {
@@ -4451,6 +4577,7 @@
     "subtitle": "Rennweg 12",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/jacq-thoma-ag",
+    "address": "Rennweg 12",
     "tags": ""
   },
   {
@@ -4598,6 +4725,7 @@
     "subtitle": "Klosterstrasse 14",
     "category": "Kunst und Kultur",
     "url": "https://www.winterthur-glossar.ch/johann-jacob-rieter-stiftung",
+    "address": "Klosterstrasse 14",
     "tags": ""
   },
   {
@@ -4626,7 +4754,7 @@
     "subtitle": "Politiker, Stadtpräsident, 1821–1897",
     "category": "Politik",
     "url": "https://www.winterthur-glossar.ch/johann-jakob-sulzer",
-    "tags": ""
+    "tags": "Johann Jakob Sulzer"
   },
   {
     "title": "Johann Jakob Weber",
@@ -4724,6 +4852,7 @@
     "subtitle": "Heinrichstrasse 7",
     "category": "Natur und Pärke",
     "url": "https://www.winterthur-glossar.ch/juchpark",
+    "address": "Heinrichstrasse 7",
     "tags": ""
   },
   {
@@ -4738,6 +4867,7 @@
     "subtitle": "Steinberggasse 31",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/juhu",
+    "address": "Steinberggasse 31",
     "tags": ""
   },
   {
@@ -4801,6 +4931,7 @@
     "subtitle": "Marktgasse 41",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/justitiabrunnen",
+    "address": "Marktgasse 41",
     "tags": ""
   },
   {
@@ -4808,6 +4939,7 @@
     "subtitle": "St. Gallerstrasse 129",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/kaffeeroesterei-kueng",
+    "address": "St. Gallerstrasse 129",
     "tags": ""
   },
   {
@@ -4815,6 +4947,7 @@
     "subtitle": "In der Euelwies 22",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/kaegi-immobilien",
+    "address": "In der Euelwies 22",
     "tags": ""
   },
   {
@@ -4822,7 +4955,8 @@
     "subtitle": "Hobelwerkweg 45",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/kaelin-co-ag",
-    "tags": "Hobelwerkweg 27"
+    "address": "Hobelwerkweg 27, Hobelwerkweg 45",
+    "tags": "Hobelwerk Kälin, Kälin & Co"
   },
   {
     "title": "Kantonale Zürcherische Ausstellung für Landwirtschaft und Gartenbau mit Bezirks-Gewerbe-Ausstellung in Winterthur 1924",
@@ -4836,6 +4970,7 @@
     "subtitle": "Technikumstrasse 9",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kantonales-technikum",
+    "address": "Technikumstrasse 9",
     "tags": ""
   },
   {
@@ -4843,6 +4978,7 @@
     "subtitle": "Rosenstrasse 1",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kantonsschule-bueelrain",
+    "address": "Rosenstrasse 1",
     "tags": ""
   },
   {
@@ -4850,6 +4986,7 @@
     "subtitle": "Rychenbergstrasse 110",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kantonsschule-rychenberg",
+    "address": "Rychenbergstrasse 110",
     "tags": ""
   },
   {
@@ -4857,6 +4994,7 @@
     "subtitle": "Brauerstrasse 15",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/ksw",
+    "address": "Brauerstrasse 15",
     "tags": ""
   },
   {
@@ -4864,6 +5002,7 @@
     "subtitle": "Rossbergstrasse 40.1",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/rossbergkapelle",
+    "address": "Rossbergstrasse 40",
     "tags": ""
   },
   {
@@ -4948,6 +5087,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/kasinostrasse-3",
+    "address": "Kasinostrasse 3",
     "tags": ""
   },
   {
@@ -4997,6 +5137,7 @@
     "subtitle": "Riedhofstrasse 101",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/kvw",
+    "address": "Riedhofstrasse 101",
     "tags": ""
   },
   {
@@ -5004,6 +5145,7 @@
     "subtitle": "Bachtelstrasse 52",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/kehlhof",
+    "address": "Bachtelstrasse 52",
     "tags": ""
   },
   {
@@ -5025,6 +5167,7 @@
     "subtitle": "Ziegeleistrasse 7, Pfungen",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/keller-ag-ziegeleien",
+    "address": "Ziegeleistrasse 7",
     "tags": ""
   },
   {
@@ -5032,6 +5175,7 @@
     "subtitle": "St. Gallerstrasse 122",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/keller-pressure",
+    "address": "St. Gallerstrasse 122",
     "tags": ""
   },
   {
@@ -5039,6 +5183,7 @@
     "subtitle": "Zürcherstrasse 1+3",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/kesselhaus",
+    "address": "Zürcherstrasse 1-3",
     "tags": ""
   },
   {
@@ -5053,6 +5198,7 @@
     "subtitle": "Pestalozzistrasse 21",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/kinder-und-jugendheim-oberi",
+    "address": "Pestalozzistrasse 21",
     "tags": ""
   },
   {
@@ -5060,6 +5206,7 @@
     "subtitle": "Lindstrasse 45",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-aeusseres-lind",
+    "address": "Lindstrasse 45",
     "tags": ""
   },
   {
@@ -5067,6 +5214,7 @@
     "subtitle": "Neumühlestrasse 81",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-auwiesen",
+    "address": "Neumühlestrasse 81",
     "tags": ""
   },
   {
@@ -5074,6 +5222,7 @@
     "subtitle": "Nussbaumweg 7",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-breite",
+    "address": "Nussbaumweg 7",
     "tags": ""
   },
   {
@@ -5081,6 +5230,7 @@
     "subtitle": "Büelhofstrasse 27",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-bueelhof",
+    "address": "Büelhofstrasse 27",
     "tags": ""
   },
   {
@@ -5088,6 +5238,7 @@
     "subtitle": "Emil-Klöti-Strasse 18",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-emil-kloeti",
+    "address": "Emil-Klöti-Strasse 18",
     "tags": ""
   },
   {
@@ -5095,6 +5246,7 @@
     "subtitle": "Steinbruchweg 1",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-gerzler",
+    "address": "Steinbruchweg 1",
     "tags": ""
   },
   {
@@ -5102,6 +5254,7 @@
     "subtitle": "Stadlerstrasse 54",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-guggenbuehl",
+    "address": "Stadlerstrasse 54",
     "tags": ""
   },
   {
@@ -5109,6 +5262,7 @@
     "subtitle": "Scheideggstasse 12",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-gutschick",
+    "address": "Scheideggstasse 12",
     "tags": ""
   },
   {
@@ -5116,6 +5270,7 @@
     "subtitle": "In der Härti 6",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-haerti",
+    "address": "In der Härti 6",
     "tags": ""
   },
   {
@@ -5123,6 +5278,7 @@
     "subtitle": "Im oberen Gern 69a",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-hegi-im-gern",
+    "address": "Im oberen Gern 69",
     "tags": ""
   },
   {
@@ -5130,6 +5286,7 @@
     "subtitle": "Hinterdorfstrasse 37",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-hinterdorf",
+    "address": "Hinterdorfstrasse 37",
     "tags": ""
   },
   {
@@ -5137,6 +5294,7 @@
     "subtitle": "St. Georgenstrasse 59a",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-inneres-lind",
+    "address": "St. Georgenstrasse 59",
     "tags": ""
   },
   {
@@ -5144,6 +5302,7 @@
     "subtitle": "Hündlerstrasse 18b",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-laubegg",
+    "address": "Hündlerstrasse 18",
     "tags": ""
   },
   {
@@ -5151,6 +5310,7 @@
     "subtitle": "Weberstrasse 51",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-mattenbach",
+    "address": "Weberstrasse 51",
     "tags": ""
   },
   {
@@ -5158,6 +5318,7 @@
     "subtitle": "Römerstrasse 180",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-oberi-dorf",
+    "address": "Römerstrasse 180",
     "tags": ""
   },
   {
@@ -5165,6 +5326,7 @@
     "subtitle": "Rappstrasse 20",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-rappstrasse",
+    "address": "Rappstrasse 20",
     "tags": ""
   },
   {
@@ -5172,6 +5334,7 @@
     "subtitle": "Reismühleweg 48",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-reismuehle",
+    "address": "Reismühleweg 48",
     "tags": ""
   },
   {
@@ -5179,6 +5342,7 @@
     "subtitle": "Rettenbachweg 7",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-rettenbachweg",
+    "address": "Rettenbachweg 7",
     "tags": ""
   },
   {
@@ -5186,6 +5350,7 @@
     "subtitle": "Buchackerstrasse 54",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-schachen",
+    "address": "Buchackerstrasse 54",
     "tags": ""
   },
   {
@@ -5193,6 +5358,7 @@
     "subtitle": "Schlosstalstrasse 18",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-schlosstal",
+    "address": "Schlosstalstrasse 18",
     "tags": ""
   },
   {
@@ -5200,6 +5366,7 @@
     "subtitle": "Heiniweg 3",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-schooren",
+    "address": "Heiniweg 3",
     "tags": ""
   },
   {
@@ -5207,6 +5374,7 @@
     "subtitle": "Schützenstrasse 15",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-schuetzenwiese",
+    "address": "Schützenstrasse 15",
     "tags": ""
   },
   {
@@ -5214,6 +5382,7 @@
     "subtitle": "Wingertlistrasse 17",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-sonnenfeld",
+    "address": "Wingertlistrasse 17",
     "tags": ""
   },
   {
@@ -5221,6 +5390,7 @@
     "subtitle": "Steigstrasse 51",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-steig",
+    "address": "Steigstrasse 51",
     "tags": ""
   },
   {
@@ -5228,6 +5398,7 @@
     "subtitle": "Strittackerstrasse 29",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-strittacker",
+    "address": "Strittackerstrasse 29",
     "tags": ""
   },
   {
@@ -5235,6 +5406,7 @@
     "subtitle": "Wingertlistrasse 10A",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-suelacker",
+    "address": "Wingertlistrasse 10",
     "tags": ""
   },
   {
@@ -5242,6 +5414,7 @@
     "subtitle": "Hegistrasse 35c",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/kindergarten-und-hort-talwiesen",
+    "address": "Hegistrasse 35",
     "tags": ""
   },
   {
@@ -5249,6 +5422,7 @@
     "subtitle": "Agnesstrasse 18",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kinderhort-toessfeld",
+    "address": "Agnesstrasse 18",
     "tags": ""
   },
   {
@@ -5256,6 +5430,7 @@
     "subtitle": "Römerstrasse 134",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-unteres-buehl",
+    "address": "Römerstrasse 134",
     "tags": ""
   },
   {
@@ -5263,6 +5438,7 @@
     "subtitle": "Unterwegli 32",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-unterwegli",
+    "address": "Unterwegli 32",
     "tags": ""
   },
   {
@@ -5270,6 +5446,7 @@
     "subtitle": "Feldstrasse 8",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-feldstrasse",
+    "address": "Feldstrasse 8",
     "tags": ""
   },
   {
@@ -5277,6 +5454,7 @@
     "subtitle": "Waldeggstrasse 13",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-waldegg",
+    "address": "Waldeggstrasse 13",
     "tags": ""
   },
   {
@@ -5284,6 +5462,7 @@
     "subtitle": "Wässerwiesenstrasse 69",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-waesserwiesen",
+    "address": "Wässerwiesenstrasse 69",
     "tags": ""
   },
   {
@@ -5291,6 +5470,7 @@
     "subtitle": "Weierhöhe 30",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-weierhoehe",
+    "address": "Weierhöhe 30",
     "tags": ""
   },
   {
@@ -5298,6 +5478,7 @@
     "subtitle": "Wingertlistrasse 38",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-wingertli",
+    "address": "Wingertlistrasse 38",
     "tags": ""
   },
   {
@@ -5305,6 +5486,7 @@
     "subtitle": "Ruchwiesenstrasse 10",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-zinzikon",
+    "address": "Ruchwiesenstrasse 10",
     "tags": ""
   },
   {
@@ -5312,6 +5494,7 @@
     "subtitle": "Vogelsangstrasse 11",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/kinderuniversitaet-winterthur",
+    "address": "Vogelsangstrasse 11",
     "tags": ""
   },
   {
@@ -5326,6 +5509,7 @@
     "subtitle": "Lagerplatz 19",
     "category": "Film und Literatur",
     "url": "https://www.winterthur-glossar.ch/kino-cameo",
+    "address": "Lagerplatz 19",
     "tags": ""
   },
   {
@@ -5333,6 +5517,7 @@
     "subtitle": "Neumarkt 11-13",
     "category": "Film und Literatur",
     "url": "https://www.winterthur-glossar.ch/kino-neumarkt",
+    "address": "Neumarkt 11-13",
     "tags": ""
   },
   {
@@ -5340,6 +5525,7 @@
     "subtitle": "Untere Schöntalstrasse 19",
     "category": "Film und Literatur",
     "url": "https://www.winterthur-glossar.ch/kino-nische",
+    "address": "Untere Schöntalstrasse 19",
     "tags": ""
   },
   {
@@ -5347,6 +5533,7 @@
     "subtitle": "Unterer Deutweg 89",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/kirche-herz-jesu",
+    "address": "Unterer Deutweg 89",
     "tags": ""
   },
   {
@@ -5354,6 +5541,7 @@
     "subtitle": "Bettenstrasse 3",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/kirche-rosenberg",
+    "address": "Bettenstrasse 3",
     "tags": ""
   },
   {
@@ -5368,6 +5556,7 @@
     "subtitle": "Nägelseestrasse 46",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/kirche-st-josef",
+    "address": "Nägelseestrasse 46",
     "tags": ""
   },
   {
@@ -5375,6 +5564,7 @@
     "subtitle": "Wülflingerstrasse 181",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/kirche-st-laurentius",
+    "address": "Wülflingerstrasse 181",
     "tags": ""
   },
   {
@@ -5382,6 +5572,7 @@
     "subtitle": "Römerstrasse 105",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/kirche-st-marien",
+    "address": "Römerstrasse 105",
     "tags": ""
   },
   {
@@ -5389,6 +5580,7 @@
     "subtitle": "Tellstrasse 7",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/kirche-st-peter-und-paul",
+    "address": "Tellstrasse 7",
     "tags": ""
   },
   {
@@ -5396,6 +5588,7 @@
     "subtitle": "Seuzacherstrasse 1",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/kirche-st-ulrich",
+    "address": "Seuzacherstrasse 1",
     "tags": ""
   },
   {
@@ -5403,6 +5596,7 @@
     "subtitle": "Seenerstrasse 193",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/kirche-st-urban",
+    "address": "Seenerstrasse 193",
     "tags": ""
   },
   {
@@ -5410,6 +5604,7 @@
     "subtitle": "Barbara Reinhart-Strasse 20",
     "category": "Religiöse Gemeinden",
     "url": "https://www.winterthur-glossar.ch/kirchen--und-kongresszenturm-gvc-chile-hegi_806",
+    "address": "Barbara Reinhart-Strasse 20",
     "tags": ""
   },
   {
@@ -5417,6 +5612,7 @@
     "subtitle": "Liebestrasse 3",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/kirchgemeindehaus-stadt",
+    "address": "Liebestrasse 3",
     "tags": ""
   },
   {
@@ -5424,6 +5620,7 @@
     "subtitle": "Lindenplatz 14",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/kirchgemeindehaus-wuelflingen",
+    "address": "Lindenplatz 14",
     "tags": ""
   },
   {
@@ -5431,6 +5628,7 @@
     "subtitle": "Eulachstrasse 22",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/kistler-instrumente-ag",
+    "address": "Eulachstrasse 22",
     "tags": ""
   },
   {
@@ -5459,6 +5657,7 @@
     "subtitle": "Klosterstrasse 14",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/klostermuehle-toess",
+    "address": "Klosterstrasse 14",
     "tags": ""
   },
   {
@@ -5466,6 +5665,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/klosterstrasse-52",
+    "address": "Klosterstrasse 52",
     "tags": ""
   },
   {
@@ -5473,6 +5673,7 @@
     "subtitle": "Neumarkt 15",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/kmu-verband",
+    "address": "Neumarkt 15",
     "tags": ""
   },
   {
@@ -5501,6 +5702,7 @@
     "subtitle": "Marktgasse 3 / Marktgasse 5",
     "category": "Alle Kategorien",
     "url": "https://www.winterthur-glossar.ch/konditorei-und-baeckerei-jaiser",
+    "address": "Marktgasse 3-5",
     "tags": ""
   },
   {
@@ -5508,6 +5710,7 @@
     "subtitle": "Marktgasse 76 / Stadthausstrasse 117",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/konditorei-und-cafe-lutz",
+    "address": "Marktgasse 76, Stadthausstrasse 117",
     "tags": ""
   },
   {
@@ -5515,6 +5718,7 @@
     "subtitle": "Neumarkt 4",
     "category": "Öffentliche Bauten",
     "url": "https://www.winterthur-glossar.ch/koenigshof",
+    "address": "Neumarkt 4",
     "tags": ""
   },
   {
@@ -5536,6 +5740,7 @@
     "subtitle": "Konradstrasse 7",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/konradhof",
+    "address": "Konradstrasse 7",
     "tags": ""
   },
   {
@@ -5543,6 +5748,7 @@
     "subtitle": "Tössertobelstrasse 1",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/konservatorium-winterthur",
+    "address": "Tössertobelstrasse 1",
     "tags": ""
   },
   {
@@ -5550,6 +5756,7 @@
     "subtitle": "Thurgauerstrasse 26",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/konsumbaeckerei",
+    "address": "Thurgauerstrasse 26",
     "tags": ""
   },
   {
@@ -5557,6 +5764,7 @@
     "subtitle": "Werkstrasse 12",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/konsumhof",
+    "address": "Werkstrasse 12",
     "tags": ""
   },
   {
@@ -5571,6 +5779,7 @@
     "subtitle": "Lagerplatz 18",
     "category": "Musik und Theater",
     "url": "https://www.winterthur-glossar.ch/kraftfeld",
+    "address": "Lagerplatz 18",
     "tags": ""
   },
   {
@@ -5592,6 +5801,7 @@
     "subtitle": "Marktgasse 62",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/kreuzbrunnen",
+    "address": "Marktgasse 62",
     "tags": ""
   },
   {
@@ -5613,6 +5823,7 @@
     "subtitle": "Lagerhausstrasse 5",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/kuebler-heizoel-ag-1",
+    "address": "Lagerhausstrasse 5",
     "tags": ""
   },
   {
@@ -5620,6 +5831,7 @@
     "subtitle": "Rumstalstrasse 55",
     "category": "Museen, Sammlungen und Bibliotheken",
     "url": "https://www.winterthur-glossar.ch/kulturort-galerie-weiertal",
+    "address": "Rumstalstrasse 55",
     "tags": ""
   },
   {
@@ -5627,6 +5839,7 @@
     "subtitle": "Untere Schöntalstrasse 19",
     "category": "Musik und Theater",
     "url": "https://www.winterthur-glossar.ch/kulturzentrum-gaswerk",
+    "address": "Untere Schöntalstrasse 19",
     "tags": ""
   },
   {
@@ -5641,6 +5854,7 @@
     "subtitle": "Museumstrasse 52",
     "category": "Museen, Sammlungen und Bibliotheken",
     "url": "https://www.winterthur-glossar.ch/kunst-museum-winterthur-beim-stadthaus",
+    "address": "Museumstrasse 52",
     "tags": ""
   },
   {
@@ -5648,6 +5862,7 @@
     "subtitle": "Stadthausstrasse 6",
     "category": "Museen, Sammlungen und Bibliotheken",
     "url": "https://www.winterthur-glossar.ch/kunst-museum-winterthur-reinhart-am-stadtgarten",
+    "address": "Stadthausstrasse 6",
     "tags": ""
   },
   {
@@ -5662,6 +5877,7 @@
     "subtitle": "Marktgasse 25",
     "category": "Museen, Sammlungen und Bibliotheken",
     "url": "https://www.winterthur-glossar.ch/kunsthalle-winterthur",
+    "address": "Marktgasse 25",
     "tags": ""
   },
   {
@@ -5690,6 +5906,7 @@
     "subtitle": "Schloss 1",
     "category": "Anlässe, Brauchtum und Feste",
     "url": "https://www.winterthur-glossar.ch/kyburgiade",
+    "address": "Schloss 1",
     "tags": ""
   },
   {
@@ -5697,6 +5914,7 @@
     "subtitle": "Eichliwaldstrasse 14",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/kynologische-gesellschaft-winterthur-kgw",
+    "address": "Eichliwaldstrasse 14",
     "tags": ""
   },
   {
@@ -5704,6 +5922,7 @@
     "subtitle": "Pflanzschulstrasse 17a",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/laebesruum",
+    "address": "Pflanzschulstrasse 17",
     "tags": ""
   },
   {
@@ -5718,6 +5937,7 @@
     "subtitle": "Vogelsangstrasse 2-6",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/lagerhaeuser-am-bahnhof",
+    "address": "Vogelsangstrasse 2-6",
     "tags": ""
   },
   {
@@ -5732,6 +5952,7 @@
     "subtitle": "Riedhofstrasse 62",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/landwirtschaftsschule-strickhof",
+    "address": "Riedhofstrasse 62",
     "tags": ""
   },
   {
@@ -5837,6 +6058,7 @@
     "subtitle": "Werkstrasse 12",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/maag-recycling",
+    "address": "Werkstrasse 12",
     "tags": ""
   },
   {
@@ -5893,6 +6115,7 @@
     "subtitle": "Reutlingerstrasse 78",
     "category": "Öffentliche Bauten",
     "url": "https://www.winterthur-glossar.ch/maennerchorhaus-reutlingen",
+    "address": "Reutlingerstrasse 78",
     "tags": ""
   },
   {
@@ -6019,6 +6242,7 @@
     "subtitle": "Unterer Deutweg 83",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/maurerschule",
+    "address": "Unterer Deutweg 83",
     "tags": ""
   },
   {
@@ -6040,13 +6264,15 @@
     "subtitle": "Zeughausstrasse 56",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/msw",
-    "tags": ""
+    "address": "Zeughausstrasse 56",
+    "tags": "Metallarbeiterschule, MSW"
   },
   {
     "title": "Medbase Gruppe",
     "subtitle": "Schützenstrasse 3",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/medbase-gruppe",
+    "address": "Schützenstrasse 3",
     "tags": ""
   },
   {
@@ -6075,6 +6301,7 @@
     "subtitle": "Wildbachstrasse 16",
     "category": "Öffentliche Bauten",
     "url": "https://www.winterthur-glossar.ch/mehrzweckanlage-teuchelweiher",
+    "address": "Wildbachstrasse 16",
     "tags": ""
   },
   {
@@ -6089,6 +6316,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/mettlenstrasse-3",
+    "address": "Mettlenstrasse 3",
     "tags": ""
   },
   {
@@ -6159,6 +6387,7 @@
     "subtitle": "Zum Park 20",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/somosa",
+    "address": "Zum Park 20",
     "tags": ""
   },
   {
@@ -6166,6 +6395,7 @@
     "subtitle": "ehemaliges Restaurant Mörsburg",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/moersburgstrasse-22",
+    "address": "Mörsburgstrasse 22",
     "tags": ""
   },
   {
@@ -6173,6 +6403,7 @@
     "subtitle": "In der Euelwies 19",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/geschirr-moser",
+    "address": "In der Euelwies 19",
     "tags": ""
   },
   {
@@ -6187,6 +6418,7 @@
     "subtitle": "Lindstrasse 8",
     "category": "Museen, Sammlungen und Bibliotheken",
     "url": "https://www.winterthur-glossar.ch/muenzkabinett",
+    "address": "Lindstrasse 8",
     "tags": ""
   },
   {
@@ -6201,6 +6433,7 @@
     "subtitle": "Römerstrasse 8",
     "category": "Museen, Sammlungen und Bibliotheken",
     "url": "https://www.winterthur-glossar.ch/museum-lindengut",
+    "address": "Römerstrasse 8",
     "tags": ""
   },
   {
@@ -6208,6 +6441,7 @@
     "subtitle": "Lagerplatz 9",
     "category": "Museen, Sammlungen und Bibliotheken",
     "url": "https://www.winterthur-glossar.ch/museum-schaffen",
+    "address": "Lagerplatz 9",
     "tags": ""
   },
   {
@@ -6215,6 +6449,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/museumstrasse-18",
+    "address": "Museumstrasse 18",
     "tags": ""
   },
   {
@@ -6222,6 +6457,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/museumstrasse-7-9",
+    "address": "Museumstrasse 7-9",
     "tags": ""
   },
   {
@@ -6229,6 +6465,7 @@
     "subtitle": "Frauenfelderstrasse 78",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/musik-baur",
+    "address": "Frauenfelderstrasse 78",
     "tags": ""
   },
   {
@@ -6243,6 +6480,7 @@
     "subtitle": "Rychenbergstrasse 94",
     "category": "Musik und Theater",
     "url": "https://www.winterthur-glossar.ch/musikkollegium",
+    "address": "Rychenbergstrasse 94",
     "tags": ""
   },
   {
@@ -6250,6 +6488,7 @@
     "subtitle": "Archstrasse 6",
     "category": "",
     "url": "https://www.winterthur-glossar.ch/musikschule-prova",
+    "address": "Archstrasse 6",
     "tags": ""
   },
   {
@@ -6264,6 +6503,7 @@
     "subtitle": "Schlosstalstrasse 96",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/my-post-24",
+    "address": "Schlosstalstrasse 96",
     "tags": ""
   },
   {
@@ -6306,6 +6546,7 @@
     "subtitle": "Museumstrasse 52",
     "category": "Museen, Sammlungen und Bibliotheken",
     "url": "https://www.winterthur-glossar.ch/naturmuseum",
+    "address": "Museumstrasse 52",
     "tags": ""
   },
   {
@@ -6320,6 +6561,7 @@
     "subtitle": "Untere Vogelsangstrasse 11",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/ngw",
+    "address": "Untere Vogelsangstrasse 11",
     "tags": ""
   },
   {
@@ -6327,6 +6569,7 @@
     "subtitle": "Wülflingerstrasse 4",
     "category": "Religiöse Gemeinden",
     "url": "https://www.winterthur-glossar.ch/neuapostolische-kirche-winterthur",
+    "address": "Wülflingerstrasse 4",
     "tags": ""
   },
   {
@@ -6362,6 +6605,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/neumarkt-1",
+    "address": "Neumarkt 1",
     "tags": ""
   },
   {
@@ -6383,6 +6627,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/neustadtgasse-10-12",
+    "address": "Neustadtgasse 10-12",
     "tags": ""
   },
   {
@@ -6390,6 +6635,7 @@
     "subtitle": "Neustadtgasse 16",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/neustadthaus",
+    "address": "Neustadtgasse 16",
     "tags": ""
   },
   {
@@ -6404,6 +6650,7 @@
     "subtitle": "Wartstrasse 13 bis 17",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/neuwiesenhof",
+    "address": "Wartstrasse 13-17",
     "tags": ""
   },
   {
@@ -6411,6 +6658,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/neuwiesenstrasse-83-85",
+    "address": "Neuwiesenstrasse 83-85",
     "tags": ""
   },
   {
@@ -6418,6 +6666,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/neuwiesenstrasse-89",
+    "address": "Neuwiesenstrasse 89",
     "tags": ""
   },
   {
@@ -6467,6 +6716,7 @@
     "subtitle": "Badgasse 8",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/obere-badstube-zum-loerlibad",
+    "address": "Badgasse 8",
     "tags": ""
   },
   {
@@ -6474,6 +6724,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/obere-hohlgasse-15-17",
+    "address": "Obere Hohlgasse 15-17",
     "tags": ""
   },
   {
@@ -6481,6 +6732,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/obere-hohlgasse-4",
+    "address": "Obere Hohlgasse 4",
     "tags": ""
   },
   {
@@ -6488,6 +6740,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/obere-hohlgasse-5-9",
+    "address": "Obere Hohlgasse 5–9",
     "tags": ""
   },
   {
@@ -6495,6 +6748,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/obere-hohlgasse-6",
+    "address": "Obere Hohlgasse 6",
     "tags": ""
   },
   {
@@ -6502,6 +6756,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/obere-schoentalstrasse-16-26",
+    "address": "Obere Schöntalstrasse 16–26",
     "tags": ""
   },
   {
@@ -6516,6 +6771,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/oberer-graben-40-44-46",
+    "address": "Oberer Graben 40, Oberer Graben 44, Oberer Graben 46",
     "tags": ""
   },
   {
@@ -6523,6 +6779,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/obergasse-23",
+    "address": "Obergasse 23",
     "tags": ""
   },
   {
@@ -6537,6 +6794,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/obertor-19-21-23",
+    "address": "Obertor 19-23",
     "tags": ""
   },
   {
@@ -6593,6 +6851,7 @@
     "subtitle": "Wartstrasse 152",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/og-winterthur",
+    "address": "Wartstrasse 152",
     "tags": ""
   },
   {
@@ -6628,6 +6887,7 @@
     "subtitle": "In der Au 6",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/osram-ag",
+    "address": "In der Au 6",
     "tags": ""
   },
   {
@@ -6670,6 +6930,7 @@
     "subtitle": "Untere Vogelsangstrasse 4",
     "category": "Museen, Sammlungen und Bibliotheken",
     "url": "https://www.winterthur-glossar.ch/oxyd",
+    "address": "Untere Vogelsangstrasse 4",
     "tags": ""
   },
   {
@@ -6684,6 +6945,7 @@
     "subtitle": "Industriestrasse 40",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/pangas",
+    "address": "Industriestrasse 40",
     "tags": ""
   },
   {
@@ -6698,6 +6960,7 @@
     "subtitle": "Stadthausstrasse 4",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/park-hotel",
+    "address": "Stadthausstrasse 4",
     "tags": ""
   },
   {
@@ -6712,6 +6975,7 @@
     "subtitle": "Meisenstrasse 4",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/parkhaus-arch",
+    "address": "Meisenstrasse 4",
     "tags": ""
   },
   {
@@ -6719,6 +6983,7 @@
     "subtitle": "Technikumstrasse 9",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/parkhaus-technikum",
+    "address": "Technikumstrasse 9",
     "tags": ""
   },
   {
@@ -6761,6 +7026,7 @@
     "subtitle": "Grüzefeldstrasse 63",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/pawi-verpackungen-ag",
+    "address": "Grüzefeldstrasse 63",
     "tags": ""
   },
   {
@@ -6775,6 +7041,7 @@
     "subtitle": "Museumstrasse 15",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/personalrestaurant-axa-versicherungen",
+    "address": "Museumstrasse 15",
     "tags": ""
   },
   {
@@ -6782,6 +7049,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/pestalozzistrasse-1",
+    "address": "Pestalozzistrasse 1",
     "tags": ""
   },
   {
@@ -6838,6 +7106,7 @@
     "subtitle": "Grüzefeldstrasse 32",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/pfadi-winterthur-handball",
+    "address": "Grüzefeldstrasse 32",
     "tags": ""
   },
   {
@@ -6845,6 +7114,7 @@
     "subtitle": "St. Gallerstrasse 18",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/pfarreizentrum-san-francesco",
+    "address": "St. Gallerstrasse 18",
     "tags": ""
   },
   {
@@ -6852,6 +7122,7 @@
     "subtitle": "Reformierte Kirche Oberwinterthur",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/pfarrhaus-hohlandstrasse",
+    "address": "Hohlandstrasse 10",
     "tags": ""
   },
   {
@@ -6859,6 +7130,7 @@
     "subtitle": "Tellstrasse 7",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/pfarrhaus-st-peter-und-paul",
+    "address": "Tellstrasse 7",
     "tags": ""
   },
   {
@@ -6880,6 +7152,7 @@
     "subtitle": "Eichliwaldstrasse 9",
     "category": "Sport- und Freizeitanlagen",
     "url": "https://www.winterthur-glossar.ch/platz-abenteuerspielplatz",
+    "address": "Eichliwaldstrasse 9",
     "tags": ""
   },
   {
@@ -6908,6 +7181,7 @@
     "subtitle": "Fallenstettenweg 2",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/post-reutlingen",
+    "address": "Fallenstettenweg 2",
     "tags": ""
   },
   {
@@ -6929,6 +7203,7 @@
     "subtitle": "Bahnhofplatz 8",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/post-winterthur-1",
+    "address": "Bahnhofplatz 8",
     "tags": ""
   },
   {
@@ -6936,6 +7211,7 @@
     "subtitle": "Rychenbergstrasse 2",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/post-rosenberg",
+    "address": "Rychenbergstrasse 2",
     "tags": ""
   },
   {
@@ -6964,6 +7240,7 @@
     "subtitle": "Römerstrasse 234",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/post-oberwinterthur",
+    "address": "Römerstrasse 234",
     "tags": ""
   },
   {
@@ -6971,6 +7248,7 @@
     "subtitle": "Kanzleistrasse 36",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/post-seen",
+    "address": "Kanzleistrasse 36",
     "tags": ""
   },
   {
@@ -6992,6 +7270,7 @@
     "subtitle": "Wülflingerstrasse 230",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/post-wuelflingen",
+    "address": "Wülflingerstrasse 230",
     "tags": ""
   },
   {
@@ -7006,6 +7285,7 @@
     "subtitle": "Ziegeleiplatz 5",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/powerbike-winterthur",
+    "address": "Ziegeleiplatz 5",
     "tags": ""
   },
   {
@@ -7013,6 +7293,7 @@
     "subtitle": "Schickstrasse 11",
     "category": "geschäftliche Organisationen",
     "url": "https://www.winterthur-glossar.ch/privatklinik-lindberg",
+    "address": "Schickstrasse 11",
     "tags": ""
   },
   {
@@ -7027,6 +7308,7 @@
     "subtitle": "Rudolf-Diesel-Strasse 10",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/profil",
+    "address": "Rudolf-Diesel-Strasse 10",
     "tags": ""
   },
   {
@@ -7076,13 +7358,14 @@
     "subtitle": "Ruchwiesenstrasse 10",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/quartierverein-zinzikon",
-    "neighbourhood": "Zinzikon"
+    "address": "Ruchwiesenstrasse 10"
   },
   {
     "title": "Quartierzentrum Gutschick-Mattenbach",
     "subtitle": "Scheideggstrasse 19",
     "category": "Sport- und Freizeitanlagen",
-    "url": "https://www.winterthur-glossar.ch/quartierzentrum-gutschick-mattenbach"
+    "url": "https://www.winterthur-glossar.ch/quartierzentrum-gutschick-mattenbach",
+    "address": "Scheideggstrasse 19"
   },
   {
     "title": "Quellenhof-Stiftung",
@@ -7131,6 +7414,7 @@
     "subtitle": "Marktgasse 20",
     "category": "Öffentliche Bauten",
     "url": "https://www.winterthur-glossar.ch/rathaus",
+    "address": "Marktgasse 20",
     "tags": ""
   },
   {
@@ -7138,6 +7422,7 @@
     "subtitle": "Unterer Graben 35",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/rathaus-apotheke",
+    "address": "Unterer Graben 35",
     "tags": ""
   },
   {
@@ -7152,6 +7437,7 @@
     "subtitle": "Gärtnerstrasse 18",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/red-ants-rychenberg",
+    "address": "Gärtnerstrasse 18",
     "tags": ""
   },
   {
@@ -7159,6 +7445,7 @@
     "subtitle": "Tösstalstrasse 266a",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/reformierte-kirche-seen",
+    "address": "Tösstalstrasse 266",
     "tags": ""
   },
   {
@@ -7194,6 +7481,7 @@
     "subtitle": "Reismühleweg 36",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/reismuehle-hegi",
+    "address": "Reismühleweg 36",
     "tags": ""
   },
   {
@@ -7201,6 +7489,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/reismuehleweg-36",
+    "address": "Reismühleweg 36",
     "tags": ""
   },
   {
@@ -7208,6 +7497,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/reismuehleweg-40-42",
+    "address": "Reismühleweg 40-42",
     "tags": ""
   },
   {
@@ -7257,6 +7547,7 @@
     "subtitle": "Römerstrasse 173",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-roessli",
+    "address": "Römerstrasse 173",
     "tags": ""
   },
   {
@@ -7278,6 +7569,7 @@
     "subtitle": "Wydenweg 15",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-bahnhoefli-wuelflingen",
+    "address": "Wydenweg 15",
     "tags": ""
   },
   {
@@ -7285,6 +7577,7 @@
     "subtitle": "Dorfstrasse 12",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-blume",
+    "address": "Dorfstrasse 12",
     "tags": ""
   },
   {
@@ -7292,6 +7585,7 @@
     "subtitle": "Wülflingerstrasse 53",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-central",
+    "address": "Wülflingerstrasse 53",
     "tags": ""
   },
   {
@@ -7299,6 +7593,7 @@
     "subtitle": "Feldstrasse 2",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-concordia",
+    "address": "Feldstrasse 2",
     "tags": ""
   },
   {
@@ -7306,6 +7601,7 @@
     "subtitle": "Eschenbergstrasse 1",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-eschenberg",
+    "address": "Eschenbergstrasse 1",
     "tags": ""
   },
   {
@@ -7313,6 +7609,7 @@
     "subtitle": "Barbara Reinhart-Strasse 25",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-eulachpark",
+    "address": "Barbara Reinhart-Strasse 25",
     "tags": ""
   },
   {
@@ -7320,6 +7617,7 @@
     "subtitle": "Hulmenweg 33",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-frohsinn-eidberg",
+    "address": "Hulmenweg 33",
     "tags": ""
   },
   {
@@ -7327,6 +7625,7 @@
     "subtitle": "Unterdorfstrasse 7",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-frohsinn",
+    "address": "Unterdorfstrasse 7",
     "tags": ""
   },
   {
@@ -7334,6 +7633,7 @@
     "subtitle": "Wartstrasse 32",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-gambrinus",
+    "address": "Wartstrasse 32",
     "tags": ""
   },
   {
@@ -7341,6 +7641,7 @@
     "subtitle": "Süsenbergstrasse 17",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-goldenberg",
+    "address": "Süsenbergstrasse 17",
     "tags": ""
   },
   {
@@ -7355,6 +7656,7 @@
     "subtitle": "Wildbachstrasse 18",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-loewengarten",
+    "address": "Wildbachstrasse 18",
     "tags": ""
   },
   {
@@ -7362,6 +7664,7 @@
     "subtitle": "Stadthausstrasse 24",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-nationa",
+    "address": "Stadthausstrasse 24",
     "tags": ""
   },
   {
@@ -7369,6 +7672,7 @@
     "subtitle": "Haus Neueck, Schulgasse 1",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-obergass",
+    "address": "Schulgasse 1",
     "tags": ""
   },
   {
@@ -7383,6 +7687,7 @@
     "subtitle": "Marktgasse 61",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-reh",
+    "address": "Marktgasse 61",
     "tags": ""
   },
   {
@@ -7390,6 +7695,7 @@
     "subtitle": "Stadthausstrasse 8b",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-rheinfels",
+    "address": "Stadthausstrasse 8",
     "tags": ""
   },
   {
@@ -7397,6 +7703,7 @@
     "subtitle": "Oberer Graben 18",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-schaefli",
+    "address": "Oberer Graben 18",
     "tags": ""
   },
   {
@@ -7404,6 +7711,7 @@
     "subtitle": "St.Gallerstrasse 243",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-schoenengrund",
+    "address": "St. Gallerstrasse 243",
     "tags": ""
   },
   {
@@ -7411,6 +7719,7 @@
     "subtitle": "Wasserfurristrasse 31",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/metzgerei-ochsen",
+    "address": "Wasserfurristrasse 31",
     "tags": ""
   },
   {
@@ -7418,6 +7727,7 @@
     "subtitle": "Wieshofstrasse 132",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-wieshof",
+    "address": "Wieshofstrasse 132",
     "tags": ""
   },
   {
@@ -7425,6 +7735,7 @@
     "subtitle": "Marktgasse 13-15",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/restaurant-zur-sonne",
+    "address": "Marktgasse 13-15",
     "tags": ""
   },
   {
@@ -7446,6 +7757,7 @@
     "subtitle": "Auwiesenstrasse 49",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/revierstuetzpunkt-auwiesen",
+    "address": "Auwiesenstrasse 49",
     "tags": ""
   },
   {
@@ -7488,6 +7800,7 @@
     "subtitle": "Klosterstrasse 20",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/rieter",
+    "address": "Klosterstrasse 20",
     "tags": ""
   },
   {
@@ -7586,6 +7899,7 @@
     "subtitle": "Römerstrasse 232",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/roemer-apotheke",
+    "address": "Römerstrasse 232",
     "tags": ""
   },
   {
@@ -7600,6 +7914,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/roemerstrasse-177",
+    "address": "Römerstrasse 177",
     "tags": ""
   },
   {
@@ -7607,6 +7922,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/roemerstrasse-212-216",
+    "address": "Römerstrasse 212–216",
     "tags": ""
   },
   {
@@ -7614,6 +7930,7 @@
     "subtitle": "Guggenbühlstrasse 6",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/roemertor",
+    "address": "Guggenbühlstrasse 6",
     "tags": ""
   },
   {
@@ -7635,6 +7952,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/roessligasse-6-12",
+    "address": "Rössligasse 6–12",
     "tags": ""
   },
   {
@@ -7642,6 +7960,7 @@
     "subtitle": "Schlosstalstrasse 92",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/rote-trotte",
+    "address": "Schlosstalstrasse 92",
     "tags": ""
   },
   {
@@ -7649,6 +7968,7 @@
     "subtitle": "Theaterstrasse 17",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/roter-turm",
+    "address": "Theaterstrasse 17",
     "tags": ""
   },
   {
@@ -7656,6 +7976,7 @@
     "subtitle": "Marktgasse 37",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/rothaus",
+    "address": "Marktgasse 37",
     "tags": ""
   },
   {
@@ -7663,6 +7984,7 @@
     "subtitle": "Holzwingertstrasse 44",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/royal-doener",
+    "address": "Holzwingertstrasse 44",
     "tags": ""
   },
   {
@@ -7705,6 +8027,7 @@
     "subtitle": "Rudolf-Diesel-Strasse 10, 8404 Winterthur",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/rudolf-diesel-strasse",
+    "address": "Rudolf-Diesel-Strasse 10",
     "tags": ""
   },
   {
@@ -7712,6 +8035,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/rundstrasse-11-17",
+    "address": "Rundstrasse 11–17",
     "tags": ""
   },
   {
@@ -7761,6 +8085,7 @@
     "subtitle": "Untere Vogelsangstrasse 6",
     "category": "Musik und Theater",
     "url": "https://www.winterthur-glossar.ch/salzhaus",
+    "address": "Untere Vogelsangstrasse 6",
     "tags": ""
   },
   {
@@ -7768,6 +8093,7 @@
     "subtitle": "Stadthausstrasse 57",
     "category": "Museen, Sammlungen und Bibliotheken",
     "url": "https://www.winterthur-glossar.ch/Sammlung-Briner-und-Kern",
+    "address": "Stadthausstrasse 57",
     "tags": ""
   },
   {
@@ -7775,13 +8101,15 @@
     "subtitle": "Haldenstrasse 95",
     "category": "Museen, Sammlungen und Bibliotheken",
     "url": "https://www.winterthur-glossar.ch/sammlung-oskar-reinhart-am-roemerholz",
-    "tags": ""
+    "address": "Haldenstrasse 95",
+    "tags": "Trübli"
   },
   {
     "title": "Sammlung Winterthur",
     "subtitle": "Obere Kirchgasse 8",
     "category": "Verwaltung",
     "url": "https://www.winterthur-glossar.ch/sammlung-winterthur",
+    "address": "Obere Kirchgasse 8",
     "tags": ""
   },
   {
@@ -7824,6 +8152,7 @@
     "subtitle": "Flugplatzstrasse 7",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/sbb-serviceanlage-hegmatten",
+    "address": "Flugplatzstrasse 7",
     "tags": ""
   },
   {
@@ -7845,6 +8174,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/schaffhauserstrasse-1-7",
+    "address": "Schaffhauserstrasse 1–7",
     "tags": ""
   },
   {
@@ -7852,6 +8182,7 @@
     "subtitle": "Pflanzschulstrasse 28",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/schaffroth-spaeti",
+    "address": "Pflanzschulstrasse 28",
     "tags": ""
   },
   {
@@ -7859,6 +8190,7 @@
     "subtitle": "In der Euelwies 17",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/scheco-ag",
+    "address": "In der Euelwies 17",
     "tags": ""
   },
   {
@@ -7866,6 +8198,7 @@
     "subtitle": "Schickstrasse 4 und 9a",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/schickhof",
+    "address": "Schickstrasse 4, Schickstrasse 9",
     "tags": ""
   },
   {
@@ -7873,6 +8206,7 @@
     "subtitle": "Seenerstrasse 139",
     "category": "Sport- und Freizeitanlagen",
     "url": "https://www.winterthur-glossar.ch/schiessanlage-ohrbuehl",
+    "address": "Seenerstrasse 139",
     "tags": ""
   },
   {
@@ -7901,6 +8235,7 @@
     "subtitle": "Tellstrasse 16A",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/schlaraffia-vitudurum",
+    "address": "Tellstrasse 16",
     "tags": ""
   },
   {
@@ -7908,6 +8243,7 @@
     "subtitle": "Hegifeldstrasse 125",
     "category": "Burgen, Schlösser und Stadtbefestigung",
     "url": "https://www.winterthur-glossar.ch/schloss-hegi",
+    "address": "Hegifeldstrasse 125",
     "tags": ""
   },
   {
@@ -7915,6 +8251,7 @@
     "subtitle": "Schloss 1",
     "category": "Burgen, Schlösser und Stadtbefestigung",
     "url": "https://www.winterthur-glossar.ch/schloss-kyburg",
+    "address": "Schloss 1",
     "tags": ""
   },
   {
@@ -7922,6 +8259,7 @@
     "subtitle": "Mörsburgstrasse 30",
     "category": "Burgen, Schlösser und Stadtbefestigung",
     "url": "https://www.winterthur-glossar.ch/schloss-moersburg",
+    "address": "Mörsburgstrasse 30",
     "tags": ""
   },
   {
@@ -7929,6 +8267,7 @@
     "subtitle": "Wülflingerstrasse 214",
     "category": "Burgen, Schlösser und Stadtbefestigung",
     "url": "https://www.winterthur-glossar.ch/schloss-wuelflingen",
+    "address": "Wülflingerstrasse 214",
     "tags": ""
   },
   {
@@ -7936,6 +8275,7 @@
     "subtitle": "Turmhaldenstrasse 1",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/das-schmale-handtuch",
+    "address": "Turmhaldenstrasse 1",
     "tags": ""
   },
   {
@@ -7971,6 +8311,7 @@
     "subtitle": "Ackeretstrasse 17",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/schuhfabrik-w-bratteler-stehli",
+    "address": "Ackeretstrasse 17",
     "tags": ""
   },
   {
@@ -7985,6 +8326,7 @@
     "subtitle": "Lindstrasse 1",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-altstadt",
+    "address": "Lindstrasse 1",
     "tags": ""
   },
   {
@@ -7992,6 +8334,7 @@
     "subtitle": "Eulachstrasse 2",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-an-der-eulach",
+    "address": "Eulachstrasse 2",
     "tags": ""
   },
   {
@@ -7999,6 +8342,7 @@
     "subtitle": "Wieshofstrasse 59",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-ausserdorf",
+    "address": "Wieshofstrasse 59",
     "tags": ""
   },
   {
@@ -8006,6 +8350,7 @@
     "subtitle": "Bachtelstrasse 76",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-bachtelstrasse",
+    "address": "Bachtelstrasse 76",
     "tags": ""
   },
   {
@@ -8013,6 +8358,7 @@
     "subtitle": "Brühlbergstrasse 5",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-bruehlbergstrasse",
+    "address": "Brühlbergstrasse 5",
     "tags": ""
   },
   {
@@ -8020,6 +8366,7 @@
     "subtitle": "Büelhofstrasse 32",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-bueelwiesen",
+    "address": "Büelhofstrasse 32",
     "tags": ""
   },
   {
@@ -8027,6 +8374,7 @@
     "subtitle": "Tösstalstrasse 255",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-dorf-seen",
+    "address": "Tösstalstrasse 255",
     "tags": ""
   },
   {
@@ -8034,6 +8382,7 @@
     "subtitle": "Klosterstrasse 59",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-eichliacker",
+    "address": "Klosterstrasse 59",
     "tags": ""
   },
   {
@@ -8048,6 +8397,7 @@
     "subtitle": "Erlenstrasse 42",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-erlen",
+    "address": "Erlenstrasse 42",
     "tags": ""
   },
   {
@@ -8055,6 +8405,7 @@
     "subtitle": "Hegifeldstrasse 4a",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/Schulhaus-eulachpark",
+    "address": "Hegifeldstrasse 4",
     "tags": ""
   },
   {
@@ -8062,6 +8413,7 @@
     "subtitle": "Stadlerstrasse 56",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-guggenbuehl",
+    "address": "Stadlerstrasse 56",
     "tags": ""
   },
   {
@@ -8069,6 +8421,7 @@
     "subtitle": "Gutenbergstrasse 11",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-gutenberg",
+    "address": "Gutenbergstrasse 11",
     "tags": ""
   },
   {
@@ -8076,6 +8429,7 @@
     "subtitle": "Scheideggstrasse 1",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-gutschick",
+    "address": "Scheideggstrasse 1",
     "tags": ""
   },
   {
@@ -8083,6 +8437,7 @@
     "subtitle": "Mettlenstrasse 6",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-hegi",
+    "address": "Mettlenstrasse 6",
     "tags": ""
   },
   {
@@ -8090,6 +8445,7 @@
     "subtitle": "Hobelwerkweg 8",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-hegifeld",
+    "address": "Hobelwerkweg 8",
     "tags": ""
   },
   {
@@ -8097,6 +8453,7 @@
     "subtitle": "Hochwachtstrass 9",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-heiligberg",
+    "address": "Hochwachtstrass 9",
     "tags": ""
   },
   {
@@ -8104,6 +8461,7 @@
     "subtitle": "Eckwiesenstrasse 2",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-hohfurri",
+    "address": "Eckwiesenstrasse 2",
     "tags": ""
   },
   {
@@ -8111,6 +8469,7 @@
     "subtitle": "Holzlegistrasse 50",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-langwiesen",
+    "address": "Holzlegistrasse 50",
     "tags": ""
   },
   {
@@ -8118,6 +8477,7 @@
     "subtitle": "Hündlerstrasse 14",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-laubegg",
+    "address": "Hündlerstrasse 14",
     "tags": ""
   },
   {
@@ -8125,6 +8485,7 @@
     "subtitle": "Bäumlistrasse 39",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-lindberg",
+    "address": "Bäumlistrasse 39",
     "tags": ""
   },
   {
@@ -8132,6 +8493,7 @@
     "subtitle": "Talgutstrasse 71",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-mattenbach",
+    "address": "Talgutstrasse 71",
     "tags": ""
   },
   {
@@ -8139,6 +8501,7 @@
     "subtitle": "Ida-Sträuli-Strasse 50",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-neuhegi",
+    "address": "Ida-Sträuli-Strasse 50",
     "tags": ""
   },
   {
@@ -8146,6 +8509,7 @@
     "subtitle": "Wartstrasse 46",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-neuwiesen",
+    "address": "Wartstrasse 46",
     "tags": ""
   },
   {
@@ -8153,6 +8517,7 @@
     "subtitle": "Gotzenwilerstrasse 12",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-oberseen",
+    "address": "Gotzenwilerstrasse 12",
     "tags": ""
   },
   {
@@ -8160,6 +8525,7 @@
     "subtitle": "Rebwiesenstrasse 15",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-rebwiesen",
+    "address": "Rebwiesenstrasse 15",
     "tags": ""
   },
   {
@@ -8167,6 +8533,7 @@
     "subtitle": "Römerstrasse 141",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-roemerstrasse",
+    "address": "Römerstrasse 141",
     "tags": ""
   },
   {
@@ -8174,6 +8541,7 @@
     "subtitle": "Rosenaustrasse 13",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/Schulhaus-rosenau",
+    "address": "Rosenaustrasse 13",
     "tags": ""
   },
   {
@@ -8181,6 +8549,7 @@
     "subtitle": "Talackerstrasse 17",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-rychenberg",
+    "address": "Talackerstrasse 17",
     "tags": ""
   },
   {
@@ -8188,6 +8557,7 @@
     "subtitle": "Buchackerstrasse 54",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-schachen",
+    "address": "Buchackerstrasse 54",
     "tags": ""
   },
   {
@@ -8195,6 +8565,7 @@
     "subtitle": "Weberstrasse 2",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-schoenengrund",
+    "address": "Weberstrasse 2",
     "tags": ""
   },
   {
@@ -8202,6 +8573,7 @@
     "subtitle": "Tösstalstrasse 376",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-sennhof",
+    "address": "Tösstalstrasse 376",
     "tags": ""
   },
   {
@@ -8209,6 +8581,7 @@
     "subtitle": "Sankt-Georgen-Strasse 88",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-st-georgen",
+    "address": "Sankt-Georgen-Strasse 88",
     "tags": ""
   },
   {
@@ -8216,6 +8589,7 @@
     "subtitle": "Sempacherweg 4",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-steinacker",
+    "address": "Sempacherweg 4",
     "tags": ""
   },
   {
@@ -8223,6 +8597,7 @@
     "subtitle": "Wurmbühlstrasse 9",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-taegelmoos",
+    "address": "Wurmbühlstrasse 9",
     "tags": ""
   },
   {
@@ -8230,6 +8605,7 @@
     "subtitle": "Talackerstrasse 90",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-talacker",
+    "address": "Talackerstrasse 90",
     "tags": ""
   },
   {
@@ -8237,6 +8613,7 @@
     "subtitle": "Agnesstrasse 15",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-toessfeld",
+    "address": "Agnesstrasse 15",
     "tags": ""
   },
   {
@@ -8244,6 +8621,7 @@
     "subtitle": "St. Gallerstrasse 1",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-und-doppelturnhalle-geiselweid",
+    "address": "St. Gallerstrasse 1",
     "tags": ""
   },
   {
@@ -8251,6 +8629,7 @@
     "subtitle": "Wülflingerstrasse 42",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-und-turnhalle-wuelflingerstrasse",
+    "address": "Wülflingerstrasse 42",
     "tags": ""
   },
   {
@@ -8258,6 +8637,7 @@
     "subtitle": "Guggenbühlstrasse 140",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-wallrueti",
+    "address": "Guggenbühlstrasse 140",
     "tags": ""
   },
   {
@@ -8265,6 +8645,7 @@
     "subtitle": "Wiesenstrasse 20",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-wiesenstrasse",
+    "address": "Wiesenstrasse 20",
     "tags": ""
   },
   {
@@ -8272,6 +8653,7 @@
     "subtitle": "Espenstrasse 16",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-wyden",
+    "address": "Espenstrasse 16",
     "tags": ""
   },
   {
@@ -8279,6 +8661,7 @@
     "subtitle": "Zelglistrasse 2",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-zelgli",
+    "address": "Zelglistrasse 2",
     "tags": ""
   },
   {
@@ -8286,6 +8669,7 @@
     "subtitle": "Ruchwiesenstrasse 1",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-zinzikon",
+    "address": "Ruchwiesenstrasse 1",
     "tags": ""
   },
   {
@@ -8300,6 +8684,7 @@
     "subtitle": "",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulpavillon-rappstrasse",
+    "address": "Rappstrasse 28",
     "tags": ""
   },
   {
@@ -8307,6 +8692,7 @@
     "subtitle": "Stofflerenweg 15",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulpavillon-stofflerenweg",
+    "address": "Stofflerenweg 15",
     "tags": ""
   },
   {
@@ -8335,6 +8721,7 @@
     "subtitle": "Stadthausstrasse 18",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/schweizerische-bankgesellschaft-ubs",
+    "address": "Stadthausstrasse 18",
     "tags": ""
   },
   {
@@ -8349,6 +8736,7 @@
     "subtitle": "St. Gallerstrasse 138",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/schweizerische-nagelfabrik-ag",
+    "address": "St. Gallerstrasse 138",
     "tags": ""
   },
   {
@@ -8356,6 +8744,7 @@
     "subtitle": "Schlosstalstrasse 95-139",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/technische-fachschule-winterthur",
+    "address": "Schlosstalstrasse 95-139",
     "tags": ""
   },
   {
@@ -8370,6 +8759,7 @@
     "subtitle": "Mooswiesenweg 44",
     "category": "Sport- und Freizeitanlagen",
     "url": "https://www.winterthur-glossar.ch/schwimmbad-oberwinterthur",
+    "address": "Mooswiesenweg 44",
     "tags": ""
   },
   {
@@ -8384,6 +8774,7 @@
     "subtitle": "Rütihofstrasse 15",
     "category": "Sport- und Freizeitanlagen",
     "url": "https://www.winterthur-glossar.ch/schwimmbad-wolfensberg",
+    "address": "Rütihofstrasse 15",
     "tags": ""
   },
   {
@@ -8391,6 +8782,7 @@
     "subtitle": "Wässerwiesenstrasse 71",
     "category": "Sport- und Freizeitanlagen",
     "url": "https://www.winterthur-glossar.ch/schwimmbad-wuelflingen",
+    "address": "Wässerwiesenstrasse 71",
     "tags": ""
   },
   {
@@ -8398,6 +8790,7 @@
     "subtitle": "Aspacherstrasse 40",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/schwimmschule-ursula-bohn",
+    "address": "Aspacherstrasse 40",
     "tags": ""
   },
   {
@@ -8426,6 +8819,7 @@
     "subtitle": "Riedbachweg 4",
     "category": "Sport- und Freizeitanlagen",
     "url": "https://www.winterthur-glossar.ch/segelflugplatz-hegmatten",
+    "address": "Riedbachweg 4",
     "tags": ""
   },
   {
@@ -8440,6 +8834,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/seidenstrasse-18-pflanzschulstrasse-43",
+    "address": "Seidenstrasse 18, Pflanzschulstrasse 43",
     "tags": ""
   },
   {
@@ -8447,6 +8842,7 @@
     "subtitle": "Breitestrasse 18",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/seilerei-kislig",
+    "address": "Breitestrasse 18",
     "tags": ""
   },
   {
@@ -8454,6 +8850,7 @@
     "subtitle": "Löwenstrasse 3-7",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/sekundarschulhaus-feld",
+    "address": "Löwenstrasse 3-7",
     "tags": ""
   },
   {
@@ -8475,6 +8872,7 @@
     "subtitle": "Wülflingerstrasse 7",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/seniorenzentrum-wiesengrund",
+    "address": "Wülflingerstrasse 7",
     "tags": ""
   },
   {
@@ -8524,6 +8922,7 @@
     "subtitle": "Engelstrasse 5–11 + Strittackerstrasse 23",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/engelstrasse-5-11-strittackerstrasse-23",
+    "address": "Engelstrasse 5–11, Strittackerstrasse 23",
     "tags": ""
   },
   {
@@ -8552,6 +8951,7 @@
     "subtitle": "Hegifeldstrasse 76",
     "category": "Siedlungen",
     "url": "https://www.winterthur-glossar.ch/siedlung-hegifeld",
+    "address": "Hegifeldstrasse 76",
     "tags": ""
   },
   {
@@ -8559,6 +8959,7 @@
     "subtitle": "Heiligbergstrasse, 16, 18, 20, 22, 24, 26",
     "category": "Siedlungen",
     "url": "https://www.winterthur-glossar.ch/siedlung-heiligberg-i",
+    "address": "Heiligbergstrasse 16-26",
     "tags": ""
   },
   {
@@ -8566,6 +8967,7 @@
     "subtitle": "Frohbergstrasse 15 und Heiligbergstrasse 30, 32, 34, 36 und 38",
     "category": "Siedlungen",
     "url": "https://www.winterthur-glossar.ch/siedlung-heiligberg-ii",
+    "address": "Frohbergstrasse 15, Heiligbergstrasse 30-38",
     "tags": ""
   },
   {
@@ -8594,6 +8996,7 @@
     "subtitle": "",
     "category": "Siedlungen",
     "url": "https://www.winterthur-glossar.ch/siedlung-leimeneggstrasse",
+    "address": "Leimeneggstrasse 27–35, Leimeneggstrasse 43–45",
     "tags": ""
   },
   {
@@ -8615,6 +9018,7 @@
     "subtitle": "Rotenbrunnenstrasse 7",
     "category": "Siedlungen",
     "url": "https://www.winterthur-glossar.ch/siedlung-rotenbrunnen",
+    "address": "Rotenbrunnenstrasse 7",
     "tags": ""
   },
   {
@@ -8664,6 +9068,7 @@
     "subtitle": "Rumstalstrasse 10–28 (ohne 12), 29",
     "category": "Siedlungen",
     "url": "https://www.winterthur-glossar.ch/siedlung-weiertal",
+    "address": "Rumstalstrasse 10, Rumstalstrasse 14–28, Rumstalstrasse 29",
     "tags": ""
   },
   {
@@ -8699,6 +9104,7 @@
     "subtitle": "Theaterstrasse 17",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/sigren-engineering-ag",
+    "address": "Theaterstrasse 17",
     "tags": ""
   },
   {
@@ -8706,6 +9112,7 @@
     "subtitle": "St. Georgen-Strasse 70",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/sigvaris-ag",
+    "address": "St. Georgen-Strasse 70",
     "tags": ""
   },
   {
@@ -8734,6 +9141,7 @@
     "subtitle": "Seenerstrasse 1315",
     "category": "Sport- und Freizeitanlagen",
     "url": "https://www.winterthur-glossar.ch/skatepark-winterthur",
+    "address": "Seenerstrasse 1315",
     "tags": ""
   },
   {
@@ -8825,6 +9233,7 @@
     "subtitle": "Wieshofstrasse 102",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/spinnerei-beugger",
+    "address": "Wieshofstrasse 102",
     "tags": ""
   },
   {
@@ -8832,6 +9241,7 @@
     "subtitle": "Hard 6",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/hard-spinnerei",
+    "address": "Hard 6",
     "tags": ""
   },
   {
@@ -8839,6 +9249,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/spitzweg-2",
+    "address": "Spitzweg 2",
     "tags": ""
   },
   {
@@ -8846,6 +9257,7 @@
     "subtitle": "Hörnlistrasse 33",
     "category": "Sport- und Freizeitanlagen",
     "url": "https://www.winterthur-glossar.ch/sportanlage-deutweg",
+    "address": "Hörnlistrasse 33",
     "tags": ""
   },
   {
@@ -8888,13 +9300,15 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/st-georgenstrasse-13-19",
+    "address": "St. Georgenstrasse 13–19",
     "tags": ""
   },
   {
-    "title": "St.-Georgen-Strasse 68",
+    "title": "St. Georgen-Strasse 68",
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/st-georgen-strasse-68",
+    "address": "St. Georgen-Strasse 68",
     "tags": ""
   },
   {
@@ -8916,6 +9330,7 @@
     "subtitle": "Sulzerallee 11",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/stadler-winterthur-ag",
+    "address": "Sulzerallee 11",
     "tags": ""
   },
   {
@@ -8923,6 +9338,8 @@
     "subtitle": "",
     "category": "Verwaltung",
     "url": "https://www.winterthur-glossar.ch/stadt-winterthur",
+    "district": "Winterthur-Stadt",
+    "address": "Pionierstrasse 7",
     "tags": ""
   },
   {
@@ -8944,6 +9361,7 @@
     "subtitle": "Grüzefeldstrasse 35",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/stadtbus-winterthur",
+    "address": "Grüzefeldstrasse 35",
     "tags": ""
   },
   {
@@ -8958,6 +9376,7 @@
     "subtitle": "St. Gallerstrasse 184",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/stadtguet",
+    "address": "St. Gallerstrasse 184",
     "tags": ""
   },
   {
@@ -9014,6 +9433,7 @@
     "subtitle": "Technikumstrasse 78",
     "category": "Religiöse Gemeinden",
     "url": "https://www.winterthur-glossar.ch/stadtmission-winterthur",
+    "address": "Technikumstrasse 78",
     "tags": ""
   },
   {
@@ -9028,6 +9448,7 @@
     "subtitle": "Pionierstrasse 7",
     "category": "Politik",
     "url": "https://www.winterthur-glossar.ch/stadtparlament",
+    "address": "Pionierstrasse 7",
     "tags": ""
   },
   {
@@ -9084,6 +9505,7 @@
     "subtitle": "Untere Schöntalstrasse 12",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/stadtwerk-winterthur",
+    "address": "Untere Schöntalstrasse 12",
     "tags": ""
   },
   {
@@ -9133,6 +9555,7 @@
     "subtitle": "Zürcherstrasse 320-324",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/steigmuehle-toess",
+    "address": "Zürcherstrasse 320-324",
     "tags": ""
   },
   {
@@ -9147,6 +9570,7 @@
     "subtitle": "Freitaghaus",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/steinackerweg-2",
+    "address": "Steinackerweg 2",
     "tags": ""
   },
   {
@@ -9154,6 +9578,7 @@
     "subtitle": "",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/steinberggasse",
+    "street": "Steinberggasse",
     "tags": ""
   },
   {
@@ -9161,6 +9586,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/steinberggasse-1-5",
+    "address": "Steinberggasse 1–5",
     "tags": ""
   },
   {
@@ -9189,6 +9615,7 @@
     "subtitle": "Marktgasse 46",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/sternen-apotheke",
+    "address": "Marktgasse 46",
     "tags": ""
   },
   {
@@ -9217,6 +9644,7 @@
     "subtitle": "Rudolf Diesel-Strasse 11",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/stewi-ag",
+    "address": "Rudolf Diesel-Strasse 11",
     "tags": ""
   },
   {
@@ -9238,6 +9666,7 @@
     "subtitle": "Wülflingerstrasse 7",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/huelfsgesellschaft",
+    "address": "Wülflingerstrasse 7",
     "tags": ""
   },
   {
@@ -9245,6 +9674,7 @@
     "subtitle": "Trottenstrasse 20",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/stiftung-zeitzeichen",
+    "address": "Trottenstrasse 20",
     "tags": ""
   },
   {
@@ -9259,6 +9689,7 @@
     "subtitle": "Denkmal, Marktgasse 45",
     "category": "Kunst im öffentlichen Raum",
     "url": "https://www.winterthur-glossar.ch/stolpersteine",
+    "address": "Marktgasse 45",
     "tags": ""
   },
   {
@@ -9301,6 +9732,7 @@
     "subtitle": "Bürglistrasse 21-23",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/studentenheim-buerglistrasse",
+    "address": "Bürglistrasse 21-23",
     "tags": ""
   },
   {
@@ -9322,6 +9754,7 @@
     "subtitle": "Zürcherstrasse 14",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/sulzer-verwaltungsgebaeude",
+    "address": "Zürcherstrasse 14",
     "tags": ""
   },
   {
@@ -9329,6 +9762,7 @@
     "subtitle": "Hegifeldstrasse 10",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/sulzer-wohlfahrtshaus",
+    "address": "Hegifeldstrasse 10",
     "tags": ""
   },
   {
@@ -9343,6 +9777,7 @@
     "subtitle": "Neuwiesenstrasse 15",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/sulzer-hochhaus-wintower",
+    "address": "Neuwiesenstrasse 15",
     "tags": ""
   },
   {
@@ -9350,6 +9785,7 @@
     "subtitle": "Sulzerallee 12a, 8404 Winterthur",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/sulzerallee",
+    "address": "Sulzerallee 12",
     "tags": ""
   },
   {
@@ -9357,6 +9793,7 @@
     "subtitle": "Pionierstrasse 7",
     "category": "Öffentliche Bauten",
     "url": "https://www.winterthur-glossar.ch/superblock",
+    "address": "Pionierstrasse 7",
     "tags": ""
   },
   {
@@ -9364,6 +9801,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/suesenbergstrasse-11",
+    "address": "Süsenbergstrasse 11",
     "tags": ""
   },
   {
@@ -9378,6 +9816,7 @@
     "subtitle": "Technoramastrasse 1",
     "category": "Museen, Sammlungen und Bibliotheken",
     "url": "https://www.winterthur-glossar.ch/technorama",
+    "address": "Technoramastrasse 1",
     "tags": ""
   },
   {
@@ -9406,6 +9845,7 @@
     "subtitle": "Mattenbach",
     "category": "Stadtkreise und Quartiere",
     "url": "https://www.winterthur-glossar.ch/talgut",
+    "street": "Kreuzeggweg, Zwinglistrasse, Talgutstrasse",
     "tags": ""
   },
   {
@@ -9413,6 +9853,7 @@
     "subtitle": "Trottenstrasse 2 und 4",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/tambuerlihaus",
+    "address": "Trottenstrasse 2-4",
     "tags": ""
   },
   {
@@ -9420,13 +9861,15 @@
     "subtitle": "Stadthausstrasse 10b (ehemals Merkurstrasse 9)",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/taverne-zum-kreuz",
-    "tags": ""
+    "address": "Stadthausstrasse 10",
+    "tags": "Merkurstrasse 9"
   },
   {
     "title": "Taverne zum Wilden Mann",
     "subtitle": "Obertor 3",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/taverne-zum-wilden-mann",
+    "address": "Obertor 3",
     "tags": ""
   },
   {
@@ -9441,6 +9884,7 @@
     "subtitle": "Technikumstrasse 9",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/technikum-zhaw",
+    "address": "Technikumstrasse 9",
     "tags": ""
   },
   {
@@ -9448,6 +9892,7 @@
     "subtitle": "Läden, Restaurants und Gewerbe entlang der Technikumsstrasse",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/technikumstrasse",
+    "street": "Technikumstrasse",
     "tags": ""
   },
   {
@@ -9455,6 +9900,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/technikumstrasse-1",
+    "address": "Technikumstrasse 1",
     "tags": ""
   },
   {
@@ -9462,6 +9908,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/technikumstrasse-24-26",
+    "address": "Technikumstrasse 24-26",
     "tags": ""
   },
   {
@@ -9469,6 +9916,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/technikumstrasse-30-32-34",
+    "address": "Technikumstrasse 30-34",
     "tags": ""
   },
   {
@@ -9476,6 +9924,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/technikumstrasse-48-50-52",
+    "address": "Technikumstrasse 48-52",
     "tags": ""
   },
   {
@@ -9483,6 +9932,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/technikumstrasse-81-83-meisenstrasse-1",
+    "address": "Technikumstrasse 81-83, Meisenstrasse 1",
     "tags": ""
   },
   {
@@ -9511,6 +9961,7 @@
     "subtitle": "Haltenrebenstrasse 100–122",
     "category": "Siedlungen",
     "url": "https://www.winterthur-glossar.ch/terrassensiedlung",
+    "address": "Haltenrebenstrasse 100–122",
     "tags": ""
   },
   {
@@ -9546,6 +9997,7 @@
     "subtitle": "Schaffhauserstrasse 44",
     "category": "Musik und Theater",
     "url": "https://www.winterthur-glossar.ch/theater-ariane",
+    "address": "Schaffhauserstrasse 44",
     "tags": ""
   },
   {
@@ -9553,6 +10005,7 @@
     "subtitle": "Scheideggstrasse 37",
     "category": "Musik und Theater",
     "url": "https://www.winterthur-glossar.ch/theater-kanton-zuerich",
+    "address": "Scheideggstrasse 37",
     "tags": ""
   },
   {
@@ -9567,6 +10020,7 @@
     "subtitle": "Theaterstrasse 6",
     "category": "Musik und Theater",
     "url": "https://www.winterthur-glossar.ch/stadttheater",
+    "address": "Theaterstrasse 6",
     "tags": ""
   },
   {
@@ -9623,6 +10077,7 @@
     "subtitle": "Schlossackerstrasse 20",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/toggenburger-unternehmungen",
+    "address": "Schlossackerstrasse 20",
     "tags": ""
   },
   {
@@ -9665,6 +10120,7 @@
     "subtitle": "Läden, Restaurants und Gewerbe entlang der Tösstalstrasse",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/toesstalstrasse",
+    "street": "Tösstalstrasse",
     "tags": ""
   },
   {
@@ -9679,6 +10135,7 @@
     "subtitle": "Barbara-Reinhart-Strasse 20, 8404 Winterthur",
     "category": "Siedlungen",
     "url": "https://www.winterthur-glossar.ch/townvillage",
+    "address": "Barbara-Reinhart-Strasse 20",
     "tags": ""
   },
   {
@@ -9686,6 +10143,7 @@
     "subtitle": "Eidbergstrasse 75",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/transformatorenturm-eidberg",
+    "address": "Eidbergstrasse 75",
     "tags": ""
   },
   {
@@ -9693,6 +10151,7 @@
     "subtitle": "Hardgutstrasse 66",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/transformatorenhaeuser",
+    "address": "Hardgutstrasse 66",
     "tags": ""
   },
   {
@@ -9700,6 +10159,7 @@
     "subtitle": "Mettlenstrasse 19",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/transformatorenturm1",
+    "address": "Mettlenstrasse 19",
     "tags": ""
   },
   {
@@ -9707,6 +10167,7 @@
     "subtitle": "Neuburgstrasse 9",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/transformatorenturm-neuburg",
+    "address": "Neuburgstrasse 9",
     "tags": ""
   },
   {
@@ -9714,6 +10175,7 @@
     "subtitle": "J.C. Heer-Strasse 10",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/transformatorenturm",
+    "address": "J.C. Heer-Strasse 10",
     "tags": ""
   },
   {
@@ -9721,6 +10183,7 @@
     "subtitle": "Untere Vogelsangstrasse 2",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/treffpunkt-vogelsang",
+    "address": "Untere Vogelsangstrasse 2",
     "tags": ""
   },
   {
@@ -9728,6 +10191,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/trotte-an-der-rychenbergstrasse-135",
+    "address": "Rychenbergstrasse 135",
     "tags": ""
   },
   {
@@ -9735,6 +10199,7 @@
     "subtitle": "Weinbergstrasse 150",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/trotte-wuelflingen",
+    "address": "Weinbergstrasse 150",
     "tags": ""
   },
   {
@@ -9742,6 +10207,7 @@
     "subtitle": "Weinbergstrasse 130",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/trottgebaeude",
+    "address": "Weinbergstrasse 130",
     "tags": ""
   },
   {
@@ -9749,6 +10215,7 @@
     "subtitle": "Haldenstrasse 69",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/turmhaus-krebsliga",
+    "address": "Haldenstrasse 69",
     "tags": ""
   },
   {
@@ -9756,6 +10223,7 @@
     "subtitle": "Technikumstrasse 36",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/tuermlihaus",
+    "address": "Technikumstrasse 36",
     "tags": ""
   },
   {
@@ -9763,6 +10231,7 @@
     "subtitle": "Agnesstrasse 15",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/turnhalle-toessfeld",
+    "address": "Agnesstrasse 15",
     "tags": ""
   },
   {
@@ -9770,6 +10239,7 @@
     "subtitle": "St. Georgenstrasse 69 und Museumsstrasse 46",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/turnhallen-lind-nord-und-sued",
+    "address": "St. Georgenstrasse 69, Museumsstrasse 46",
     "tags": ""
   },
   {
@@ -9840,6 +10310,7 @@
     "subtitle": "Arbergstrasse 7",
     "category": "Siedlungen",
     "url": "https://www.winterthur-glossar.ch/ueberbauung-hagmann-areal",
+    "address": "Arbergstrasse 7",
     "tags": ""
   },
   {
@@ -9903,6 +10374,7 @@
     "subtitle": "",
     "category": "Siedlungen",
     "url": "https://www.winterthur-glossar.ch/ueberbauung-zwinglistrasse-14-22",
+    "address": "Zwinglistrasse 14–22",
     "tags": ""
   },
   {
@@ -9910,7 +10382,8 @@
     "subtitle": "Kirchplatz 14",
     "category": "Museen, Sammlungen und Bibliotheken",
     "url": "https://www.winterthur-glossar.ch/uhrenmuseum-winterthur",
-    "tags": ""
+    "address": "Kirchplatz 14",
+    "tags": "Uhrensammlung Kellenberger"
   },
   {
     "title": "Ulrich Hegner",
@@ -9931,6 +10404,7 @@
     "subtitle": "Stadel",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/unterdorfstrasse-14-16",
+    "address": "Unterdorfstrasse 14–16",
     "tags": ""
   },
   {
@@ -10029,6 +10503,7 @@
     "subtitle": "Archstrasse 2 - 18",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/milchverband",
+    "address": "Archstrasse 2-18",
     "tags": ""
   },
   {
@@ -10036,6 +10511,7 @@
     "subtitle": "Deltastrasse 2",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/volg",
+    "address": "Deltastrasse 2",
     "tags": ""
   },
   {
@@ -10050,6 +10526,7 @@
     "subtitle": "Römerstrasse 6",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/frauenstadtrundgang-winterthur",
+    "address": "Römerstrasse 6",
     "tags": ""
   },
   {
@@ -10106,6 +10583,7 @@
     "subtitle": "General-Guisan-Strasse 40",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/verwaltungsgebaeude-axa-winterthur",
+    "address": "General-Guisan-Strasse 40",
     "tags": ""
   },
   {
@@ -10120,6 +10598,7 @@
     "subtitle": "Lindstrasse 6",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-achtnich",
+    "address": "Lindstrasse 6",
     "tags": ""
   },
   {
@@ -10127,6 +10606,7 @@
     "subtitle": "Seidenstrasse 2",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-bridler",
+    "address": "Seidenstrasse 2",
     "tags": ""
   },
   {
@@ -10134,6 +10614,7 @@
     "subtitle": "Adlerstrasse 12",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-briner",
+    "address": "Adlerstrasse 12",
     "tags": ""
   },
   {
@@ -10141,6 +10622,7 @@
     "subtitle": "Büelrainstrasse 14-16",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-bueel",
+    "address": "Büelrainstrasse 14-16",
     "tags": ""
   },
   {
@@ -10148,6 +10630,7 @@
     "subtitle": "Lindstrasse 8",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-buehler",
+    "address": "Lindstrasse 8",
     "tags": ""
   },
   {
@@ -10155,6 +10638,7 @@
     "subtitle": "Rychenbergstrasse 82",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-carl-ziegler-haefeli",
+    "address": "Rychenbergstrasse 82",
     "tags": ""
   },
   {
@@ -10162,6 +10646,7 @@
     "subtitle": "Wolfensbergstrasse 165",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-erb",
+    "address": "Wolfensbergstrasse 165",
     "tags": ""
   },
   {
@@ -10169,6 +10654,7 @@
     "subtitle": "Seidenstrasse 14",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-erica",
+    "address": "Seidenstrasse 14",
     "tags": ""
   },
   {
@@ -10176,6 +10662,7 @@
     "subtitle": "Römerstrasse 18",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-fehlmann",
+    "address": "Römerstrasse 18",
     "tags": ""
   },
   {
@@ -10183,6 +10670,7 @@
     "subtitle": "Tösstalstrasse 42+44",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-flora",
+    "address": "Tösstalstrasse 42-44",
     "tags": ""
   },
   {
@@ -10190,6 +10678,7 @@
     "subtitle": "Rudolfstrasse 29",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-friedberg",
+    "address": "Rudolfstrasse 29",
     "tags": ""
   },
   {
@@ -10197,6 +10686,7 @@
     "subtitle": "Heiligbergstrasse 50",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-frohberg-und-der-frohbergpark",
+    "address": "Heiligbergstrasse 50",
     "tags": ""
   },
   {
@@ -10204,6 +10694,7 @@
     "subtitle": "Römerstrasse 29",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-glitsch",
+    "address": "Römerstrasse 29",
     "tags": ""
   },
   {
@@ -10211,6 +10702,7 @@
     "subtitle": "Adlerstrasse 14",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-huggenberg",
+    "address": "Adlerstrasse 14",
     "tags": ""
   },
   {
@@ -10225,6 +10717,7 @@
     "subtitle": "Schwalmenackerstrasse 4",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-jakobsbrunnen",
+    "address": "Schwalmenackerstrasse 4",
     "tags": ""
   },
   {
@@ -10232,6 +10725,7 @@
     "subtitle": "Römerstrasse 23",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-junge-rosenau",
+    "address": "Römerstrasse 23",
     "tags": ""
   },
   {
@@ -10239,6 +10733,7 @@
     "subtitle": "Römerstrasse 36",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-jungheim",
+    "address": "Römerstrasse 36",
     "tags": ""
   },
   {
@@ -10246,6 +10741,7 @@
     "subtitle": "Seidenstrasse 42",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-kjelsberg",
+    "address": "Seidenstrasse 42",
     "tags": ""
   },
   {
@@ -10253,6 +10749,7 @@
     "subtitle": "Lindstrasse 16",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-lindeneck",
+    "address": "Lindstrasse 16",
     "tags": ""
   },
   {
@@ -10260,6 +10757,7 @@
     "subtitle": "Hermann-Götz-Strasse 21",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-lindgueetli",
+    "address": "Hermann-Götz-Strasse 21",
     "tags": ""
   },
   {
@@ -10267,6 +10765,7 @@
     "subtitle": "Hohfurristrasse 98",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-neuenhofer",
+    "address": "Hohfurristrasse 98",
     "tags": ""
   },
   {
@@ -10274,6 +10773,7 @@
     "subtitle": "Neuwiesenstrasse 11",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-ninck-bruehlhof",
+    "address": "Neuwiesenstrasse 11",
     "tags": ""
   },
   {
@@ -10281,6 +10781,7 @@
     "subtitle": "Eichwaldstrasse 21",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-obere-halde",
+    "address": "Eichwaldstrasse 21",
     "tags": ""
   },
   {
@@ -10288,6 +10789,7 @@
     "subtitle": "Römerstrasse 32",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-prior",
+    "address": "Römerstrasse 32",
     "tags": ""
   },
   {
@@ -10295,6 +10797,7 @@
     "subtitle": "Hochwachtstrasse 24",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-reinhart-auf-dem-heiligberg",
+    "address": "Hochwachtstrasse 24",
     "tags": ""
   },
   {
@@ -10302,6 +10805,7 @@
     "subtitle": "Schaffhauserstrasse 52",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-rosenberg",
+    "address": "Schaffhauserstrasse 52",
     "tags": ""
   },
   {
@@ -10309,6 +10813,7 @@
     "subtitle": "Rychenbergstasse 94",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-rychenberg",
+    "address": "Rychenbergstasse 94",
     "tags": ""
   },
   {
@@ -10316,6 +10821,7 @@
     "subtitle": "Römerstrasse 14",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-schulthess-stolz",
+    "address": "Römerstrasse 14",
     "tags": ""
   },
   {
@@ -10323,6 +10829,7 @@
     "subtitle": "Hochwachtstrasse 20",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-sonnenberg",
+    "address": "Hochwachtstrasse 20",
     "tags": ""
   },
   {
@@ -10330,6 +10837,7 @@
     "subtitle": "Schaffhauserstrasse 18",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-sophora",
+    "address": "Schaffhauserstrasse 18",
     "tags": ""
   },
   {
@@ -10337,6 +10845,7 @@
     "subtitle": "Museumstrasse 60",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-straeuli",
+    "address": "Museumstrasse 60",
     "tags": ""
   },
   {
@@ -10344,6 +10853,7 @@
     "subtitle": "Seidenstrasse 16",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-straeuli-ganzoni",
+    "address": "Seidenstrasse 16",
     "tags": ""
   },
   {
@@ -10351,6 +10861,7 @@
     "subtitle": "Museumstrasse 56/58",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-sulzberg-und-remise",
+    "address": "Museumstrasse 56-58",
     "tags": ""
   },
   {
@@ -10358,6 +10869,7 @@
     "subtitle": "Römerstrasse 34",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-sulzberger",
+    "address": "Römerstrasse 34",
     "tags": ""
   },
   {
@@ -10365,6 +10877,7 @@
     "subtitle": "Eichwaldstrasse 1-3",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-toessertobel",
+    "address": "Eichwaldstrasse 1-3",
     "tags": ""
   },
   {
@@ -10372,6 +10885,7 @@
     "subtitle": "Seidenstrasse 27",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-traubengut",
+    "address": "Seidenstrasse 27",
     "tags": ""
   },
   {
@@ -10379,6 +10893,7 @@
     "subtitle": "Seidenweg 2",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-voelki",
+    "address": "Seidenweg 2",
     "tags": ""
   },
   {
@@ -10386,6 +10901,7 @@
     "subtitle": "Rosenrain 17",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-wolfer-sulzer",
+    "address": "Rosenrain 17",
     "tags": ""
   },
   {
@@ -10407,6 +10923,7 @@
     "subtitle": "Klosterstrasse 22, 8406 Winterthur",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/vitus-areal",
+    "address": "Klosterstrasse 22",
     "tags": ""
   },
   {
@@ -10414,6 +10931,7 @@
     "subtitle": "In der Euelwies 32",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/volg-weinkellereien",
+    "address": "In der Euelwies 32",
     "tags": ""
   },
   {
@@ -10421,6 +10939,7 @@
     "subtitle": "Römerstrasse 6",
     "category": "Natur und Pärke",
     "url": "https://www.winterthur-glossar.ch/voliere-im-lindengutpark",
+    "address": "Römerstrasse 6",
     "tags": ""
   },
   {
@@ -10428,6 +10947,7 @@
     "subtitle": "Turnerstrasse 1",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/volkarthaus",
+    "address": "Turnerstrasse 1",
     "tags": ""
   },
   {
@@ -10442,6 +10962,7 @@
     "subtitle": "Marktgasse 25",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/waaghaus",
+    "address": "Marktgasse 25",
     "tags": ""
   },
   {
@@ -10645,6 +11166,7 @@
     "subtitle": "Wieshofstrasse 105",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/wespimuehle",
+    "address": "Wieshofstrasse 105",
     "tags": ""
   },
   {
@@ -10659,6 +11181,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/wildbachstrasse-28",
+    "address": "Wildbachstrasse 28",
     "tags": ""
   },
   {
@@ -10680,6 +11203,7 @@
     "subtitle": "Bruderhausstrasse 1",
     "category": "Natur und Pärke",
     "url": "https://www.winterthur-glossar.ch/bruderhaus",
+    "address": "Bruderhausstrasse 1",
     "tags": ""
   },
   {
@@ -10855,6 +11379,7 @@
     "subtitle": "Mörsburgstrasse 36",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/wirtschaft-zur-schlosshalde-moersburg",
+    "address": "Mörsburgstrasse 36",
     "tags": ""
   },
   {
@@ -10862,6 +11387,7 @@
     "subtitle": "Marktgasse 49",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/wirtshaus-zur-krone",
+    "address": "Marktgasse 49",
     "tags": ""
   },
   {
@@ -10883,6 +11409,7 @@
     "subtitle": "Stadthausstrasse 22",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/haendlisteine",
+    "address": "Stadthausstrasse 22",
     "tags": ""
   },
   {
@@ -10890,6 +11417,7 @@
     "subtitle": "Paulstrasse 5",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/paulstrasse-5",
+    "address": "Paulstrasse 5",
     "tags": ""
   },
   {
@@ -10897,6 +11425,7 @@
     "subtitle": "Schützenstrasse 8–14",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/schuetzenstrasse-8-14",
+    "address": "Schützenstrasse 8–14",
     "tags": ""
   },
   {
@@ -10904,6 +11433,7 @@
     "subtitle": "Kirchplatz 5",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/gaiwo",
+    "address": "Kirchplatz 5",
     "tags": ""
   },
   {
@@ -10911,6 +11441,7 @@
     "subtitle": "Untere Briggerstrasse 31",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/wohnheim-fuer-studierende",
+    "address": "Untere Briggerstrasse 31",
     "tags": ""
   },
   {
@@ -10918,6 +11449,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/wohnhotel",
+    "address": "Wülflingerstrasse 15",
     "tags": ""
   },
   {
@@ -10925,6 +11457,7 @@
     "subtitle": "Schoorenstrasse 3-33 in Oberwinterthur",
     "category": "Siedlungen",
     "url": "https://www.winterthur-glossar.ch/wohnkolonie-schooren",
+    "address": "Schoorenstrasse 3-33",
     "tags": ""
   },
   {
@@ -10946,6 +11479,7 @@
     "subtitle": "Else-Züblin-Strasse 112, 8404 Winterthur",
     "category": "Siedlungen",
     "url": "https://www.winterthur-glossar.ch/wohnueberbauungen-liz-max-und-roy",
+    "address": "Else-Züblin-Strasse 112",
     "tags": ""
   },
   {
@@ -10960,6 +11494,7 @@
     "subtitle": "Katharina Sulzer-Platz 12",
     "category": "Stiftungen",
     "url": "https://www.winterthur-glossar.ch/woelfflinstiftung",
+    "address": "Katharina Sulzer-Platz 12",
     "tags": ""
   },
   {
@@ -10988,6 +11523,7 @@
     "subtitle": "ehemals Restaurant Blume",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/wuelflingerstrasse-236",
+    "address": "Wülflingerstrasse 236",
     "tags": ""
   },
   {
@@ -10995,6 +11531,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/wuelflingerstrasse-239",
+    "address": "Wülflingerstrasse 239",
     "tags": ""
   },
   {
@@ -11002,6 +11539,7 @@
     "subtitle": "ehemals Gasthof Kreuz",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/wuelflingerstrasse-259",
+    "address": "Wülflingerstrasse 259",
     "tags": ""
   },
   {
@@ -11016,6 +11554,7 @@
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/wylandstrasse-26",
+    "address": "Wylandstrasse 26",
     "tags": ""
   },
   {
@@ -11037,6 +11576,7 @@
     "subtitle": "Turbinenstrasse 5",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/zag",
+    "address": "Turbinenstrasse 5",
     "tags": ""
   },
   {
@@ -11044,6 +11584,7 @@
     "subtitle": "Strickerstrasse 3",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/zentrum-neuwiesen",
+    "address": "Strickerstrasse 3",
     "tags": ""
   },
   {
@@ -11051,6 +11592,7 @@
     "subtitle": "Zürcherstrasse 106",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/zentrum-toess",
+    "address": "Zürcherstrasse 106",
     "tags": ""
   },
   {
@@ -11065,6 +11607,7 @@
     "subtitle": "Turbinenstrasse 2",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/hochschulbibliothek-zhaw",
+    "address": "Turbinenstrasse 2",
     "tags": ""
   },
   {
@@ -11079,6 +11622,7 @@
     "subtitle": "Sulzerallee 8",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/zimmer-biomet",
+    "address": "Sulzerallee 8",
     "tags": ""
   },
   {
@@ -11086,6 +11630,7 @@
     "subtitle": "Steinberggasse 53",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/zum-grauen-haus",
+    "address": "Steinberggasse 53",
     "tags": ""
   },
   {
@@ -11093,6 +11638,7 @@
     "subtitle": "Untertor 30",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/zuercher-kantonalbank",
+    "address": "Untertor 30",
     "tags": ""
   },
   {
@@ -11107,6 +11653,7 @@
     "subtitle": "Läden, Restaurants und Gewerbe entlang der Zürcherstrasse",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/zuercherstrasse",
+    "street": "Zürcherstrasse",
     "tags": ""
   },
   {
@@ -11114,6 +11661,7 @@
     "subtitle": "",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/zuercherstrasse-42-44-und-waldhofstrasse-4",
+    "address": "Zürcherstrasse 42–44, Waldhofstrasse 4",
     "tags": ""
   },
   {
@@ -11121,6 +11669,7 @@
     "subtitle": "Unterer Deutweg 13",
     "category": "Kirchengebäude",
     "url": "https://www.winterthur-glossar.ch/zwinglikirche",
+    "address": "Unterer Deutweg 13",
     "tags": ""
   },
   {
@@ -11128,6 +11677,7 @@
     "subtitle": "Poststrasse 15",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/zsw",
+    "address": "Poststrasse 15",
     "tags": ""
   }
 ]
