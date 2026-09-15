@@ -707,7 +707,7 @@ button {
   border: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 932px) {
   #app {
     flex-direction: column;
   }

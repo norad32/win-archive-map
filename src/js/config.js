@@ -7,7 +7,7 @@ export const Config = Object.freeze({
 
   GITHUB_REPO: "norad32/win-archive-map",
 
-  MOBILE_BREAKPOINT: 768, // keep in sync with style.css @media rule
+  MOBILE_BREAKPOINT: 932, // keep in sync with style.css @media rule
 
   OUTLINE_COLOR: "#d81400", // matches --color-brand in style.css
 
