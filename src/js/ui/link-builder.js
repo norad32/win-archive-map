@@ -5,17 +5,9 @@ export function buildCustomLink(props) {
   const street = props.street || "";
   const housenumber = extractFirstHouseNumber(props.housenumber);
 
-  let district = props.district || "";
-  if (district === "Other") {
-    district = "";
-  } else if (district === "Winterthur-Stadt") {
-    district = "Altstadt";
-  }
-
   const parts = [];
   if (housenumber !== "") parts.push(`HAUSNUMMER=${housenumber}`);
   if (!Number.isNaN(year)) parts.push(`JAHR=${year}`);
-  if (district !== "") parts.push(`STADTKREIS=${district}`);
   if (street !== "") parts.push(`STRASSE=${street}`);
 
   const query = parts.join(" ");
@@ -34,6 +26,7 @@ export function buildReportIssueUrl(props) {
     `- Street: ${props.street || "(none)"}`,
     `- House number: ${props.housenumber || "(none)"}`,
     `- District: ${props.district || "(none)"}`,
+    `- Neighbourhood: ${props.neighbourhood || "(none)"}`,
     "",
     "## What's incorrect?",
     "",
