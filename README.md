@@ -11,21 +11,22 @@ npm install
 npm run dev
 ```
 
-Visit [http://localhost:8000](http://localhost:8000])
+Visit [http://localhost:8000](http://localhost:8000)
 
 ## Credits
 
 Built with:
 
 - [Bildarchiv Winterthur](https://bilddatenbank.winterthur.ch) – Metadata source
-- [geo.admin.ch)](https://www.geo.admin.ch/) – Swiss federal geospatial API for address geocoding
-- [OpenStreetMap](https://www.openstreetmap.org/) – Base map layer
+- [Stadtkreise und Quartiere Zürich und Winterthur (OGD)](https://www.geolion.zh.ch) – District and neighbourhood boundary data, licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de)
+- [geo.admin.ch](https://www.geo.admin.ch/) – Swiss federal geospatial API for address geocoding
+- [swisstopo](https://www.swisstopo.admin.ch) – Base map imagery (Pixelkarte and Luftbild)
 - [Leaflet](https://leafletjs.com) – Interactive maps library
 - [Leaflet.markercluster](https://github.com/leaflet/leaflet.markercluster) – Marker clustering
 - [Playwright](https://playwright.dev) – Web scraping
 - [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/) – HTML parsing
 
-## Licene
+## License
 
 [MIT](LICENSE)
 
