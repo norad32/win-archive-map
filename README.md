@@ -18,6 +18,7 @@ Visit [http://localhost:8000](http://localhost:8000)
 Built with:
 
 - [Bildarchiv Winterthur](https://bilddatenbank.winterthur.ch) – Metadata source
+- [Winterthur-Glossar](https://winbib.ch) – Glossary entries / background information on places and topics in Winterthur
 - [Stadtkreise und Quartiere Zürich und Winterthur (OGD)](https://www.geolion.zh.ch) – District and neighbourhood boundary data, licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de)
 - [geo.admin.ch](https://www.geo.admin.ch/) – Swiss federal geospatial API for address geocoding
 - [swisstopo](https://www.swisstopo.admin.ch) – Base map imagery (Pixelkarte and Luftbild)
