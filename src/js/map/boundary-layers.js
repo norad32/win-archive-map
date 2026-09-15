@@ -61,7 +61,7 @@ export function createBoundaryLayers(map) {
 
     layers.district.addTo(map);
     layers.neighbourhood.addTo(map);
-    layers.districtLabels.addTo(map);
+    // layers.districtLabels.addTo(map);
 
     forceShowNeighbourhoodLabels = Boolean(selectedNeighbourhood);
     updateNeighbourhoodLabelVisibility();
@@ -90,7 +90,7 @@ export function createBoundaryLayers(map) {
     }
   }
 
-  map.on("zoomend", updateNeighbourhoodLabelVisibility);
+  // map.on("zoomend", updateNeighbourhoodLabelVisibility);
 
   return { setData, getDistrictToNeighbourhoods, render };
 }
