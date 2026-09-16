@@ -302,8 +302,23 @@
     }
   }
 
+  .modal-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-block-end: 20px;
+  }
+
+  .modal-logo {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+  }
+
   #aboutTitle {
-    margin-block: 0 20px;
+    margin-block: 0;
     font-size: 22px;
     font-weight: 600;
   }
