@@ -6,6 +6,7 @@ import { updateNeighbourhoodOptions } from "./ui/neighbourhood-select.js";
 import { showDetails } from "./ui/details-panel.js";
 import { createMap } from "./map/map.js";
 import { initAboutModal } from "./ui/about-modal.js";
+import { showError } from "./ui/details-panel.js";
 
 function isMobileViewport() {
   return window.matchMedia(`(max-width: ${Config.MOBILE_BREAKPOINT}px)`)
@@ -51,10 +52,28 @@ function init() {
     setTimeout(() => map.invalidateSize(), 300);
   }
 
+  function handleUnexpectedError(err) {
+    const message =
+      err instanceof Error ? err.message : "An unexpected error occurred.";
+    showError(domRefs.detailsEl, `Something went wrong: ${message}`);
+    console.error("Unhandled error:", err);
+  }
+
+  function handleUnhandledRejection(event) {
+    const reason = event.reason;
+    if (reason?.name === "AbortError") return;
+    handleUnexpectedError(reason);
+  }
+
   function attachGlobalListeners(sidebar) {
     if (domRefs.sidebarToggleEl && domRefs.sidebarEl) {
       domRefs.sidebarToggleEl.addEventListener("click", handleSidebarToggle);
     }
+
+    window.addEventListener("error", (event) => {
+      handleUnexpectedError(event.error ?? event.message);
+    });
+    window.addEventListener("unhandledrejection", handleUnhandledRejection);
 
     window.addEventListener("resize", () => {
       map.invalidateSize();

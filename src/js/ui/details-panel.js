@@ -2,6 +2,17 @@ import { el } from "../dom/dom-builder.js";
 import { buildCustomLink, buildReportIssueUrl } from "../utils/link-builder.js";
 import { loadGlossary, findGlossaryMatches } from "./glossary-matcher.js";
 
+export function showError(detailsEl, message) {
+  detailsEl.replaceChildren();
+  detailsEl.append(
+    el(
+      "div",
+      { className: "error-banner", role: "alert" },
+      el("p", {}, message),
+    ),
+  );
+}
+
 export async function showDetails(detailsEl, entries) {
   detailsEl.replaceChildren();
 
@@ -15,8 +26,14 @@ export async function showDetails(detailsEl, entries) {
   let glossary = [];
   try {
     glossary = await loadGlossary();
-  } catch (err) {
-    console.warn("Glossary could not be loaded:", err);
+  } catch {
+    detailsEl.append(
+      el(
+        "p",
+        { className: "error-inline" },
+        "Related glossary articles are unavailable right now.",
+      ),
+    );
   }
 
   const matches = collectGlossaryMatches(entries, glossary);

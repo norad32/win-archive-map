@@ -5,6 +5,7 @@ import {
 } from "../data/districts.js";
 import { updateStats, updateLastUpdated } from "./status.js";
 import { updateNeighbourhoodOptions } from "./neighbourhood-select.js";
+import { showError } from "./details-panel.js";
 
 export function createSidebar({ domRefs, dataStore, map }) {
   const filters = createFilters({
@@ -25,8 +26,20 @@ export function createSidebar({ domRefs, dataStore, map }) {
   }
 
   function handleError(err) {
-    domRefs.statsEl.textContent = `Error loading data: ${err.message}`;
+    showError(
+      domRefs.detailsEl,
+      `Error loading data: ${err.message}. Please try reloading the page.`,
+    );
     console.error("Data load error:", err);
+  }
+
+  function handleBoundaryPartialError(errors) {
+    const detail = errors.map((e) => e.message ?? String(e)).join(" ");
+    showError(
+      domRefs.detailsEl,
+      `Some map boundaries could not be loaded: ${detail}`,
+    );
+    console.warn("Boundary partial load errors:", errors);
   }
 
   function handleDistrictChange(e) {
@@ -76,6 +89,7 @@ export function createSidebar({ domRefs, dataStore, map }) {
       dataStore.on("districts-loaded", handleDistrictsLoaded),
       dataStore.on("geo-loaded", handleGeoLoaded),
       dataStore.on("error", handleError),
+      dataStore.on("boundary-partial-error", handleBoundaryPartialError),
     );
   }
 
