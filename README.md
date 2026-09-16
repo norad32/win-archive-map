@@ -1,21 +1,35 @@
+<div align="center">
+  <img src="src/assets/favicon.svg" width="180" alt="Win Archive Map logo" />
+</div>
+
 # Win Archive Map
 
-Interactive map viewer for the [Bildarchiv Winterthur](https://bilddatenbank.winterthur.ch) image archive.
+Interactive map viewer for the [Bildarchiv Winterthur](https://bilddatenbank.winterthur.ch) image archive. Browse historical photos of Winterthur placed on an interactive map, filter by title, street, district, and year range, and switch between historical map and aerial imagery layers from swisstopo. Clicking an entry shows its metadata and links related articles from the Winterthur-Glossar.
 
 **[View Live](https://norad32.github.io/win-archive-map/)**
+
+## Features
+
+- Historical photos grouped and clustered by location on a Leaflet map
+- Filters: title search, street (with autocomplete), district, neighbourhood, year range
+- Timeline slider to switch between historical map/aerial layers (1850–today)
+- District and neighbourhood boundary overlays
+- Related glossary articles per entry, from the Winterthur-Glossar
 
 ## Quick start
 
 ```bash
 npm install
-npm run dev
+npm run dev     # serve at http://localhost:8000
+npm run build   # build to dist/
+npm run deploy  # build and publish to GitHub Pages
 ```
 
-Visit [http://localhost:8000](http://localhost:8000)
+## Tech stack
+
+Vanilla ES modules (no framework), Leaflet + Leaflet.markercluster, esbuild bundler, Python (Playwright, BeautifulSoup, httpx) for data scraping and geocoding. Data is published as GeoJSON.
 
 ## Credits
-
-Built with:
 
 - [Bildarchiv Winterthur](https://bilddatenbank.winterthur.ch) – Metadata source
 - [Winterthur-Glossar](https://winbib.ch) – Glossary entries / background information on places and topics in Winterthur
