@@ -30,7 +30,7 @@ await esbuild.build({
   bundle: true,
   minify: true,
   format: "esm",
-  target: "es2020",
+  target: "es2022",
 });
 
 function copyRecursive(src, dest, { minifyJson = false } = {}) {

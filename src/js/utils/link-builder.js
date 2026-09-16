@@ -1,4 +1,5 @@
-import { Config } from "./../config.js";
+import { Config } from "../config.js";
+import { extractFirstYear } from "./parse.js";
 
 export function buildCustomLink(props) {
   const year = extractFirstYear(props.year);
@@ -46,10 +47,4 @@ function extractFirstHouseNumber(housenumber) {
   if (!housenumber) return "";
   const match = String(housenumber).match(/\d+/);
   return match ? match[0] : "";
-}
-
-function extractFirstYear(rawYear) {
-  if (!rawYear) return NaN;
-  const match = String(rawYear).match(/\d{4}/);
-  return match ? Number.parseInt(match[0], 10) : NaN;
 }

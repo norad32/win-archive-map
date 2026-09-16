@@ -195,7 +195,6 @@ function createLeafletMap(elId) {
   let currentLayer = digitalMapCurrent;
 
   const yearSlider = document.getElementById("yearSlider");
-  const yearDisplay = document.getElementById("yearDisplay");
   const yearRangeLabels = document.getElementById("yearRangeLabels");
 
   function getYearsForMode(mode) {
@@ -217,7 +216,7 @@ function createLeafletMap(elId) {
     yearSlider.step = 1;
     yearSlider.value = years.length - 1;
 
-    yearRangeLabels.innerHTML = "";
+    yearRangeLabels.replaceChildren();
     years.forEach((year, i) => {
       const span = document.createElement("span");
       span.textContent = formatYearLabel(year);
@@ -231,7 +230,7 @@ function createLeafletMap(elId) {
 
   function updateLayer() {
     const layerKeys = getLayerKeysForMode(currentMode);
-    const index = parseInt(yearSlider.value, 10);
+    const index = Number(yearSlider.value);
     const layerKey = layerKeys[index];
 
     if (currentLayer) map.removeLayer(currentLayer);
@@ -243,8 +242,7 @@ function createLeafletMap(elId) {
 
   function updateMapAttribution() {
     const years = getYearsForMode(currentMode);
-    const index = Number(yearSlider.value);
-    const year = years[index];
+    const year = years[Number(yearSlider.value)];
 
     const type = currentMode === "digitalMap" ? "digital map" : "aerial image";
 

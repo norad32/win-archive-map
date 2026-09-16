@@ -1,14 +1,14 @@
-import { buildCustomLink, buildReportIssueUrl } from "./link-builder.js";
+import { el } from "../dom/dom-builder.js";
+import { buildCustomLink, buildReportIssueUrl } from "../utils/link-builder.js";
 import { loadGlossary, findGlossaryMatches } from "./glossary-matcher.js";
 
 export async function showDetails(detailsEl, entries) {
-  detailsEl.innerHTML = "";
+  detailsEl.replaceChildren();
 
   if (!entries || entries.length === 0) {
-    const placeholder = document.createElement("p");
-    placeholder.className = "placeholder";
-    placeholder.textContent = "No details available.";
-    detailsEl.appendChild(placeholder);
+    detailsEl.append(
+      el("p", { className: "placeholder" }, "No details available."),
+    );
     return;
   }
 
@@ -19,116 +19,105 @@ export async function showDetails(detailsEl, entries) {
     console.warn("Glossary could not be loaded:", err);
   }
 
-  const combinedMatches = new Map(); // url -> match
-  entries.forEach((props) => {
-    const matches = findGlossaryMatches(props, glossary);
-    matches.forEach((match) => {
-      if (!combinedMatches.has(match.url)) {
-        combinedMatches.set(match.url, match);
-      }
-    });
-  });
+  const matches = collectGlossaryMatches(entries, glossary);
+  if (matches.length > 0) {
+    detailsEl.append(buildGlossarySection(matches));
+  }
 
-  const sortedMatches = Array.from(combinedMatches.values()).sort((a, b) =>
+  entries.forEach((props, idx) => {
+    detailsEl.append(buildEntryBlock(props));
+    if (idx < entries.length - 1) {
+      detailsEl.append(el("hr", { className: "entry-separator" }));
+    }
+  });
+}
+
+function collectGlossaryMatches(entries, glossary) {
+  const unique = new Map();
+
+  for (const props of entries) {
+    for (const match of findGlossaryMatches(props, glossary)) {
+      if (!unique.has(match.url)) {
+        unique.set(match.url, match);
+      }
+    }
+  }
+
+  return [...unique.values()].sort((a, b) =>
     (a.title || "")
       .toLowerCase()
       .localeCompare((b.title || "").toLowerCase(), "de"),
   );
-
-  if (sortedMatches.length > 0) {
-    detailsEl.appendChild(buildGlossarySection(sortedMatches));
-  }
-
-  entries.forEach((props, idx) => {
-    detailsEl.appendChild(buildEntryBlock(props));
-    if (idx < entries.length - 1) {
-      const hr = document.createElement("hr");
-      hr.className = "entry-separator";
-      detailsEl.appendChild(hr);
-    }
-  });
 }
 
 function buildEntryBlock(props) {
-  const block = document.createElement("div");
-  block.className = "entry-block";
-
-  const heading = document.createElement("h3");
-  heading.textContent = props.title || "Untitled";
-  block.appendChild(heading);
-
-  const table = document.createElement("table");
   const rows = [
-    ["Year", props.year || ""],
-    ["Street", props.street || ""],
-    ["House number", props.housenumber || ""],
-    ["District", props.district || ""],
-    ["Neighbourhood", props.neighbourhood || ""],
-  ];
+    ["Year", props.year],
+    ["Street", props.street],
+    ["House number", props.housenumber],
+    ["District", props.district],
+    ["Neighbourhood", props.neighbourhood],
+  ].map(([label, value]) =>
+    el("tr", {}, [
+      el("td", { className: "key" }, label),
+      el("td", {}, value || ""),
+    ]),
+  );
 
-  for (const [label, value] of rows) {
-    const tr = document.createElement("tr");
-    const keyCell = document.createElement("td");
-    keyCell.className = "key";
-    keyCell.textContent = label;
-    const valueCell = document.createElement("td");
-    valueCell.textContent = value;
-    tr.append(keyCell, valueCell);
-    table.appendChild(tr);
-  }
-  block.appendChild(table);
-
-  const linkRow = document.createElement("div");
-  linkRow.className = "entry-links";
-
-  const link = document.createElement("a");
-  link.className = "gen-link";
-  link.href = buildCustomLink(props);
-  link.target = "_blank";
-  link.rel = "noopener noreferrer";
-  link.textContent = "Search in Bildarchiv Winterthur";
-  linkRow.appendChild(link);
-
-  const reportLink = document.createElement("a");
-  reportLink.className = "report-error-link";
-  reportLink.href = buildReportIssueUrl(props);
-  reportLink.target = "_blank";
-  reportLink.rel = "noopener noreferrer";
-  reportLink.textContent = "Report incorrect metadata";
-  linkRow.appendChild(reportLink);
-
-  block.appendChild(linkRow);
-  return block;
+  return el("div", { className: "entry-block" }, [
+    el("h3", {}, props.title || "Untitled"),
+    el("table", {}, rows),
+    el("div", { className: "entry-links" }, [
+      el(
+        "a",
+        {
+          className: "gen-link",
+          href: buildCustomLink(props),
+          target: "_blank",
+          rel: "noopener noreferrer",
+        },
+        "Search in Bildarchiv Winterthur",
+      ),
+      el(
+        "a",
+        {
+          className: "report-error-link",
+          href: buildReportIssueUrl(props),
+          target: "_blank",
+          rel: "noopener noreferrer",
+        },
+        "Report incorrect metadata",
+      ),
+    ]),
+  ]);
 }
 
 function buildGlossarySection(matches) {
-  const wrapper = document.createElement("div");
-  wrapper.className = "glossary-matches";
-
-  const heading = document.createElement("h3");
-  heading.textContent = "Related Articles from the 'Winterthur Glossar'";
-  wrapper.appendChild(heading);
-
-  const list = document.createElement("ul");
-  matches.forEach((match) => {
-    const li = document.createElement("li");
-    const a = document.createElement("a");
-    a.href = match.url;
-    a.target = "_blank";
-    a.rel = "noopener noreferrer";
-    a.textContent = match.subtitle
-      ? `${match.title} — ${match.subtitle}`
-      : match.title;
-    li.appendChild(a);
-    if (match.category) {
-      const span = document.createElement("span");
-      span.className = "glossary-category";
-      span.textContent = ` (${match.category})`;
-      li.appendChild(span);
-    }
-    list.appendChild(li);
-  });
-  wrapper.appendChild(list);
-
-  return wrapper;
+  return el("div", { className: "glossary-matches" }, [
+    el("h3", {}, "Related Articles from the 'Winterthur Glossar'"),
+    el(
+      "ul",
+      {},
+      matches.map((match) =>
+        el("li", {}, [
+          el(
+            "a",
+            {
+              href: match.url,
+              target: "_blank",
+              rel: "noopener noreferrer",
+            },
+            match.subtitle ? `${match.title} — ${match.subtitle}` : match.title,
+          ),
+          match.category
+            ? el(
+                "span",
+                { className: "glossary-category" },
+                ` (${match.category})`,
+              )
+            : null,
+        ]),
+      ),
+    ),
+  ]);
 }

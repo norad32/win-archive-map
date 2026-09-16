@@ -7,71 +7,64 @@ import { showDetails } from "./ui/details-panel.js";
 import { createMap } from "./map/map.js";
 import { initAboutModal } from "./ui/about-modal.js";
 
-let map = null;
-let domRefs = null;
-
 function isMobileViewport() {
   return window.matchMedia(`(max-width: ${Config.MOBILE_BREAKPOINT}px)`)
     .matches;
 }
 
-function closeSidebar() {
-  domRefs.sidebarEl.classList.remove("open");
-  domRefs.sidebarToggleEl?.setAttribute("aria-expanded", "false");
-}
-
-function handleMarkerClick(group) {
-  showDetails(domRefs.detailsEl, group.entries);
-  if (isMobileViewport() && domRefs.sidebarEl) {
-    domRefs.sidebarEl.classList.add("open");
-    domRefs.sidebarToggleEl?.setAttribute("aria-expanded", "true");
-  }
-}
-
-function attachOutsideClickToClose() {
-  document.addEventListener(
-    "click",
-    (event) => {
-      if (!isMobileViewport()) return;
-      if (!domRefs.sidebarEl.classList.contains("open")) return;
-
-      const clickedInsideSidebar = domRefs.sidebarEl.contains(event.target);
-      const clickedToggle = domRefs.sidebarToggleEl?.contains(event.target);
-      const clickedMarker = event.target.closest(".leaflet-marker-icon");
-
-      if (!clickedInsideSidebar && !clickedToggle && !clickedMarker) {
-        closeSidebar();
-      }
-    },
-    true,
-  );
-}
-
-function attachGlobalListeners({ sidebar, dataStore }) {
-  if (domRefs.sidebarToggleEl && domRefs.sidebarEl) {
-    domRefs.sidebarToggleEl.addEventListener("click", () => {
-      const isOpen = domRefs.sidebarEl.classList.toggle("open");
-      domRefs.sidebarToggleEl.setAttribute("aria-expanded", String(isOpen));
-      setTimeout(() => map.invalidateSize(), 300);
-    });
-  }
-
-  window.addEventListener("resize", () => {
-    map.invalidateSize();
-  });
-
-  window.addEventListener("beforeunload", () => {
-    sidebar.filters.cancelPending();
-    dataStore.abort();
-  });
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  domRefs = initDomRefs();
-  map = createMap("map", handleMarkerClick);
+function init() {
+  const domRefs = initDomRefs();
+  const dataStore = createDataStore();
+  const map = createMap("map", handleMarkerClick);
   initAboutModal();
 
-  const dataStore = createDataStore();
+  function closeSidebar() {
+    domRefs.sidebarEl.classList.remove("open");
+    domRefs.sidebarToggleEl?.setAttribute("aria-expanded", "false");
+  }
+
+  function handleMarkerClick(group) {
+    showDetails(domRefs.detailsEl, group.entries);
+    if (isMobileViewport() && domRefs.sidebarEl) {
+      domRefs.sidebarEl.classList.add("open");
+      domRefs.sidebarToggleEl?.setAttribute("aria-expanded", "true");
+    }
+  }
+
+  function handleOutsideClick(event) {
+    if (!isMobileViewport()) return;
+    if (!domRefs.sidebarEl.classList.contains("open")) return;
+    if (!(event.target instanceof Element)) return;
+
+    const clickedInsideSidebar = domRefs.sidebarEl.contains(event.target);
+    const clickedToggle = domRefs.sidebarToggleEl?.contains(event.target);
+    const clickedMarker = event.target.closest(".leaflet-marker-icon");
+
+    if (!clickedInsideSidebar && !clickedToggle && !clickedMarker) {
+      closeSidebar();
+    }
+  }
+
+  function handleSidebarToggle() {
+    const isOpen = domRefs.sidebarEl.classList.toggle("open");
+    domRefs.sidebarToggleEl.setAttribute("aria-expanded", String(isOpen));
+    setTimeout(() => map.invalidateSize(), 300);
+  }
+
+  function attachGlobalListeners(sidebar) {
+    if (domRefs.sidebarToggleEl && domRefs.sidebarEl) {
+      domRefs.sidebarToggleEl.addEventListener("click", handleSidebarToggle);
+    }
+
+    window.addEventListener("resize", () => {
+      map.invalidateSize();
+    });
+
+    window.addEventListener("beforeunload", () => {
+      sidebar.filters.cancelPending();
+      dataStore.abort();
+    });
+  }
 
   dataStore.on("boundary-loaded", (boundaryData) => {
     map.boundaryLayers.setData(boundaryData);
@@ -86,15 +79,17 @@ document.addEventListener("DOMContentLoaded", () => {
     );
   });
 
-  dataStore.on("geo-loaded", (payload) => {
-    map.renderGroups(payload.precomputedGroups, { fitBounds: true });
+  dataStore.on("geo-loaded", ({ precomputedGroups }) => {
+    map.renderGroups(precomputedGroups, { fitBounds: true });
   });
 
   const sidebar = createSidebar({ domRefs, dataStore, map });
 
   sidebar.attachListeners();
-  attachGlobalListeners({ sidebar, dataStore });
-  attachOutsideClickToClose();
+  attachGlobalListeners(sidebar);
+  document.addEventListener("click", handleOutsideClick, true);
 
   dataStore.load();
-});
+}
+
+init();

@@ -38,7 +38,7 @@ function normalize(text) {
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "") // strip accents
-    .replace(/[^\w\s\/-]/g, " ") // keep '-' and '/' for number ranges
+    .replace(/[^\w\s/-]/g, " ") // keep '-' and '/' for number ranges
     .replace(/\s+/g, " ")
     .trim();
 }

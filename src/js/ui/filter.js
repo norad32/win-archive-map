@@ -1,3 +1,5 @@
+import { extractFirstYear } from "../utils/parse.js";
+
 const FILTER_DEBOUNCE_MS = 300;
 
 export function createFilters({ domRefs, dataStore, map, onStatsUpdate }) {
@@ -68,12 +70,6 @@ function createFilterPredicate(criteria) {
     districtEquals(props, normalizedDistrict) &&
     neighbourhoodEquals(props, normalizedNeighbourhood) &&
     titleIncludesAllWords(props, titleWords);
-}
-
-function extractFirstYear(rawYear) {
-  if (!rawYear) return NaN;
-  const match = String(rawYear).match(/\d{4}/);
-  return match ? Number.parseInt(match[0], 10) : NaN;
 }
 
 function yearInRange(props, from, to) {
