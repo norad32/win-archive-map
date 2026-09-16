@@ -25,6 +25,14 @@ npm run build   # build to dist/
 npm run deploy  # build and publish to GitHub Pages
 ```
 
+## Updating the glossary
+
+`src/data/glossary.json` mirrors the [Winterthur-Glossar](https://www.winterthur-glossar.ch). To pick up newly published articles:
+
+```bash
+venv/bin/python scripts/update-glossary.py
+```
+
 ## Tech stack
 
 Vanilla ES modules (no framework), Leaflet + Leaflet.markercluster, esbuild bundler, Python (Playwright, BeautifulSoup, httpx) for data scraping and geocoding. Data is published as GeoJSON.
