@@ -27,7 +27,7 @@ export function buildMarkersForGroups(groups, onMarkerClick, map) {
     marker.on("click", () => {
       onMarkerClick(group);
 
-      if (count === 1 && map) {
+      if (map) {
         const targetZoom = Math.min(
           Math.max(map.getZoom() + 2, 15),
           Config.MAP_MAX_ZOOM,
@@ -44,11 +44,11 @@ export function buildMarkersForGroups(groups, onMarkerClick, map) {
 }
 
 function getIconSizeForCount(count) {
-  if (count >= 50) return 44;
-  if (count >= 20) return 38;
-  if (count >= 10) return 32;
-  if (count >= 5) return 28;
-  if (count >= 2) return 24;
+  if (count >= 50) return 36;
+  if (count >= 20) return 32;
+  if (count >= 10) return 28;
+  if (count >= 5) return 24;
+  if (count >= 2) return 22;
   return 20;
 }
 
