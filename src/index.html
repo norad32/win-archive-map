@@ -3,7 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Win Archive Map</title>
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Explore historical images of Winterthur on an interactive map. Filter the Bildarchiv Winterthur photo archive by street, district, and year."
+    />
+    <meta name="author" content="norad32" />
+    <meta
+      name="theme-color"
+      content="#ff1900"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#121212"
+      media="(prefers-color-scheme: dark)"
+    />
+    <title>Win Archive Map – Historical Images of Winterthur</title>
+    <link rel="canonical" href="https://norad32.github.io/win-archive-map/" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://wmts.geo.admin.ch" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Win Archive Map" />
+    <meta
+      property="og:title"
+      content="Win Archive Map – Historical Images of Winterthur"
+    />
+    <meta
+      property="og:description"
+      content="Explore historical images of Winterthur on an interactive map. Filter the Bildarchiv Winterthur photo archive by street, district, and year."
+    />
+    <meta
+      property="og:url"
+      content="https://norad32.github.io/win-archive-map/"
+    />
+    <meta
+      property="og:image"
+      content="https://norad32.github.io/win-archive-map/assets/og-image.png"
+    />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="Win Archive Map – Historical Images of Winterthur"
+    />
+    <meta
+      name="twitter:description"
+      content="Explore historical images of Winterthur on an interactive map. Filter the Bildarchiv Winterthur photo archive by street, district, and year."
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Win Archive Map",
+        "url": "https://norad32.github.io/win-archive-map/",
+        "description": "Interactive map viewer for the Bildarchiv Winterthur. Browse historical images of Winterthur on a map, filter by title, street, district, and year, and explore historical map layers.",
+        "applicationCategory": "MapApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "author": {
+          "@type": "Person",
+          "name": "norad32",
+          "url": "https://github.com/norad32"
+        },
+        "license": "https://opensource.org/licenses/MIT"
+      }
+    </script>
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="vendor/leaflet.css" />
     <link rel="stylesheet" href="vendor/MarkerCluster.css" />
@@ -12,7 +84,9 @@
 
   <body>
     <div id="app">
-      <h1 class="visually-hidden">Win Archive Map</h1>
+      <h1 class="visually-hidden">
+        Win Archive Map – Historical Images of Winterthur
+      </h1>
 
       <button id="sidebarToggle" aria-expanded="false" aria-controls="sidebar">
         ☰ Filter

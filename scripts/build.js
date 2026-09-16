@@ -16,6 +16,21 @@ fs.copyFileSync(
   path.join(srcDir, "index.html"),
   path.join(distDir, "index.html"),
 );
+fs.copyFileSync(
+  path.join(srcDir, "robots.txt"),
+  path.join(distDir, "robots.txt"),
+);
+fs.copyFileSync(
+  path.join(srcDir, "sitemap.xml"),
+  path.join(distDir, "sitemap.xml"),
+);
+fs.cpSync(path.join(srcDir, "assets"), path.join(distDir, "assets"), {
+  recursive: true,
+});
+fs.copyFileSync(
+  path.join(srcDir, "sitemap.xml"),
+  path.join(distDir, "sitemap.xml"),
+);
 
 await esbuild.build({
   entryPoints: [path.join(srcDir, "style.css")],

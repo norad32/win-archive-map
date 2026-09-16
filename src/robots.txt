@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://norad32.github.io/win-archive-map/sitemap.xml

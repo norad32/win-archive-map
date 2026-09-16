@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- map paper -->
+  <rect x="1" y="1" width="62" height="62" rx="13" fill="#edeae3"/>
+  <!-- park -->
+  <circle cx="10" cy="52" r="7" fill="#cde3c1"/>
+  <!-- river -->
+  <path d="M0 17 C 12 21, 16 12, 28 15 C 40 18, 46 12, 64 16" fill="none" stroke="#a9cbe8" stroke-width="3"/>
+  <!-- roads -->
+  <path d="M0 42 L14 40 L26 46 L42 40 L64 46" fill="none" stroke="#c4beb0" stroke-width="3.5"/>
+  <path d="M8 0 L14 20 L10 40 L18 64" fill="none" stroke="#d9d4c8" stroke-width="3"/>
+  <!-- map folds -->
+  <rect x="21.3" y="1" width="1.4" height="62" fill="#000000" opacity="0.06"/>
+  <rect x="41.3" y="1" width="1.4" height="62" fill="#000000" opacity="0.06"/>
+  <!-- map pin -->
+  <path d="M24 44 L40 44 L32 59 Z" fill="#ff1900"/>
+  <circle cx="32" cy="30" r="20" fill="#ff1900"/>
+  <!-- Winterthur lion (stylized) -->
+  <g fill="#ffffff">
+    <path d="M51 30 L46 33.8 L48.5 39.5 L42.3 40.3 L41.5 46.5 L35.8 44 L32 49 L28.3 44 L22.5 46.5 L21.8 40.3 L15.6 39.5 L18 33.8 L13 30 L18 26.3 L15.6 20.5 L21.8 19.8 L22.5 13.6 L28.3 16 L32 11 L35.8 16 L41.5 13.6 L42.3 19.8 L48.5 20.5 L46 26.3 Z"/>
+    <circle cx="32" cy="30" r="11"/>
+  </g>
+  <g fill="#ff1900">
+    <circle cx="27.5" cy="26.5" r="1.6"/>
+    <circle cx="36.5" cy="26.5" r="1.6"/>
+    <path d="M29.3 31.3 L34.7 31.3 L32 34.6 Z"/>
+  </g>
+  <path d="M32 34.6 V36.6 M32 36.6 Q29.5 39.2 26.8 37.4 M32 36.6 Q34.5 39.2 37.2 37.4" fill="none" stroke="#ff1900" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

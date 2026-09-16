@@ -13,12 +13,13 @@ export default [
       sourceType: "module",
       globals: {
         ...globals.browser,
+        L: "readonly",
       },
     },
     rules: {
       "no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
       "no-console": "off",
-      eqeqeq: "error",
+      eqeqeq: ["error", "always", { null: "ignore" }],
       "prefer-const": "error",
     },
   },
