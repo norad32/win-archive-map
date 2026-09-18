@@ -22,6 +22,12 @@ export function createFilters({ domRefs, dataStore, map, onStatsUpdate }) {
       shownCount += matchingEntries.length;
     }
 
+    for (const entry of dataStore.getUnlocatedEntries()) {
+      if (predicate(entry)) {
+        shownCount += 1;
+      }
+    }
+
     map.renderGroups(filteredGroups, { fitBounds: true });
 
     if (onStatsUpdate) {

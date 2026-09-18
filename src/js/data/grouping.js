@@ -1,18 +1,38 @@
-export function groupFeatures(features) {
+/**
+ * @typedef {{
+ *   repCoord: !Array<number>,
+ *   entries: !Array<!Object>,
+ * }} FeatureGroup
+ */
+
+/**
+ * Groups entries by location id. An entry may reference several houses
+ * (e.g. housenumber "43-47"), in which case it appears in one group per
+ * house, one marker per house, all linking back to the same entry.
+ * Entries without a loc are omitted (they are handled separately as
+ * unlocated entries).
+ *
+ * @param {!Array<!Object>} entries archive metadata records
+ * @param {!Map<string, !Array<number>>} locationsById location id -> [lon, lat]
+ * @returns {!Array<!FeatureGroup>}
+ */
+export function groupFeatures(entries, locationsById) {
   const groups = new Map();
 
-  for (const f of features) {
-    if (!f.geometry) continue;
+  for (const entry of entries) {
+    const loc = entry.loc;
+    if (!loc) continue;
 
-    const repCoord = f.geometry.coordinates;
-    const [lon, lat] = repCoord;
-    const key = `${lon.toFixed(6)},${lat.toFixed(6)}`;
+    const locIds = Array.isArray(loc) ? loc : [loc];
+    for (const locId of locIds) {
+      const coord = locationsById.get(locId);
+      if (!coord) continue;
 
-    if (!groups.has(key)) {
-      groups.set(key, { repCoord, entries: [] });
+      if (!groups.has(locId)) {
+        groups.set(locId, { repCoord: coord, entries: [] });
+      }
+      groups.get(locId).entries.push(entry);
     }
-
-    groups.get(key).entries.push(f.properties ?? {});
   }
 
   for (const group of groups.values()) {

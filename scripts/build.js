@@ -48,7 +48,7 @@ await esbuild.build({
   target: "es2022",
 });
 
-function copyRecursive(src, dest, { minifyJson = false } = {}) {
+function copyRecursive(src, dest, { minifyJson = false, exclude = [] } = {}) {
   if (!fs.existsSync(dest)) {
     fs.mkdirSync(dest, { recursive: true });
   }
@@ -56,11 +56,13 @@ function copyRecursive(src, dest, { minifyJson = false } = {}) {
   const files = fs.readdirSync(src);
 
   files.forEach((file) => {
+    if (exclude.includes(file)) return;
+
     const srcPath = path.join(src, file);
     const destPath = path.join(dest, file);
 
     if (fs.statSync(srcPath).isDirectory()) {
-      copyRecursive(srcPath, destPath, { minifyJson });
+      copyRecursive(srcPath, destPath, { minifyJson, exclude });
     } else if (minifyJson && /\.(json|geojson)$/i.test(file)) {
       minifyJsonFile(srcPath, destPath);
     } else {
@@ -90,4 +92,6 @@ function minifyJsonFile(srcPath, destPath) {
 copyRecursive(path.join(srcDir, "vendor"), path.join(distDir, "vendor"));
 copyRecursive(path.join(srcDir, "data"), path.join(distDir, "data"), {
   minifyJson: true,
+  // Master archive source; the app consumes entries.json + addresses.geojson.
+  exclude: ["archive.geojson"],
 });

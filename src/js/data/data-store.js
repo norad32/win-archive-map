@@ -19,7 +19,7 @@ function createEmitter() {
   return { on, emit };
 }
 
-async function fetchGeoJson(url, signal) {
+async function fetchWithLastModified(url, signal) {
   const res = await fetch(url, { signal });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
@@ -27,13 +27,37 @@ async function fetchGeoJson(url, signal) {
   const lastUpdated = lastUpdatedHeader ? new Date(lastUpdatedHeader) : null;
 
   const data = await res.json();
-  return { features: data.features ?? [], lastUpdated };
+  return { data, lastUpdated };
+}
+
+async function fetchGeoJson(url, signal) {
+  const { data } = await fetchWithLastModified(url, signal);
+  return data.features ?? [];
+}
+
+async function fetchEntries(url, signal) {
+  const { data, lastUpdated } = await fetchWithLastModified(url, signal);
+  return { entries: Array.isArray(data) ? data : [], lastUpdated };
+}
+
+function buildLocationsById(addressFeatures, locationFeatures) {
+  const locationsById = new Map();
+
+  for (const feature of [...addressFeatures, ...locationFeatures]) {
+    const { id } = feature.properties ?? {};
+    const coordinates = feature.geometry?.coordinates;
+    if (!id || !coordinates) continue;
+    locationsById.set(id, coordinates);
+  }
+
+  return locationsById;
 }
 
 export function createDataStore() {
   const emitter = createEmitter();
 
-  let allFeatures = [];
+  let allEntries = [];
+  let unlocatedEntries = [];
   let precomputedGroups = [];
   let districtsData = {};
   let lastUpdated = null;
@@ -52,12 +76,15 @@ export function createDataStore() {
     emitter.emit("load-start");
 
     const results = await Promise.allSettled([
-      fetchGeoJson(Config.GEOJSON_URL, signal),
+      fetchEntries(Config.ENTRIES_URL, signal),
+      fetchGeoJson(Config.ADDRESSES_URL, signal),
+      fetchGeoJson(Config.LOCATIONS_URL, signal),
       loadDistricts(signal),
       loadBoundaryData(signal),
     ]);
 
-    const [geoResult, districtsResult, boundaryResult] = results;
+    const [entriesResult, addressesResult, locationsResult, districtsResult, boundaryResult] =
+      results;
 
     // Any rejection due to abort short-circuits everything else silently.
     const aborted = results.some(
@@ -85,18 +112,33 @@ export function createDataStore() {
       emitter.emit("error", boundaryResult.reason);
     }
 
-    if (geoResult.status === "fulfilled") {
-      ({ features: allFeatures, lastUpdated } = geoResult.value);
-      precomputedGroups = groupFeatures(allFeatures);
+    if (entriesResult.status === "fulfilled") {
+      ({ entries: allEntries, lastUpdated } = entriesResult.value);
+
+      const addressFeatures =
+        addressesResult.status === "fulfilled" ? addressesResult.value : [];
+      const locationFeatures =
+        locationsResult.status === "fulfilled" ? locationsResult.value : [];
+
+      if (addressesResult.status === "rejected") {
+        emitter.emit("error", addressesResult.reason);
+      }
+      if (locationsResult.status === "rejected") {
+        emitter.emit("error", locationsResult.reason);
+      }
+
+      const locationsById = buildLocationsById(addressFeatures, locationFeatures);
+      unlocatedEntries = allEntries.filter((entry) => !entry.loc);
+      precomputedGroups = groupFeatures(allEntries, locationsById);
       dataLoaded = true;
 
       emitter.emit("geo-loaded", {
-        allFeatures,
+        allEntries,
         precomputedGroups,
         lastUpdated,
       });
     } else {
-      emitter.emit("error", geoResult.reason);
+      emitter.emit("error", entriesResult.reason);
     }
 
     loadInProgress = false;
@@ -113,8 +155,9 @@ export function createDataStore() {
     on: emitter.on,
 
     getGroups: () => precomputedGroups,
-    getFeatures: () => allFeatures,
-    getTotalCount: () => allFeatures.length,
+    getEntries: () => allEntries,
+    getUnlocatedEntries: () => unlocatedEntries,
+    getTotalCount: () => allEntries.length,
     getDistrictsData: () => districtsData,
     getLastUpdated: () => lastUpdated,
     isLoaded: () => dataLoaded,

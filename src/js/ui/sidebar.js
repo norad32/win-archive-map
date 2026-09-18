@@ -20,8 +20,8 @@ export function createSidebar({ domRefs, dataStore, map }) {
     populateStreetOptions(domRefs.streetOptionsEl, districtsData, "");
   }
 
-  function handleGeoLoaded({ allFeatures, lastUpdated }) {
-    updateStats(domRefs.statsEl, allFeatures.length, allFeatures.length);
+  function handleGeoLoaded({ allEntries, lastUpdated }) {
+    updateStats(domRefs.statsEl, allEntries.length, allEntries.length);
     updateLastUpdated(domRefs.lastUpdatedEl, lastUpdated);
   }
 
