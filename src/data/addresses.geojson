@@ -198,7 +198,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.714910,
+          8.71491,
           47.503801
         ]
       },
@@ -1126,15 +1126,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          47.517878,
-          8.715066
+          8.715546607971191,
+          47.51802444458008
         ]
       },
       "properties": {
         "id": "am_schützenweiher_2a",
         "street": "Am Schützenweiher",
         "housenumber": "2a",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -1606,15 +1606,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.759624,
-          47.510834
+          8.751166343688965,
+          47.50221252441406
         ]
       },
       "properties": {
         "id": "quittenweg_6",
         "street": "Quittenweg",
         "housenumber": "6",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -2086,15 +2086,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.725322,
-          47.497505
+          8.72351360321045,
+          47.49775314331055
         ]
       },
       "properties": {
         "id": "lagerhausstrasse_18",
         "street": "Lagerhausstrasse",
         "housenumber": "18",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -2118,8 +2118,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.701580,
-          47.486440
+          8.70158,
+          47.48644
         ]
       },
       "properties": {
@@ -2181,14 +2181,16 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [           8.701655,
-          47.485925]
+        "coordinates": [
+          8.701132774353027,
+          47.485511779785156
+        ]
       },
       "properties": {
         "id": "auenrainstrasse_26",
         "street": "Auenrainstrasse",
         "housenumber": "26",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -5060,7 +5062,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.725140,
+          8.72514,
           47.500681
         ]
       },
@@ -5796,15 +5798,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.713696,
-          47.517181
+          8.718941688537598,
+          47.51459503173828
         ]
       },
       "properties": {
         "id": "zielstrasse_73",
         "street": "Zielstrasse",
         "housenumber": "73",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -5860,7 +5862,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.717270,
+          8.71727,
           47.514183
         ]
       },
@@ -6330,7 +6332,7 @@
       },
       "properties": {
         "id": "neubruchstrasse_72",
-        "street": "Bodenweg",
+        "street": "Neubruchstrasse",
         "housenumber": "72",
         "status": "todo"
       }
@@ -6340,15 +6342,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.698636,
-          47.482029
+          8.697608947753906,
+          47.483001708984375
         ]
       },
       "properties": {
-        "id": "neubruchstrasse_72",
+        "id": "neubruchstrasse_74",
         "street": "Neubruchstrasse",
         "housenumber": "74",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -6356,15 +6358,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.698636,
-          47.482029
+          8.69758129119873,
+          47.48295211791992
         ]
       },
       "properties": {
-        "id": "neubruchstrasse_72",
+        "id": "neubruchstrasse_76",
         "street": "Neubruchstrasse",
         "housenumber": "76",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -6372,15 +6374,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.698636,
-          47.482029
+          8.697553634643555,
+          47.48290252685547
         ]
       },
       "properties": {
-        "id": "neubruchstrasse_72",
+        "id": "neubruchstrasse_78",
         "street": "Neubruchstrasse",
         "housenumber": "78",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -6388,15 +6390,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.698636,
-          47.482029
+          8.697525978088379,
+          47.48284912109375
         ]
       },
       "properties": {
-        "id": "neubruchstrasse_72",
+        "id": "neubruchstrasse_80",
         "street": "Neubruchstrasse",
         "housenumber": "80",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -7044,15 +7046,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.697991,
-          47.482086
+          8.697940826416016,
+          47.481666564941406
         ]
       },
       "properties": {
         "id": "bergackerstrasse_11",
         "street": "Bergackerstrasse",
         "housenumber": "11",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -8101,7 +8103,7 @@
         "type": "Point",
         "coordinates": [
           8.768345,
-          47.487100
+          47.4871
         ]
       },
       "properties": {
@@ -11765,7 +11767,7 @@
         "type": "Point",
         "coordinates": [
           8.763936,
-          47.480473 
+          47.480473
         ]
       },
       "properties": {
@@ -11781,7 +11783,7 @@
         "type": "Point",
         "coordinates": [
           8.763936,
-          47.480473 
+          47.480473
         ]
       },
       "properties": {
@@ -12500,8 +12502,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.709760,
-          47.488800
+          8.70976,
+          47.4888
         ]
       },
       "properties": {
@@ -14917,7 +14919,7 @@
         "type": "Point",
         "coordinates": [
           8.713446,
-          47.488010
+          47.48801
         ]
       },
       "properties": {
@@ -14933,7 +14935,7 @@
         "type": "Point",
         "coordinates": [
           8.713381,
-          47.487930
+          47.48793
         ]
       },
       "properties": {
@@ -61924,15 +61926,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.759624,
-          47.510834
+          8.71087646484375,
+          47.495094299316406
         ]
       },
       "properties": {
         "id": "obere_schöntalstrasse_44",
         "street": "Obere Schöntalstrasse",
         "housenumber": "44",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -112052,7 +112054,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-           8.721600,
+          8.7216,
           47.513132
         ]
       },
@@ -112260,15 +112262,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.682281,
-          47.508106
+          8.680987358093262,
+          47.50650405883789
         ]
       },
       "properties": {
         "id": "wydenweg_13",
         "street": "Wydenweg",
         "housenumber": "13",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -112276,15 +112278,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.679234,
-          47.507507
+          8.682730674743652,
+          47.50627517700195
         ]
       },
       "properties": {
         "id": "espenstrasse_2",
         "street": "Espenstrasse",
         "housenumber": "2",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -112292,15 +112294,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.679234,
-          47.507507
+          8.682574272155762,
+          47.50638961791992
         ]
       },
       "properties": {
         "id": "espenstrasse_4",
         "street": "Espenstrasse",
         "housenumber": "4",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -112308,15 +112310,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.679234,
-          47.507507
+          8.68248462677002,
+          47.50643539428711
         ]
       },
       "properties": {
         "id": "espenstrasse_6",
         "street": "Espenstrasse",
         "housenumber": "6",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -112436,15 +112438,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.72502,
-          47.490406
+          8.720736503601074,
+          47.49447250366211
         ]
       },
       "properties": {
         "id": "wylandstrasse_39",
         "street": "Wylandstrasse",
         "housenumber": "39",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -114853,7 +114855,7 @@
         "type": "Point",
         "coordinates": [
           8.694359,
-          47.510520
+          47.51052
         ]
       },
       "properties": {
@@ -116468,7 +116470,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.706590,
+          8.70659,
           47.490326
         ]
       },
@@ -116948,15 +116950,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.755079,
-          47.517353
+          8.756560325622559,
+          47.51661682128906
         ]
       },
       "properties": {
         "id": "binzhofstrasse_5",
         "street": "Binzhofstrasse",
         "housenumber": "5",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -116964,15 +116966,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.755079,
-          47.517353
+          8.756431579589844,
+          47.51657485961914
         ]
       },
       "properties": {
         "id": "binzhofstrasse_7",
         "street": "Binzhofstrasse",
         "housenumber": "7",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -117172,15 +117174,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.751687,
-          47.526741
+          8.750945091247559,
+          47.526580810546875
         ]
       },
       "properties": {
         "id": "heimrütiweg_12",
         "street": "Heimrütiweg",
         "housenumber": "12",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -118693,7 +118695,7 @@
         "type": "Point",
         "coordinates": [
           8.709862,
-          47.493820
+          47.49382
         ]
       },
       "properties": {
@@ -119284,7 +119286,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-           8.705367,
+          8.705367,
           47.490917
         ]
       },
@@ -119509,7 +119511,7 @@
         "type": "Point",
         "coordinates": [
           8.705093,
-          47.490130
+          47.49013
         ]
       },
       "properties": {
@@ -119556,7 +119558,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.704476, 
+          8.704476,
           47.491229
         ]
       },
@@ -119940,7 +119942,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-           8.703699,
+          8.703699,
           47.489771
         ]
       },
@@ -120053,7 +120055,7 @@
         "type": "Point",
         "coordinates": [
           8.701864,
-          47.488010
+          47.48801
         ]
       },
       "properties": {
@@ -120117,7 +120119,7 @@
         "type": "Point",
         "coordinates": [
           8.702046,
-          47.485860
+          47.48586
         ]
       },
       "properties": {
@@ -120133,7 +120135,7 @@
         "type": "Point",
         "coordinates": [
           8.702111,
-         47.485755
+          47.485755
         ]
       },
       "properties": {
@@ -120197,7 +120199,7 @@
         "type": "Point",
         "coordinates": [
           8.702642,
-          47.482800
+          47.4828
         ]
       },
       "properties": {
