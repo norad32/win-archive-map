@@ -18454,15 +18454,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.759881,
-          47.491665
+          8.765507,
+          47.493153
         ]
       },
       "properties": {
         "id": "etzbergstrasse_25",
         "street": "Etzbergstrasse",
         "housenumber": "25",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -18734,7 +18734,7 @@
         "id": "etzbergstrasse_35",
         "street": "Etzbergstrasse",
         "housenumber": "35",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -19142,22 +19142,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.765281,
-          47.491104
-        ]
-      },
-      "properties": {
-        "id": "etzbergweg_3",
-        "street": "Etzbergweg",
-        "housenumber": "3",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           8.76524829864502,
           47.49128723144531
         ]
@@ -19167,22 +19151,6 @@
         "street": "Etzbergweg",
         "housenumber": "4",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.765281,
-          47.491104
-        ]
-      },
-      "properties": {
-        "id": "etzbergweg_5",
-        "street": "Etzbergweg",
-        "housenumber": "5",
-        "status": "todo"
       }
     },
     {
@@ -19222,22 +19190,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.765281,
-          47.491104
-        ]
-      },
-      "properties": {
-        "id": "etzbergweg_8",
-        "street": "Etzbergweg",
-        "housenumber": "8",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           8.765172004699707,
           47.492034912109375
         ]
@@ -19247,22 +19199,6 @@
         "street": "Etzbergweg",
         "housenumber": "9",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.765281,
-          47.491104
-        ]
-      },
-      "properties": {
-        "id": "etzbergweg_10",
-        "street": "Etzbergweg",
-        "housenumber": "10",
-        "status": "todo"
       }
     },
     {
@@ -19286,22 +19222,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.765281,
-          47.491104
-        ]
-      },
-      "properties": {
-        "id": "etzbergweg_12",
-        "street": "Etzbergweg",
-        "housenumber": "12",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           8.764769554138184,
           47.49254608154297
         ]
@@ -19311,22 +19231,6 @@
         "street": "Etzbergweg",
         "housenumber": "13",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.765281,
-          47.491104
-        ]
-      },
-      "properties": {
-        "id": "etzbergweg_14",
-        "street": "Etzbergweg",
-        "housenumber": "14",
-        "status": "todo"
       }
     },
     {
@@ -19350,22 +19254,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.765281,
-          47.491104
-        ]
-      },
-      "properties": {
-        "id": "etzbergweg_16",
-        "street": "Etzbergweg",
-        "housenumber": "16",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           8.764801025390625,
           47.49281692504883
         ]
@@ -19375,22 +19263,6 @@
         "street": "Etzbergweg",
         "housenumber": "17",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.765281,
-          47.491104
-        ]
-      },
-      "properties": {
-        "id": "etzbergweg_18",
-        "street": "Etzbergweg",
-        "housenumber": "18",
-        "status": "todo"
       }
     },
     {
@@ -19414,22 +19286,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.765281,
-          47.491104
-        ]
-      },
-      "properties": {
-        "id": "etzbergweg_20",
-        "street": "Etzbergweg",
-        "housenumber": "20",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           8.764885902404785,
           47.49317932128906
         ]
@@ -19439,22 +19295,6 @@
         "street": "Etzbergweg",
         "housenumber": "21",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.765281,
-          47.491104
-        ]
-      },
-      "properties": {
-        "id": "etzbergweg_22",
-        "street": "Etzbergweg",
-        "housenumber": "22",
-        "status": "todo"
       }
     },
     {
@@ -19830,15 +19670,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.693144,
-          47.510201
+          8.691344,
+          47.509762
         ]
       },
       "properties": {
         "id": "eulachstrasse_10",
         "street": "Eulachstrasse",
         "housenumber": "10",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -20646,22 +20486,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.716248,
-          47.509949
-        ]
-      },
-      "properties": {
-        "id": "felsenhofstrasse_2",
-        "street": "Felsenhofstrasse",
-        "housenumber": "2",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           8.717395782470703,
           47.509822845458984
         ]
@@ -20687,22 +20511,6 @@
         "street": "Felsenhofstrasse",
         "housenumber": "5",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.716248,
-          47.509949
-        ]
-      },
-      "properties": {
-        "id": "felsenhofstrasse_6",
-        "street": "Felsenhofstrasse",
-        "housenumber": "6",
-        "status": "todo"
       }
     },
     {
@@ -20831,22 +20639,6 @@
         "street": "Flochenstrasse",
         "housenumber": "19",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.761656,
-          47.535549
-        ]
-      },
-      "properties": {
-        "id": "flochenstrasse_21",
-        "street": "Flochenstrasse",
-        "housenumber": "21",
-        "status": "todo"
       }
     },
     {
@@ -21638,70 +21430,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.750848,
-          47.502674
-        ]
-      },
-      "properties": {
-        "id": "frauenfelderstrasse_89",
-        "street": "Frauenfelderstrasse",
-        "housenumber": "89",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.750848,
-          47.502674
-        ]
-      },
-      "properties": {
-        "id": "frauenfelderstrasse_91",
-        "street": "Frauenfelderstrasse",
-        "housenumber": "91",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.750848,
-          47.502674
-        ]
-      },
-      "properties": {
-        "id": "frauenfelderstrasse_93",
-        "street": "Frauenfelderstrasse",
-        "housenumber": "93",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.750848,
-          47.502674
-        ]
-      },
-      "properties": {
-        "id": "frauenfelderstrasse_95",
-        "street": "Frauenfelderstrasse",
-        "housenumber": "95",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           8.752950668334961,
           47.50393295288086
         ]
@@ -22390,22 +22118,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.754508,
-          47.503746
-        ]
-      },
-      "properties": {
-        "id": "friedheimstrasse_18",
-        "street": "Friedheimstrasse",
-        "housenumber": "18",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           8.752391815185547,
           47.503273010253906
         ]
@@ -22934,15 +22646,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.728293,
-          47.498825
+          8.728085,
+          47.498869
         ]
       },
       "properties": {
         "id": "garnmarkt_6",
         "street": "Garnmarkt",
         "housenumber": "6",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -22950,15 +22662,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.728293,
-          47.498825
+          8.728085,
+          47.498869
         ]
       },
       "properties": {
         "id": "garnmarkt_8",
         "street": "Garnmarkt",
         "housenumber": "8",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {

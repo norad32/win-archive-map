@@ -58323,8 +58323,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -58337,8 +58336,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -58351,8 +58349,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -58365,8 +58362,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -58379,8 +58375,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -58393,8 +58388,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -58407,8 +58401,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -58421,8 +58414,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -58435,8 +58427,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -58449,8 +58440,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -58463,8 +58453,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -58477,8 +58466,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -58491,8 +58479,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -58505,8 +58492,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -58519,8 +58505,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -58533,8 +58518,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -58547,8 +58531,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -58561,8 +58544,7 @@
     "street": "Flochenstrasse",
     "housenumber": "19-21",
     "loc": [
-      "flochenstrasse_19",
-      "flochenstrasse_21"
+      "flochenstrasse_19"
     ]
   },
   {
@@ -60324,10 +60306,7 @@
     "neighbourhood": "Talacker",
     "street": "Friedheimstrasse",
     "housenumber": "18-20",
-    "loc": [
-      "friedheimstrasse_18",
-      "friedheimstrasse_20"
-    ]
+    "loc": "friedheimstrasse_20"
   },
   {
     "id": "19632",
@@ -60338,10 +60317,7 @@
     "neighbourhood": "Talacker",
     "street": "Friedheimstrasse",
     "housenumber": "18-20",
-    "loc": [
-      "friedheimstrasse_18",
-      "friedheimstrasse_20"
-    ]
+    "loc": "friedheimstrasse_20"
   },
   {
     "id": "19633",
@@ -60352,10 +60328,7 @@
     "neighbourhood": "Talacker",
     "street": "Friedheimstrasse",
     "housenumber": "18-20",
-    "loc": [
-      "friedheimstrasse_18",
-      "friedheimstrasse_20"
-    ]
+    "loc": "friedheimstrasse_20"
   },
   {
     "id": "19634",
@@ -60366,10 +60339,7 @@
     "neighbourhood": "Talacker",
     "street": "Friedheimstrasse",
     "housenumber": "18-20",
-    "loc": [
-      "friedheimstrasse_18",
-      "friedheimstrasse_20"
-    ]
+    "loc": "friedheimstrasse_20"
   },
   {
     "id": "19635",
@@ -60380,10 +60350,7 @@
     "neighbourhood": "Talacker",
     "street": "Friedheimstrasse",
     "housenumber": "18-20",
-    "loc": [
-      "friedheimstrasse_18",
-      "friedheimstrasse_20"
-    ]
+    "loc": "friedheimstrasse_20"
   },
   {
     "id": "19636",
@@ -60394,10 +60361,7 @@
     "neighbourhood": "Talacker",
     "street": "Friedheimstrasse",
     "housenumber": "18-20",
-    "loc": [
-      "friedheimstrasse_18",
-      "friedheimstrasse_20"
-    ]
+    "loc": "friedheimstrasse_20"
   },
   {
     "id": "19637",
@@ -60408,10 +60372,7 @@
     "neighbourhood": "Talacker",
     "street": "Friedheimstrasse",
     "housenumber": "18-20",
-    "loc": [
-      "friedheimstrasse_18",
-      "friedheimstrasse_20"
-    ]
+    "loc": "friedheimstrasse_20"
   },
   {
     "id": "19638",
@@ -60422,10 +60383,7 @@
     "neighbourhood": "Talacker",
     "street": "Friedheimstrasse",
     "housenumber": "18-20",
-    "loc": [
-      "friedheimstrasse_18",
-      "friedheimstrasse_20"
-    ]
+    "loc": "friedheimstrasse_20"
   },
   {
     "id": "19639",
@@ -60490,10 +60448,6 @@
       "frauenfelderstrasse_83",
       "frauenfelderstrasse_85",
       "frauenfelderstrasse_87",
-      "frauenfelderstrasse_89",
-      "frauenfelderstrasse_91",
-      "frauenfelderstrasse_93",
-      "frauenfelderstrasse_95",
       "frauenfelderstrasse_97",
       "frauenfelderstrasse_99",
       "frauenfelderstrasse_101",
@@ -128984,8 +128938,7 @@
     "neighbourhood": "Schlosstal",
     "street": "Zürcherstrasse",
     "housenumber": "162/164",
-    "loc": 
-      "zürcherstrasse_162"
+    "loc": "zürcherstrasse_162"
   },
   {
     "id": "29940",
@@ -128996,8 +128949,7 @@
     "neighbourhood": "Schlosstal",
     "street": "Zürcherstrasse",
     "housenumber": "162/164",
-    "loc": 
-      "zürcherstrasse_162"
+    "loc": "zürcherstrasse_162"
   },
   {
     "id": "29941",
@@ -129008,8 +128960,7 @@
     "neighbourhood": "Schlosstal",
     "street": "Zürcherstrasse",
     "housenumber": "162/164",
-    "loc": 
-      "zürcherstrasse_162"
+    "loc": "zürcherstrasse_162"
   },
   {
     "id": "29944",
@@ -129037,8 +128988,7 @@
     "neighbourhood": "Schlosstal",
     "street": "Zürcherstrasse",
     "housenumber": "162/164",
-    "loc": 
-      "zürcherstrasse_162"
+    "loc": "zürcherstrasse_162"
   },
   {
     "id": "29947",
@@ -129049,8 +128999,7 @@
     "neighbourhood": "Schlosstal",
     "street": "Zürcherstrasse",
     "housenumber": "162/164",
-    "loc": 
-      "zürcherstrasse_162"
+    "loc": "zürcherstrasse_162"
   },
   {
     "id": "29948",
@@ -129061,8 +129010,7 @@
     "neighbourhood": "Schlosstal",
     "street": "Zürcherstrasse",
     "housenumber": "162/164",
-    "loc": 
-      "zürcherstrasse_162"
+    "loc": "zürcherstrasse_162"
   },
   {
     "id": "29949",
@@ -129073,8 +129021,7 @@
     "neighbourhood": "Schlosstal",
     "street": "Zürcherstrasse",
     "housenumber": "162/164",
-    "loc": 
-      "zürcherstrasse_162"
+    "loc": "zürcherstrasse_162"
   },
   {
     "id": "29950",
@@ -129085,9 +129032,7 @@
     "neighbourhood": "Schlosstal",
     "street": "Zürcherstrasse",
     "housenumber": "162/164",
-    "loc": 
-      "zürcherstrasse_162"
-    
+    "loc": "zürcherstrasse_162"
   },
   {
     "id": "29951",
@@ -143887,11 +143832,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-6",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4",
-      "felsenhofstrasse_6"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "31981",
@@ -143902,10 +143843,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "31982",
@@ -143916,10 +143854,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "31983",
@@ -143952,10 +143887,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "31986",
@@ -143966,10 +143898,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "31987",
@@ -143991,7 +143920,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2",
-    "loc": "felsenhofstrasse_2"
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "31989",
@@ -144017,9 +143946,7 @@
     "street": "Felsenhofstrasse",
     "housenumber": "2-8",
     "loc": [
-      "felsenhofstrasse_2",
       "felsenhofstrasse_4",
-      "felsenhofstrasse_6",
       "felsenhofstrasse_8"
     ]
   },
@@ -144044,9 +143971,7 @@
     "street": "Felsenhofstrasse",
     "housenumber": "2-8",
     "loc": [
-      "felsenhofstrasse_2",
       "felsenhofstrasse_4",
-      "felsenhofstrasse_6",
       "felsenhofstrasse_8"
     ]
   },
@@ -144059,10 +143984,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "31996",
@@ -144073,10 +143995,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "31997",
@@ -144087,10 +144006,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "31998",
@@ -144101,10 +144017,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "31999",
@@ -144115,10 +144028,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32000",
@@ -144129,10 +144039,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32001",
@@ -144143,10 +144050,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32002",
@@ -144157,10 +144061,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32003",
@@ -144171,10 +144072,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32004",
@@ -144185,10 +144083,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32005",
@@ -144199,10 +144094,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32006",
@@ -144213,10 +144105,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32007",
@@ -144227,10 +144116,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32008",
@@ -144241,10 +144127,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32009",
@@ -144255,10 +144138,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32010",
@@ -144269,10 +144149,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32011",
@@ -144283,10 +144160,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32012",
@@ -144297,10 +144171,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32013",
@@ -144311,10 +144182,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32014",
@@ -144325,10 +144193,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32015",
@@ -144339,10 +144204,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32016",
@@ -144353,10 +144215,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "32017",
@@ -243457,26 +243316,16 @@
     "housenumber": "2-23",
     "loc": [
       "etzbergweg_2",
-      "etzbergweg_3",
       "etzbergweg_4",
-      "etzbergweg_5",
       "etzbergweg_6",
       "etzbergweg_7",
-      "etzbergweg_8",
       "etzbergweg_9",
-      "etzbergweg_10",
       "etzbergweg_11",
-      "etzbergweg_12",
       "etzbergweg_13",
-      "etzbergweg_14",
       "etzbergweg_15",
-      "etzbergweg_16",
       "etzbergweg_17",
-      "etzbergweg_18",
       "etzbergweg_19",
-      "etzbergweg_20",
       "etzbergweg_21",
-      "etzbergweg_22",
       "etzbergweg_23"
     ]
   },
@@ -243491,26 +243340,16 @@
     "housenumber": "2-23",
     "loc": [
       "etzbergweg_2",
-      "etzbergweg_3",
       "etzbergweg_4",
-      "etzbergweg_5",
       "etzbergweg_6",
       "etzbergweg_7",
-      "etzbergweg_8",
       "etzbergweg_9",
-      "etzbergweg_10",
       "etzbergweg_11",
-      "etzbergweg_12",
       "etzbergweg_13",
-      "etzbergweg_14",
       "etzbergweg_15",
-      "etzbergweg_16",
       "etzbergweg_17",
-      "etzbergweg_18",
       "etzbergweg_19",
-      "etzbergweg_20",
       "etzbergweg_21",
-      "etzbergweg_22",
       "etzbergweg_23"
     ]
   },
@@ -243525,26 +243364,16 @@
     "housenumber": "2-23",
     "loc": [
       "etzbergweg_2",
-      "etzbergweg_3",
       "etzbergweg_4",
-      "etzbergweg_5",
       "etzbergweg_6",
       "etzbergweg_7",
-      "etzbergweg_8",
       "etzbergweg_9",
-      "etzbergweg_10",
       "etzbergweg_11",
-      "etzbergweg_12",
       "etzbergweg_13",
-      "etzbergweg_14",
       "etzbergweg_15",
-      "etzbergweg_16",
       "etzbergweg_17",
-      "etzbergweg_18",
       "etzbergweg_19",
-      "etzbergweg_20",
       "etzbergweg_21",
-      "etzbergweg_22",
       "etzbergweg_23"
     ]
   },
@@ -243559,26 +243388,16 @@
     "housenumber": "2-23",
     "loc": [
       "etzbergweg_2",
-      "etzbergweg_3",
       "etzbergweg_4",
-      "etzbergweg_5",
       "etzbergweg_6",
       "etzbergweg_7",
-      "etzbergweg_8",
       "etzbergweg_9",
-      "etzbergweg_10",
       "etzbergweg_11",
-      "etzbergweg_12",
       "etzbergweg_13",
-      "etzbergweg_14",
       "etzbergweg_15",
-      "etzbergweg_16",
       "etzbergweg_17",
-      "etzbergweg_18",
       "etzbergweg_19",
-      "etzbergweg_20",
       "etzbergweg_21",
-      "etzbergweg_22",
       "etzbergweg_23"
     ]
   },
@@ -243593,26 +243412,16 @@
     "housenumber": "2-23",
     "loc": [
       "etzbergweg_2",
-      "etzbergweg_3",
       "etzbergweg_4",
-      "etzbergweg_5",
       "etzbergweg_6",
       "etzbergweg_7",
-      "etzbergweg_8",
       "etzbergweg_9",
-      "etzbergweg_10",
       "etzbergweg_11",
-      "etzbergweg_12",
       "etzbergweg_13",
-      "etzbergweg_14",
       "etzbergweg_15",
-      "etzbergweg_16",
       "etzbergweg_17",
-      "etzbergweg_18",
       "etzbergweg_19",
-      "etzbergweg_20",
       "etzbergweg_21",
-      "etzbergweg_22",
       "etzbergweg_23"
     ]
   },
@@ -243627,26 +243436,16 @@
     "housenumber": "2-23",
     "loc": [
       "etzbergweg_2",
-      "etzbergweg_3",
       "etzbergweg_4",
-      "etzbergweg_5",
       "etzbergweg_6",
       "etzbergweg_7",
-      "etzbergweg_8",
       "etzbergweg_9",
-      "etzbergweg_10",
       "etzbergweg_11",
-      "etzbergweg_12",
       "etzbergweg_13",
-      "etzbergweg_14",
       "etzbergweg_15",
-      "etzbergweg_16",
       "etzbergweg_17",
-      "etzbergweg_18",
       "etzbergweg_19",
-      "etzbergweg_20",
       "etzbergweg_21",
-      "etzbergweg_22",
       "etzbergweg_23"
     ]
   },
@@ -303252,10 +303051,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "75513",
@@ -303266,10 +303062,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "75514",
@@ -303280,10 +303073,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "75515",
@@ -303294,10 +303084,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "75516",
@@ -303308,10 +303095,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "75517",
@@ -303322,10 +303106,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "75518",
@@ -303336,10 +303117,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "75519",
@@ -303350,10 +303128,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "75520",
@@ -303364,10 +303139,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "75521",
@@ -353608,10 +353380,7 @@
     "neighbourhood": "Rosenberg",
     "street": "Felsenhofstrasse",
     "housenumber": "2-4",
-    "loc": [
-      "felsenhofstrasse_2",
-      "felsenhofstrasse_4"
-    ]
+    "loc": "felsenhofstrasse_4"
   },
   {
     "id": "89133",
@@ -371740,9 +371509,7 @@
     "neighbourhood": "Guggenbühl",
     "street": "Zürcherstrasse",
     "housenumber": "168/172",
-    "loc": 
-      "zürcherstrasse_172"
-    
+    "loc": "zürcherstrasse_172"
   },
   {
     "id": "29971",
@@ -373724,9 +373491,7 @@
     "neighbourhood": "Guggenbühl",
     "street": "Zürcherstrasse",
     "housenumber": "166-168",
-    "loc": 
-      "zürcherstrasse_166"
-    
+    "loc": "zürcherstrasse_166"
   },
   {
     "id": "56397",
