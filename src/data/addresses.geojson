@@ -19284,78 +19284,78 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.687662, 47.512856]
+        "coordinates": [8.687139511108398, 47.515037536621094]
       },
       "properties": {
         "id": "rebenweg_34",
         "street": "Rebenweg",
         "housenumber": "34",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.687662, 47.512856]
+        "coordinates": [8.687488555908203, 47.515045166015625]
       },
       "properties": {
         "id": "rebenweg_36",
         "street": "Rebenweg",
         "housenumber": "36",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.687662, 47.512856]
+        "coordinates": [8.688000679016113, 47.515052795410156]
       },
       "properties": {
         "id": "rebenweg_38",
         "street": "Rebenweg",
         "housenumber": "38",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.687662, 47.512856]
+        "coordinates": [8.688443183898926, 47.51506042480469]
       },
       "properties": {
         "id": "rebenweg_40",
         "street": "Rebenweg",
         "housenumber": "40",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.687662, 47.512856]
+        "coordinates": [8.688806533813477, 47.515052795410156]
       },
       "properties": {
         "id": "rebenweg_42",
         "street": "Rebenweg",
         "housenumber": "42",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.687662, 47.512856]
+        "coordinates": [8.68931770324707, 47.51487731933594]
       },
       "properties": {
         "id": "rebenweg_44",
         "street": "Rebenweg",
         "housenumber": "44",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -59935,26 +59935,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.7544, 47.506447]
+        "coordinates": [8.754400253295898, 47.506446838378906]
       },
       "properties": {
         "id": "römerstrasse_156",
         "street": "Römerstrasse",
         "housenumber": "156",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.755039, 47.507458]
+        "coordinates": [8.75503921508789, 47.5074577331543]
       },
       "properties": {
         "id": "römerstrasse_171",
         "street": "Römerstrasse",
         "housenumber": "171",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
