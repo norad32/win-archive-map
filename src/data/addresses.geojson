@@ -8819,19 +8819,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.681642532348633, 47.49686050415039]
-      },
-      "properties": {
-        "id": "burgstrasse_111",
-        "street": "Burgstrasse",
-        "housenumber": "111",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.697938919067383, 47.50657272338867]
       },
       "properties": {
@@ -48222,13 +48209,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.717256, 47.498268]
+        "coordinates": [8.720387, 47.502185]
       },
       "properties": {
         "id": "neuwiesenstrasse_39",
         "street": "Neuwiesenstrasse",
         "housenumber": "39",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -48248,13 +48235,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.717256, 47.498268]
+        "coordinates": [8.720462, 47.502323]
       },
       "properties": {
         "id": "neuwiesenstrasse_41",
         "street": "Neuwiesenstrasse",
         "housenumber": "41",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -52200,13 +52187,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.707271, 47.505806]
+        "coordinates": [8.694686, 47.510096]
       },
       "properties": {
         "id": "oberfeldstrasse_156",
         "street": "Oberfeldstrasse",
         "housenumber": "156",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -52220,19 +52207,6 @@
         "street": "Oberfeldstrasse",
         "housenumber": "158",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.707271, 47.505806]
-      },
-      "properties": {
-        "id": "oberfeldstrasse_1114",
-        "street": "Oberfeldstrasse",
-        "housenumber": "1114",
-        "status": "todo"
       }
     },
     {
@@ -71661,32 +71635,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759383, 47.510208]
-      },
-      "properties": {
-        "id": "stadlerstrasse_8",
-        "street": "Stadlerstrasse",
-        "housenumber": "8",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.759383, 47.510208]
-      },
-      "properties": {
-        "id": "stadlerstrasse_10",
-        "street": "Stadlerstrasse",
-        "housenumber": "10",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.758272171020508, 47.510658264160156]
       },
       "properties": {
@@ -71700,64 +71648,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759383, 47.510208]
-      },
-      "properties": {
-        "id": "stadlerstrasse_12",
-        "street": "Stadlerstrasse",
-        "housenumber": "12",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.758831977844238, 47.51070785522461]
       },
       "properties": {
         "id": "stadlerstrasse_14",
         "street": "Stadlerstrasse",
         "housenumber": "14",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.758258819580078, 47.51124954223633]
-      },
-      "properties": {
-        "id": "stadlerstrasse_16",
-        "street": "Stadlerstrasse",
-        "housenumber": "16",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.758331298828125, 47.511253356933594]
-      },
-      "properties": {
-        "id": "stadlerstrasse_18",
-        "street": "Stadlerstrasse",
-        "housenumber": "18",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.758448600769043, 47.511268615722656]
-      },
-      "properties": {
-        "id": "stadlerstrasse_20",
-        "street": "Stadlerstrasse",
-        "housenumber": "20",
         "status": "auto"
       }
     },
@@ -71778,38 +71674,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.758522033691406, 47.51127243041992]
-      },
-      "properties": {
-        "id": "stadlerstrasse_22",
-        "street": "Stadlerstrasse",
-        "housenumber": "22",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.7576904296875, 47.5113525390625]
       },
       "properties": {
         "id": "stadlerstrasse_23",
         "street": "Stadlerstrasse",
         "housenumber": "23",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.758111000061035, 47.511573791503906]
-      },
-      "properties": {
-        "id": "stadlerstrasse_24",
-        "street": "Stadlerstrasse",
-        "housenumber": "24",
         "status": "auto"
       }
     },
@@ -71830,129 +71700,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.758231163024902, 47.51157760620117]
-      },
-      "properties": {
-        "id": "stadlerstrasse_26",
-        "street": "Stadlerstrasse",
-        "housenumber": "26",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.75830364227295, 47.51158142089844]
-      },
-      "properties": {
-        "id": "stadlerstrasse_28",
-        "street": "Stadlerstrasse",
-        "housenumber": "28",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.758420944213867, 47.5115966796875]
-      },
-      "properties": {
-        "id": "stadlerstrasse_30",
-        "street": "Stadlerstrasse",
-        "housenumber": "30",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.758495330810547, 47.511600494384766]
-      },
-      "properties": {
-        "id": "stadlerstrasse_32",
-        "street": "Stadlerstrasse",
-        "housenumber": "32",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.758084297180176, 47.51190185546875]
-      },
-      "properties": {
-        "id": "stadlerstrasse_34",
-        "street": "Stadlerstrasse",
-        "housenumber": "34",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.758203506469727, 47.511905670166016]
-      },
-      "properties": {
-        "id": "stadlerstrasse_36",
-        "street": "Stadlerstrasse",
-        "housenumber": "36",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.758275985717773, 47.51190948486328]
-      },
-      "properties": {
-        "id": "stadlerstrasse_38",
-        "street": "Stadlerstrasse",
-        "housenumber": "38",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.758393287658691, 47.511924743652344]
-      },
-      "properties": {
-        "id": "stadlerstrasse_40",
-        "street": "Stadlerstrasse",
-        "housenumber": "40",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.757514953613281, 47.5131721496582]
       },
       "properties": {
         "id": "stadlerstrasse_41",
         "street": "Stadlerstrasse",
         "housenumber": "41",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.758467674255371, 47.51192855834961]
-      },
-      "properties": {
-        "id": "stadlerstrasse_42",
-        "street": "Stadlerstrasse",
-        "housenumber": "42",
         "status": "auto"
       }
     },
@@ -71973,19 +71726,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.758057594299316, 47.512229919433594]
-      },
-      "properties": {
-        "id": "stadlerstrasse_44",
-        "street": "Stadlerstrasse",
-        "housenumber": "44",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.757407188415527, 47.51364517211914]
       },
       "properties": {
@@ -71999,116 +71739,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.758176803588867, 47.51223373413086]
-      },
-      "properties": {
-        "id": "stadlerstrasse_46",
-        "street": "Stadlerstrasse",
-        "housenumber": "46",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.758249282836914, 47.512237548828125]
-      },
-      "properties": {
-        "id": "stadlerstrasse_48",
-        "street": "Stadlerstrasse",
-        "housenumber": "48",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.758367538452148, 47.51225280761719]
-      },
-      "properties": {
-        "id": "stadlerstrasse_50",
-        "street": "Stadlerstrasse",
-        "housenumber": "50",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.758439064025879, 47.51225662231445]
-      },
-      "properties": {
-        "id": "stadlerstrasse_52",
-        "street": "Stadlerstrasse",
-        "housenumber": "52",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.758280754089355, 47.51273727416992]
-      },
-      "properties": {
-        "id": "stadlerstrasse_54",
-        "street": "Stadlerstrasse",
-        "housenumber": "54",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.758092880249023, 47.51347351074219]
       },
       "properties": {
         "id": "stadlerstrasse_56",
         "street": "Stadlerstrasse",
         "housenumber": "56",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.757970809936523, 47.51424789428711]
-      },
-      "properties": {
-        "id": "stadlerstrasse_58",
-        "street": "Stadlerstrasse",
-        "housenumber": "58",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.757916450500488, 47.514732360839844]
-      },
-      "properties": {
-        "id": "stadlerstrasse_60",
-        "street": "Stadlerstrasse",
-        "housenumber": "60",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.7577543258667, 47.51506805419922]
-      },
-      "properties": {
-        "id": "stadlerstrasse_62",
-        "street": "Stadlerstrasse",
-        "housenumber": "62",
         "status": "auto"
       }
     },
@@ -72161,58 +71797,6 @@
         "id": "stadlerstrasse_70",
         "street": "Stadlerstrasse",
         "housenumber": "70",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.757753372192383, 47.515586853027344]
-      },
-      "properties": {
-        "id": "stadlerstrasse_72",
-        "street": "Stadlerstrasse",
-        "housenumber": "72",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.759383, 47.510208]
-      },
-      "properties": {
-        "id": "stadlerstrasse_74",
-        "street": "Stadlerstrasse",
-        "housenumber": "74",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.757668495178223, 47.51578140258789]
-      },
-      "properties": {
-        "id": "stadlerstrasse_76",
-        "street": "Stadlerstrasse",
-        "housenumber": "76",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.757648468017578, 47.515960693359375]
-      },
-      "properties": {
-        "id": "stadlerstrasse_78",
-        "street": "Stadlerstrasse",
-        "housenumber": "78",
         "status": "auto"
       }
     },
