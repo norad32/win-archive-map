@@ -79851,39 +79851,39 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759624, 47.510834]
+        "coordinates": [8.745866775512695, 47.49224853515625]
       },
       "properties": {
         "id": "hörnlistrase_28",
         "street": "Hörnlistrasse",
         "housenumber": "28",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759624, 47.510834]
+        "coordinates": [8.746060371398926, 47.492149353027344]
       },
       "properties": {
         "id": "hörnlistrase_30",
         "street": "Hörnlistrasse",
         "housenumber": "30",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.73465, 47.496706]
+        "coordinates": [8.74625301361084, 47.4920539855957]
       },
       "properties": {
         "id": "hörnlistrase_32",
         "street": "Hörnlistrasse",
         "housenumber": "32",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -79916,39 +79916,39 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759624, 47.510834]
+        "coordinates": [8.746374130249023, 47.49168395996094]
       },
       "properties": {
         "id": "hörnlistrase_34",
         "street": "Hörnlistrasse",
         "housenumber": "34",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759624, 47.510834]
+        "coordinates": [8.746759414672852, 47.49148941040039]
       },
       "properties": {
         "id": "hörnlistrase_38",
         "street": "Hörnlistrasse",
         "housenumber": "38",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759624, 47.510834]
+        "coordinates": [8.746759414672852, 47.49148941040039]
       },
       "properties": {
         "id": "hörnlistrase_38",
         "street": "Hörnlistrasse",
         "housenumber": "38",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
