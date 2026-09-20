@@ -18,7 +18,7 @@ export const Config = Object.freeze({
   MAP_MIN_ZOOM: 11,
   MAP_MAX_ZOOM: 18,
   MAP_MAX_BOUNDS: [
-    [47.42, 8.59], // south-west
-    [47.59, 8.89], // north-east
+    [47.368449, 8.53753], // south-west
+    [47.589595, 8.886116], // north-east
   ],
 });
