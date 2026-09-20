@@ -551,7 +551,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [47.506186, 8.750809]
+        "coordinates": [8.750809, 47.506186]
       },
       "properties": {
         "id": "alte_römerstrasse_6",
@@ -928,7 +928,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [47.517878, 8.715066]
+        "coordinates": [8.715066, 47.517878]
       },
       "properties": {
         "id": "am_schützenweiher_4",
@@ -1357,7 +1357,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [47.488296, 8.766081]
+        "coordinates": [8.766081, 47.488296]
       },
       "properties": {
         "id": "arbergstrasse_7",
@@ -42892,6 +42892,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.866839707936752, 47.49054991340945]
+      },
+      "properties": {
+        "id": "elgg_lindenplatz_3",
+        "street": "Lindenplatz",
+        "housenumber": "3",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.693895, 47.510712]
       },
       "properties": {
@@ -56685,13 +56698,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.374741554260254, 47.570274353027344]
+        "coordinates": [8.641822803192579, 47.51135792809559]
       },
       "properties": {
         "id": "reckholdernstrasse_9",
         "street": "Reckholdernstrasse",
         "housenumber": "9",
-        "status": "auto"
+        "status": "manual"
       }
     },
     {
@@ -67261,19 +67274,6 @@
         "street": "Schlosstalstrasse",
         "housenumber": "15",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.692211, 47.502262]
-      },
-      "properties": {
-        "id": "schlosstalstrasse_16",
-        "street": "Schlosstalstrasse",
-        "housenumber": "16",
-        "status": "todo"
       }
     },
     {
@@ -78070,32 +78070,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.727627, 47.497597]
-      },
-      "properties": {
-        "id": "technikumstrasseturmhaldenstrasse_59",
-        "street": "Technikumstrasse/Turmhaldenstrasse",
-        "housenumber": "59",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.725975, 47.497978]
-      },
-      "properties": {
-        "id": "technikumstrassetösstalstrasse_73",
-        "street": "Technikumstrasse/Tösstalstrasse",
-        "housenumber": "73",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.716793060302734, 47.49467468261719]
       },
       "properties": {
@@ -79880,8 +79854,8 @@
         "coordinates": [8.759624, 47.510834]
       },
       "properties": {
-        "id": "tösstalstrasse_28",
-        "street": "Tösstalstrasse",
+        "id": "hörnlistrase_28",
+        "street": "Hörnlistrasse",
         "housenumber": "28",
         "status": "todo"
       }
@@ -79893,8 +79867,8 @@
         "coordinates": [8.759624, 47.510834]
       },
       "properties": {
-        "id": "tösstalstrasse_30",
-        "street": "Tösstalstrasse",
+        "id": "hörnlistrase_30",
+        "street": "Hörnlistrasse",
         "housenumber": "30",
         "status": "todo"
       }
@@ -79906,10 +79880,23 @@
         "coordinates": [8.73465, 47.496706]
       },
       "properties": {
+        "id": "hörnlistrase_32",
+        "street": "Hörnlistrasse",
+        "housenumber": "32",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.733959, 47.496807]
+      },
+      "properties": {
         "id": "tösstalstrasse_32",
         "street": "Tösstalstrasse",
         "housenumber": "32",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -79932,9 +79919,35 @@
         "coordinates": [8.759624, 47.510834]
       },
       "properties": {
-        "id": "tösstalstrasse_34",
-        "street": "Tösstalstrasse",
+        "id": "hörnlistrase_34",
+        "street": "Hörnlistrasse",
         "housenumber": "34",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.759624, 47.510834]
+      },
+      "properties": {
+        "id": "hörnlistrase_38",
+        "street": "Hörnlistrasse",
+        "housenumber": "38",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.759624, 47.510834]
+      },
+      "properties": {
+        "id": "hörnlistrase_38",
+        "street": "Hörnlistrasse",
+        "housenumber": "38",
         "status": "todo"
       }
     },
@@ -88392,19 +88405,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759624, 47.510834]
-      },
-      "properties": {
-        "id": "wildbachstrasse_15",
-        "street": "Wildbachstrasse",
-        "housenumber": "15",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.731307983398438, 47.49564743041992]
       },
       "properties": {
@@ -88418,13 +88418,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.759624, 47.510834]
+        "coordinates": [8.73095, 47.495263]
       },
       "properties": {
         "id": "wildbachstrasse_17",
         "street": "Wildbachstrasse",
         "housenumber": "17",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -88438,19 +88438,6 @@
         "street": "Wildbachstrasse",
         "housenumber": "18",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.759624, 47.510834]
-      },
-      "properties": {
-        "id": "wildbachstrasse_19",
-        "street": "Wildbachstrasse",
-        "housenumber": "19",
-        "status": "todo"
       }
     },
     {
@@ -90810,7 +90797,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [47.504751, 8.718451]
+        "coordinates": [8.718451, 47.504751]
       },
       "properties": {
         "id": "wülflingerstrasse_23",
