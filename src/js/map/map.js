@@ -1,4 +1,5 @@
 import { Config } from "./../config.js";
+import { el } from "./../dom/dom-builder.js";
 import { makeClusterIcon, buildMarkersForGroups } from "./markers.js";
 import { createBoundaryLayers } from "./boundary-layers.js";
 
@@ -8,6 +9,11 @@ export function createMap(elId, onMarkerClick) {
   /** @type {?L.MarkerClusterGroup} */
   let geoLayer = null;
   let hasFitInitialBounds = false;
+
+  map.on("contextmenu", (event) => {
+    event.originalEvent?.preventDefault?.();
+    openCoordinatesPopup(map, event.latlng);
+  });
 
   function ensureGeoLayer() {
     if (geoLayer) return geoLayer;
@@ -57,6 +63,53 @@ export function createMap(elId, onMarkerClick) {
     invalidateSize: () => map.invalidateSize(),
     boundaryLayers: createBoundaryLayers(map),
   };
+}
+
+function openCoordinatesPopup(map, latlng) {
+  const text = `${latlng.lat.toFixed(6)}, ${latlng.lng.toFixed(6)}`;
+  const button = el(
+    "button",
+    {
+      className: "coord-popup-copy",
+      type: "button",
+      onClick: async () => {
+        const copied = await copyText(text);
+        button.textContent = copied ? "Copied!" : "Copy failed";
+        button.disabled = true;
+        setTimeout(() => {
+          button.textContent = "Copy";
+          button.disabled = false;
+        }, 1500);
+      },
+    },
+    "Copy",
+  );
+
+  L.popup({ className: "coord-popup", closeButton: false, autoPan: false })
+    .setLatLng(latlng)
+    .setContent(
+      el("div", { className: "coord-popup-body" }, [
+        el("code", { className: "coord-popup-text" }, text),
+        button,
+      ]),
+    )
+    .openOn(map);
+}
+
+async function copyText(text) {
+  try {
+    await navigator.clipboard.writeText(text);
+    return true;
+  } catch {
+    const textarea = el("textarea", { value: text });
+    textarea.style.position = "fixed";
+    textarea.style.opacity = "0";
+    document.body.append(textarea);
+    textarea.select();
+    const ok = document.execCommand("copy");
+    textarea.remove();
+    return ok;
+  }
 }
 
 function swisstopoWmts(

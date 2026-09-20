@@ -83,8 +83,13 @@ export function createDataStore() {
       loadBoundaryData(signal),
     ]);
 
-    const [entriesResult, addressesResult, locationsResult, districtsResult, boundaryResult] =
-      results;
+    const [
+      entriesResult,
+      addressesResult,
+      locationsResult,
+      districtsResult,
+      boundaryResult,
+    ] = results;
 
     // Any rejection due to abort short-circuits everything else silently.
     const aborted = results.some(
@@ -127,7 +132,10 @@ export function createDataStore() {
         emitter.emit("error", locationsResult.reason);
       }
 
-      const locationsById = buildLocationsById(addressFeatures, locationFeatures);
+      const locationsById = buildLocationsById(
+        addressFeatures,
+        locationFeatures,
+      );
       unlocatedEntries = allEntries.filter((entry) => !entry.loc);
       precomputedGroups = groupFeatures(allEntries, locationsById);
       dataLoaded = true;
