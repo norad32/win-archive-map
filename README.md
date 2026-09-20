@@ -25,12 +25,23 @@ npm run build   # build to dist/
 npm run deploy  # build and publish to GitHub Pages
 ```
 
-## Updating the glossary
+## Data model
 
-`src/data/glossary.json` mirrors the [Winterthur-Glossar](https://www.winterthur-glossar.ch). To pick up newly published articles:
+The archive data is split so metadata and coordinates can grow independently:
+
+- `src/data/archive.geojson` – master export from the Bildarchiv scrape (not deployed)
+- `src/data/entries.json` – one record per archive photo: `id` + `signature` (the keys matching the real Bildarchiv records), title, year, street, housenumber, district, neighbourhood, and `loc` referencing house/POI ids (`string`, `array` for ranges, or `null` when unplaced)
+- `src/data/addresses.geojson` – one point per **unrolled house** (`31-35` -> three houses, parity-aware ranges, slash doubles)
+- `src/data/locations.geojson` – POI layer for photos without an address (churches, forests, vanished historic sites)
+
+The app joins entries to coordinates at runtime, an entry spanning a range gets one marker per house, all linking to the same entry.
+
+## Data pipeline
 
 ```bash
-venv/bin/python scripts/update-glossary.py
+venv/bin/python scripts/geocode.py          # geocode todo houses via geo.admin.ch
+venv/bin/python scripts/update-districts.py # district/neighbourhood per address
+venv/bin/python scripts/update-glossary.py  # scraped the Winerthur Glosary for new entries
 ```
 
 ## Tech stack

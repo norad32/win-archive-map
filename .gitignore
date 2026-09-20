@@ -3,3 +3,4 @@ node_modules
 backups
 venv
 .vscode
+scripts/__pycache__
