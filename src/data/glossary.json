@@ -533,13 +533,6 @@
     "tags": ""
   },
   {
-    "title": "Ärztegesellschaft Winterthur-Andelfingen (AWA)",
-    "subtitle": "Garnmarkt 10",
-    "category": "Bildung und Soziales",
-    "url": "https://www.winterthur-glossar.ch/awa",
-    "tags": ""
-  },
-  {
     "title": "Aspasia-Areal",
     "subtitle": "Rosenstrasse 9-14",
     "category": "Industrie- und Gewerbeanlagen",
@@ -622,14 +615,6 @@
     "tags": ""
   },
   {
-    "title": "Bäckerei Frauchiger",
-    "subtitle": "Römerstrasse 185",
-    "category": "KMU und Gewerbe",
-    "url": "https://www.winterthur-glossar.ch/Baeckerei-frauchiger",
-    "address": "Römerstrasse 185",
-    "tags": ""
-  },
-  {
     "title": "Backstein Reloaded",
     "subtitle": "Backsteinbauten in Winterthur",
     "category": "Alle Kategorien",
@@ -707,13 +692,6 @@
     "subtitle": "",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/bahnhofplatz",
-    "tags": ""
-  },
-  {
-    "title": "Bähnlerfriedhof",
-    "subtitle": "Gedenkstätte",
-    "category": "Natur und Pärke",
-    "url": "https://www.winterthur-glossar.ch/baehnlerfriedhof",
     "tags": ""
   },
   {
@@ -799,13 +777,6 @@
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/bauernhaus-werdstrasse-9-und-11",
     "address": "Werdstrasse 9-11",
-    "tags": ""
-  },
-  {
-    "title": "Bäumli",
-    "subtitle": "Goldenberg",
-    "category": "Hotels und Gastronomie",
-    "url": "https://www.winterthur-glossar.ch/baeumli",
     "tags": ""
   },
   {
@@ -929,17 +900,17 @@
     "tags": ""
   },
   {
-    "title": "Blüemliquartier Veltheim",
-    "subtitle": "",
-    "category": "Stadtkreise und Quartiere",
-    "url": "https://www.winterthur-glossar.ch/blueemliquartier",
-    "tags": ""
-  },
-  {
     "title": "Blumenau-Anlage",
     "subtitle": "",
     "category": "Natur und Pärke",
     "url": "https://www.winterthur-glossar.ch/blumenau-anlage",
+    "tags": ""
+  },
+  {
+    "title": "Blüemliquartier Veltheim",
+    "subtitle": "",
+    "category": "Stadtkreise und Quartiere",
+    "url": "https://www.winterthur-glossar.ch/blueemliquartier",
     "tags": ""
   },
   {
@@ -1054,50 +1025,6 @@
     "tags": ""
   },
   {
-    "title": "Brühlberg Süd",
-    "subtitle": "Schlosstalstrasse 52",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/ueberbauung-bruehlberg-sued",
-    "address": "Schlosstalstrasse 52",
-    "tags": ""
-  },
-  {
-    "title": "Brühlberg-Quartier",
-    "subtitle": "",
-    "category": "Stadtkreise und Quartiere",
-    "url": "https://www.winterthur-glossar.ch/bruehlberg-quartier",
-    "neighbourhood": "Brühlberg"
-  },
-  {
-    "title": "Brühlbergstrasse 39",
-    "subtitle": "",
-    "category": "Wohnhäuser",
-    "url": "https://www.winterthur-glossar.ch/bruehlbergstrasse-39",
-    "address": "Brühlbergstrasse 39",
-    "tags": ""
-  },
-  {
-    "title": "Brühlbergturm",
-    "subtitle": "",
-    "category": "Sport- und Freizeitanlagen",
-    "url": "https://www.winterthur-glossar.ch/bruehlberg-aussichtsturm",
-    "tags": ""
-  },
-  {
-    "title": "Brühlgut-Stiftung",
-    "subtitle": "",
-    "category": "Bildung und Soziales",
-    "url": "https://www.winterthur-glossar.ch/bruehlgut-stiftung",
-    "tags": ""
-  },
-  {
-    "title": "Brühlgutpark",
-    "subtitle": "",
-    "category": "Natur und Pärke",
-    "url": "https://www.winterthur-glossar.ch/bruehlgutpark",
-    "tags": ""
-  },
-  {
     "title": "Brunnen in Hegi",
     "subtitle": "",
     "category": "Verkehr und Infrastruktur",
@@ -1161,6 +1088,50 @@
     "tags": ""
   },
   {
+    "title": "Brühlberg Süd",
+    "subtitle": "Schlosstalstrasse 52",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/ueberbauung-bruehlberg-sued",
+    "address": "Schlosstalstrasse 52",
+    "tags": ""
+  },
+  {
+    "title": "Brühlberg-Quartier",
+    "subtitle": "",
+    "category": "Stadtkreise und Quartiere",
+    "url": "https://www.winterthur-glossar.ch/bruehlberg-quartier",
+    "neighbourhood": "Brühlberg"
+  },
+  {
+    "title": "Brühlbergstrasse 39",
+    "subtitle": "",
+    "category": "Wohnhäuser",
+    "url": "https://www.winterthur-glossar.ch/bruehlbergstrasse-39",
+    "address": "Brühlbergstrasse 39",
+    "tags": ""
+  },
+  {
+    "title": "Brühlbergturm",
+    "subtitle": "",
+    "category": "Sport- und Freizeitanlagen",
+    "url": "https://www.winterthur-glossar.ch/bruehlberg-aussichtsturm",
+    "tags": ""
+  },
+  {
+    "title": "Brühlgut-Stiftung",
+    "subtitle": "",
+    "category": "Bildung und Soziales",
+    "url": "https://www.winterthur-glossar.ch/bruehlgut-stiftung",
+    "tags": ""
+  },
+  {
+    "title": "Brühlgutpark",
+    "subtitle": "",
+    "category": "Natur und Pärke",
+    "url": "https://www.winterthur-glossar.ch/bruehlgutpark",
+    "tags": ""
+  },
+  {
     "title": "Brüttener Tunnel und Überwerfung Töss",
     "subtitle": "",
     "category": "Verkehr und Infrastruktur",
@@ -1172,21 +1143,6 @@
     "subtitle": "Heute Orell Füssli Winterthur",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/buchhandlung-vogel",
-    "tags": ""
-  },
-  {
-    "title": "Büchi-Haus",
-    "subtitle": "Salstrasse 20",
-    "category": "Wohnhäuser",
-    "url": "https://www.winterthur-glossar.ch/buechi-haus",
-    "address": "Salstrasse 20",
-    "tags": ""
-  },
-  {
-    "title": "Bühler-Spinnereien",
-    "subtitle": "",
-    "category": "Grosskonzerne",
-    "url": "https://www.winterthur-glossar.ch/buehler-spinnereien",
     "tags": ""
   },
   {
@@ -1216,14 +1172,6 @@
     "subtitle": "",
     "category": "Burgen, Schlösser und Stadtbefestigung",
     "url": "https://www.winterthur-glossar.ch/rossberg-toess",
-    "tags": ""
-  },
-  {
-    "title": "Büro Schoch AG",
-    "subtitle": "Untertor 7",
-    "category": "KMU und Gewerbe",
-    "url": "https://www.winterthur-glossar.ch/buero-schoch-ag",
-    "address": "Untertor 7",
     "tags": ""
   },
   {
@@ -1261,6 +1209,51 @@
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/bwt-bau-ag",
     "address": "Wülflingerstrasse 285",
+    "tags": ""
+  },
+  {
+    "title": "Bäckerei Frauchiger",
+    "subtitle": "Römerstrasse 185",
+    "category": "KMU und Gewerbe",
+    "url": "https://www.winterthur-glossar.ch/Baeckerei-frauchiger",
+    "address": "Römerstrasse 185",
+    "tags": ""
+  },
+  {
+    "title": "Bähnlerfriedhof",
+    "subtitle": "Gedenkstätte",
+    "category": "Natur und Pärke",
+    "url": "https://www.winterthur-glossar.ch/baehnlerfriedhof",
+    "tags": ""
+  },
+  {
+    "title": "Bäumli",
+    "subtitle": "Goldenberg",
+    "category": "Hotels und Gastronomie",
+    "url": "https://www.winterthur-glossar.ch/baeumli",
+    "tags": ""
+  },
+  {
+    "title": "Büchi-Haus",
+    "subtitle": "Salstrasse 20",
+    "category": "Wohnhäuser",
+    "url": "https://www.winterthur-glossar.ch/buechi-haus",
+    "address": "Salstrasse 20",
+    "tags": ""
+  },
+  {
+    "title": "Bühler-Spinnereien",
+    "subtitle": "",
+    "category": "Grosskonzerne",
+    "url": "https://www.winterthur-glossar.ch/buehler-spinnereien",
+    "tags": ""
+  },
+  {
+    "title": "Büro Schoch AG",
+    "subtitle": "Untertor 7",
+    "category": "KMU und Gewerbe",
+    "url": "https://www.winterthur-glossar.ch/buero-schoch-ag",
+    "address": "Untertor 7",
     "tags": ""
   },
   {
@@ -1404,31 +1397,10 @@
     "tags": ""
   },
   {
-    "title": "Chäs Renz",
-    "subtitle": "Ecke Marktgasse / Obere Kirchgasse",
-    "category": "KMU und Gewerbe",
-    "url": "https://www.winterthur-glossar.ch/chaes-renz",
-    "tags": ""
-  },
-  {
-    "title": "Chässtube (ArchBar)",
-    "subtitle": "",
-    "category": "Hotels und Gastronomie",
-    "url": "https://www.winterthur-glossar.ch/chaesstube-archbar_665",
-    "tags": ""
-  },
-  {
     "title": "Chomberg",
     "subtitle": "Hügel auf dem Gebiet von Winterthur und der Gemeinde Brütten",
     "category": "Natur und Pärke",
     "url": "https://www.winterthur-glossar.ch/chomberg",
-    "tags": ""
-  },
-  {
-    "title": "Chöpfi",
-    "subtitle": "Sandsteinformation",
-    "category": "Natur und Pärke",
-    "url": "https://www.winterthur-glossar.ch/choepfi",
     "tags": ""
   },
   {
@@ -1460,6 +1432,27 @@
     "tags": ""
   },
   {
+    "title": "Chäs Renz",
+    "subtitle": "Ecke Marktgasse / Obere Kirchgasse",
+    "category": "KMU und Gewerbe",
+    "url": "https://www.winterthur-glossar.ch/chaes-renz",
+    "tags": ""
+  },
+  {
+    "title": "Chässtube (ArchBar)",
+    "subtitle": "",
+    "category": "Hotels und Gastronomie",
+    "url": "https://www.winterthur-glossar.ch/chaesstube-archbar_665",
+    "tags": ""
+  },
+  {
+    "title": "Chöpfi",
+    "subtitle": "Sandsteinformation",
+    "category": "Natur und Pärke",
+    "url": "https://www.winterthur-glossar.ch/choepfi",
+    "tags": ""
+  },
+  {
     "title": "City-​Vereinigung Junge Altstadt",
     "subtitle": "Stadthausstrasse 14",
     "category": "Vereine und Verbände",
@@ -1482,18 +1475,18 @@
     "tags": ""
   },
   {
-    "title": "Club «zur Geduld»",
-    "subtitle": "Marktgasse 22",
-    "category": "Hotels und Gastronomie",
-    "url": "https://www.winterthur-glossar.ch/club-zur-geduld",
-    "tags": ""
-  },
-  {
     "title": "Club of Rome",
     "subtitle": "Lagerhausstrasse 9",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/club-of-rome",
     "address": "Lagerhausstrasse 9",
+    "tags": ""
+  },
+  {
+    "title": "Club «zur Geduld»",
+    "subtitle": "Marktgasse 22",
+    "category": "Hotels und Gastronomie",
+    "url": "https://www.winterthur-glossar.ch/club-zur-geduld",
     "tags": ""
   },
   {
@@ -1592,20 +1585,6 @@
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/das-untervogthaus-seen",
     "address": "Rössligasse 11",
-    "tags": ""
-  },
-  {
-    "title": "Dättnau",
-    "subtitle": "Quartier in Töss",
-    "category": "Stadtkreise und Quartiere",
-    "url": "https://www.winterthur-glossar.ch/daettnau",
-    "neighbourhood": "Dättnau"
-  },
-  {
-    "title": "Dättnauer Weiher",
-    "subtitle": "",
-    "category": "Natur und Pärke",
-    "url": "https://www.winterthur-glossar.ch/daettnauer-weiher",
     "tags": ""
   },
   {
@@ -1796,6 +1775,20 @@
     "tags": ""
   },
   {
+    "title": "Dättnau",
+    "subtitle": "Quartier in Töss",
+    "category": "Stadtkreise und Quartiere",
+    "url": "https://www.winterthur-glossar.ch/daettnau",
+    "neighbourhood": "Dättnau"
+  },
+  {
+    "title": "Dättnauer Weiher",
+    "subtitle": "",
+    "category": "Natur und Pärke",
+    "url": "https://www.winterthur-glossar.ch/daettnauer-weiher",
+    "tags": ""
+  },
+  {
     "title": "Eduard Bosshart",
     "subtitle": "Anwalt, Kantonsrat (DP) 1901–1971",
     "category": "Politik",
@@ -1852,19 +1845,19 @@
     "tags": ""
   },
   {
-    "title": "Ehemaliges Färbereigebäude Geilinger",
-    "subtitle": "Emil-Klöti-Strasse 31",
-    "category": "Wohnhäuser",
-    "url": "https://www.winterthur-glossar.ch/ehemaliges-faerbereigebaeude-geilinger",
-    "address": "Emil-Klöti-Strasse 31",
-    "tags": ""
-  },
-  {
     "title": "ehemaliges Feuerwehrlokal",
     "subtitle": "Lindstrasse 4",
     "category": "Öffentliche Bauten",
     "url": "https://www.winterthur-glossar.ch/ehemaliges-feuerwehrlokal",
     "address": "Lindstrasse 4",
+    "tags": ""
+  },
+  {
+    "title": "Ehemaliges Färbereigebäude Geilinger",
+    "subtitle": "Emil-Klöti-Strasse 31",
+    "category": "Wohnhäuser",
+    "url": "https://www.winterthur-glossar.ch/ehemaliges-faerbereigebaeude-geilinger",
+    "address": "Emil-Klöti-Strasse 31",
     "tags": ""
   },
   {
@@ -1897,17 +1890,17 @@
     "tags": ""
   },
   {
-    "title": "Eidgenössisches Sängerfest 1854",
-    "subtitle": "",
-    "category": "Anlässe, Brauchtum und Feste",
-    "url": "https://www.winterthur-glossar.ch/eidg-saengerfest-1854",
-    "tags": ""
-  },
-  {
     "title": "Eidgenössisches Schützenfest 1990",
     "subtitle": "13. – 29. Juli 1990",
     "category": "Anlässe, Brauchtum und Feste",
     "url": "https://www.winterthur-glossar.ch/eidg-schuetzenfest-1990",
+    "tags": ""
+  },
+  {
+    "title": "Eidgenössisches Sängerfest 1854",
+    "subtitle": "",
+    "category": "Anlässe, Brauchtum und Feste",
+    "url": "https://www.winterthur-glossar.ch/eidg-saengerfest-1854",
     "tags": ""
   },
   {
@@ -2334,14 +2327,6 @@
     "tags": ""
   },
   {
-    "title": "Färbereigebäude",
-    "subtitle": "J.-C.-Heer-Strasse 2",
-    "category": "Wohnhäuser",
-    "url": "https://www.winterthur-glossar.ch/j-c-heer-strasse-2",
-    "address": "J.-C.-Heer-Strasse 2",
-    "tags": ""
-  },
-  {
     "title": "FC Gemeinderat",
     "subtitle": "",
     "category": "Alle Kategorien",
@@ -2621,13 +2606,6 @@
     "tags": ""
   },
   {
-    "title": "Fräulein Holwegers Farbladen",
-    "subtitle": "",
-    "category": "Aus dem Bildarchiv",
-    "url": "https://www.winterthur-glossar.ch/fraeulein-holwegers-farbladen",
-    "tags": ""
-  },
-  {
     "title": "Freibad Nägelsee (Kanalbad Töss)",
     "subtitle": "1931–1970",
     "category": "Natur und Pärke",
@@ -2773,6 +2751,13 @@
     "tags": ""
   },
   {
+    "title": "Fräulein Holwegers Farbladen",
+    "subtitle": "",
+    "category": "Aus dem Bildarchiv",
+    "url": "https://www.winterthur-glossar.ch/fraeulein-holwegers-farbladen",
+    "tags": ""
+  },
+  {
     "title": "Fussballplatz Talwiesen",
     "subtitle": "Hegistrasse 41h",
     "category": "Sport- und Freizeitanlagen",
@@ -2784,6 +2769,14 @@
     "subtitle": "",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/fvw",
+    "tags": ""
+  },
+  {
+    "title": "Färbereigebäude",
+    "subtitle": "J.-C.-Heer-Strasse 2",
+    "category": "Wohnhäuser",
+    "url": "https://www.winterthur-glossar.ch/j-c-heer-strasse-2",
+    "address": "J.-C.-Heer-Strasse 2",
     "tags": ""
   },
   {
@@ -3205,13 +3198,6 @@
     "tags": ""
   },
   {
-    "title": "Güetli, Abenteuerspielplatz",
-    "subtitle": "",
-    "category": "Sport- und Freizeitanlagen",
-    "url": "https://www.winterthur-glossar.ch/gueetli-abenteuerspielplatz",
-    "tags": ""
-  },
-  {
     "title": "Gustav Adolf Kellermüller",
     "subtitle": "Architekt, 1895–1981",
     "category": "Architektur",
@@ -3230,6 +3216,13 @@
     "subtitle": "",
     "category": "Siedlungen",
     "url": "https://www.winterthur-glossar.ch/gwg-ueberbauung-vogelsang",
+    "tags": ""
+  },
+  {
+    "title": "Güetli, Abenteuerspielplatz",
+    "subtitle": "",
+    "category": "Sport- und Freizeitanlagen",
+    "url": "https://www.winterthur-glossar.ch/gueetli-abenteuerspielplatz",
     "tags": ""
   },
   {
@@ -3917,22 +3910,6 @@
     "tags": ""
   },
   {
-    "title": "Häuser zum Maulbeerbaum und zum Schwarzen Adler",
-    "subtitle": "Untertor 39+41",
-    "category": "Wohnhäuser",
-    "url": "https://www.winterthur-glossar.ch/haeuser-zum-maulbeerbaum-und-zum-schwarzen-adler",
-    "address": "Untertor 39-41",
-    "tags": ""
-  },
-  {
-    "title": "Häuser zum unteren und mittleren Steinberg",
-    "subtitle": "Technikumstrasse 42+44",
-    "category": "Wohnhäuser",
-    "url": "https://www.winterthur-glossar.ch/steinberg",
-    "address": "Technikumstrasse 42-44",
-    "tags": ""
-  },
-  {
     "title": "Hedwig Arbenz-Huber",
     "subtitle": "Frauenrechtlerin, Gründerin der Liberalen Frauengruppe Winterthur, 1910–1955",
     "category": "Bildung und Soziales",
@@ -4320,34 +4297,10 @@
     "tags": ""
   },
   {
-    "title": "Hölken-Areal",
-    "subtitle": "Technikumstrasse 61",
-    "category": "Industrie- und Gewerbeanlagen",
-    "url": "https://www.winterthur-glossar.ch/hoelken-areal",
-    "address": "Technikumstrasse 61",
-    "tags": ""
-  },
-  {
     "title": "Holzkorporation Oberwinterthur",
     "subtitle": "Lindbergstrasse",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/holzkorporation-oberwinterthur",
-    "tags": ""
-  },
-  {
-    "title": "Hörnlistrasse 1",
-    "subtitle": "",
-    "category": "Wohnhäuser",
-    "url": "https://www.winterthur-glossar.ch/hoernlistrasse-1",
-    "address": "Hörnlistrasse 1",
-    "tags": ""
-  },
-  {
-    "title": "Hörnlistrasse 25–29",
-    "subtitle": "",
-    "category": "Wohnhäuser",
-    "url": "https://www.winterthur-glossar.ch/hoernlistrasse-25-29",
-    "address": "Hörnlistrasse 25–29",
     "tags": ""
   },
   {
@@ -4467,6 +4420,46 @@
     "subtitle": "1865-1989",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/hypothekarbank",
+    "tags": ""
+  },
+  {
+    "title": "Häuser zum Maulbeerbaum und zum Schwarzen Adler",
+    "subtitle": "Untertor 39+41",
+    "category": "Wohnhäuser",
+    "url": "https://www.winterthur-glossar.ch/haeuser-zum-maulbeerbaum-und-zum-schwarzen-adler",
+    "address": "Untertor 39-41",
+    "tags": ""
+  },
+  {
+    "title": "Häuser zum unteren und mittleren Steinberg",
+    "subtitle": "Technikumstrasse 42+44",
+    "category": "Wohnhäuser",
+    "url": "https://www.winterthur-glossar.ch/steinberg",
+    "address": "Technikumstrasse 42-44",
+    "tags": ""
+  },
+  {
+    "title": "Hölken-Areal",
+    "subtitle": "Technikumstrasse 61",
+    "category": "Industrie- und Gewerbeanlagen",
+    "url": "https://www.winterthur-glossar.ch/hoelken-areal",
+    "address": "Technikumstrasse 61",
+    "tags": ""
+  },
+  {
+    "title": "Hörnlistrasse 1",
+    "subtitle": "",
+    "category": "Wohnhäuser",
+    "url": "https://www.winterthur-glossar.ch/hoernlistrasse-1",
+    "address": "Hörnlistrasse 1",
+    "tags": ""
+  },
+  {
+    "title": "Hörnlistrasse 25–29",
+    "subtitle": "",
+    "category": "Wohnhäuser",
+    "url": "https://www.winterthur-glossar.ch/hoernlistrasse-25-29",
+    "address": "Hörnlistrasse 25–29",
     "tags": ""
   },
   {
@@ -4906,6 +4899,14 @@
     "tags": ""
   },
   {
+    "title": "Justitia-Brunnen, Gerechtigkeitsbrunnen, Justitiabrunnen",
+    "subtitle": "Marktgasse 41",
+    "category": "Verkehr und Infrastruktur",
+    "url": "https://www.winterthur-glossar.ch/justitiabrunnen",
+    "address": "Marktgasse 41",
+    "tags": ""
+  },
+  {
     "title": "Jürg Altwegg",
     "subtitle": "Elektroingenieur, Stadtrat (Grüne), *1970",
     "category": "Politik",
@@ -4927,36 +4928,12 @@
     "tags": ""
   },
   {
-    "title": "Justitia-Brunnen, Gerechtigkeitsbrunnen, Justitiabrunnen",
-    "subtitle": "Marktgasse 41",
-    "category": "Verkehr und Infrastruktur",
-    "url": "https://www.winterthur-glossar.ch/justitiabrunnen",
-    "address": "Marktgasse 41",
-    "tags": ""
-  },
-  {
     "title": "Kaffeerösterei Küng & Co. AG",
     "subtitle": "St. Gallerstrasse 129",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/kaffeeroesterei-kueng",
     "address": "St. Gallerstrasse 129",
     "tags": ""
-  },
-  {
-    "title": "Kägi Immobilien AG (Kägi + Co AG)",
-    "subtitle": "In der Euelwies 22",
-    "category": "KMU und Gewerbe",
-    "url": "https://www.winterthur-glossar.ch/kaegi-immobilien",
-    "address": "In der Euelwies 22",
-    "tags": ""
-  },
-  {
-    "title": "Kälin & Co. AG",
-    "subtitle": "Hobelwerkweg 45",
-    "category": "KMU und Gewerbe",
-    "url": "https://www.winterthur-glossar.ch/kaelin-co-ag",
-    "address": "Hobelwerkweg 27, Hobelwerkweg 45",
-    "tags": "Hobelwerk Kälin, Kälin & Co"
   },
   {
     "title": "Kantonale Zürcherische Ausstellung für Landwirtschaft und Gartenbau mit Bezirks-Gewerbe-Ausstellung in Winterthur 1924",
@@ -5202,14 +5179,6 @@
     "tags": ""
   },
   {
-    "title": "Kindergarten Äusseres Lind",
-    "subtitle": "Lindstrasse 45",
-    "category": "Schulbauten und Kindergärten",
-    "url": "https://www.winterthur-glossar.ch/kindergarten-aeusseres-lind",
-    "address": "Lindstrasse 45",
-    "tags": ""
-  },
-  {
     "title": "Kindergarten Auwiesen",
     "subtitle": "Neumühlestrasse 81",
     "category": "Schulbauten und Kindergärten",
@@ -5266,14 +5235,6 @@
     "tags": ""
   },
   {
-    "title": "Kindergarten Härti",
-    "subtitle": "In der Härti 6",
-    "category": "Schulbauten und Kindergärten",
-    "url": "https://www.winterthur-glossar.ch/kindergarten-haerti",
-    "address": "In der Härti 6",
-    "tags": ""
-  },
-  {
     "title": "Kindergarten Hegi im Gern",
     "subtitle": "Im oberen Gern 69a",
     "category": "Schulbauten und Kindergärten",
@@ -5287,6 +5248,14 @@
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-hinterdorf",
     "address": "Hinterdorfstrasse 37",
+    "tags": ""
+  },
+  {
+    "title": "Kindergarten Härti",
+    "subtitle": "In der Härti 6",
+    "category": "Schulbauten und Kindergärten",
+    "url": "https://www.winterthur-glossar.ch/kindergarten-haerti",
+    "address": "In der Härti 6",
     "tags": ""
   },
   {
@@ -5458,14 +5427,6 @@
     "tags": ""
   },
   {
-    "title": "Kindergarten Wässerwiesen",
-    "subtitle": "Wässerwiesenstrasse 69",
-    "category": "Schulbauten und Kindergärten",
-    "url": "https://www.winterthur-glossar.ch/kindergarten-waesserwiesen",
-    "address": "Wässerwiesenstrasse 69",
-    "tags": ""
-  },
-  {
     "title": "Kindergarten Weierhöhe",
     "subtitle": "Weierhöhe 30",
     "category": "Schulbauten und Kindergärten",
@@ -5482,11 +5443,27 @@
     "tags": ""
   },
   {
+    "title": "Kindergarten Wässerwiesen",
+    "subtitle": "Wässerwiesenstrasse 69",
+    "category": "Schulbauten und Kindergärten",
+    "url": "https://www.winterthur-glossar.ch/kindergarten-waesserwiesen",
+    "address": "Wässerwiesenstrasse 69",
+    "tags": ""
+  },
+  {
     "title": "Kindergarten Zinzikon",
     "subtitle": "Ruchwiesenstrasse 10",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/kindergarten-zinzikon",
     "address": "Ruchwiesenstrasse 10",
+    "tags": ""
+  },
+  {
+    "title": "Kindergarten Äusseres Lind",
+    "subtitle": "Lindstrasse 45",
+    "category": "Schulbauten und Kindergärten",
+    "url": "https://www.winterthur-glossar.ch/kindergarten-aeusseres-lind",
+    "address": "Lindstrasse 45",
     "tags": ""
   },
   {
@@ -5714,21 +5691,6 @@
     "tags": ""
   },
   {
-    "title": "Königshof",
-    "subtitle": "Neumarkt 4",
-    "category": "Öffentliche Bauten",
-    "url": "https://www.winterthur-glossar.ch/koenigshof",
-    "address": "Neumarkt 4",
-    "tags": ""
-  },
-  {
-    "title": "Königshof, Treffpunkt für ältere Menschen",
-    "subtitle": "",
-    "category": "Bildung und Soziales",
-    "url": "https://www.winterthur-glossar.ch/koenigshof-treffpunkt-fuer-aeltere-menschen_938",
-    "tags": ""
-  },
-  {
     "title": "Konrad Kellenberger",
     "subtitle": "Uhrensammler, 1907–1976",
     "category": "Kunst und Kultur",
@@ -5790,13 +5752,6 @@
     "tags": ""
   },
   {
-    "title": "Krämer Innendekoration AG (Krämer fürs Wohnen)",
-    "subtitle": "1909 - 2015",
-    "category": "KMU und Gewerbe",
-    "url": "https://www.winterthur-glossar.ch/kraemer-AG",
-    "tags": ""
-  },
-  {
     "title": "Kreuzbrunnen",
     "subtitle": "Marktgasse 62",
     "category": "Verkehr und Infrastruktur",
@@ -5819,11 +5774,10 @@
     "tags": ""
   },
   {
-    "title": "Kübler Holding AG",
-    "subtitle": "Lagerhausstrasse 5",
+    "title": "Krämer Innendekoration AG (Krämer fürs Wohnen)",
+    "subtitle": "1909 - 2015",
     "category": "KMU und Gewerbe",
-    "url": "https://www.winterthur-glossar.ch/kuebler-heizoel-ag-1",
-    "address": "Lagerhausstrasse 5",
+    "url": "https://www.winterthur-glossar.ch/kraemer-AG",
     "tags": ""
   },
   {
@@ -5888,13 +5842,6 @@
     "tags": ""
   },
   {
-    "title": "Künstlergruppe Winterthur",
-    "subtitle": "",
-    "category": "",
-    "url": "https://www.winterthur-glossar.ch/kuenstlergruppe-winterthur",
-    "tags": ""
-  },
-  {
     "title": "Kutschensammlung Jedele",
     "subtitle": "",
     "category": "Museen, Sammlungen und Bibliotheken",
@@ -5918,11 +5865,49 @@
     "tags": ""
   },
   {
-    "title": "Läbesruum",
-    "subtitle": "Pflanzschulstrasse 17a",
+    "title": "Kägi Immobilien AG (Kägi + Co AG)",
+    "subtitle": "In der Euelwies 22",
+    "category": "KMU und Gewerbe",
+    "url": "https://www.winterthur-glossar.ch/kaegi-immobilien",
+    "address": "In der Euelwies 22",
+    "tags": ""
+  },
+  {
+    "title": "Kälin & Co. AG",
+    "subtitle": "Hobelwerkweg 45",
+    "category": "KMU und Gewerbe",
+    "url": "https://www.winterthur-glossar.ch/kaelin-co-ag",
+    "address": "Hobelwerkweg 27, Hobelwerkweg 45",
+    "tags": "Hobelwerk Kälin, Kälin & Co"
+  },
+  {
+    "title": "Königshof",
+    "subtitle": "Neumarkt 4",
+    "category": "Öffentliche Bauten",
+    "url": "https://www.winterthur-glossar.ch/koenigshof",
+    "address": "Neumarkt 4",
+    "tags": ""
+  },
+  {
+    "title": "Königshof, Treffpunkt für ältere Menschen",
+    "subtitle": "",
     "category": "Bildung und Soziales",
-    "url": "https://www.winterthur-glossar.ch/laebesruum",
-    "address": "Pflanzschulstrasse 17",
+    "url": "https://www.winterthur-glossar.ch/koenigshof-treffpunkt-fuer-aeltere-menschen_938",
+    "tags": ""
+  },
+  {
+    "title": "Kübler Holding AG",
+    "subtitle": "Lagerhausstrasse 5",
+    "category": "KMU und Gewerbe",
+    "url": "https://www.winterthur-glossar.ch/kuebler-heizoel-ag-1",
+    "address": "Lagerhausstrasse 5",
+    "tags": ""
+  },
+  {
+    "title": "Künstlergruppe Winterthur",
+    "subtitle": "",
+    "category": "",
+    "url": "https://www.winterthur-glossar.ch/kuenstlergruppe-winterthur",
     "tags": ""
   },
   {
@@ -6054,6 +6039,14 @@
     "tags": ""
   },
   {
+    "title": "Läbesruum",
+    "subtitle": "Pflanzschulstrasse 17a",
+    "category": "Bildung und Soziales",
+    "url": "https://www.winterthur-glossar.ch/laebesruum",
+    "address": "Pflanzschulstrasse 17",
+    "tags": ""
+  },
+  {
     "title": "Maag Recycling AG",
     "subtitle": "Werkstrasse 12",
     "category": "KMU und Gewerbe",
@@ -6073,49 +6066,6 @@
     "subtitle": "Maler und Zeichner (1932–2015)",
     "category": "Kunst und Kultur",
     "url": "https://www.winterthur-glossar.ch/manfred-schoch",
-    "tags": ""
-  },
-  {
-    "title": "Männerchor Frohsinn Seen",
-    "subtitle": "1887–2012",
-    "category": "Vereine und Verbände",
-    "url": "https://www.winterthur-glossar.ch/maennerchor-frohsinn-seen",
-    "tags": ""
-  },
-  {
-    "title": "Männerchor Iberg",
-    "subtitle": "1891–2012",
-    "category": "Vereine und Verbände",
-    "url": "https://www.winterthur-glossar.ch/maennerchor-iberg",
-    "tags": ""
-  },
-  {
-    "title": "Männerchor Liedertafel Winterthur",
-    "subtitle": "1971–2004",
-    "category": "Vereine und Verbände",
-    "url": "https://www.winterthur-glossar.ch/maennerchor-liedertafel-winterthur",
-    "tags": ""
-  },
-  {
-    "title": "Männerchor Sängerbund Töss",
-    "subtitle": "",
-    "category": "Vereine und Verbände",
-    "url": "https://www.winterthur-glossar.ch/maennerchor-saengerbund-toess",
-    "tags": ""
-  },
-  {
-    "title": "Männerchor Winterthur-Seen",
-    "subtitle": "",
-    "category": "Vereine und Verbände",
-    "url": "https://www.winterthur-glossar.ch/maennerchor-winterthur-seen",
-    "tags": ""
-  },
-  {
-    "title": "Männerchorhaus Reutlingen",
-    "subtitle": "Reutlingerstrasse 78",
-    "category": "Öffentliche Bauten",
-    "url": "https://www.winterthur-glossar.ch/maennerchorhaus-reutlingen",
-    "address": "Reutlingerstrasse 78",
     "tags": ""
   },
   {
@@ -6391,14 +6341,6 @@
     "tags": ""
   },
   {
-    "title": "Mörsburgstrasse 22",
-    "subtitle": "ehemaliges Restaurant Mörsburg",
-    "category": "Wohnhäuser",
-    "url": "https://www.winterthur-glossar.ch/moersburgstrasse-22",
-    "address": "Mörsburgstrasse 22",
-    "tags": ""
-  },
-  {
     "title": "Moser Geschirrvermietung",
     "subtitle": "In der Euelwies 19",
     "category": "KMU und Gewerbe",
@@ -6411,14 +6353,6 @@
     "subtitle": "",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/mosterei-erb",
-    "tags": ""
-  },
-  {
-    "title": "Münzkabinett",
-    "subtitle": "Lindstrasse 8",
-    "category": "Museen, Sammlungen und Bibliotheken",
-    "url": "https://www.winterthur-glossar.ch/muenzkabinett",
-    "address": "Lindstrasse 8",
     "tags": ""
   },
   {
@@ -6514,10 +6448,62 @@
     "tags": ""
   },
   {
-    "title": "Nägelitor (Nägelitürli)",
-    "subtitle": "Stadtbefestigung",
-    "category": "Burgen, Schlösser und Stadtbefestigung",
-    "url": "https://www.winterthur-glossar.ch/naegelitor",
+    "title": "Männerchor Frohsinn Seen",
+    "subtitle": "1887–2012",
+    "category": "Vereine und Verbände",
+    "url": "https://www.winterthur-glossar.ch/maennerchor-frohsinn-seen",
+    "tags": ""
+  },
+  {
+    "title": "Männerchor Iberg",
+    "subtitle": "1891–2012",
+    "category": "Vereine und Verbände",
+    "url": "https://www.winterthur-glossar.ch/maennerchor-iberg",
+    "tags": ""
+  },
+  {
+    "title": "Männerchor Liedertafel Winterthur",
+    "subtitle": "1971–2004",
+    "category": "Vereine und Verbände",
+    "url": "https://www.winterthur-glossar.ch/maennerchor-liedertafel-winterthur",
+    "tags": ""
+  },
+  {
+    "title": "Männerchor Sängerbund Töss",
+    "subtitle": "",
+    "category": "Vereine und Verbände",
+    "url": "https://www.winterthur-glossar.ch/maennerchor-saengerbund-toess",
+    "tags": ""
+  },
+  {
+    "title": "Männerchor Winterthur-Seen",
+    "subtitle": "",
+    "category": "Vereine und Verbände",
+    "url": "https://www.winterthur-glossar.ch/maennerchor-winterthur-seen",
+    "tags": ""
+  },
+  {
+    "title": "Männerchorhaus Reutlingen",
+    "subtitle": "Reutlingerstrasse 78",
+    "category": "Öffentliche Bauten",
+    "url": "https://www.winterthur-glossar.ch/maennerchorhaus-reutlingen",
+    "address": "Reutlingerstrasse 78",
+    "tags": ""
+  },
+  {
+    "title": "Mörsburgstrasse 22",
+    "subtitle": "ehemaliges Restaurant Mörsburg",
+    "category": "Wohnhäuser",
+    "url": "https://www.winterthur-glossar.ch/moersburgstrasse-22",
+    "address": "Mörsburgstrasse 22",
+    "tags": ""
+  },
+  {
+    "title": "Münzkabinett",
+    "subtitle": "Lindstrasse 8",
+    "category": "Museen, Sammlungen und Bibliotheken",
+    "url": "https://www.winterthur-glossar.ch/muenzkabinett",
+    "address": "Lindstrasse 8",
     "tags": ""
   },
   {
@@ -6712,6 +6698,13 @@
     "tags": ""
   },
   {
+    "title": "Nägelitor (Nägelitürli)",
+    "subtitle": "Stadtbefestigung",
+    "category": "Burgen, Schlösser und Stadtbefestigung",
+    "url": "https://www.winterthur-glossar.ch/naegelitor",
+    "tags": ""
+  },
+  {
     "title": "Obere Badstube zum Lörlibad",
     "subtitle": "Badgasse 8",
     "category": "Wohnhäuser",
@@ -6809,13 +6802,6 @@
     "subtitle": "",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/oja-winterthur",
-    "tags": ""
-  },
-  {
-    "title": "Öffentliche Brunnen",
-    "subtitle": "städtische Brunnen, Brunnenanlagen",
-    "category": "Verkehr und Infrastruktur",
-    "url": "https://www.winterthur-glossar.ch/oeffentliche-brunnenanlagen",
     "tags": ""
   },
   {
@@ -7333,18 +7319,18 @@
     "tags": ""
   },
   {
-    "title": "Quartier Äusseres Lind",
-    "subtitle": "",
-    "category": "Stadtkreise und Quartiere",
-    "url": "https://www.winterthur-glossar.ch/aeusseres-lind",
-    "neighbourhood": "Lind"
-  },
-  {
     "title": "Quartier Nägelsee",
     "subtitle": "",
     "category": "Stadtkreise und Quartiere",
     "url": "https://www.winterthur-glossar.ch/naegelsee-quartier",
     "address": "Rieterstrasse 18-45, Eichliackerstrasse 1-21"
+  },
+  {
+    "title": "Quartier Äusseres Lind",
+    "subtitle": "",
+    "category": "Stadtkreise und Quartiere",
+    "url": "https://www.winterthur-glossar.ch/aeusseres-lind",
+    "neighbourhood": "Lind"
   },
   {
     "title": "Quartierverein Hardau",
@@ -7551,13 +7537,6 @@
     "tags": ""
   },
   {
-    "title": "Restaurant „Trübli“ beim Neumarkt",
-    "subtitle": "",
-    "category": "Hotels und Gastronomie",
-    "url": "https://www.winterthur-glossar.ch/restaurant-truebli",
-    "tags": ""
-  },
-  {
     "title": "Restaurant Bahnhof Grüze",
     "subtitle": "",
     "category": "Hotels und Gastronomie",
@@ -7739,6 +7718,13 @@
     "tags": ""
   },
   {
+    "title": "Restaurant „Trübli“ beim Neumarkt",
+    "subtitle": "",
+    "category": "Hotels und Gastronomie",
+    "url": "https://www.winterthur-glossar.ch/restaurant-truebli",
+    "tags": ""
+  },
+  {
     "title": "Reto Parolari",
     "subtitle": "Dirigent, Komponist und Verleger, 1952–2019",
     "category": "Kunst und Kultur",
@@ -7895,64 +7881,10 @@
     "tags": ""
   },
   {
-    "title": "Römer-Apotheke",
-    "subtitle": "Römerstrasse 232",
-    "category": "KMU und Gewerbe",
-    "url": "https://www.winterthur-glossar.ch/roemer-apotheke",
-    "address": "Römerstrasse 232",
-    "tags": ""
-  },
-  {
-    "title": "Römerpark, Clubhaus Tennisclub Winterthur",
-    "subtitle": "",
-    "category": "Sport- und Freizeitanlagen",
-    "url": "https://www.winterthur-glossar.ch/clubhaus-tennisclub-winterthur",
-    "tags": ""
-  },
-  {
-    "title": "Römerstrasse 177",
-    "subtitle": "",
-    "category": "Wohnhäuser",
-    "url": "https://www.winterthur-glossar.ch/roemerstrasse-177",
-    "address": "Römerstrasse 177",
-    "tags": ""
-  },
-  {
-    "title": "Römerstrasse 212–216",
-    "subtitle": "",
-    "category": "Wohnhäuser",
-    "url": "https://www.winterthur-glossar.ch/roemerstrasse-212-216",
-    "address": "Römerstrasse 212–216",
-    "tags": ""
-  },
-  {
-    "title": "Römertor",
-    "subtitle": "Guggenbühlstrasse 6",
-    "category": "Hotels und Gastronomie",
-    "url": "https://www.winterthur-glossar.ch/roemertor",
-    "address": "Guggenbühlstrasse 6",
-    "tags": ""
-  },
-  {
-    "title": "Römisch-katholische Kirchgemeinde Winterthur",
-    "subtitle": "",
-    "category": "Religiöse Gemeinden",
-    "url": "https://www.winterthur-glossar.ch/roem-kath-kirchgemeinde-winterthur_886",
-    "tags": ""
-  },
-  {
     "title": "Rosengarten",
     "subtitle": "",
     "category": "Natur und Pärke",
     "url": "https://www.winterthur-glossar.ch/rosengarten",
-    "tags": ""
-  },
-  {
-    "title": "Rössligasse 6–12",
-    "subtitle": "",
-    "category": "Wohnhäuser",
-    "url": "https://www.winterthur-glossar.ch/roessligasse-6-12",
-    "address": "Rössligasse 6–12",
     "tags": ""
   },
   {
@@ -7985,13 +7917,6 @@
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/royal-doener",
     "address": "Holzwingertstrasse 44",
-    "tags": ""
-  },
-  {
-    "title": "Rückhaltebecken Hegmatten",
-    "subtitle": "",
-    "category": "Natur und Pärke",
-    "url": "https://www.winterthur-glossar.ch/rueckhaltebecken-hegmatten",
     "tags": ""
   },
   {
@@ -8064,6 +7989,67 @@
     "subtitle": "",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/rychenbergstrasse",
+    "tags": ""
+  },
+  {
+    "title": "Römer-Apotheke",
+    "subtitle": "Römerstrasse 232",
+    "category": "KMU und Gewerbe",
+    "url": "https://www.winterthur-glossar.ch/roemer-apotheke",
+    "address": "Römerstrasse 232",
+    "tags": ""
+  },
+  {
+    "title": "Römerpark, Clubhaus Tennisclub Winterthur",
+    "subtitle": "",
+    "category": "Sport- und Freizeitanlagen",
+    "url": "https://www.winterthur-glossar.ch/clubhaus-tennisclub-winterthur",
+    "tags": ""
+  },
+  {
+    "title": "Römerstrasse 177",
+    "subtitle": "",
+    "category": "Wohnhäuser",
+    "url": "https://www.winterthur-glossar.ch/roemerstrasse-177",
+    "address": "Römerstrasse 177",
+    "tags": ""
+  },
+  {
+    "title": "Römerstrasse 212–216",
+    "subtitle": "",
+    "category": "Wohnhäuser",
+    "url": "https://www.winterthur-glossar.ch/roemerstrasse-212-216",
+    "address": "Römerstrasse 212–216",
+    "tags": ""
+  },
+  {
+    "title": "Römertor",
+    "subtitle": "Guggenbühlstrasse 6",
+    "category": "Hotels und Gastronomie",
+    "url": "https://www.winterthur-glossar.ch/roemertor",
+    "address": "Guggenbühlstrasse 6",
+    "tags": ""
+  },
+  {
+    "title": "Römisch-katholische Kirchgemeinde Winterthur",
+    "subtitle": "",
+    "category": "Religiöse Gemeinden",
+    "url": "https://www.winterthur-glossar.ch/roem-kath-kirchgemeinde-winterthur_886",
+    "tags": ""
+  },
+  {
+    "title": "Rössligasse 6–12",
+    "subtitle": "",
+    "category": "Wohnhäuser",
+    "url": "https://www.winterthur-glossar.ch/roessligasse-6-12",
+    "address": "Rössligasse 6–12",
+    "tags": ""
+  },
+  {
+    "title": "Rückhaltebecken Hegmatten",
+    "subtitle": "",
+    "category": "Natur und Pärke",
+    "url": "https://www.winterthur-glossar.ch/rueckhaltebecken-hegmatten",
     "tags": ""
   },
   {
@@ -8286,20 +8272,6 @@
     "tags": ""
   },
   {
-    "title": "Schöner Warten",
-    "subtitle": "",
-    "category": "Aus dem Bildarchiv",
-    "url": "https://www.winterthur-glossar.ch/schoener-warten",
-    "tags": ""
-  },
-  {
-    "title": "Schöntal-Areal",
-    "subtitle": "",
-    "category": "Industrie- und Gewerbeanlagen",
-    "url": "https://www.winterthur-glossar.ch/schoental-areal",
-    "tags": ""
-  },
-  {
     "title": "Schrebergärtenanlage Wolfensberg",
     "subtitle": "",
     "category": "Sport- und Freizeitanlagen",
@@ -8312,13 +8284,6 @@
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/schuhfabrik-w-bratteler-stehli",
     "address": "Ackeretstrasse 17",
-    "tags": ""
-  },
-  {
-    "title": "Schüler-Verkehrsgarten",
-    "subtitle": "",
-    "category": "Verkehr und Infrastruktur",
-    "url": "https://www.winterthur-glossar.ch/schueler-verkehrsgarten",
     "tags": ""
   },
   {
@@ -8529,14 +8494,6 @@
     "tags": ""
   },
   {
-    "title": "Schulhaus Römerstrasse",
-    "subtitle": "Römerstrasse 141",
-    "category": "Schulbauten und Kindergärten",
-    "url": "https://www.winterthur-glossar.ch/schulhaus-roemerstrasse",
-    "address": "Römerstrasse 141",
-    "tags": ""
-  },
-  {
     "title": "Schulhaus Rosenau",
     "subtitle": "Rosenaustrasse 13",
     "category": "Schulbauten und Kindergärten",
@@ -8550,6 +8507,14 @@
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-rychenberg",
     "address": "Talackerstrasse 17",
+    "tags": ""
+  },
+  {
+    "title": "Schulhaus Römerstrasse",
+    "subtitle": "Römerstrasse 141",
+    "category": "Schulbauten und Kindergärten",
+    "url": "https://www.winterthur-glossar.ch/schulhaus-roemerstrasse",
+    "address": "Römerstrasse 141",
     "tags": ""
   },
   {
@@ -8593,19 +8558,19 @@
     "tags": ""
   },
   {
-    "title": "Schulhaus Tägelmoos",
-    "subtitle": "Wurmbühlstrasse 9",
-    "category": "Schulbauten und Kindergärten",
-    "url": "https://www.winterthur-glossar.ch/schulhaus-taegelmoos",
-    "address": "Wurmbühlstrasse 9",
-    "tags": ""
-  },
-  {
     "title": "Schulhaus Talacker",
     "subtitle": "Talackerstrasse 90",
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulhaus-talacker",
     "address": "Talackerstrasse 90",
+    "tags": ""
+  },
+  {
+    "title": "Schulhaus Tägelmoos",
+    "subtitle": "Wurmbühlstrasse 9",
+    "category": "Schulbauten und Kindergärten",
+    "url": "https://www.winterthur-glossar.ch/schulhaus-taegelmoos",
+    "address": "Wurmbühlstrasse 9",
     "tags": ""
   },
   {
@@ -8693,27 +8658,6 @@
     "category": "Schulbauten und Kindergärten",
     "url": "https://www.winterthur-glossar.ch/schulpavillon-stofflerenweg",
     "address": "Stofflerenweg 15",
-    "tags": ""
-  },
-  {
-    "title": "Schützenverein Veltheim",
-    "subtitle": "Pfaffenstudenstrasse",
-    "category": "Vereine und Verbände",
-    "url": "https://www.winterthur-glossar.ch/schuetzenverein-veltheim",
-    "tags": ""
-  },
-  {
-    "title": "Schützenverein Wülflingen",
-    "subtitle": "",
-    "category": "Vereine und Verbände",
-    "url": "https://www.winterthur-glossar.ch/schuetzenverein-wuelflingen",
-    "tags": ""
-  },
-  {
-    "title": "Schützenweiher",
-    "subtitle": "",
-    "category": "Natur und Pärke",
-    "url": "https://www.winterthur-glossar.ch/schuetzenweiher",
     "tags": ""
   },
   {
@@ -8805,6 +8749,48 @@
     "subtitle": "",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/schwyzerverein-winterthur-und-umgebung",
+    "tags": ""
+  },
+  {
+    "title": "Schöner Warten",
+    "subtitle": "",
+    "category": "Aus dem Bildarchiv",
+    "url": "https://www.winterthur-glossar.ch/schoener-warten",
+    "tags": ""
+  },
+  {
+    "title": "Schöntal-Areal",
+    "subtitle": "",
+    "category": "Industrie- und Gewerbeanlagen",
+    "url": "https://www.winterthur-glossar.ch/schoental-areal",
+    "tags": ""
+  },
+  {
+    "title": "Schüler-Verkehrsgarten",
+    "subtitle": "",
+    "category": "Verkehr und Infrastruktur",
+    "url": "https://www.winterthur-glossar.ch/schueler-verkehrsgarten",
+    "tags": ""
+  },
+  {
+    "title": "Schützenverein Veltheim",
+    "subtitle": "Pfaffenstudenstrasse",
+    "category": "Vereine und Verbände",
+    "url": "https://www.winterthur-glossar.ch/schuetzenverein-veltheim",
+    "tags": ""
+  },
+  {
+    "title": "Schützenverein Wülflingen",
+    "subtitle": "",
+    "category": "Vereine und Verbände",
+    "url": "https://www.winterthur-glossar.ch/schuetzenverein-wuelflingen",
+    "tags": ""
+  },
+  {
+    "title": "Schützenweiher",
+    "subtitle": "",
+    "category": "Natur und Pärke",
+    "url": "https://www.winterthur-glossar.ch/schuetzenweiher",
     "tags": ""
   },
   {
@@ -8978,17 +8964,17 @@
     "tags": ""
   },
   {
-    "title": "Siedlung Jägerstrasse",
-    "subtitle": "Jägerstrasse, Agnesstrasse, Zürcherstrasse",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/siedlung-jaegerstrasse",
-    "tags": ""
-  },
-  {
     "title": "Siedlung Jonas-Furrer-Strasse",
     "subtitle": "",
     "category": "Siedlungen",
     "url": "https://www.winterthur-glossar.ch/siedlung-jonas-furrer-strasse",
+    "tags": ""
+  },
+  {
+    "title": "Siedlung Jägerstrasse",
+    "subtitle": "Jägerstrasse, Agnesstrasse, Zürcherstrasse",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/siedlung-jaegerstrasse",
     "tags": ""
   },
   {
@@ -9296,6 +9282,14 @@
     "tags": ""
   },
   {
+    "title": "St. Georgen-Strasse 68",
+    "subtitle": "",
+    "category": "Wohnhäuser",
+    "url": "https://www.winterthur-glossar.ch/st-georgen-strasse-68",
+    "address": "St. Georgen-Strasse 68",
+    "tags": ""
+  },
+  {
     "title": "St. Georgenstrasse 13–19",
     "subtitle": "",
     "category": "Wohnhäuser",
@@ -9304,12 +9298,11 @@
     "tags": ""
   },
   {
-    "title": "St. Georgen-Strasse 68",
+    "title": "St.-Georgen-Strasse 68",
     "subtitle": "",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/st-georgen-strasse-68",
-    "address": "St. Georgen-Strasse 68",
-    "tags": ""
+    "address": "St.-Georgen-Strasse 68"
   },
   {
     "title": "Stadel",
@@ -9391,27 +9384,6 @@
     "subtitle": "",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/stadthaus-brunnen",
-    "tags": ""
-  },
-  {
-    "title": "Städtische Schweinemastanstalt",
-    "subtitle": "1914–1918",
-    "category": "Öffentliche Bauten",
-    "url": "https://www.winterthur-glossar.ch/staedtische-schweinemastanstalt",
-    "tags": ""
-  },
-  {
-    "title": "Städtische Wasserversorgung",
-    "subtitle": "",
-    "category": "Verkehr und Infrastruktur",
-    "url": "https://www.winterthur-glossar.ch/staedtische-wasserversorgung",
-    "tags": ""
-  },
-  {
-    "title": "Städtische Werke Winterthur",
-    "subtitle": "",
-    "category": "Verkehr und Infrastruktur",
-    "url": "https://www.winterthur-glossar.ch/stromversorgung",
     "tags": ""
   },
   {
@@ -9707,13 +9679,6 @@
     "tags": ""
   },
   {
-    "title": "Sträuli AG, Seifenfabrik",
-    "subtitle": "",
-    "category": "Grosskonzerne",
-    "url": "https://www.winterthur-glossar.ch/straeuli-ag",
-    "tags": ""
-  },
-  {
     "title": "Street Workout Anlagen",
     "subtitle": "",
     "category": "Sport- und Freizeitanlagen",
@@ -9728,11 +9693,39 @@
     "tags": ""
   },
   {
+    "title": "Sträuli AG, Seifenfabrik",
+    "subtitle": "",
+    "category": "Grosskonzerne",
+    "url": "https://www.winterthur-glossar.ch/straeuli-ag",
+    "tags": ""
+  },
+  {
     "title": "Studentenheim Bürglistrasse",
     "subtitle": "Bürglistrasse 21-23",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/studentenheim-buerglistrasse",
     "address": "Bürglistrasse 21-23",
+    "tags": ""
+  },
+  {
+    "title": "Städtische Schweinemastanstalt",
+    "subtitle": "1914–1918",
+    "category": "Öffentliche Bauten",
+    "url": "https://www.winterthur-glossar.ch/staedtische-schweinemastanstalt",
+    "tags": ""
+  },
+  {
+    "title": "Städtische Wasserversorgung",
+    "subtitle": "",
+    "category": "Verkehr und Infrastruktur",
+    "url": "https://www.winterthur-glossar.ch/staedtische-wasserversorgung",
+    "tags": ""
+  },
+  {
+    "title": "Städtische Werke Winterthur",
+    "subtitle": "",
+    "category": "Verkehr und Infrastruktur",
+    "url": "https://www.winterthur-glossar.ch/stromversorgung",
     "tags": ""
   },
   {
@@ -9797,14 +9790,6 @@
     "tags": ""
   },
   {
-    "title": "Süsenbergstrasse 11",
-    "subtitle": "",
-    "category": "Wohnhäuser",
-    "url": "https://www.winterthur-glossar.ch/suesenbergstrasse-11",
-    "address": "Süsenbergstrasse 11",
-    "tags": ""
-  },
-  {
     "title": "Swami Omkarananda",
     "subtitle": "Mystiker und Philosoph, 1929–2000",
     "category": "Wissenschaft",
@@ -9824,6 +9809,14 @@
     "subtitle": "",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/switzerland-data-center-campus",
+    "tags": ""
+  },
+  {
+    "title": "Süsenbergstrasse 11",
+    "subtitle": "",
+    "category": "Wohnhäuser",
+    "url": "https://www.winterthur-glossar.ch/suesenbergstrasse-11",
+    "address": "Süsenbergstrasse 11",
     "tags": ""
   },
   {
@@ -10095,35 +10088,6 @@
     "tags": ""
   },
   {
-    "title": "Töss (Fluss)",
-    "subtitle": "",
-    "category": "Natur und Pärke",
-    "url": "https://www.winterthur-glossar.ch/toess-der-fluss",
-    "tags": ""
-  },
-  {
-    "title": "Töss (Stadtteil)",
-    "subtitle": "",
-    "category": "Stadtkreise und Quartiere",
-    "url": "https://www.winterthur-glossar.ch/toess-stadtteil",
-    "district": "Töss"
-  },
-  {
-    "title": "Tösssteg",
-    "subtitle": "Schlosshof",
-    "category": "Natur und Pärke",
-    "url": "https://www.winterthur-glossar.ch/toesssteg",
-    "tags": ""
-  },
-  {
-    "title": "Tösstalstrasse",
-    "subtitle": "Läden, Restaurants und Gewerbe entlang der Tösstalstrasse",
-    "category": "KMU und Gewerbe",
-    "url": "https://www.winterthur-glossar.ch/toesstalstrasse",
-    "street": "Tösstalstrasse",
-    "tags": ""
-  },
-  {
     "title": "Totentäli",
     "subtitle": "Das grösste Biodiversitätsfördergebiet von Winterthur",
     "category": "Natur und Pärke",
@@ -10219,14 +10183,6 @@
     "tags": ""
   },
   {
-    "title": "Türmlihaus (Türmlihus)",
-    "subtitle": "Technikumstrasse 36",
-    "category": "Wohnhäuser",
-    "url": "https://www.winterthur-glossar.ch/tuermlihaus",
-    "address": "Technikumstrasse 36",
-    "tags": ""
-  },
-  {
     "title": "Turnhalle Tössfeld",
     "subtitle": "Agnesstrasse 15",
     "category": "Schulbauten und Kindergärten",
@@ -10257,124 +10213,40 @@
     "tags": ""
   },
   {
-    "title": "Überbauung Am Römerweg",
-    "subtitle": "Römerstrasse",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/ueberbauung-am-roemerweg",
-    "tags": ""
-  },
-  {
-    "title": "Überbauung Breiti",
-    "subtitle": "Oberseen",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/breiti-oberseen",
-    "tags": ""
-  },
-  {
-    "title": "Überbauung Eichenweg",
-    "subtitle": "Wülflingen",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/eichenweg",
-    "tags": ""
-  },
-  {
-    "title": "Überbauung Etzbergpark",
-    "subtitle": "Etzbergweg",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/ueberbauung-etzbergpark",
-    "tags": ""
-  },
-  {
-    "title": "Überbauung Eulachhof",
-    "subtitle": "Neuhegi",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/ueberbauung-eulachhof",
-    "tags": ""
-  },
-  {
-    "title": "Überbauung Grünmatt",
-    "subtitle": "Grünmattstrasse",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/ueberbauung-gruenmatt",
-    "tags": ""
-  },
-  {
-    "title": "Überbauung Grüzefeld",
-    "subtitle": "Zindelhörner, Affenfestung, Gutschick",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/ueberbauung-gruezefeld",
-    "tags": ""
-  },
-  {
-    "title": "Überbauung Hagmann-Areal",
-    "subtitle": "Arbergstrasse 7",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/ueberbauung-hagmann-areal",
-    "address": "Arbergstrasse 7",
-    "tags": ""
-  },
-  {
-    "title": "Überbauung Kranbahn (Sulzer-Aeral)",
-    "subtitle": "Katharina-Sulzer-Platz",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/ueberbauung-kranbahn",
-    "tags": ""
-  },
-  {
-    "title": "Überbauung Lokomotive",
-    "subtitle": "Agnesstrasse/0bere Briggerstrasse",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/ueberbauung-lokomotive",
-    "tags": ""
-  },
-  {
-    "title": "Überbauung Mattenbach",
-    "subtitle": "Mattenbachstrasse",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/ueberbauung-mattenbach",
-    "tags": ""
-  },
-  {
-    "title": "Überbauung Roy",
-    "subtitle": "Neuhegi",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/ueberbauung-roy",
-    "tags": ""
-  },
-  {
-    "title": "Überbauung Rudolfstrasse",
+    "title": "Töss (Fluss)",
     "subtitle": "",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/ueberbauung-rudolfstrasse",
+    "category": "Natur und Pärke",
+    "url": "https://www.winterthur-glossar.ch/toess-der-fluss",
     "tags": ""
   },
   {
-    "title": "Überbauung Schöntal",
-    "subtitle": "Schöntal, 8406 Winterthur",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/ueberbauung-schoental",
-    "tags": ""
-  },
-  {
-    "title": "Überbauung Sidi-Areal",
-    "subtitle": "Bäckerstrasse, Grüzenstrasse, Töpferstrasse",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/arbeiterhaeuser-sidi",
-    "tags": ""
-  },
-  {
-    "title": "Überbauung Werk 3",
-    "subtitle": "Zürcherstrasse",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/werk-3",
-    "tags": ""
-  },
-  {
-    "title": "Überbauung Zwinglistrasse 14–22",
+    "title": "Töss (Stadtteil)",
     "subtitle": "",
-    "category": "Siedlungen",
-    "url": "https://www.winterthur-glossar.ch/ueberbauung-zwinglistrasse-14-22",
-    "address": "Zwinglistrasse 14–22",
+    "category": "Stadtkreise und Quartiere",
+    "url": "https://www.winterthur-glossar.ch/toess-stadtteil",
+    "district": "Töss"
+  },
+  {
+    "title": "Tösssteg",
+    "subtitle": "Schlosshof",
+    "category": "Natur und Pärke",
+    "url": "https://www.winterthur-glossar.ch/toesssteg",
+    "tags": ""
+  },
+  {
+    "title": "Tösstalstrasse",
+    "subtitle": "Läden, Restaurants und Gewerbe entlang der Tösstalstrasse",
+    "category": "KMU und Gewerbe",
+    "url": "https://www.winterthur-glossar.ch/toesstalstrasse",
+    "street": "Tösstalstrasse",
+    "tags": ""
+  },
+  {
+    "title": "Türmlihaus (Türmlihus)",
+    "subtitle": "Technikumstrasse 36",
+    "category": "Wohnhäuser",
+    "url": "https://www.winterthur-glossar.ch/tuermlihaus",
+    "address": "Technikumstrasse 36",
     "tags": ""
   },
   {
@@ -10873,19 +10745,19 @@
     "tags": ""
   },
   {
-    "title": "Villa Tössertobel",
-    "subtitle": "Eichwaldstrasse 1-3",
-    "category": "Wohnhäuser",
-    "url": "https://www.winterthur-glossar.ch/villa-toessertobel",
-    "address": "Eichwaldstrasse 1-3",
-    "tags": ""
-  },
-  {
     "title": "Villa Traubengut",
     "subtitle": "Seidenstrasse 27",
     "category": "Wohnhäuser",
     "url": "https://www.winterthur-glossar.ch/villa-traubengut",
     "address": "Seidenstrasse 27",
+    "tags": ""
+  },
+  {
+    "title": "Villa Tössertobel",
+    "subtitle": "Eichwaldstrasse 1-3",
+    "category": "Wohnhäuser",
+    "url": "https://www.winterthur-glossar.ch/villa-toessertobel",
+    "address": "Eichwaldstrasse 1-3",
     "tags": ""
   },
   {
@@ -11347,17 +11219,17 @@
     "tags": ""
   },
   {
-    "title": "Winterthurer Wälder",
-    "subtitle": "",
-    "category": "Natur und Pärke",
-    "url": "https://www.winterthur-glossar.ch/winterthurer-waelder",
-    "tags": ""
-  },
-  {
     "title": "Winterthurer Weihnachtsmarkt",
     "subtitle": "Neumarkt",
     "category": "Anlässe, Brauchtum und Feste",
     "url": "https://www.winterthur-glossar.ch/weihnachtsmarkt",
+    "tags": ""
+  },
+  {
+    "title": "Winterthurer Wälder",
+    "subtitle": "",
+    "category": "Natur und Pärke",
+    "url": "https://www.winterthur-glossar.ch/winterthurer-waelder",
     "tags": ""
   },
   {
@@ -11490,18 +11362,26 @@
     "tags": ""
   },
   {
+    "title": "Wolfgang Geilinger",
+    "subtitle": "Schultheiss, †1611",
+    "category": "Politik",
+    "url": "https://www.winterthur-glossar.ch/wolfgang-geilinger",
+    "tags": ""
+  },
+  {
+    "title": "Wylandstrasse 26",
+    "subtitle": "",
+    "category": "Wohnhäuser",
+    "url": "https://www.winterthur-glossar.ch/wylandstrasse-26",
+    "address": "Wylandstrasse 26",
+    "tags": ""
+  },
+  {
     "title": "Wölfflinstiftung",
     "subtitle": "Katharina Sulzer-Platz 12",
     "category": "Stiftungen",
     "url": "https://www.winterthur-glossar.ch/woelfflinstiftung",
     "address": "Katharina Sulzer-Platz 12",
-    "tags": ""
-  },
-  {
-    "title": "Wolfgang Geilinger",
-    "subtitle": "Schultheiss, †1611",
-    "category": "Politik",
-    "url": "https://www.winterthur-glossar.ch/wolfgang-geilinger",
     "tags": ""
   },
   {
@@ -11547,14 +11427,6 @@
     "subtitle": "",
     "category": "Aus dem Bildarchiv",
     "url": "https://www.winterthur-glossar.ch/wuemmet",
-    "tags": ""
-  },
-  {
-    "title": "Wylandstrasse 26",
-    "subtitle": "",
-    "category": "Wohnhäuser",
-    "url": "https://www.winterthur-glossar.ch/wylandstrasse-26",
-    "address": "Wylandstrasse 26",
     "tags": ""
   },
   {
@@ -11634,6 +11506,22 @@
     "tags": ""
   },
   {
+    "title": "Zwinglikirche",
+    "subtitle": "Unterer Deutweg 13",
+    "category": "Kirchengebäude",
+    "url": "https://www.winterthur-glossar.ch/zwinglikirche",
+    "address": "Unterer Deutweg 13",
+    "tags": ""
+  },
+  {
+    "title": "Zylinderschleifwerk Winterthur AG (ZSW)",
+    "subtitle": "Poststrasse 15",
+    "category": "KMU und Gewerbe",
+    "url": "https://www.winterthur-glossar.ch/zsw",
+    "address": "Poststrasse 15",
+    "tags": ""
+  },
+  {
     "title": "Zürcher Kantonalbank",
     "subtitle": "Untertor 30",
     "category": "Industrie- und Gewerbeanlagen",
@@ -11665,26 +11553,138 @@
     "tags": ""
   },
   {
-    "title": "Zwinglikirche",
-    "subtitle": "Unterer Deutweg 13",
-    "category": "Kirchengebäude",
-    "url": "https://www.winterthur-glossar.ch/zwinglikirche",
-    "address": "Unterer Deutweg 13",
+    "title": "Ärztegesellschaft Winterthur-Andelfingen (AWA)",
+    "subtitle": "Garnmarkt 10",
+    "category": "Bildung und Soziales",
+    "url": "https://www.winterthur-glossar.ch/awa",
     "tags": ""
   },
   {
-    "title": "Zylinderschleifwerk Winterthur AG (ZSW)",
-    "subtitle": "Poststrasse 15",
-    "category": "KMU und Gewerbe",
-    "url": "https://www.winterthur-glossar.ch/zsw",
-    "address": "Poststrasse 15",
+    "title": "Öffentliche Brunnen",
+    "subtitle": "städtische Brunnen, Brunnenanlagen",
+    "category": "Verkehr und Infrastruktur",
+    "url": "https://www.winterthur-glossar.ch/oeffentliche-brunnenanlagen",
     "tags": ""
   },
   {
-    "title": "St.-Georgen-Strasse 68",
+    "title": "Überbauung Am Römerweg",
+    "subtitle": "Römerstrasse",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/ueberbauung-am-roemerweg",
+    "tags": ""
+  },
+  {
+    "title": "Überbauung Breiti",
+    "subtitle": "Oberseen",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/breiti-oberseen",
+    "tags": ""
+  },
+  {
+    "title": "Überbauung Eichenweg",
+    "subtitle": "Wülflingen",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/eichenweg",
+    "tags": ""
+  },
+  {
+    "title": "Überbauung Etzbergpark",
+    "subtitle": "Etzbergweg",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/ueberbauung-etzbergpark",
+    "tags": ""
+  },
+  {
+    "title": "Überbauung Eulachhof",
+    "subtitle": "Neuhegi",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/ueberbauung-eulachhof",
+    "tags": ""
+  },
+  {
+    "title": "Überbauung Grünmatt",
+    "subtitle": "Grünmattstrasse",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/ueberbauung-gruenmatt",
+    "tags": ""
+  },
+  {
+    "title": "Überbauung Grüzefeld",
+    "subtitle": "Zindelhörner, Affenfestung, Gutschick",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/ueberbauung-gruezefeld",
+    "tags": ""
+  },
+  {
+    "title": "Überbauung Hagmann-Areal",
+    "subtitle": "Arbergstrasse 7",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/ueberbauung-hagmann-areal",
+    "address": "Arbergstrasse 7",
+    "tags": ""
+  },
+  {
+    "title": "Überbauung Kranbahn (Sulzer-Aeral)",
+    "subtitle": "Katharina-Sulzer-Platz",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/ueberbauung-kranbahn",
+    "tags": ""
+  },
+  {
+    "title": "Überbauung Lokomotive",
+    "subtitle": "Agnesstrasse/0bere Briggerstrasse",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/ueberbauung-lokomotive",
+    "tags": ""
+  },
+  {
+    "title": "Überbauung Mattenbach",
+    "subtitle": "Mattenbachstrasse",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/ueberbauung-mattenbach",
+    "tags": ""
+  },
+  {
+    "title": "Überbauung Roy",
+    "subtitle": "Neuhegi",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/ueberbauung-roy",
+    "tags": ""
+  },
+  {
+    "title": "Überbauung Rudolfstrasse",
     "subtitle": "",
-    "category": "Wohnhäuser",
-    "url": "https://www.winterthur-glossar.ch/st-georgen-strasse-68",
-    "address": "St.-Georgen-Strasse 68"
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/ueberbauung-rudolfstrasse",
+    "tags": ""
+  },
+  {
+    "title": "Überbauung Schöntal",
+    "subtitle": "Schöntal, 8406 Winterthur",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/ueberbauung-schoental",
+    "tags": ""
+  },
+  {
+    "title": "Überbauung Sidi-Areal",
+    "subtitle": "Bäckerstrasse, Grüzenstrasse, Töpferstrasse",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/arbeiterhaeuser-sidi",
+    "tags": ""
+  },
+  {
+    "title": "Überbauung Werk 3",
+    "subtitle": "Zürcherstrasse",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/werk-3",
+    "tags": ""
+  },
+  {
+    "title": "Überbauung Zwinglistrasse 14–22",
+    "subtitle": "",
+    "category": "Siedlungen",
+    "url": "https://www.winterthur-glossar.ch/ueberbauung-zwinglistrasse-14-22",
+    "address": "Zwinglistrasse 14–22",
+    "tags": ""
   }
 ]

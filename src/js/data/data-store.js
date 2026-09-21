@@ -35,7 +35,7 @@ async function fetchGeoJson(url, signal) {
   return data.features ?? [];
 }
 
-async function fetchEntries(url, signal) {
+async function fetchArchive(url, signal) {
   const { data, lastUpdated } = await fetchWithLastModified(url, signal);
   return { entries: Array.isArray(data) ? data : [], lastUpdated };
 }
@@ -76,7 +76,7 @@ export function createDataStore() {
     emitter.emit("load-start");
 
     const results = await Promise.allSettled([
-      fetchEntries(Config.ENTRIES_URL, signal),
+      fetchArchive(Config.ARCHIVE_URL, signal),
       fetchGeoJson(Config.ADDRESSES_URL, signal),
       fetchGeoJson(Config.LOCATIONS_URL, signal),
       loadDistricts(signal),
@@ -84,7 +84,7 @@ export function createDataStore() {
     ]);
 
     const [
-      entriesResult,
+      archiveResult,
       addressesResult,
       locationsResult,
       districtsResult,
@@ -117,8 +117,8 @@ export function createDataStore() {
       emitter.emit("error", boundaryResult.reason);
     }
 
-    if (entriesResult.status === "fulfilled") {
-      ({ entries: allEntries, lastUpdated } = entriesResult.value);
+    if (archiveResult.status === "fulfilled") {
+      ({ entries: allEntries, lastUpdated } = archiveResult.value);
 
       const addressFeatures =
         addressesResult.status === "fulfilled" ? addressesResult.value : [];
@@ -146,7 +146,7 @@ export function createDataStore() {
         lastUpdated,
       });
     } else {
-      emitter.emit("error", entriesResult.reason);
+      emitter.emit("error", archiveResult.reason);
     }
 
     loadInProgress = false;
