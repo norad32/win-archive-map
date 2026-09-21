@@ -2,8 +2,8 @@
 search.
 
 By default every house with status "todo" is looked up. Confirmed results are
-written to the feature geometry and get status "auto". Use --redo-auto to also 
-re-geocode addresses with status "auto". addresses with status "manual" (placed 
+written to the feature geometry and get status "auto". Use --redo-auto to also
+re-geocode addresses with status "auto". addresses with status "manual" (placed
 by hand) are never touched.
 
 Status scheme:
@@ -21,7 +21,6 @@ Usage:
 from __future__ import annotations
 
 import argparse
-import json
 import re
 import sys
 import time
@@ -29,6 +28,8 @@ import unicodedata
 from pathlib import Path
 
 import requests
+
+from jsonio import load_json, save_json
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "src" / "data"
 ADDRESSES_PATH = DATA_DIR / "addresses.geojson"
@@ -55,10 +56,7 @@ def normalize(text: str) -> str:
     """Normalize a street name for comparison ('Römerstrasse' -> 'roemerstrasse')."""
     text = text.lower().strip()
     text = (
-        text.replace("ä", "ae")
-        .replace("ö", "oe")
-        .replace("ü", "ue")
-        .replace("ß", "ss")
+        text.replace("ä", "ae").replace("ö", "oe").replace("ü", "ue").replace("ß", "ss")
     )
     text = unicodedata.normalize("NFD", text)
     text = "".join(c for c in text if not unicodedata.combining(c))
@@ -107,6 +105,17 @@ def main() -> int:
         help="also re-geocode addresses with status 'auto'",
     )
     parser.add_argument(
+        "--target",
+        default="todo",
+        help="comma-separated address statuses to geocode (default: todo)",
+    )
+    parser.add_argument(
+        "--ids",
+        type=str,
+        default=None,
+        help="comma-separated house ids to restrict the run to (e.g. from update-archive --apply)",
+    )
+    parser.add_argument(
         "--delay",
         type=float,
         default=DEFAULT_DELAY,
@@ -114,18 +123,23 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    targets = {STATUS_TODO}
+    targets = {s.strip() for s in args.target.split(",") if s.strip()}
     targets.discard(STATUS_MANUAL)
     if args.redo_auto:
         targets.add(STATUS_AUTO)
 
-    addresses = json.loads(ADDRESSES_PATH.read_text(encoding="utf-8"))
+    addresses = load_json(ADDRESSES_PATH)
     features = addresses.get("features", [])
+
+    wanted_ids = (
+        {s.strip() for s in args.ids.split(",") if s.strip()} if args.ids else None
+    )
 
     todo = [
         feature
         for feature in features
         if feature["properties"].get("status") in targets
+        and (wanted_ids is None or feature["properties"]["id"] in wanted_ids)
     ]
     if args.limit is not None:
         todo = todo[: args.limit]
@@ -185,10 +199,7 @@ def main() -> int:
 def write_features(features: list[dict]) -> None:
     """Persist current in-memory state; matched features updated in place."""
     addresses = {"type": "FeatureCollection", "features": features}
-    ADDRESSES_PATH.write_text(
-        json.dumps(addresses, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    save_json(ADDRESSES_PATH, addresses)
 
 
 if __name__ == "__main__":

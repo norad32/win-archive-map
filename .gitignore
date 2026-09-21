@@ -4,3 +4,5 @@ backups
 venv
 .vscode
 scripts/__pycache__
+archive-diff.md
+spellcheck-report.md

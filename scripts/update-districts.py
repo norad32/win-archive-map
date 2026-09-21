@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Update `district` and `neighbourhood` properties in src/data/entries.json
+"""Update `district` and `neighbourhood` properties in src/data/archive.json
 by point-in-polygon matching against src/data/districts.geojson and
 src/data/neighbourhoods.geojson.
 
@@ -8,9 +8,9 @@ Coordinates are looked up from src/data/addresses.geojson via each entry's
 address.
 
 - If the addresses disagree on district or neighbourhood, the entry is
-left untouched and reported as mixed. 
-- Entries without a loc are left untouched. 
-- Points that fall outside every polygon get `district` "Other" and 
+left untouched and reported as mixed.
+- Entries without a loc are left untouched.
+- Points that fall outside every polygon get `district` "Other" and
 `neighbourhood` null.
 
 Usage:
@@ -20,7 +20,6 @@ Usage:
 from __future__ import annotations
 
 import argparse
-import json
 import sys
 from collections import Counter
 from pathlib import Path
@@ -28,19 +27,16 @@ from pathlib import Path
 from shapely.geometry import Point, shape
 from shapely.strtree import STRtree
 
+from jsonio import load_json, save_json
+
 DATA_DIR = Path(__file__).resolve().parent.parent / "src" / "data"
 
 ADDRESSES_PATH = DATA_DIR / "addresses.geojson"
-ENTRIES_PATH = DATA_DIR / "entries.json"
+ARCHIVE_PATH = DATA_DIR / "archive.json"
 DISTRICTS_PATH = DATA_DIR / "districts.geojson"
 NEIGHBOURHOODS_PATH = DATA_DIR / "neighbourhoods.geojson"
 
 OTHER_DISTRICT = "Other"
-
-
-def load_json(path: Path) -> dict:
-    with path.open(encoding="utf-8") as f:
-        return json.load(f)
 
 
 def build_index(features: list[dict], name_property: str) -> tuple[STRtree, list[str]]:
@@ -72,12 +68,12 @@ def main() -> int:
         "--output",
         type=Path,
         default=None,
-        help="write to a different path instead of updating entries.json in place",
+        help="write to a different path instead of updating archive.json in place",
     )
     args = parser.parse_args()
 
     addresses = load_json(ADDRESSES_PATH)
-    entries = load_json(ENTRIES_PATH)
+    entries = load_json(ARCHIVE_PATH)
     districts = load_json(DISTRICTS_PATH)["features"]
     neighbourhoods = load_json(NEIGHBOURHOODS_PATH)["features"]
 
@@ -118,7 +114,11 @@ def main() -> int:
                 (
                     loc_id,
                     point_in_polygon(
-                        district_tree, district_tree.geometries, district_names, lon, lat
+                        district_tree,
+                        district_tree.geometries,
+                        district_names,
+                        lon,
+                        lat,
                     ),
                     point_in_polygon(
                         neighbourhood_tree,
@@ -138,9 +138,10 @@ def main() -> int:
         resolved_districts = [d for _, d, _ in address_results]
         resolved_neighbourhoods = [n for _, _, n in address_results]
 
-        districts_agree = len(
-            {(d if d is not None else OTHER_DISTRICT) for d in resolved_districts}
-        ) == 1
+        districts_agree = (
+            len({(d if d is not None else OTHER_DISTRICT) for d in resolved_districts})
+            == 1
+        )
         neighbourhoods_agree = len(set(resolved_neighbourhoods)) == 1
 
         if not districts_agree or not neighbourhoods_agree:
@@ -167,13 +168,17 @@ def main() -> int:
             district_changes[f"{entry.get('district')} → {district}"] += 1
             entry["district"] = district
         if entry.get("neighbourhood") != neighbourhood:
-            neighbourhood_changes[f"{entry.get('neighbourhood')} → {neighbourhood}"] += 1
+            neighbourhood_changes[
+                f"{entry.get('neighbourhood')} → {neighbourhood}"
+            ] += 1
             entry["neighbourhood"] = neighbourhood
 
     print(f"Checked {total} entries ({unlocated} without loc, skipped).")
-    print(f"Outside all polygons (set to district \"{OTHER_DISTRICT}\"): {unmatched}")
+    print(f'Outside all polygons (set to district "{OTHER_DISTRICT}"): {unmatched}')
     print(f"Ranges spanning multiple districts/neighbourhoods (not updated): {mixed}")
-    print(f"Ranges with only partially resolvable addresses (updated from resolvable ones): {partial}")
+    print(
+        f"Ranges with only partially resolvable addresses (updated from resolvable ones): {partial}"
+    )
 
     if district_changes:
         print("District changes:")
@@ -190,17 +195,15 @@ def main() -> int:
         print("No neighbourhood changes.")
 
     if args.dry_run:
-        print("Dry run: entries.json not modified.")
+        print("Dry run: archive.json not modified.")
         return 0
 
     if not district_changes and not neighbourhood_changes:
         print("Nothing to update.")
         return 0
 
-    output_path = args.output or ENTRIES_PATH
-    with output_path.open("w", encoding="utf-8") as f:
-        json.dump(entries, f, ensure_ascii=False, indent=2)
-        f.write("\n")
+    output_path = args.output or ARCHIVE_PATH
+    save_json(output_path, entries)
 
     print(f"Written to {output_path}")
     return 0

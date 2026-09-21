@@ -1,5 +1,5 @@
 export const Config = Object.freeze({
-  ENTRIES_URL: "data/entries.json",
+  ARCHIVE_URL: "data/archive.json",
   ADDRESSES_URL: "data/addresses.geojson",
   LOCATIONS_URL: "data/locations.geojson",
   DISTRICTS_URL: "data/districts.json",

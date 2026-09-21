@@ -21,7 +21,9 @@ from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.winterthur-glossar.ch"
 LIST_URL = f"{BASE_URL}/thematische-auswahl/a-z"
-GLOSSARY_PATH = Path(__file__).resolve().parent.parent / "src" / "data" / "glossary.json"
+GLOSSARY_PATH = (
+    Path(__file__).resolve().parent.parent / "src" / "data" / "glossary.json"
+)
 
 REQUEST_TIMEOUT_S = 30
 RETRY_ATTEMPTS = 3
@@ -39,7 +41,10 @@ def fetch(url: str) -> str:
         except requests.RequestException as exc:
             if attempt == RETRY_ATTEMPTS:
                 raise
-            print(f"  request failed ({exc}); retry {attempt}/{RETRY_ATTEMPTS - 1}…", file=sys.stderr)
+            print(
+                f"  request failed ({exc}); retry {attempt}/{RETRY_ATTEMPTS - 1}…",
+                file=sys.stderr,
+            )
             time.sleep(RETRY_DELAY_S)
     raise AssertionError("unreachable")
 
@@ -131,7 +136,9 @@ def main() -> int:
         json.dump(existing + new_entries, f, ensure_ascii=False, indent=2)
         f.write("\n")
 
-    print(f"Appended {len(new_entries)} entries to {GLOSSARY_PATH.relative_to(Path.cwd())}")
+    print(
+        f"Appended {len(new_entries)} entries to {GLOSSARY_PATH.relative_to(Path.cwd())}"
+    )
     return 0
 
 

@@ -92,6 +92,6 @@ function minifyJsonFile(srcPath, destPath) {
 copyRecursive(path.join(srcDir, "vendor"), path.join(distDir, "vendor"));
 copyRecursive(path.join(srcDir, "data"), path.join(distDir, "data"), {
   minifyJson: true,
-  // Master archive source; the app consumes entries.json + addresses.geojson.
-  exclude: ["archive.geojson"],
+  // Master archive source, the app consumes archive.json + addresses.geojson.
+  exclude: ["archive-master.json"],
 });
