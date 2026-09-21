@@ -33,7 +33,7 @@ export function createMap(elId, onMarkerClick) {
     return geoLayer;
   }
 
-  function fitToLayerBounds(layer) {
+  function fitToLayerBounds(layer, { force = false } = {}) {
     const isInitialLoad = !hasFitInitialBounds;
     const bounds = layer.getBounds();
 
@@ -41,12 +41,12 @@ export function createMap(elId, onMarkerClick) {
 
     map.fitBounds(bounds, {
       maxZoom: Config.MAP_MAX_ZOOM,
-      animate: !isInitialLoad,
+      animate: !isInitialLoad && !force,
     });
     hasFitInitialBounds = true;
   }
 
-  function renderGroups(groups, { fitBounds = false, selectedKey } = {}) {
+  function renderGroups(groups, { selectedKey } = {}) {
     if (selectedKey !== undefined) {
       selectedGroupKey = selectedKey;
     }
@@ -61,14 +61,26 @@ export function createMap(elId, onMarkerClick) {
     layer.clearLayers();
     layer.addLayers(markers);
 
-    if (fitBounds && markers.length > 0) {
-      fitToLayerBounds(layer);
+    updateFitResultsButton(markers.length > 0);
+  }
+
+  function updateFitResultsButton(hasResults) {
+    const button = document.getElementById("fitResultsBtn");
+    if (button) {
+      button.hidden = !hasResults;
+    }
+  }
+
+  function fitToResults() {
+    if (geoLayer) {
+      fitToLayerBounds(geoLayer, { force: true });
     }
   }
 
   return {
     map,
     renderGroups,
+    fitToResults,
     setSelected: (key) => {
       selectedGroupKey = key;
     },

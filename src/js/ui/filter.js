@@ -29,7 +29,7 @@ export function createFilters({ domRefs, dataStore, map, onStatsUpdate }) {
       }
     }
 
-    map.renderGroups(filteredGroups, { fitBounds: true });
+    map.renderGroups(filteredGroups);
 
     if (onStatsUpdate) {
       onStatsUpdate(shownCount, dataStore.getTotalCount());

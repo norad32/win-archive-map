@@ -103,6 +103,10 @@ function init() {
     map.renderGroups(precomputedGroups, { fitBounds: true });
   });
 
+  domRefs.fitResultsBtnEl?.addEventListener("click", () => {
+    map.fitToResults();
+  });
+
   const sidebar = createSidebar({ domRefs, dataStore, map });
 
   sidebar.attachListeners();

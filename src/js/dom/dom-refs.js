@@ -20,5 +20,6 @@ export function initDomRefs() {
     lastUpdatedEl: document.getElementById("lastUpdated"),
     sidebarToggleEl: document.getElementById("sidebarToggle"),
     sidebarEl: document.getElementById("sidebar"),
+    fitResultsBtnEl: document.getElementById("fitResultsBtn"),
   };
 }

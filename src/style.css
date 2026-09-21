@@ -228,7 +228,8 @@
   }
 
   #aboutBtn,
-  #sidebarToggle {
+  #sidebarToggle,
+  #fitResultsBtn {
     position: fixed;
     top: 10px;
     z-index: var(--z-panel);
@@ -251,6 +252,10 @@
 
   #aboutBtn {
     inset-inline-start: 10px;
+  }
+
+  #fitResultsBtn {
+    inset-inline-end: 370px;
   }
 
   #sidebarToggle {
@@ -476,18 +481,46 @@
     }
   }
 
-  .count-circle {
-    background: var(--color-brand);
-    color: #fff;
-    border: 2px solid var(--color-surface);
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-    display: grid;
-    place-items: center;
-    font-size: 12px;
-    font-weight: bold;
-    box-shadow: var(--shadow-sm);
+  .pin-marker {
+    background: none;
+    border: none;
+
+    svg {
+      width: 100%;
+      height: 100%;
+      filter: drop-shadow(var(--shadow-sm));
+    }
+
+    .pin-tail,
+    .pin-head {
+      fill: var(--color-brand);
+      stroke: none;
+    }
+
+    .pin-hole {
+      fill: #fff;
+    }
+
+    .pin-lion {
+      fill: #fff;
+      stroke: none;
+    }
+
+    .pin-eye {
+      fill: var(--color-brand);
+      stroke: none;
+    }
+
+    .pin-whiskers {
+      fill: none;
+      stroke: var(--color-brand);
+      stroke-width: 1.5;
+      stroke-linecap: round;
+    }
+  }
+
+  .pin-marker--selected {
+    z-index: 1000;
   }
 
   .district-label,
@@ -643,6 +676,7 @@
         box-shadow var(--transition-fast),
         transform var(--transition-fast);
     }
+
     &::-moz-range-thumb {
       appearance: none;
       width: var(--thumb-size);
@@ -748,7 +782,7 @@
 }
 
 @layer responsive {
-  @media (width <= 932px) {
+  @media (width <=932px) {
     #app {
       flex-direction: column;
     }
@@ -789,6 +823,15 @@
       display: block;
     }
 
+    #fitResultsBtn {
+      inset-inline-start: auto;
+      inset-inline-end: 10px;
+    }
+
+    #fitResultsBtn {
+      top: 54px;
+    }
+
     .year-inputs input {
       flex: 1;
       min-width: 70px;
@@ -804,12 +847,6 @@
         text-align: center;
         padding: 12px;
       }
-    }
-
-    .count-circle {
-      width: 28px;
-      height: 28px;
-      font-size: 13px;
     }
 
     #aboutModalOverlay:not([hidden]) {
@@ -833,12 +870,12 @@
       padding: 10px;
     }
 
-    #app:has(#sidebar.open) #aboutBtn {
+    #app:has(#sidebar.open) :is(#aboutBtn, #fitResultsBtn) {
       display: none;
     }
   }
 
-  @media (width <= 380px) {
+  @media (width <=380px) {
     #sidebar {
       width: 100%;
       max-width: none;
