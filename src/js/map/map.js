@@ -130,6 +130,7 @@ function swisstopoWmts(
     format = "jpeg",
     timestamp = "current",
     maxZoom = Config.MAP_MAX_ZOOM,
+    maxNativeZoom = Config.MAP_MAX_NATIVE_ZOOM,
   } = {},
 ) {
   return L.tileLayer(
@@ -138,6 +139,7 @@ function swisstopoWmts(
       attribution:
         '&copy; <a href="https://www.swisstopo.admin.ch/">swisstopo</a>',
       maxZoom,
+      maxNativeZoom,
       minZoom: Config.MAP_MIN_ZOOM,
     },
   );
