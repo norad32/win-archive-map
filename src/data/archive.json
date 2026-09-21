@@ -1456,450 +1456,584 @@
     "signature": "Bahnhofplatz (Süd)_50_40",
     "title": "Bahnhofplatz, Blick in die Stadthausstrasse. Mit handschriftlichem Text",
     "year": "1898 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Bahnhofplatz",
-    "loc": null
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
+    "street": "Stadthausstrasse",
+    "housenumber": "20-24, 137-145",
+    "loc": [
+      "stadthausstrasse_24",
+      "stadthausstrasse_22",
+      "stadthausstrasse_20",
+      "stadthausstrasse_145",
+      "stadthausstrasse_143",
+      "stadthausstrasse_139",
+      "stadthausstrasse_137"
+    ]
   },
   {
     "id": "334",
     "signature": "Bahnhofplatz (Süd)_50_41",
     "title": "Bahnhofplatz mit Kutschen und Passanten, Blick ins Untertor",
     "year": "1902 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Bahnhofplatz",
-    "loc": null
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
+    "street": "Untertor",
+    "housenumber": "30-39",
+    "loc": [
+      "untertor_30",
+      "untertor_31",
+      "untertor_32",
+      "untertor_33",
+      "untertor_34",
+      "untertor_37",
+      "untertor_39"
+    ]
   },
   {
     "id": "335",
     "signature": "Bahnhofplatz (Süd)_50_42",
     "title": "Bahnhofplatz, Blick in die Stadthausstrasse. Mit handschriftlichem Text",
     "year": "1899 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Bahnhofplatz",
-    "loc": null
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
+    "street": "Stadthausstrasse",
+    "housenumber": "20-24, 137-145",
+    "loc": [
+      "stadthausstrasse_24",
+      "stadthausstrasse_22",
+      "stadthausstrasse_20",
+      "stadthausstrasse_145",
+      "stadthausstrasse_143",
+      "stadthausstrasse_139",
+      "stadthausstrasse_137"
+    ]
   },
   {
     "id": "336",
     "signature": "Bahnhofplatz (Süd)_50_43",
     "title": "Kombinationspostkarte mit Bahnhofplatz und Turnerstrasse. Mit handschriftlichem \nText",
     "year": "1910 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Bahnhofplatz",
-    "loc": null
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
+    "street": "Stadthausstrasse/Turnerstrases",
+    "housenumber": "20-24, 137-145 / 1",
+    "loc": [
+      "stadthausstrasse_24",
+      "stadthausstrasse_22",
+      "stadthausstrasse_20",
+      "stadthausstrasse_145",
+      "stadthausstrasse_143",
+      "stadthausstrasse_139",
+      "stadthausstrasse_137",
+      "turnerstrasse_1"
+    ]
   },
   {
     "id": "337",
     "signature": "Bahnhofplatz (Süd)_50_44",
     "title": "Bahnhofplatz, Blick in die Stadthausstrasse. Mit handschriftlichem Text",
     "year": "1898 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Bahnhofplatz",
-    "loc": null
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
+    "street": "Stadthausstrasse",
+    "housenumber": "20-24, 137-145",
+    "loc": [
+      "stadthausstrasse_24",
+      "stadthausstrasse_22",
+      "stadthausstrasse_20",
+      "stadthausstrasse_145",
+      "stadthausstrasse_143",
+      "stadthausstrasse_139",
+      "stadthausstrasse_137"
+    ]
   },
   {
     "id": "338",
     "signature": "Bahnhofplatz (Süd)_50_45",
     "title": "Bahnhofplatz mit Kutschen und Passanten",
     "year": "1909 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "6-8",
+    "loc": ["bahnhofplatz_6", "bahnhofplatz_7", "bahnhofplatz_8"]
   },
   {
     "id": "339",
     "signature": "Bahnhofplatz (Süd)_50_46",
     "title": "Bahnhofplatz mit Kutschen und Passanten",
     "year": "1905 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "340",
     "signature": "Bahnhofplatz (Süd)_50_47",
     "title": "Bahnhofplatz umrahmt von Verzierungen und handschriftlichem Text",
     "year": "1908 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "8",
+    "loc": "bahnhofplatz_8"
   },
   {
     "id": "341",
     "signature": "Bahnhofplatz (Süd)_50_1",
     "title": "Bahnhofplatz mit Kutschen und Passanten",
     "year": "1905 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "342",
     "signature": "Bahnhofplatz (Süd)_50_2",
     "title": "Bahnhofplatz mir Tram und Passanten",
     "year": "1916 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "343",
     "signature": "Bahnhofplatz (Süd)_50_3",
     "title": "Bahnhofplatz mit Passanten",
     "year": "1910 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "344",
     "signature": "Bahnhofplatz (Süd)_50_4",
     "title": "Bahnhofplatz mit Trams",
     "year": "1914 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "345",
     "signature": "Bahnhofplatz (Süd)_50_5",
     "title": "Bahnhofplatz mit Kutschen und Passanten",
     "year": "1913 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "346",
     "signature": "Bahnhofplatz (Süd)_50_6",
     "title": "Bahnhofplatz mir Trams und Passanten",
     "year": "1922 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "347",
     "signature": "Bahnhofplatz (Süd)_50_7",
     "title": "Bahnhofplatz mit Helvetia-Verzierung. Mit handschriftlichem Text",
     "year": "1909 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "348",
     "signature": "Bahnhofplatz (Süd)_50_8",
     "title": "Bahnhofplatz im Winter mit Samichlaus",
     "year": "1909 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "349",
     "signature": "Bahnhofplatz (Süd)_50_9",
     "title": "Bahnhofplatz mir Tram, Kutschen und Passanten",
     "year": "1920 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "350",
     "signature": "Bahnhofplatz (Süd)_50_10",
-    "title": "Bahnhofplatz, Blick gegen Norden,  mit Eulachwuhr und Passanten",
+    "title": "Bahnhofplatz, Blick gegen Norden, mit Eulachwuhr und Passanten",
     "year": "1911 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "1, 2, 7",
+    "loc": ["bahnhofplatz_1", "bahnhofplatz_2", "bahnhofplatz_7"]
   },
   {
     "id": "351",
     "signature": "Bahnhofplatz (Süd)_50_11",
     "title": "Zeichnung Bahnhofgebäude mit Trams und Autos",
     "year": "1942 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "352",
     "signature": "Bahnhofplatz (Süd)_50_12",
     "title": "Bahnhofplatz mit Kutschen und Passanten",
     "year": "1910 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "353",
     "signature": "Bahnhofplatz (Süd)_50_13",
     "title": "Eilgruss vom Bahnhofplatz mit Kutschen und Passanten",
     "year": "1902 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "354",
     "signature": "Bahnhofplatz (Süd)_50_14",
     "title": "Bahnhofplatz mit Kutschen und Passanten. Mit handschriftlichem Text",
     "year": "1908 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "355",
     "signature": "Bahnhofplatz (Süd)_50_15",
     "title": "Bahnhofplatz mit Kutschen und Passanten, links Restaurant National. Mit handschriftlichem Text",
     "year": "1901 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "356",
     "signature": "Bahnhofplatz (Süd)_50_16",
     "title": "Bahnhofplatz umrahmt von Verzierungen. Mit handschriftlichem Text",
     "year": "1906 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "357",
     "signature": "Bahnhofplatz (Süd)_50_17",
     "title": "Bahnhofplatz umrahmt von Verzierungen. Mit handschriftlichem Text",
     "year": "1904 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "358",
     "signature": "Bahnhofplatz (Süd)_50_18",
     "title": "Bahnhofplatz umrahmt von Verzierungen. Mit handschriftlichem Text",
     "year": "1903 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "359",
     "signature": "Bahnhofplatz (Süd)_50_19",
     "title": "Bahnhofplatz mit Kutschen und Passanten",
     "year": "1910 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "360",
     "signature": "Bahnhofplatz (Süd)_50_20",
     "title": "Bahnhofplatz umrahmt von Verzierungen",
     "year": "1907 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "361",
     "signature": "Bahnhofplatz (Süd)_50_21",
     "title": "Zeichnung mit Bahnhofplatz",
     "year": "1908 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "362",
     "signature": "Bahnhofplatz (Süd)_50_22",
     "title": "Restaurant National mit Personal. Mit handschriftlichem Text",
     "year": "1909 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Bahnhofplatz",
-    "loc": null
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
+    "street": "Stadthausstrasse",
+    "housenumber": "24",
+    "loc": "stadthausstrasse_24"
   },
   {
     "id": "363",
     "signature": "Bahnhofplatz (Süd)_50_23",
     "title": "Bahnhofplatz umrahmt von Verzierungen (Schweizer Kantonswappen). Mit handschriftlichem Text",
     "year": "1904 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "364",
     "signature": "Bahnhofplatz (Süd)_50_24",
     "title": "Hotel Ochsen (Schlangenmühle) mit Eulachwuhr im Vordergrund",
     "year": "1905 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "1",
+    "loc": "bahnhofplatz_1"
   },
   {
     "id": "365",
     "signature": "Bahnhofplatz (Süd)_50_25",
     "title": "Bahnhofplatz mit Kutschen und Passanten",
     "year": "1905 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "366",
     "signature": "Bahnhofplatz (Süd)_50_26",
     "title": "Bahnhofplatz, Blick gegen Norden, mit Eulachwuhr und Passanten",
     "year": "1907 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "1, 2, 7",
+    "loc": ["bahnhofplatz_1", "bahnhofplatz_2", "bahnhofplatz_7"]
   },
   {
     "id": "367",
     "signature": "Bahnhofplatz (Süd)_50_27",
     "title": "Bahnhofplatz mit Passanten, rechts Hotel Walhalla Mit handschriftlichem Text",
     "year": "1905 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "6, 7",
+    "loc": ["bahnhofplatz_6", "bahnhofplatz_7"]
   },
   {
     "id": "368",
     "signature": "Bahnhofplatz (Süd)_50_28",
     "title": "Bahnhofplatz mit Tram und Passanten",
     "year": "1908 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "369",
     "signature": "Bahnhofplatz (Süd)_50_29",
     "title": "Bahnhofplatz mit Tram und Passanten",
     "year": "1920 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "370",
     "signature": "Bahnhofplatz (Süd)_50_30",
     "title": "Bahnhofplatz, Blick gegen Norden, mit Eulachwuhr und Hotel Ochsen (Schlangenmühle) im Vordergrund",
     "year": "1905 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "1, 2, 7",
+    "loc": ["bahnhofplatz_1", "bahnhofplatz_2", "bahnhofplatz_7"]
   },
   {
     "id": "371",
     "signature": "Bahnhofplatz (Süd)_50_31",
     "title": "Bahnhofplatz, Blick Richtung Stadthausstrasse",
     "year": "1938 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Bahnhofplatz",
-    "loc": null
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
+    "street": "Stadthausstrasse",
+    "housenumber": "20-24, 137-145",
+    "loc": [
+      "stadthausstrasse_24",
+      "stadthausstrasse_22",
+      "stadthausstrasse_20",
+      "stadthausstrasse_145",
+      "stadthausstrasse_143",
+      "stadthausstrasse_139",
+      "stadthausstrasse_137"
+    ]
   },
   {
     "id": "372",
     "signature": "Bahnhofplatz (Süd)_50_32",
     "title": "Restaurant National",
     "year": "1910 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
     "street": "Bahnhofplatz",
-    "loc": null
+    "housenumber": "7",
+    "loc": "bahnhofplatz_7"
   },
   {
     "id": "373",
     "signature": "Bahnhofplatz (Süd)_50_33",
-    "title": "Bahnhofplatz, Blick in die Marktgasse. Mit handschriftlichem Text (Foto: F. Kugler)",
+    "title": "Bahnhofplatz, Blick ins Untertor. Mit handschriftlichem Text (Foto: F. Kugler)",
     "year": "1901 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Bahnhofplatz",
-    "loc": null
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
+    "street": "Untertor",
+    "housenumber": "30-39",
+    "loc": [
+      "untertor_30",
+      "untertor_31",
+      "untertor_32",
+      "untertor_33",
+      "untertor_34",
+      "untertor_37",
+      "untertor_39"
+    ]
   },
   {
     "id": "374",
     "signature": "Bahnhofplatz (Süd)_50_34",
     "title": "Bahnhofplatz, Blick in die Stadthausstrasse. Mit handschriftlichem Text",
     "year": "1909 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Bahnhofplatz",
-    "loc": null
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
+    "street": "Stadthausstrasse",
+    "housenumber": "20-24, 137-145",
+    "loc": [
+      "stadthausstrasse_24",
+      "stadthausstrasse_22",
+      "stadthausstrasse_20",
+      "stadthausstrasse_145",
+      "stadthausstrasse_143",
+      "stadthausstrasse_139",
+      "stadthausstrasse_137"
+    ]
   },
   {
     "id": "375",
     "signature": "Bahnhofplatz (Süd)_50_35",
     "title": "Bahnhofplatz, Blick in die Stadthausstrasse.Mit handschriftlichem Text",
     "year": "1902 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Bahnhofplatz",
-    "loc": null
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
+    "street": "Stadthausstrasse",
+    "housenumber": "20-24, 137-145",
+    "loc": [
+      "stadthausstrasse_24",
+      "stadthausstrasse_22",
+      "stadthausstrasse_20",
+      "stadthausstrasse_145",
+      "stadthausstrasse_143",
+      "stadthausstrasse_139",
+      "stadthausstrasse_137"
+    ]
   },
   {
     "id": "376",
     "signature": "Bahnhofplatz (Süd)_50_36",
     "title": "Bahnhofplatz, Blick in die Stadthausstrasse",
     "year": "1899 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Bahnhofplatz",
-    "loc": null
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
+    "street": "Stadthausstrasse",
+    "housenumber": "20-24, 137-145",
+    "loc": [
+      "stadthausstrasse_24",
+      "stadthausstrasse_22",
+      "stadthausstrasse_20",
+      "stadthausstrasse_145",
+      "stadthausstrasse_143",
+      "stadthausstrasse_139",
+      "stadthausstrasse_137"
+    ]
   },
   {
     "id": "377",
     "signature": "Bahnhofplatz (Süd)_50_37",
     "title": "Bahnhofplatz mit Hotel Walhalla, Blick in die Stadthausstrasse",
     "year": "1917 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Bahnhofplatz",
-    "loc": null
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Altstadt",
+    "street": "Stadthausstrasse",
+    "housenumber": "20-24, 137-145",
+    "loc": [
+      "stadthausstrasse_24",
+      "stadthausstrasse_22",
+      "stadthausstrasse_20",
+      "stadthausstrasse_145",
+      "stadthausstrasse_143",
+      "stadthausstrasse_139",
+      "stadthausstrasse_137"
+    ]
   },
   {
     "id": "378",
@@ -1908,8 +2042,9 @@
     "year": "1923 (Poststempel)",
     "district": "Altstadt",
     "neighbourhood": null,
-    "street": "Eichgutstrasse",
-    "loc": null
+    "street": null,
+    "housenumber": null,
+    "loc": "null"
   },
   {
     "id": "379",
@@ -1927,8 +2062,21 @@
     "title": "Eidberg: Schulhaus, Hauptplatz, Wirtschaft zum Freihof, Wirtschaft zum Frohsinn, Mühle Heiterthal. Sammelansicht mit handschriftlichem Text",
     "year": "1904 (Poststempel)",
     "district": "Seen",
+    "neighbourhood": "Eidberg",
+    "street": "Eidbergstrasse/Hulmenweg/Heitertal",
+    "housenumber": "75/33/2",
+    "loc": ["eidbergstrasse_75", "hulmenweg_33"]
+  },
+  {
+    "id": "380",
+    "signature": "Eidberg 1",
+    "title": "Eidberg: Schulhaus, Hauptplatz, Wirtschaft zum Freihof, Wirtschaft zum Frohsinn, Mühle Heiterthal. Sammelansicht mit handschriftlichem Text",
+    "year": "1904 (Poststempel)",
+    "district": "Other",
     "neighbourhood": null,
-    "loc": null
+    "street": "Eidbergstrasse/Hulmenweg/Heitertal",
+    "housenumber": "75/33/2",
+    "loc": "heitertal_2"
   },
   {
     "id": "381",
@@ -1936,8 +2084,10 @@
     "title": "Luftbild Kunsteisbahn Zelgli",
     "year": "1960 (Poststempel)",
     "district": "Mattenbach",
-    "neighbourhood": null,
-    "loc": null
+    "neighbourhood": "Deutweg",
+    "street": "Eisweiherstrasse",
+    "housenumber": "161",
+    "loc": "eisweiherstrasse_161"
   },
   {
     "id": "382",
@@ -1945,9 +2095,10 @@
     "title": "Schlittschuhläufer auf dem Eisfeld Zelgli",
     "year": "1900 (Poststempel)",
     "district": "Mattenbach",
-    "neighbourhood": null,
+    "neighbourhood": "Deutweg",
     "street": "Eisweiherstrasse",
-    "loc": null
+    "housenumber": "161",
+    "loc": "eisweiherstrasse_161"
   },
   {
     "id": "383",
@@ -1955,8 +2106,10 @@
     "title": "Eschenberg, Winterbild mit Hof Eschenberg",
     "year": "1926 (Poststempel)",
     "district": "Mattenbach",
-    "neighbourhood": null,
-    "loc": null
+    "neighbourhood": "Deutweg",
+    "street": "Eschenbergstrasse",
+    "housenumber": "4",
+    "loc": "eschenbergstrasse_4"
   },
   {
     "id": "384",
@@ -1964,8 +2117,10 @@
     "title": "Eschenberg, Aussichtsturm",
     "year": "1900 (Poststempel)",
     "district": "Mattenbach",
-    "neighbourhood": null,
-    "loc": null
+    "neighbourhood": "Deutweg",
+    "street": "Schneisenstrasse, Turmfussweg",
+    "housenumber": null,
+    "loc": "aussichtsturm_eschenberg"
   },
   {
     "id": "385",
@@ -2000,8 +2155,10 @@
     "title": "Eschenberg, Aussichtsturm",
     "year": "1925 (Poststempel)",
     "district": "Mattenbach",
-    "neighbourhood": null,
-    "loc": null
+    "neighbourhood": "Deutweg",
+    "street": "Schneisenstrasse, Turmfussweg",
+    "housenumber": null,
+    "loc": "aussichtsturm_eschenberg"
   },
   {
     "id": "389",
@@ -2053,9 +2210,10 @@
     "signature": "Eschenberg_11",
     "title": "Tuggbrüggli im Eschenbergwald",
     "year": "1901 (Poststempel)",
-    "district": "Mattenbach",
-    "neighbourhood": null,
-    "loc": null
+    "neighbourhood": "Deutweg",
+    "street": "Tugbrügglifussweg",
+    "housenumber": null,
+    "loc": "tugbrüggli"
   },
   {
     "id": "395",
@@ -2063,8 +2221,10 @@
     "title": "Eschenberg Aussichtsturm mit Leuten",
     "year": "um 1910",
     "district": "Mattenbach",
-    "neighbourhood": null,
-    "loc": null
+    "neighbourhood": "Deutweg",
+    "street": "Schneisenstrasse, Turmfussweg",
+    "housenumber": null,
+    "loc": "aussichtsturm_eschenberg"
   },
   {
     "id": "396",
@@ -2072,8 +2232,10 @@
     "title": "Eschenberg Aussichtsturm",
     "year": "1913 (Poststempel)",
     "district": "Mattenbach",
-    "neighbourhood": null,
-    "loc": null
+    "neighbourhood": "Deutweg",
+    "street": "Schneisenstrasse, Turmfussweg",
+    "housenumber": null,
+    "loc": "aussichtsturm_eschenberg"
   },
   {
     "id": "397",
@@ -2145,9 +2307,10 @@
     "title": "Restaurant Bäumli mit Garten. Mit handschriftlichem Text.",
     "year": "1900 (Poststempel)",
     "district": "Altstadt",
-    "neighbourhood": null,
+    "neighbourhood": "Deutweg",
     "street": "Süsenbergstrasse",
-    "loc": null
+    "housenumber": null,
+    "loc": "bäumli"
   },
   {
     "id": "405",
@@ -2155,9 +2318,10 @@
     "title": "Restaurant Bäumli",
     "year": "1901 (Poststempel)",
     "district": "Altstadt",
-    "neighbourhood": null,
+    "neighbourhood": "Deutweg",
     "street": "Süsenbergstrasse",
-    "loc": null
+    "housenumber": null,
+    "loc": "bäumli"
   },
   {
     "id": "406",
@@ -2165,9 +2329,10 @@
     "title": "Restaurant Bäumli mit Garten, Sammelansicht. Mit handschriftlichem Text.",
     "year": "1904 (Poststempel)",
     "district": "Altstadt",
-    "neighbourhood": null,
+    "neighbourhood": "Deutweg",
     "street": "Süsenbergstrasse",
-    "loc": null
+    "housenumber": null,
+    "loc": "bäumli"
   },
   {
     "id": "407",
@@ -2175,9 +2340,10 @@
     "title": "Restaurant Bäumli mit Garten, Sammelansicht. Mit handschriftlichem Text.",
     "year": "1901 (Poststempel)",
     "district": "Altstadt",
-    "neighbourhood": null,
+    "neighbourhood": "Deutweg",
     "street": "Süsenbergstrasse",
-    "loc": null
+    "housenumber": null,
+    "loc": "bäumli"
   },
   {
     "id": "408",
@@ -2185,9 +2351,10 @@
     "title": "Restaurant Bäumli",
     "year": null,
     "district": "Altstadt",
-    "neighbourhood": null,
+    "neighbourhood": "Deutweg",
     "street": "Süsenbergstrasse",
-    "loc": null
+    "housenumber": null,
+    "loc": "bäumli"
   },
   {
     "id": "409",
@@ -2195,9 +2362,10 @@
     "title": "Restaurant Bäumli mit Garten, Sammelansicht",
     "year": "1908 (Poststempel)",
     "district": "Altstadt",
-    "neighbourhood": null,
+    "neighbourhood": "Deutweg",
     "street": "Süsenbergstrasse",
-    "loc": null
+    "housenumber": null,
+    "loc": "bäumli"
   },
   {
     "id": "410",
@@ -2205,9 +2373,10 @@
     "title": "Garten des Restaurant Bäumli, Sammelansicht",
     "year": "1911 (Poststempel)",
     "district": "Altstadt",
-    "neighbourhood": null,
+    "neighbourhood": "Deutweg",
     "street": "Süsenbergstrasse",
-    "loc": null
+    "housenumber": null,
+    "loc": "bäumli"
   },
   {
     "id": "411",
@@ -2215,9 +2384,10 @@
     "title": "Restaurant Bäumli, Sammelansicht. Mit handschriftlichem Text",
     "year": "1898 (Poststempel)",
     "district": "Altstadt",
-    "neighbourhood": null,
+    "neighbourhood": "Deutweg",
     "street": "Süsenbergstrasse",
-    "loc": null
+    "housenumber": null,
+    "loc": "bäumli"
   },
   {
     "id": "412",
@@ -2225,9 +2395,10 @@
     "title": "Restaurant Bäumli mit Garten, Sammelansicht. Mit handschriftlichem Text",
     "year": "1909 (Poststempel)",
     "district": "Altstadt",
-    "neighbourhood": null,
+    "neighbourhood": "Deutweg",
     "street": "Süsenbergstrasse",
-    "loc": null
+    "housenumber": null,
+    "loc": "bäumli"
   },
   {
     "id": "413",
@@ -2235,9 +2406,10 @@
     "title": "Restaurant Bäumli",
     "year": "um 1899",
     "district": "Altstadt",
-    "neighbourhood": null,
+    "neighbourhood": "Deutweg",
     "street": "Süsenbergstrasse",
-    "loc": null
+    "housenumber": null,
+    "loc": "bäumli"
   },
   {
     "id": "414",
@@ -2245,9 +2417,10 @@
     "title": "Restaurant Bäumli. Mit handschriftlichem Text.",
     "year": "1899 (Poststempel)",
     "district": "Altstadt",
-    "neighbourhood": null,
+    "neighbourhood": "Deutweg",
     "street": "Süsenbergstrasse",
-    "loc": null
+    "housenumber": null,
+    "loc": "bäumli"
   },
   {
     "id": "415",
@@ -2255,9 +2428,10 @@
     "title": "Garten des Restaurant Bäumli",
     "year": "1913 (Poststempel)",
     "district": "Altstadt",
-    "neighbourhood": null,
+    "neighbourhood": "Deutweg",
     "street": "Süsenbergstrasse",
-    "loc": null
+    "housenumber": null,
+    "loc": "bäumli"
   },
   {
     "id": "416",
@@ -2265,9 +2439,10 @@
     "title": "Restaurant Bäumli mit Blick auf Berge",
     "year": "1916 (Poststempel)",
     "district": "Altstadt",
-    "neighbourhood": null,
+    "neighbourhood": "Deutweg",
     "street": "Süsenbergstrasse",
-    "loc": null
+    "housenumber": null,
+    "loc": "bäumli"
   },
   {
     "id": "417",
@@ -2275,9 +2450,10 @@
     "title": "Schulhaus Lindberg mit Sportplatz",
     "year": "1938 (Poststempel)",
     "district": "Oberwinterthur",
-    "neighbourhood": null,
+    "neighbourhood": "Talacker",
     "street": "Bäumlistrasse",
-    "loc": null
+    "housenumber": 39,
+    "loc": "bäumlistrasse_39"
   },
   {
     "id": "418",
@@ -2285,9 +2461,10 @@
     "title": "Schulhaus Lindberg mit Pausenplatz",
     "year": "1938 (Poststempel)",
     "district": "Oberwinterthur",
-    "neighbourhood": null,
+    "neighbourhood": "Talacker",
     "street": "Bäumlistrasse",
-    "loc": null
+    "housenumber": 39,
+    "loc": "bäumlistrasse_39"
   },
   {
     "id": "419",
@@ -2295,9 +2472,10 @@
     "title": "Schulhaus Lindberg",
     "year": "1938 (Poststempel)",
     "district": "Oberwinterthur",
-    "neighbourhood": null,
+    "neighbourhood": "Talacker",
     "street": "Bäumlistrasse",
-    "loc": null
+    "housenumber": 39,
+    "loc": "bäumlistrasse_39"
   },
   {
     "id": "420",
@@ -2314,10 +2492,20 @@
     "signature": "Blatterstrasse 1",
     "title": "Blatterstrasse. Mit handschriftlichem Text.",
     "year": "1909 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Lind",
     "street": "Blatterstrasse",
-    "loc": null
+    "housenumber": "1-16",
+    "loc": [
+      "blatterstrasse_1",
+      "blatterstrasse_2",
+      "blatterstrasse_3",
+      "blatterstrasse_6",
+      "blatterstrasse_7",
+      "blatterstrasse_10",
+      "blatterstrasse_11",
+      "blatterstrasse_14"
+    ]
   },
   {
     "id": "422",
@@ -2376,140 +2564,165 @@
     "signature": "Brauerei Haldengut 13_05",
     "title": "Haldenberg-Haus mit Garten",
     "year": "1933 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Rychenbergstrasse",
-    "loc": null
-  },
-  {
-    "id": "428",
-    "signature": "Brauerei Haldengut 13_06",
-    "title": "Fuhrwerk der Brauerei Haldengut mit Angestelltem",
-    "year": null,
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Rychenbergstrasse",
-    "loc": null
-  },
-  {
-    "id": "429",
-    "signature": "Brauerei Haldengut 13_07",
-    "title": "Werbepostkarte der Brauerei Haldengut",
-    "year": "1920 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Rychenbergstrasse",
-    "loc": null
-  },
-  {
-    "id": "430",
-    "signature": "Brauerei Haldengut 13_08",
-    "title": "Keller-Lagerung der Brauerei Haldengut",
-    "year": "1902 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Rychenbergstrasse",
-    "loc": null
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Lind",
+    "street": "Haldenstrasse",
+    "housenumber": "83",
+    "loc": "haldenstrasse_83"
   },
   {
     "id": "431",
     "signature": "Brauerei Haldengut 13_09",
     "title": "Areal der Brauerei Haldengut, Luftbild",
     "year": "1930 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Lind",
     "street": "Rychenbergstrasse",
-    "loc": null
+    "housenumber": "55-73",
+    "loc": [
+      "rychenbergstrasse_55",
+      "rychenbergstrasse_57",
+      "rychenbergstrasse_59",
+      "rychenbergstrasse_61",
+      "rychenbergstrasse_67",
+      "rychenbergstrasse_68",
+      "rychenbergstrasse_69",
+      "rychenbergstrasse_73",
+      "haldenstrasse_83"
+    ]
   },
   {
     "id": "432",
     "signature": "Brauerei Haldengut 13_10",
     "title": "Modell der Brauerei Haldengut",
     "year": "1850 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Rychenbergstrasse",
-    "loc": null
-  },
-  {
-    "id": "433",
-    "signature": "Brauerei Haldengut 13_11",
-    "title": "Fuhrwerk der Brauerei Haldengut",
-    "year": "1936 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Rychenbergstrasse",
-    "loc": null
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Lind",
+    "street": "Haldenstrasse",
+    "housenumber": "83",
+    "loc": "haldenstrasse_83"
   },
   {
     "id": "434",
     "signature": "Brauerei Haldengut 13_12",
     "title": "Areal der Brauerei Haldengut",
     "year": "1914 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "neighbourhood": "Lind",
     "street": "Rychenbergstrasse",
-    "loc": null
+    "housenumber": "55-73",
+    "loc": [
+      "rychenbergstrasse_55",
+      "rychenbergstrasse_57",
+      "rychenbergstrasse_59",
+      "rychenbergstrasse_61",
+      "rychenbergstrasse_67",
+      "rychenbergstrasse_68",
+      "rychenbergstrasse_69",
+      "rychenbergstrasse_73"
+    ],
+    "district": "Winterthur-Stadt"
   },
   {
     "id": "435",
     "signature": "Brauerei Haldengut 13_13",
     "title": "Areal der Brauerei Haldengut, Luftbild",
     "year": "1950 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Lind",
     "street": "Rychenbergstrasse",
-    "loc": null
+    "housenumber": "55-73",
+    "loc": [
+      "rychenbergstrasse_55",
+      "rychenbergstrasse_57",
+      "rychenbergstrasse_59",
+      "rychenbergstrasse_61",
+      "rychenbergstrasse_67",
+      "rychenbergstrasse_68",
+      "rychenbergstrasse_69",
+      "rychenbergstrasse_73",
+      "haldenstrasse_83"
+    ]
   },
   {
     "id": "436",
     "signature": "Brauerei Haldengut 13_14",
     "title": "Modell der Brauerei Haldengut",
     "year": "1895 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Lind",
     "street": "Rychenbergstrasse",
-    "loc": null
+    "housenumber": "55-73",
+    "loc": [
+      "rychenbergstrasse_55",
+      "rychenbergstrasse_57",
+      "rychenbergstrasse_59",
+      "rychenbergstrasse_61",
+      "rychenbergstrasse_67",
+      "rychenbergstrasse_68",
+      "rychenbergstrasse_69",
+      "rychenbergstrasse_73"
+    ]
   },
   {
     "id": "437",
     "signature": "Brauerei Haldengut 13_15",
     "title": "Modell der Brauerei Haldengut",
     "year": "1940 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Lind",
     "street": "Rychenbergstrasse",
-    "loc": null
+    "housenumber": "55-73",
+    "loc": [
+      "rychenbergstrasse_55",
+      "rychenbergstrasse_57",
+      "rychenbergstrasse_59",
+      "rychenbergstrasse_61",
+      "rychenbergstrasse_67",
+      "rychenbergstrasse_68",
+      "rychenbergstrasse_69",
+      "rychenbergstrasse_73"
+    ]
   },
   {
     "id": "438",
     "signature": "Brauerei Haldengut 13_01",
     "title": "Areal der Brauerei Haldengut, Luftbild",
     "year": "1926 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Lind",
     "street": "Rychenbergstrasse",
-    "loc": null
+    "housenumber": "55-73",
+    "loc": [
+      "rychenbergstrasse_55",
+      "rychenbergstrasse_57",
+      "rychenbergstrasse_59",
+      "rychenbergstrasse_61",
+      "rychenbergstrasse_67",
+      "rychenbergstrasse_68",
+      "rychenbergstrasse_69",
+      "rychenbergstrasse_73"
+    ]
   },
   {
     "id": "439",
     "signature": "Brauerei Haldengut 13_02",
     "title": "Areal der Brauerei Haldengut, Luftbild",
     "year": "1931 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Lind",
     "street": "Rychenbergstrasse",
-    "loc": null
-  },
-  {
-    "id": "440",
-    "signature": "Brauerei Haldengut 13_03",
-    "title": "Werbepostkarte mit Fuhrwerk",
-    "year": "1924 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Rychenbergstrasse",
-    "loc": null
+    "housenumber": "55-73",
+    "loc": [
+      "rychenbergstrasse_55",
+      "rychenbergstrasse_57",
+      "rychenbergstrasse_59",
+      "rychenbergstrasse_61",
+      "rychenbergstrasse_67",
+      "rychenbergstrasse_68",
+      "rychenbergstrasse_69",
+      "rychenbergstrasse_73",
+      "haldenstrasse_83"
+    ]
   },
   {
     "id": "441",
@@ -2547,10 +2760,23 @@
     "signature": "Brauerstrasse 5_03",
     "title": "Ecke Brunngasse / Brauerstrasse. Mit handschriftlichem Text",
     "year": "1903 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Brauerstrasse",
-    "loc": null
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Lind",
+    "street": "Brauerstrasse/Brunngasse/Malzstrasse",
+    "housenumber": "30-38/36-38/5-9",
+    "loc": [
+      "brauerstrasse_30",
+      "brauerstrasse_32",
+      "brauerstrasse_34",
+      "brauerstrasse_36",
+      "brauerstrasse_38",
+      "brauerstrasse_38",
+      "brunngasse_36",
+      "brunngasse_38",
+      "malzstrasse_5",
+      "malzstrasse_7",
+      "malzstrasse_9"
+    ]
   },
   {
     "id": "445",
@@ -2599,10 +2825,11 @@
     "signature": "Breitestrasse 5_02",
     "title": "Südseite der Wylandstrasse 3, von der Breitestrasse aus",
     "year": "1932 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
-    "street": "Breitestrasse",
-    "loc": null
+    "district": "Winterthur-Stadt",
+    "neighbourhood": "Heiligberg",
+    "street": "Wylandstrasse",
+    "housenumber": "3",
+    "loc": "wylandstrasse_3"
   },
   {
     "id": "450",
@@ -2619,10 +2846,11 @@
     "signature": "Breitestrasse 5_04",
     "title": "Breitestrasse mit \"Haus zur Esche\"",
     "year": "1910 (Poststempel)",
-    "district": "Altstadt",
-    "neighbourhood": null,
+    "district": "Mattenbach",
+    "neighbourhood": "Deutweg",
     "street": "Breitestrasse",
-    "loc": null
+    "housenumber": "48",
+    "loc": "breitestrasse_48"
   },
   {
     "id": "452",
@@ -2754,9 +2982,10 @@
     "title": "Schulhaus Büelwies",
     "year": "1916 (Poststempel)",
     "district": "Seen",
-    "neighbourhood": null,
+    "neighbourhood": "Büelwiesen",
     "street": "Büelhofstrasse",
-    "loc": null
+    "housenumber": "32",
+    "loc": "büelhofstrasse_32"
   },
   {
     "id": "465",
@@ -2808,9 +3037,10 @@
     "title": "Campingplatz Schützenweiher mit Autos und Passanten, Eröffnung 1950er-Jahre",
     "year": "1950er-Jahre",
     "district": "Veltheim",
-    "neighbourhood": null,
+    "neighbourhood": "Rosenberg",
     "street": "Eichliwaldstrasse",
-    "loc": null
+    "housenumber": "4",
+    "loc": "eichliwaldstrasse_4"
   },
   {
     "id": "470",
@@ -7402,7 +7632,7 @@
   {
     "id": "918",
     "signature": "Kirche St-Peter und Paul_11",
-    "title": "Katholische Kirche St. Peter und Paul, Ansicht von Osten, mit handschritflichem Text",
+    "title": "Katholische Kirche St. Peter und Paul, Ansicht von Osten, mit handschriftlischem Text",
     "year": "1907  (Poststempel)",
     "district": "Altstadt",
     "neighbourhood": null,
@@ -10133,9 +10363,10 @@
     "title": "Kunsteisbahn Zelgli",
     "year": "1972",
     "district": "Mattenbach",
-    "neighbourhood": null,
+    "neighbourhood": "Deutweg",
     "street": "Eisweiherstrasse",
-    "loc": null
+    "housenumber": "161",
+    "loc": "eisweiherstrasse_161"
   },
   {
     "id": "2199",
@@ -50837,7 +51068,7 @@
   {
     "id": "14378",
     "signature": "060413",
-    "title": "Bahnhof Winterthur, Gleis 1, bekränze Dampflok",
+    "title": "Bahnhof Winterthur, Gleis 1, bekränzte Dampflok",
     "year": "um 1908/09",
     "district": "Winterthur-Stadt",
     "neighbourhood": "Altstadt",
@@ -89917,7 +90148,7 @@
   {
     "id": "20614",
     "signature": "068505",
-    "title": "Schloss Hegi, Inventar: Obere Vogtstube, Vorraum: Freskenstück aus der ehemaligen Kapelle Lindau-Bläsihof, 1958 abeglöst und im Schloss Hegi deponiert",
+    "title": "Schloss Hegi, Inventar: Obere Vogtstube, Vorraum: Freskenstück aus der ehemaligen Kapelle Lindau-Bläsihof, 1958 abgelöst und im Schloss Hegi deponiert",
     "year": "1987",
     "district": "Oberwinterthur",
     "neighbourhood": "Hegi",
@@ -89928,7 +90159,7 @@
   {
     "id": "20615",
     "signature": "068507",
-    "title": "Schloss Hegi, Inventar: Obere Vogtstube, Vorraum: Freskenstück aus der ehemaligen Kapelle Lindau-Bläsihof, 1958 abeglöst und im Schloss Hegi deponiert",
+    "title": "Schloss Hegi, Inventar: Obere Vogtstube, Vorraum: Freskenstück aus der ehemaligen Kapelle Lindau-Bläsihof, 1958 abgelöst und im Schloss Hegi deponiert",
     "year": "1987",
     "district": "Oberwinterthur",
     "neighbourhood": "Hegi",
@@ -159300,7 +159531,7 @@
   {
     "id": "30817",
     "signature": "082165",
-    "title": "Blick in den Im Grafenstein, rechts Rote Trotte, rlinks Im Grafenstein 4-6",
+    "title": "Blick in den Im Grafenstein, rechts Rote Trotte, links Im Grafenstein 4-6",
     "year": "24.02.1977",
     "district": "Wülflingen",
     "neighbourhood": "Oberfeld",
@@ -159311,7 +159542,7 @@
   {
     "id": "30818",
     "signature": "082166",
-    "title": "Blick in den Im Grafenstein, rechts Rote Trotte, rlinks Im Grafenstein 4-6",
+    "title": "Blick in den Im Grafenstein, rechts Rote Trotte, links Im Grafenstein 4-6",
     "year": "24.02.1977",
     "district": "Wülflingen",
     "neighbourhood": "Oberfeld",
@@ -171343,7 +171574,7 @@
   {
     "id": "32653",
     "signature": "101427",
-    "title": "Am Rosenberg 5, Friedhof Rosenberg, Abdankung vin Oberst Otto Bridler",
+    "title": "Am Rosenberg 5, Friedhof Rosenberg, Abdankung von Oberst Otto Bridler",
     "year": "1938",
     "district": "Veltheim",
     "neighbourhood": "Rosenberg",
@@ -171475,7 +171706,7 @@
   {
     "id": "32666",
     "signature": "101440",
-    "title": "Am Rosenberg 5, Friedhof Rosenberg, Abdankungskapelle, Mosaik an der Westwand vo Karl Hügin",
+    "title": "Am Rosenberg 5, Friedhof Rosenberg, Abdankungskapelle, Mosaik an der Westwand von Karl Hügin",
     "year": "10.1979",
     "district": "Veltheim",
     "neighbourhood": "Rosenberg",
@@ -171486,7 +171717,7 @@
   {
     "id": "32667",
     "signature": "101441",
-    "title": "Am Rosenberg 5, Friedhof Rosenberg, Abdankungskapelle, Mosaik an der Westwand vo Karl Hügin",
+    "title": "Am Rosenberg 5, Friedhof Rosenberg, Abdankungskapelle, Mosaik an der Westwand von Karl Hügin",
     "year": "10.1979",
     "district": "Veltheim",
     "neighbourhood": "Rosenberg",
@@ -180893,7 +181124,7 @@
   {
     "id": "34064",
     "signature": "111475",
-    "title": "Wieshofstrasse 5, gartenzaun entalng der Oberfeldstrasse",
+    "title": "Wieshofstrasse 5, gartenzaun entlang der Oberfeldstrasse",
     "year": "30.09.1976",
     "district": "Wülflingen",
     "neighbourhood": "Niederfeld",
@@ -181751,7 +181982,7 @@
   {
     "id": "34201",
     "signature": "111673",
-    "title": "Spinnerei Hard, Berufslager für abreitslose Metallarbeiter, Grundrissplan der Werkstätten und des Wohnbereichs",
+    "title": "Spinnerei Hard, Berufslager für arbeitslose Metallarbeiter, Grundrissplan der Werkstätten und des Wohnbereichs",
     "year": "1935",
     "district": "Wülflingen",
     "neighbourhood": "Hardau",
@@ -271599,7 +271830,7 @@
   {
     "id": "62835",
     "signature": "FotDig_Lb_003-807",
-    "title": "Stadthaus, Montage der wiederhersgestellten Giebelfiguren",
+    "title": "Stadthaus, Montage der wiederhergestellten Giebelfiguren",
     "year": "17.10.2005",
     "district": "Winterthur-Stadt",
     "neighbourhood": "Altstadt",
@@ -271610,7 +271841,7 @@
   {
     "id": "62836",
     "signature": "FotDig_Lb_003-808",
-    "title": "Stadthaus, Montage der wiederhersgestellten Giebelfiguren",
+    "title": "Stadthaus, Montage der wiederhergestellten Giebelfiguren",
     "year": "17.10.2005",
     "district": "Winterthur-Stadt",
     "neighbourhood": "Altstadt",
@@ -271621,7 +271852,7 @@
   {
     "id": "62837",
     "signature": "FotDig_Lb_003-809",
-    "title": "Stadthaus, Montage der wiederhersgestellten Giebelfiguren",
+    "title": "Stadthaus, Montage der wiederhergestellten Giebelfiguren",
     "year": "17.10.2005",
     "district": "Winterthur-Stadt",
     "neighbourhood": "Altstadt",
@@ -271632,7 +271863,7 @@
   {
     "id": "62838",
     "signature": "FotDig_Lb_003-810",
-    "title": "Stadthaus, Montage der wiederhersgestellten Giebelfiguren",
+    "title": "Stadthaus, Montage der wiederhergestellten Giebelfiguren",
     "year": "17.10.2005",
     "district": "Winterthur-Stadt",
     "neighbourhood": "Altstadt",
@@ -310604,7 +310835,7 @@
   {
     "id": "73756",
     "signature": "FotLb_005993",
-    "title": "Neumarkt 6, Alterszentrum Neumarkt, Neubau, Grundsteinlegung dürch Stadtpräsident Ernst Wohlwend (rechts) und Stadtrat Heiri Vogt (links)",
+    "title": "Neumarkt 6, Alterszentrum Neumarkt, Neubau, Grundsteinlegung durch Stadtpräsident Ernst Wohlwend (rechts) und Stadtrat Heiri Vogt (links)",
     "year": "04.10.1999",
     "district": "Winterthur-Stadt",
     "neighbourhood": "Altstadt",
@@ -311924,7 +312155,7 @@
   {
     "id": "73956",
     "signature": "FotLb_006172",
-    "title": "Marktgasse 70, Jelmoli Warenhaus, Innenansicht, stark reduzierete Artikel",
+    "title": "Marktgasse 70, Jelmoli Warenhaus, Innenansicht, stark reduzierte Artikel",
     "year": "Juli 1996",
     "district": "Winterthur-Stadt",
     "neighbourhood": "Altstadt",
@@ -314740,7 +314971,7 @@
   {
     "id": "74256",
     "signature": "FotLb_006456",
-    "title": "Garnmarkt 10, Redaktion Landbote, Kamele beime \"Lesen\" des Landbote-Aushangs",
+    "title": "Garnmarkt 10, Redaktion Landbote, Kamele beim \"Lesen\" des Landbote-Aushangs",
     "year": "06.09.1997",
     "district": "Winterthur-Stadt",
     "neighbourhood": "Altstadt",
@@ -320122,7 +320353,7 @@
   {
     "id": "74881",
     "signature": "FotLb_006967",
-    "title": "Römerstrasse 8, Museum Lindengut, Innenansicht, Spielzeugmuseum, Vitrinen, Mann mitr Kind",
+    "title": "Römerstrasse 8, Museum Lindengut, Innenansicht, Spielzeugmuseum, Vitrinen, Mann mit Kind",
     "year": "1980er-Jahre?",
     "district": "Winterthur-Stadt",
     "neighbourhood": "Altstadt",
@@ -323653,7 +323884,7 @@
   {
     "id": "75380",
     "signature": "FotLb_007341",
-    "title": "Rosenrain 17, Villa Wolfer, Kinder- und Jugendpsychiatrischer Dienst Kanton Zürich, Oberärzt:innnen Christoph Müller und Cornelia Bessler",
+    "title": "Rosenrain 17, Villa Wolfer, Kinder- und Jugendpsychiatrischer Dienst Kanton Zürich, Oberärzt:innen Christoph Müller und Cornelia Bessler",
     "year": "10.09.1997",
     "district": "Winterthur-Stadt",
     "neighbourhood": "Lind",
@@ -329467,7 +329698,7 @@
   {
     "id": "76327",
     "signature": "FotLb_008333",
-    "title": "Technikumstrasse 8, Alte Kaserne, Waldeggsee-Ausstellung, Patrick Fischer (rechts) erkläutert ein Modell",
+    "title": "Technikumstrasse 8, Alte Kaserne, Waldeggsee-Ausstellung, Patrick Fischer (rechts) erläutert ein Modell",
     "year": "30.11.1997",
     "district": "Winterthur-Stadt",
     "neighbourhood": "Altstadt",
@@ -352386,7 +352617,7 @@
   {
     "id": "80772",
     "signature": "FotRenold_1141_23",
-    "title": "Zentrum Töss, Passanten auf oderen Deck, im Hintergrund Gemeindehaus Töss",
+    "title": "Zentrum Töss, Passanten auf oberem Deck, im Hintergrund Gemeindehaus Töss",
     "year": "April 1972",
     "district": "Töss",
     "neighbourhood": "Schlosstal",

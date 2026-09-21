@@ -1,4 +1,44 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.734898, 47.481071]
+      },
+      "properties": {
+        "id": "aussichtsturm_eschenberg",
+        "street": "Turmfussweg",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.720779, 47.480835]
+      },
+      "properties": {
+        "id": "tugbrüggli",
+        "street": "Tugbrügglifussweg",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.74368, 47.504439]
+      },
+      "properties": {
+        "id": "bäumli",
+        "street": "Süsenbergstrasse",
+        "housenumber": null,
+        "status": "manual"
+      }
+    }
+  ]
 }

@@ -5751,6 +5751,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.727224349975586, 47.508296966552734]
+      },
+      "properties": {
+        "id": "brauerstrasse_36",
+        "street": "Brauerstrasse",
+        "housenumber": "38",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.72619342803955, 47.48958206176758]
       },
       "properties": {
@@ -13856,6 +13869,32 @@
         "id": "eisweiherstrasse_153",
         "street": "Eisweiherstrasse",
         "housenumber": "153",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.737942695617676, 47.48971176147461]
+      },
+      "properties": {
+        "id": "eisweiherstrasse_161",
+        "street": "Eisweiherstrasse",
+        "housenumber": "161",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.745621681213379, 47.47644805908203]
+      },
+      "properties": {
+        "id": "eschenbergstrasse_4",
+        "street": "Eschenbergstrasse",
+        "housenumber": "4",
         "status": "auto"
       }
     },
@@ -30613,6 +30652,19 @@
         "id": "hulmenweg_95",
         "street": "Hulmenweg",
         "housenumber": "95",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.799396514892578, 47.47250747680664]
+      },
+      "properties": {
+        "id": "heitertal_2",
+        "street": "Heitertal",
+        "housenumber": "2",
         "status": "auto"
       }
     },
@@ -62041,6 +62093,110 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.730568885803223, 47.507774353027344]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_67",
+        "street": "Rychenbergstrasse",
+        "housenumber": "68",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.731171607971191, 47.50869369506836]
+      },
+      "properties": {
+        "id": "haldenstrasse_83",
+        "street": "Haldenstrasse",
+        "housenumber": "83",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.729063987731934, 47.508766174316406]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_55",
+        "street": "Rychenbergstrasse",
+        "housenumber": "55",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.729063987731934, 47.508766174316406]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_57",
+        "street": "Rychenbergstrasse",
+        "housenumber": "55",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.729063987731934, 47.508766174316406]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_61",
+        "street": "Rychenbergstrasse",
+        "housenumber": "55",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.729063987731934, 47.508766174316406]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_67",
+        "street": "Rychenbergstrasse",
+        "housenumber": "55",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.729063987731934, 47.508766174316406]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_69",
+        "street": "Rychenbergstrasse",
+        "housenumber": "55",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.729063987731934, 47.508766174316406]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_73",
+        "street": "Rychenbergstrasse",
+        "housenumber": "55",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.73265, 47.50761]
       },
       "properties": {
@@ -89666,6 +89822,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.72465991973877, 47.49052047729492]
+      },
+      "properties": {
+        "id": "wylandstrasse_3",
+        "street": "Wylandstrasse",
+        "housenumber": "3",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.72167682647705, 47.493865966796875]
       },
       "properties": {
@@ -96257,6 +96426,84 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.725390434265137, 47.50771713256836]
+      },
+      "properties": {
+        "id": "blatterstrasse_1",
+        "street": "Blatterstrasse",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725390434265137, 47.50771713256836]
+      },
+      "properties": {
+        "id": "blatterstrasse_2",
+        "street": "Blatterstrasse",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725390434265137, 47.50771713256836]
+      },
+      "properties": {
+        "id": "blatterstrasse_3",
+        "street": "Blatterstrasse",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725390434265137, 47.50771713256836]
+      },
+      "properties": {
+        "id": "blatterstrasse_6",
+        "street": "Blatterstrasse",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725390434265137, 47.50771713256836]
+      },
+      "properties": {
+        "id": "blatterstrasse_7",
+        "street": "Blatterstrasse",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725851058959961, 47.50802230834961]
+      },
+      "properties": {
+        "id": "blatterstrasse_1",
+        "street": "Blatterstrasse",
+        "housenumber": "10",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.725630760192871, 47.50828552246094]
       },
       "properties": {
@@ -96276,6 +96523,19 @@
         "id": "blatterstrasse_13",
         "street": "Blatterstrasse",
         "housenumber": "13",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725390434265137, 47.50771713256836]
+      },
+      "properties": {
+        "id": "blatterstrasse_14",
+        "street": "Blatterstrasse",
+        "housenumber": "1",
         "status": "auto"
       }
     },
@@ -96365,6 +96625,19 @@
       },
       "properties": {
         "id": "malzstrasse_5",
+        "street": "Malzstrasse",
+        "housenumber": "5",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.72769832611084, 47.50835418701172]
+      },
+      "properties": {
+        "id": "malzstrasse_7",
         "street": "Malzstrasse",
         "housenumber": "5",
         "status": "auto"
