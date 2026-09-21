@@ -16,6 +16,7 @@ export function createFilters({ domRefs, dataStore, map, onStatsUpdate }) {
       if (matchingEntries.length === 0) continue;
 
       filteredGroups.push({
+        key: group.key,
         repCoord: group.repCoord,
         entries: matchingEntries,
       });

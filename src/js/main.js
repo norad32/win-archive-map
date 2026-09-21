@@ -25,6 +25,7 @@ function init() {
   }
 
   function handleMarkerClick(group) {
+    map.setSelected(group.key);
     showDetails(domRefs.detailsEl, group.entries);
     if (isMobileViewport() && domRefs.sidebarEl) {
       domRefs.sidebarEl.classList.add("open");

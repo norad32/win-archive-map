@@ -29,7 +29,7 @@ export function groupFeatures(entries, locationsById) {
       if (!coord) continue;
 
       if (!groups.has(locId)) {
-        groups.set(locId, { repCoord: coord, entries: [] });
+        groups.set(locId, { key: locId, repCoord: coord, entries: [] });
       }
       groups.get(locId).entries.push(entry);
     }

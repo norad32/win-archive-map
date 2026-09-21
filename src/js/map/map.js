@@ -9,6 +9,7 @@ export function createMap(elId, onMarkerClick) {
   /** @type {?L.MarkerClusterGroup} */
   let geoLayer = null;
   let hasFitInitialBounds = false;
+  let selectedGroupKey = null;
 
   map.on("contextmenu", (event) => {
     event.originalEvent?.preventDefault?.();
@@ -45,8 +46,16 @@ export function createMap(elId, onMarkerClick) {
     hasFitInitialBounds = true;
   }
 
-  function renderGroups(groups, { fitBounds = false } = {}) {
-    const markers = buildMarkersForGroups(groups, onMarkerClick, map);
+  function renderGroups(groups, { fitBounds = false, selectedKey } = {}) {
+    if (selectedKey !== undefined) {
+      selectedGroupKey = selectedKey;
+    }
+    const markers = buildMarkersForGroups(
+      groups,
+      onMarkerClick,
+      map,
+      selectedGroupKey,
+    );
     const layer = ensureGeoLayer();
 
     layer.clearLayers();
@@ -60,6 +69,9 @@ export function createMap(elId, onMarkerClick) {
   return {
     map,
     renderGroups,
+    setSelected: (key) => {
+      selectedGroupKey = key;
+    },
     invalidateSize: () => map.invalidateSize(),
     boundaryLayers: createBoundaryLayers(map),
   };
@@ -329,6 +341,8 @@ function createLeafletMap(elId) {
   map.createPane("boundaryLabelPane");
   map.getPane("boundaryLabelPane").style.zIndex = 650;
   map.getPane("boundaryLabelPane").style.pointerEvents = "none";
+
+  window.__map = map;
 
   return map;
 }
