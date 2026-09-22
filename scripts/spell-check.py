@@ -8,8 +8,12 @@ multi-layer whitelist:
 1. street names from addresses.geojson (full names and parts, e.g.
    "Römerstrasse" and "Römer")
 2. words from the Winterthur-Glossar titles (glossary.json)
-3. src/data/spellcheck-whitelist.json — a human-editable, sorted list that
-   starts from common local vocabulary and grows with --accept
+3. scripts/spellcheck-whitelist.json — a human-editable, sorted list that
+   grows with --accept
+
+Tokens are whole words: accented letters stay part of the word ("Apéro"),
+apostrophe name forms ("Egg'sches") and abbreviations ("Dr.", "ca.") are
+skipped instead of producing fragments.
 
 Everything else is checked with LanguageTool (German, local server; the
 first run downloads it once). Swiss orthography is enforced separately:
@@ -37,145 +41,37 @@ sys.path.insert(0, str(Path(__file__).parent))
 from jsonio import load_json, save_json
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "src" / "data"
+SCRIPTS_DIR = Path(__file__).resolve().parent
 ARCHIVE_PATH = DATA_DIR / "archive.json"
 ADDRESSES_PATH = DATA_DIR / "addresses.geojson"
 GLOSSARY_PATH = DATA_DIR / "glossary.json"
-WHITELIST_PATH = DATA_DIR / "spellcheck-whitelist.json"
+WHITELIST_PATH = SCRIPTS_DIR / "spellcheck-whitelist.json"
 
-TOKEN_RE = re.compile(r"[A-Za-zÄÖÜäöüß][A-Za-zÄÖÜäöüß-]*")
-WORD_RE = re.compile(r"^[A-Za-zÄÖÜäöüß]+$")
+# Unicode letters (incl. é, à, ß), apostrophes kept so name forms like
+# "Egg'sches" stay whole; a trailing period marks abbreviations.
+TOKEN_RE = re.compile(r"([^\W\d_']+(?:['\u2019][^\W\d_']+)*)(\.?)", re.UNICODE)
 
 LT_BATCH_SIZE = 200
 SPELLING_RULE_PREFIXES = ("SWISS_GERMAN", "MORFOLOGIK", "HUNSPELL", "SPELL")
 
-DEFAULT_WHITELIST = [
-    # Abbreviations whose periods the tokenizer strips.
-    "nr",
-    "dr",
-    "ff",
-    "ehem",
-    "gebr",
-    "bauamt",
-    # Swiss orthography and local vocabulary seen across many titles.
-    "ss",
-    "strasse",
-    "winterthur",
-    "winterthurer",
-    "gasse",
-    "platz",
-    "weg",
-    "quartier",
-    "seit",
-    "jahre",
-    "jahr",
-    "um",
-    "und",
-    "oder",
-    "vor",
-    "nach",
-    "von",
-    "vom",
-    "im",
-    "in",
-    "am",
-    "an",
-    "auf",
-    "aus",
-    "beim",
-    "zur",
-    "zum",
-    "alt",
-    "alte",
-    "alter",
-    "altes",
-    "neu",
-    "neue",
-    "neuer",
-    "neues",
-    "eck",
-    "hof",
-    "haus",
-    "häuser",
-    "kirche",
-    "kirchgemeinde",
-    "museum",
-    "heimatmuseum",
-    "stadt",
-    "stadtarchiv",
-    "stadtbibliothek",
-    "gemeinde",
-    "bezirk",
-    "kanton",
-    "kantons",
-    "see",
-    "fluss",
-    "bahn",
-    "bahnhof",
-    "trambahn",
-    "strassenbahn",
-    "fabrik",
-    "werke",
-    "werk",
-    "areal",
-    "bad",
-    "schulhaus",
-    "schule",
-    "spital",
-    "kantonsspital",
-    "friedhof",
-    "kapelle",
-    "schloss",
-    "burg",
-    "turm",
-    "brücke",
-    "weiher",
-    "wald",
-    "feld",
-    "berg",
-    "tal",
-    "mühle",
-    "müller",
-    "zimmer",
-    "laden",
-    "hotel",
-    "restaurant",
-    "café",
-    "kino",
-    "turnhalle",
-    "schwimmbad",
-    "baugeschäft",
-    "bauernhaus",
-    "wohnhaus",
-    "geschäftshaus",
-    "gebäude",
-    "denkmal",
-    "brunnen",
-    "wappen",
-    "glocke",
-    "orgel",
-    "chor",
-    "verein",
-    "fest",
-    "parade",
-    "umzug",
-    "jubiläum",
-    "ausstellung",
-    "konzert",
-    "theater",
-    "schiessen",
-    "schwinget",
-    "volksfest",
-]
-
 
 def tokenize(title: str) -> list[str]:
-    """Words suitable for checking: letters only, no numbers/abbrev noise."""
+    """Whole words suitable for checking.
+
+    - accented letters are part of words ("Apéro" stays one word)
+    - name forms with apostrophes ("Egg'sches") are skipped entirely
+    - short tokens followed by a period are abbreviations ("Dr.", "ca.")
+      and skipped; long sentence-final words are still checked
+    """
     words = []
-    for chunk in TOKEN_RE.findall(title or ""):
-        for part in chunk.split("-"):
-            part = part.strip("-")
-            if len(part) >= 2 and WORD_RE.match(part):
-                words.append(part)
+    for match in TOKEN_RE.finditer(title or ""):
+        token, period = match.group(1), match.group(2)
+        if "'" in token or "\u2019" in token:
+            continue
+        if period and len(token) <= 5:
+            continue
+        if len(token) >= 2:
+            words.append(token)
     return words
 
 
@@ -204,8 +100,8 @@ def build_known_words() -> set[str]:
 
 def ensure_whitelist_file() -> None:
     if not WHITELIST_PATH.exists():
-        save_json(WHITELIST_PATH, sorted(set(DEFAULT_WHITELIST)))
-        print(f"Created {WHITELIST_PATH.name} with default vocabulary")
+        save_json(WHITELIST_PATH, [])
+        print(f"Created empty {WHITELIST_PATH}")
 
 
 def check_with_languagetool(candidates: Counter) -> set[str]:
@@ -324,7 +220,6 @@ def main() -> int:
             if word.lower() not in known_words and count >= args.min_count
         }
     )
-    print(f"Unknown words after whitelist: {len(unknown)}")
 
     flagged: set[str] = set()
     if not args.no_languagetool and unknown:
@@ -339,19 +234,10 @@ def main() -> int:
         ((word, count) for word, count in unknown.items() if word.lower() in flagged),
         key=lambda item: (-item[1], item[0].lower()),
     )
-    maybe_ok = sorted(
-        (
-            (word, count)
-            for word, count in unknown.items()
-            if word.lower() not in flagged
-        ),
-        key=lambda item: (-item[1], item[0].lower()),
-    )
 
     lines = ["# Spell-check report", ""]
     lines.append(f"- Titles checked: {len(archive)}")
     lines.append(f"- Distinct words: {len(counts)}")
-    lines.append(f"- Unknown after whitelist: {len(unknown)}")
     lines.append(f"- Flagged by LanguageTool: {len(suspicious)}")
     lines.append(f"- Titles with ß (Swiss spelling): {len(sharp_s)}")
 
@@ -374,7 +260,6 @@ def main() -> int:
             lines.append(f"- ... and {len(items) - 200} more")
 
     word_section("Likely misspellings (LanguageTool)", suspicious)
-    word_section("Unknown but not flagged (probably names/compounds)", maybe_ok)
 
     report = "\n".join(lines) + "\n"
     Path(args.output).write_text(report, encoding="utf-8")

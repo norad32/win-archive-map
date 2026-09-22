@@ -15,7 +15,7 @@ Modes:
 - default                  scrape the next batch (no merge into live data)
 - --apply                  scrape batch, then merge into archive.json +
                            addresses.geojson, geocode new houses, re-derive
-                           districts
+                           districts, refresh the spell-check report
 - --apply-only             no scraping: apply the next --batch-size (100)
                            unapplied master records to the live data (same
                            pipeline); use --ids or --all for other selections
@@ -29,7 +29,8 @@ Usage:
     venv/bin/python scripts/update-archive.py [--batch-size 100] [--apply]
         [--apply-only] [--list-pending] [--dry-run] [--ids 12,34-56]
         [--page-delay 0.2] [--no-headless] [--max-id 100000]
-        [--skip-geocode] [--skip-districts] [--diff-report [PATH]]
+        [--skip-geocode] [--skip-districts] [--skip-spellcheck]
+        [--diff-report [PATH]]
 """
 
 from __future__ import annotations
@@ -50,11 +51,11 @@ from housenumbers import address_id, unroll_housenumber
 from jsonio import load_json, save_json
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "src" / "data"
+SCRIPTS_DIR = Path(__file__).resolve().parent
 MASTER_PATH = DATA_DIR / "archive-master.json"
-BLACKLIST_PATH = "archive-blacklist.json"
+BLACKLIST_PATH = SCRIPTS_DIR / "archive-blacklist.json"
 ARCHIVE_PATH = DATA_DIR / "archive.json"
 ADDRESSES_PATH = DATA_DIR / "addresses.geojson"
-SCRIPTS_DIR = Path(__file__).resolve().parent
 
 BASE_URL = "https://bilddatenbank.winterthur.ch/ims_publisher"
 START_URL = f"{BASE_URL}/start"
@@ -278,6 +279,11 @@ def main() -> int:
     parser.add_argument("--skip-geocode", action="store_true")
     parser.add_argument("--skip-districts", action="store_true")
     parser.add_argument(
+        "--skip-spellcheck",
+        action="store_true",
+        help="skip the spell-check report after apply",
+    )
+    parser.add_argument(
         "--diff-report", nargs="?", const="archive-diff.md", default=None
     )
     args = parser.parse_args()
@@ -436,6 +442,8 @@ def run_apply_pipeline(args) -> None:
         run_script("geocode.py", ["--ids", ",".join(new_house_ids)])
     if not args.skip_districts:
         run_script("update-districts.py")
+    if merged and not args.skip_spellcheck:
+        run_script("spell-check.py")
 
 
 def run_script(name: str, extra_args: list[str] | None = None) -> None:
