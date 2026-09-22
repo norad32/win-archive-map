@@ -29,7 +29,10 @@ sys.path.insert(0, str(Path(__file__).parent))
 from housenumbers import housenumber_sort_key
 from jsonio import load_json, save_json
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "src" / "data"
+DATA_DIRS = [
+    Path(__file__).resolve().parent.parent / "src" / "data",
+    Path(__file__).resolve().parent.parent / "scripts",
+]
 
 NATURAL_SPLIT_RE = re.compile(r"(\d+)")
 
@@ -117,7 +120,11 @@ def sort_file(path: Path) -> None:
 def main() -> int:
     paths = [Path(arg) for arg in sys.argv[1:]]
     if not paths:
-        paths = sorted(set(DATA_DIR.glob("*.json")) | set(DATA_DIR.glob("*.geojson")))
+        paths = sorted(
+            set(DATA_DIRS[0].glob("*.json"))
+            | set(DATA_DIRS[0].glob("*.geojson"))
+            | set(DATA_DIRS[1].glob("*.json"))
+        )
     paths = [p for p in paths if p.suffix in (".json", ".geojson")]
     print(f"Sorting {len(paths)} files")
     for path in paths:
