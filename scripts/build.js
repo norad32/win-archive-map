@@ -1,11 +1,32 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { spawnSync } from "child_process";
 import * as esbuild from "esbuild";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const srcDir = path.join(__dirname, "../src");
 const distDir = path.join(__dirname, "../dist");
+
+function runTests() {
+  const result = spawnSync(
+    "node",
+    [
+      "--test",
+      "--experimental-test-coverage",
+      path.join(__dirname, "../tests/"),
+    ],
+    {
+      stdio: "inherit",
+    },
+  );
+  if (result.status !== 0) {
+    console.error("Tests failed — aborting build.");
+    process.exit(result.status ?? 1);
+  }
+}
+
+runTests();
 
 if (fs.existsSync(distDir)) {
   fs.rmSync(distDir, { recursive: true });

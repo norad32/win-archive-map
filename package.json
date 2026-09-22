@@ -1,21 +1,23 @@
 {
-  "name": "win-archive-explorer",
+  "name": "win-archive-map",
   "version": "1.0.0",
   "description": "Interactive map viewer for Bildarchiv Winterthur",
   "type": "module",
   "scripts": {
-    "dev": "npx http-server src -p 8000 -o",
+    "dev": "node --test --test-reporter=dot --test-reporter-destination=stdout tests/ && npx http-server src -p 8000 -o",
     "build": "node scripts/build.js",
     "deploy": "npm run build && gh-pages -d dist",
     "lint": "eslint src --max-warnings=0",
-    "format": "prettier --write ."
+    "test": "node --test --experimental-test-coverage tests/",
+    "format": "prettier --write . && node scripts/format-js.mjs && venv/bin/black scripts src/data"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "esbuild": "^0.28.2",
     "eslint": "^10.9.1",
-    "@eslint/js": "^10.0.1",
     "gh-pages": "^6.3.0",
     "globals": "^17.12.0",
+    "happy-dom": "^20.14.5",
     "http-server": "^14.1.1",
     "prettier": "^3.9.6"
   },
