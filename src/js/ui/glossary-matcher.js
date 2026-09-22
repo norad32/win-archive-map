@@ -32,7 +32,7 @@ export async function loadGlossary() {
   return glossaryLoadPromise;
 }
 
-function normalize(text) {
+export function normalize(text) {
   if (!text) return "";
   return text
     .toLowerCase()
