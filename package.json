@@ -9,7 +9,7 @@
     "deploy": "npm run build && gh-pages -d dist",
     "lint": "eslint src --max-warnings=0",
     "test": "node --test --experimental-test-coverage tests/",
-    "format": "prettier --write . && node scripts/format-js.mjs && venv/bin/black scripts src/data"
+    "format": "prettier --write . && venv/bin/black scripts src/data"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
