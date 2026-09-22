@@ -18,11 +18,11 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.720779, 47.480835]
+        "coordinates": [8.74368, 47.504439]
       },
       "properties": {
-        "id": "tugbrüggli",
-        "street": "Tugbrügglifussweg",
+        "id": "bäumli",
+        "street": "Süsenbergstrasse",
         "housenumber": null,
         "status": "manual"
       }
@@ -31,11 +31,11 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.74368, 47.504439]
+        "coordinates": [8.720779, 47.480835]
       },
       "properties": {
-        "id": "bäumli",
-        "street": "Süsenbergstrasse",
+        "id": "tugbrüggli",
+        "street": "Tugbrügglifussweg",
         "housenumber": null,
         "status": "manual"
       }

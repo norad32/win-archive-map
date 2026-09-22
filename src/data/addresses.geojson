@@ -213,6 +213,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.735760688781738, 47.49983215332031]
+      },
+      "properties": {
+        "id": "adlerstrasse_12",
+        "street": "Adlerstrasse",
+        "housenumber": "12",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.736139297485352, 47.499855041503906]
+      },
+      "properties": {
+        "id": "adlerstrasse_14",
+        "street": "Adlerstrasse",
+        "housenumber": "14",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.758448600769043, 47.511268615722656]
       },
       "properties": {
@@ -402,6 +428,84 @@
         "street": "Agnesstrasse",
         "housenumber": "65",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7315034866333, 47.50648498535156]
+      },
+      "properties": {
+        "id": "albanistrasse_7",
+        "street": "Albanistrasse",
+        "housenumber": "7",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.732041358947754, 47.5067138671875]
+      },
+      "properties": {
+        "id": "albanistrasse_11",
+        "street": "Albanistrasse",
+        "housenumber": "11",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7311429977417, 47.506038665771484]
+      },
+      "properties": {
+        "id": "albanistrasse_12",
+        "street": "Albanistrasse",
+        "housenumber": "12",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.731342315673828, 47.506072998046875]
+      },
+      "properties": {
+        "id": "albanistrasse_14",
+        "street": "Albanistrasse",
+        "housenumber": "14",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.731844902038574, 47.50625228881836]
+      },
+      "properties": {
+        "id": "albanistrasse_20",
+        "street": "Albanistrasse",
+        "housenumber": "20",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "albanistrasse_22",
+        "street": "Albanistrasse",
+        "housenumber": "22",
+        "status": "todo"
       }
     },
     {
@@ -2683,6 +2787,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.722147941589355, 47.50933074951172]
+      },
+      "properties": {
+        "id": "bachtelstrasse_6",
+        "street": "Bachtelstrasse",
+        "housenumber": "6",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.721863746643066, 47.50933074951172]
       },
       "properties": {
@@ -2702,6 +2819,19 @@
         "id": "bachtelstrasse_10",
         "street": "Bachtelstrasse",
         "housenumber": "10",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.721162796020508, 47.50913619995117]
+      },
+      "properties": {
+        "id": "bachtelstrasse_13",
+        "street": "Bachtelstrasse",
+        "housenumber": "13",
         "status": "auto"
       }
     },
@@ -4048,12 +4178,64 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.737089157104492, 47.502838134765625]
+      },
+      "properties": {
+        "id": "bahnstrasse_21",
+        "street": "Bahnstrasse",
+        "housenumber": "21",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.737059593200684, 47.50284957885742]
+      },
+      "properties": {
+        "id": "bahnstrasse_23",
+        "street": "Bahnstrasse",
+        "housenumber": "23",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.736352920532227, 47.50309753417969]
       },
       "properties": {
         "id": "bahnstrasse_27",
         "street": "Bahnstrasse",
         "housenumber": "27",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "bahnstrasse_34a",
+        "street": "Bahnstrasse",
+        "housenumber": "34a",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.73514461517334, 47.503509521484375]
+      },
+      "properties": {
+        "id": "bahnstrasse_41",
+        "street": "Bahnstrasse",
+        "housenumber": "41",
         "status": "auto"
       }
     },
@@ -4113,6 +4295,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "bankstrasse_6",
+        "street": "Bankstrasse",
+        "housenumber": "6",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.725285, 47.500721]
       },
       "properties": {
@@ -4152,12 +4347,51 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.725656509399414, 47.50056457519531]
+      },
+      "properties": {
+        "id": "bankstrasse_10_2",
+        "street": "Bankstrasse",
+        "housenumber": "10",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.725808143615723, 47.50039291381836]
       },
       "properties": {
         "id": "bankstrasse_12",
         "street": "Bankstrasse",
         "housenumber": "8",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725540161132812, 47.50091552734375]
+      },
+      "properties": {
+        "id": "bankstrasse_12_2",
+        "street": "Bankstrasse",
+        "housenumber": "12",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725404739379883, 47.50130844116211]
+      },
+      "properties": {
+        "id": "bankstrasse_20",
+        "street": "Bankstrasse",
+        "housenumber": "20",
         "status": "auto"
       }
     },
@@ -5010,6 +5244,123 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.725390434265137, 47.50771713256836]
+      },
+      "properties": {
+        "id": "blatterstrasse_1",
+        "street": "Blatterstrasse",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725851058959961, 47.50802230834961]
+      },
+      "properties": {
+        "id": "blatterstrasse_1",
+        "street": "Blatterstrasse",
+        "housenumber": "10",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725390434265137, 47.50771713256836]
+      },
+      "properties": {
+        "id": "blatterstrasse_2",
+        "street": "Blatterstrasse",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725390434265137, 47.50771713256836]
+      },
+      "properties": {
+        "id": "blatterstrasse_3",
+        "street": "Blatterstrasse",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725390434265137, 47.50771713256836]
+      },
+      "properties": {
+        "id": "blatterstrasse_6",
+        "street": "Blatterstrasse",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725390434265137, 47.50771713256836]
+      },
+      "properties": {
+        "id": "blatterstrasse_7",
+        "street": "Blatterstrasse",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725630760192871, 47.50828552246094]
+      },
+      "properties": {
+        "id": "blatterstrasse_11",
+        "street": "Blatterstrasse",
+        "housenumber": "11",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7257080078125, 47.508445739746094]
+      },
+      "properties": {
+        "id": "blatterstrasse_13",
+        "street": "Blatterstrasse",
+        "housenumber": "13",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725390434265137, 47.50771713256836]
+      },
+      "properties": {
+        "id": "blatterstrasse_14",
+        "street": "Blatterstrasse",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.717551231384277, 47.50348663330078]
       },
       "properties": {
@@ -5673,6 +6024,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "brauerstrasse_3",
+        "street": "Brauerstrasse",
+        "housenumber": "3",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.73163890838623, 47.50686264038086]
       },
       "properties": {
@@ -5757,6 +6121,45 @@
         "id": "brauerstrasse_36",
         "street": "Brauerstrasse",
         "housenumber": "38",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.727224349975586, 47.508296966552734]
+      },
+      "properties": {
+        "id": "brauerstrasse_38",
+        "street": "Brauerstrasse",
+        "housenumber": "38",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.727015495300293, 47.50838088989258]
+      },
+      "properties": {
+        "id": "brauerstrasse_40",
+        "street": "Brauerstrasse",
+        "housenumber": "40",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725156784057617, 47.50874328613281]
+      },
+      "properties": {
+        "id": "brauerstrasse_62",
+        "street": "Brauerstrasse",
+        "housenumber": "62",
         "status": "auto"
       }
     },
@@ -6622,6 +7025,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.725323677062988, 47.50562286376953]
+      },
+      "properties": {
+        "id": "brunngasse_8",
+        "street": "Brunngasse",
+        "housenumber": "8",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.724781036376953, 47.50533676147461]
       },
       "properties": {
@@ -6654,6 +7070,136 @@
         "id": "brunngasse_15",
         "street": "Brunngasse",
         "housenumber": "15",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725398063659668, 47.50655746459961]
+      },
+      "properties": {
+        "id": "brunngasse_25",
+        "street": "Brunngasse",
+        "housenumber": "25",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725495338439941, 47.506622314453125]
+      },
+      "properties": {
+        "id": "brunngasse_27",
+        "street": "Brunngasse",
+        "housenumber": "27",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725481986999512, 47.50675582885742]
+      },
+      "properties": {
+        "id": "brunngasse_29",
+        "street": "Brunngasse",
+        "housenumber": "29",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.726518630981445, 47.50752258300781]
+      },
+      "properties": {
+        "id": "brunngasse_30",
+        "street": "Brunngasse",
+        "housenumber": "30",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725632667541504, 47.506858825683594]
+      },
+      "properties": {
+        "id": "brunngasse_31",
+        "street": "Brunngasse",
+        "housenumber": "31",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.72569465637207, 47.506961822509766]
+      },
+      "properties": {
+        "id": "brunngasse_33",
+        "street": "Brunngasse",
+        "housenumber": "33",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725624084472656, 47.50716781616211]
+      },
+      "properties": {
+        "id": "brunngasse_35",
+        "street": "Brunngasse",
+        "housenumber": "35",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.72690486907959, 47.508419036865234]
+      },
+      "properties": {
+        "id": "brunngasse_36",
+        "street": "Brunngasse",
+        "housenumber": "36",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.727039337158203, 47.508609771728516]
+      },
+      "properties": {
+        "id": "brunngasse_38",
+        "street": "Brunngasse",
+        "housenumber": "38",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.726192474365234, 47.507904052734375]
+      },
+      "properties": {
+        "id": "brunngasse_45",
+        "street": "Brunngasse",
+        "housenumber": "45",
         "status": "auto"
       }
     },
@@ -9859,6 +10405,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.717999458312988, 47.50461196899414]
+      },
+      "properties": {
+        "id": "bürglistrasse_2",
+        "street": "Bürglistrasse",
+        "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.715298652648926, 47.505123138427734]
       },
       "properties": {
@@ -10541,6 +11100,19 @@
         "id": "dorfstrasse_6",
         "street": "Dorfstrasse",
         "housenumber": "6",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.757651329040527, 47.507720947265625]
+      },
+      "properties": {
+        "id": "dorfstrasse_12",
+        "street": "Dorfstrasse",
+        "housenumber": "12",
         "status": "auto"
       }
     },
@@ -13889,19 +14461,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.745621681213379, 47.47644805908203]
-      },
-      "properties": {
-        "id": "eschenbergstrasse_4",
-        "street": "Eschenbergstrasse",
-        "housenumber": "4",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.770644187927246, 47.489749908447266]
       },
       "properties": {
@@ -14675,6 +15234,19 @@
         "id": "eschenbergstrasse_1",
         "street": "Eschenbergstrasse",
         "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.745621681213379, 47.47644805908203]
+      },
+      "properties": {
+        "id": "eschenbergstrasse_4",
+        "street": "Eschenbergstrasse",
+        "housenumber": "4",
         "status": "auto"
       }
     },
@@ -15995,6 +16567,45 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.735453605651855, 47.502830505371094]
+      },
+      "properties": {
+        "id": "falkenstrasse_15",
+        "street": "Falkenstrasse",
+        "housenumber": "15",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735466957092285, 47.502994537353516]
+      },
+      "properties": {
+        "id": "falkenstrasse_17",
+        "street": "Falkenstrasse",
+        "housenumber": "17",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735526084899902, 47.50316619873047]
+      },
+      "properties": {
+        "id": "falkenstrasse_19",
+        "street": "Falkenstrasse",
+        "housenumber": "19",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.751164436340332, 47.527984619140625]
       },
       "properties": {
@@ -16411,6 +17022,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.717452049255371, 47.50882339477539]
+      },
+      "properties": {
+        "id": "feldstrasse_4",
+        "street": "Feldstrasse",
+        "housenumber": "4",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.717469215393066, 47.508731842041016]
       },
       "properties": {
@@ -16456,6 +17080,19 @@
         "id": "feldstrasse_9",
         "street": "Feldstrasse",
         "housenumber": "9",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.717906951904297, 47.50762176513672]
+      },
+      "properties": {
+        "id": "feldstrasse_10",
+        "street": "Feldstrasse",
+        "housenumber": "10",
         "status": "auto"
       }
     },
@@ -17971,6 +18608,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.752645492553711, 47.503108978271484]
+      },
+      "properties": {
+        "id": "friedheimstrasse_33",
+        "street": "Friedheimstrasse",
+        "housenumber": "33",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.70296573638916, 47.49398422241211]
       },
       "properties": {
@@ -18342,6 +18992,32 @@
         "street": "Fuchshalde",
         "housenumber": "40",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.739953994750977, 47.49352264404297]
+      },
+      "properties": {
+        "id": "färberstrasse_2",
+        "street": "Färberstrasse",
+        "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "färberstrasse_41",
+        "street": "Färberstrasse",
+        "housenumber": "41",
+        "status": "todo"
       }
     },
     {
@@ -19245,6 +19921,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.741917610168457, 47.500762939453125]
+      },
+      "properties": {
+        "id": "geiselweidstrasse_6",
+        "street": "Geiselweidstrasse",
+        "housenumber": "6",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.742504, 47.500584]
       },
       "properties": {
@@ -19290,6 +19979,19 @@
         "id": "geiselweidstrasse_52",
         "street": "Geiselweidstrasse",
         "housenumber": "52",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.745264053344727, 47.49835205078125]
+      },
+      "properties": {
+        "id": "geiselweidstrasse_53",
+        "street": "Geiselweidstrasse",
+        "housenumber": "53",
         "status": "auto"
       }
     },
@@ -20298,12 +21000,51 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "gottfried_keller_strasse_52",
+        "street": "Gottfried-Keller-Strasse",
+        "housenumber": "52",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.73465633392334, 47.504661560058594]
       },
       "properties": {
         "id": "gottfried_keller_strasse_55",
         "street": "Gottfried-Keller-Strasse",
         "housenumber": "55",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.734091758728027, 47.50482177734375]
+      },
+      "properties": {
+        "id": "gottfried_keller_strasse_59",
+        "street": "Gottfried-Keller-Strasse",
+        "housenumber": "59",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.733797073364258, 47.504905700683594]
+      },
+      "properties": {
+        "id": "gottfried_keller_strasse_61",
+        "street": "Gottfried-Keller-Strasse",
+        "housenumber": "61",
         "status": "auto"
       }
     },
@@ -20331,6 +21072,19 @@
         "street": "Gottfried-Keller-Strasse",
         "housenumber": "64",
         "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.732747077941895, 47.50520324707031]
+      },
+      "properties": {
+        "id": "gottfried_keller_strasse_65",
+        "street": "Gottfried-Keller-Strasse",
+        "housenumber": "65",
+        "status": "auto"
       }
     },
     {
@@ -22924,6 +23678,97 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.734184265136719, 47.51008987426758]
+      },
+      "properties": {
+        "id": "gütlitobelweg_17",
+        "street": "Gütlitobelweg",
+        "housenumber": "17",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.734591484069824, 47.51011276245117]
+      },
+      "properties": {
+        "id": "gütlitobelweg_19",
+        "street": "Gütlitobelweg",
+        "housenumber": "19",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.736038208007812, 47.50965881347656]
+      },
+      "properties": {
+        "id": "gütlitobelweg_20",
+        "street": "Gütlitobelweg",
+        "housenumber": "20",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.73510456085205, 47.5099983215332]
+      },
+      "properties": {
+        "id": "gütlitobelweg_21",
+        "street": "Gütlitobelweg",
+        "housenumber": "21",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735190391540527, 47.50967788696289]
+      },
+      "properties": {
+        "id": "gütlitobelweg_23",
+        "street": "Gütlitobelweg",
+        "housenumber": "23",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735533714294434, 47.50973129272461]
+      },
+      "properties": {
+        "id": "gütlitobelweg_25",
+        "street": "Gütlitobelweg",
+        "housenumber": "25",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735814094543457, 47.509944915771484]
+      },
+      "properties": {
+        "id": "gütlitobelweg_27",
+        "street": "Gütlitobelweg",
+        "housenumber": "27",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.768794059753418, 47.48898696899414]
       },
       "properties": {
@@ -23093,6 +23938,58 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "haldenstrasse_3",
+        "street": "Haldenstrasse",
+        "housenumber": "3",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.719710350036621, 47.511661529541016]
+      },
+      "properties": {
+        "id": "haldenstrasse_8",
+        "street": "Haldenstrasse",
+        "housenumber": "8",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.719969749450684, 47.51173782348633]
+      },
+      "properties": {
+        "id": "haldenstrasse_14",
+        "street": "Haldenstrasse",
+        "housenumber": "14",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.72044849395752, 47.511878967285156]
+      },
+      "properties": {
+        "id": "haldenstrasse_22",
+        "street": "Haldenstrasse",
+        "housenumber": "22",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.729393005371094, 47.505615234375]
       },
       "properties": {
@@ -23158,6 +24055,84 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.73011302947998, 47.50563430786133]
+      },
+      "properties": {
+        "id": "haldenstrasse_46",
+        "street": "Haldenstrasse",
+        "housenumber": "46",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.730237007141113, 47.50559997558594]
+      },
+      "properties": {
+        "id": "haldenstrasse_48",
+        "street": "Haldenstrasse",
+        "housenumber": "48",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.730388641357422, 47.505558013916016]
+      },
+      "properties": {
+        "id": "haldenstrasse_50",
+        "street": "Haldenstrasse",
+        "housenumber": "50",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.73055362701416, 47.50648498535156]
+      },
+      "properties": {
+        "id": "haldenstrasse_56",
+        "street": "Haldenstrasse",
+        "housenumber": "56",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.73058032989502, 47.50653076171875]
+      },
+      "properties": {
+        "id": "haldenstrasse_58",
+        "street": "Haldenstrasse",
+        "housenumber": "58",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.730630874633789, 47.506595611572266]
+      },
+      "properties": {
+        "id": "haldenstrasse_60",
+        "street": "Haldenstrasse",
+        "housenumber": "60",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.730342864990234, 47.50759506225586]
       },
       "properties": {
@@ -23177,6 +24152,110 @@
         "id": "haldenstrasse_70",
         "street": "Haldenstrasse",
         "housenumber": "70",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "haldenstrasse_73",
+        "street": "Haldenstrasse",
+        "housenumber": "73",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.732617378234863, 47.508548736572266]
+      },
+      "properties": {
+        "id": "haldenstrasse_74",
+        "street": "Haldenstrasse",
+        "housenumber": "74",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.732660293579102, 47.50893020629883]
+      },
+      "properties": {
+        "id": "haldenstrasse_76",
+        "street": "Haldenstrasse",
+        "housenumber": "76",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.732129096984863, 47.508975982666016]
+      },
+      "properties": {
+        "id": "haldenstrasse_78",
+        "street": "Haldenstrasse",
+        "housenumber": "78",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.73168659210205, 47.50901412963867]
+      },
+      "properties": {
+        "id": "haldenstrasse_80",
+        "street": "Haldenstrasse",
+        "housenumber": "80",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.731171607971191, 47.50869369506836]
+      },
+      "properties": {
+        "id": "haldenstrasse_83",
+        "street": "Haldenstrasse",
+        "housenumber": "83",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.732970237731934, 47.510780334472656]
+      },
+      "properties": {
+        "id": "haldenstrasse_90",
+        "street": "Haldenstrasse",
+        "housenumber": "90",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.733591079711914, 47.510677337646484]
+      },
+      "properties": {
+        "id": "haldenstrasse_94",
+        "street": "Haldenstrasse",
+        "housenumber": "94",
         "status": "auto"
       }
     },
@@ -25628,6 +26707,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.746432304382324, 47.50074005126953]
+      },
+      "properties": {
+        "id": "hegistrasse_4ff",
+        "street": "Hegistrasse",
+        "housenumber": "4ff",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.752586, 47.501465]
       },
       "properties": {
@@ -25647,6 +26739,32 @@
         "id": "hegistrasse_35",
         "street": "Hegistrasse",
         "housenumber": "35",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "hegistrasse_44",
+        "street": "Hegistrasse",
+        "housenumber": "44",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.758769035339355, 47.506107330322266]
+      },
+      "properties": {
+        "id": "hegistrasse_49",
+        "street": "Hegistrasse",
+        "housenumber": "49",
         "status": "auto"
       }
     },
@@ -26213,6 +27331,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.799396514892578, 47.47250747680664]
+      },
+      "properties": {
+        "id": "heitertal_2",
+        "street": "Heitertal",
+        "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.750781059265137, 47.50597381591797]
       },
       "properties": {
@@ -26499,6 +27630,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.733189582824707, 47.5040168762207]
+      },
+      "properties": {
+        "id": "hermann_götz_strasse_2",
+        "street": "Hermann-Götz-Strasse",
+        "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.732935905456543, 47.50403594970703]
+      },
+      "properties": {
+        "id": "hermann_götz_strasse_4",
+        "street": "Hermann-Götz-Strasse",
+        "housenumber": "4",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.73408031463623, 47.503639221191406]
       },
       "properties": {
@@ -26545,6 +27702,71 @@
         "street": "Hermann-Götz-Strasse",
         "housenumber": "9",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.731592178344727, 47.504180908203125]
+      },
+      "properties": {
+        "id": "hermann_götz_strasse_10",
+        "street": "Hermann-Götz-Strasse",
+        "housenumber": "10",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.731260299682617, 47.504234313964844]
+      },
+      "properties": {
+        "id": "hermann_götz_strasse_12",
+        "street": "Hermann-Götz-Strasse",
+        "housenumber": "12",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.732634544372559, 47.503944396972656]
+      },
+      "properties": {
+        "id": "hermann_götz_strasse_13",
+        "street": "Hermann-Götz-Strasse",
+        "housenumber": "13",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.732601165771484, 47.503944396972656]
+      },
+      "properties": {
+        "id": "hermann_götz_strasse_15",
+        "street": "Hermann-Götz-Strasse",
+        "housenumber": "15",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "hermann_götz_strasse_20",
+        "street": "Hermann-Götz-Strasse",
+        "housenumber": "20",
+        "status": "todo"
       }
     },
     {
@@ -26609,6 +27831,19 @@
         "id": "hermannstrasse_11",
         "street": "Hermannstrasse",
         "housenumber": "11",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.741066932678223, 47.49809646606445]
+      },
+      "properties": {
+        "id": "hermannstrasse_15",
+        "street": "Hermannstrasse",
+        "housenumber": "15",
         "status": "auto"
       }
     },
@@ -29385,6 +30620,58 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.73069953918457, 47.4982795715332]
+      },
+      "properties": {
+        "id": "holdergasse_1",
+        "street": "Holdergasse",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "holdergasse_3",
+        "street": "Holdergasse",
+        "housenumber": "3",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.730563163757324, 47.498291015625]
+      },
+      "properties": {
+        "id": "holdergasse_5",
+        "street": "Holdergasse",
+        "housenumber": "5",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "holdergasse_7",
+        "street": "Holdergasse",
+        "housenumber": "7",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.730782508850098, 47.49809265136719]
       },
       "properties": {
@@ -29716,6 +31003,19 @@
         "id": "holzlegistrasse_57",
         "street": "Holzlegistrasse",
         "housenumber": "57",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.728361129760742, 47.50800704956055]
+      },
+      "properties": {
+        "id": "hopfenstrasse_3",
+        "street": "Hopfenstrasse",
+        "housenumber": "3",
         "status": "auto"
       }
     },
@@ -30659,19 +31959,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.799396514892578, 47.47250747680664]
-      },
-      "properties": {
-        "id": "heitertal_2",
-        "street": "Heitertal",
-        "housenumber": "2",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.769929885864258, 47.48610305786133]
       },
       "properties": {
@@ -30880,6 +32167,45 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.743169784545898, 47.494632720947266]
+      },
+      "properties": {
+        "id": "hörnlistrasse_2",
+        "street": "Hörnlistrasse",
+        "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.743112564086914, 47.4938850402832]
+      },
+      "properties": {
+        "id": "hörnlistrasse_6",
+        "street": "Hörnlistrasse",
+        "housenumber": "6",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.743673324584961, 47.49418258666992]
+      },
+      "properties": {
+        "id": "hörnlistrasse_8",
+        "street": "Hörnlistrasse",
+        "housenumber": "8",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.7446928024292, 47.49327087402344]
       },
       "properties": {
@@ -30938,6 +32264,19 @@
         "id": "hörnlistrasse_26",
         "street": "Hörnlistrasse",
         "housenumber": "26",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.745111465454102, 47.493446350097656]
+      },
+      "properties": {
+        "id": "hörnlistrasse_27",
+        "street": "Hörnlistrasse",
+        "housenumber": "27",
         "status": "auto"
       }
     },
@@ -31160,6 +32499,19 @@
         "street": "Hörnlistrasse",
         "housenumber": "66",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "hügelweg_17",
+        "street": "Hügelweg",
+        "housenumber": "17",
+        "status": "todo"
       }
     },
     {
@@ -36275,6 +37627,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.733114242553711, 47.50267028808594]
+      },
+      "properties": {
+        "id": "jakobstrasse_2",
+        "street": "Jakobstrasse",
+        "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.73288631439209, 47.50312423706055]
       },
       "properties": {
@@ -36347,6 +37712,19 @@
         "street": "Jakobstrasse",
         "housenumber": "15",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "jakobstrasse_16",
+        "street": "Jakobstrasse",
+        "housenumber": "16",
+        "status": "todo"
       }
     },
     {
@@ -37302,6 +38680,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.720592498779297, 47.5074348449707]
+      },
+      "properties": {
+        "id": "juchstrasse_22",
+        "street": "Juchstrasse",
+        "housenumber": "22",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.716484, 47.494469]
       },
       "properties": {
@@ -37724,6 +39115,71 @@
         "id": "jägerstrasse_81",
         "street": "Jägerstrasse",
         "housenumber": "81",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.713814735412598, 47.495426177978516]
+      },
+      "properties": {
+        "id": "jägerstrasse_83",
+        "street": "Jägerstrasse",
+        "housenumber": "83",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.713800430297852, 47.49543380737305]
+      },
+      "properties": {
+        "id": "jägerstrasse_85",
+        "street": "Jägerstrasse",
+        "housenumber": "85",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.762070655822754, 47.48310089111328]
+      },
+      "properties": {
+        "id": "kanzleistrasse_2",
+        "street": "Kanzleistrasse",
+        "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "kanzleistrasse_4",
+        "street": "Kanzleistrasse",
+        "housenumber": "4",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.76203441619873, 47.48332214355469]
+      },
+      "properties": {
+        "id": "kanzleistrasse_6",
+        "street": "Kanzleistrasse",
+        "housenumber": "6",
         "status": "auto"
       }
     },
@@ -38205,6 +39661,32 @@
         "id": "kanzleistrasse_60",
         "street": "Kanzleistrasse",
         "housenumber": "60",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "karl_matthaei_strasse_34a",
+        "street": "Karl-Matthaei-Strasse",
+        "housenumber": "34a",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.726255416870117, 47.49959182739258]
+      },
+      "properties": {
+        "id": "kasinostrasse_1",
+        "street": "Kasinostrasse",
+        "housenumber": "1",
         "status": "auto"
       }
     },
@@ -41735,6 +43217,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.740360260009766, 47.5026741027832]
+      },
+      "properties": {
+        "id": "leesteig_7",
+        "street": "Leesteig",
+        "housenumber": "7",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.745555877685547, 47.50082015991211]
       },
       "properties": {
@@ -41891,12 +43386,38 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.742918968200684, 47.501678466796875]
+      },
+      "properties": {
+        "id": "leimeneggstrasse_27",
+        "street": "Leimeneggstrasse",
+        "housenumber": "27",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.74400520324707, 47.50186538696289]
       },
       "properties": {
         "id": "leimeneggstrasse_28",
         "street": "Leimeneggstrasse",
         "housenumber": "28",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.742829322814941, 47.501705169677734]
+      },
+      "properties": {
+        "id": "leimeneggstrasse_29",
+        "street": "Leimeneggstrasse",
+        "housenumber": "29",
         "status": "auto"
       }
     },
@@ -41917,12 +43438,116 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.74280071258545, 47.501712799072266]
+      },
+      "properties": {
+        "id": "leimeneggstrasse_31",
+        "street": "Leimeneggstrasse",
+        "housenumber": "31",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.742658615112305, 47.50175857543945]
+      },
+      "properties": {
+        "id": "leimeneggstrasse_33",
+        "street": "Leimeneggstrasse",
+        "housenumber": "33",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.74262523651123, 47.501766204833984]
+      },
+      "properties": {
+        "id": "leimeneggstrasse_35",
+        "street": "Leimeneggstrasse",
+        "housenumber": "35",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.742292404174805, 47.501834869384766]
+      },
+      "properties": {
+        "id": "leimeneggstrasse_39",
+        "street": "Leimeneggstrasse",
+        "housenumber": "39",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.742223739624023, 47.501853942871094]
+      },
+      "properties": {
+        "id": "leimeneggstrasse_41",
+        "street": "Leimeneggstrasse",
+        "housenumber": "41",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7420072555542, 47.501956939697266]
+      },
+      "properties": {
+        "id": "leimeneggstrasse_43",
+        "street": "Leimeneggstrasse",
+        "housenumber": "43",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.741979598999023, 47.5019645690918]
+      },
+      "properties": {
+        "id": "leimeneggstrasse_45",
+        "street": "Leimeneggstrasse",
+        "housenumber": "45",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.745556, 47.50082]
       },
       "properties": {
         "id": "leimeneggstrasse_52",
         "street": "Leimeneggstrasse",
         "housenumber": "52",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "leimeneggstrasse_62",
+        "street": "Leimeneggstrasse",
+        "housenumber": "62",
         "status": "todo"
       }
     },
@@ -43126,6 +44751,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.7178955078125, 47.507301330566406]
+      },
+      "properties": {
+        "id": "lindenstrasse_4",
+        "street": "Lindenstrasse",
+        "housenumber": "4",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.717796325683594, 47.5072021484375]
       },
       "properties": {
@@ -43158,6 +44796,32 @@
         "id": "lindenstrasse_17",
         "street": "Lindenstrasse",
         "housenumber": "17",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "lindfussweg_2",
+        "street": "Lindfussweg",
+        "housenumber": "2",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "lindfussweg_22",
+        "street": "Lindfussweg",
+        "housenumber": "22",
         "status": "todo"
       }
     },
@@ -43243,12 +44907,90 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.72944450378418, 47.50502395629883]
+      },
+      "properties": {
+        "id": "lindstrasse_16",
+        "street": "Lindstrasse",
+        "housenumber": "16",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.727264404296875, 47.50663375854492]
+      },
+      "properties": {
+        "id": "lindstrasse_18a",
+        "street": "Lindstrasse",
+        "housenumber": "18a",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.726868629455566, 47.506805419921875]
+      },
+      "properties": {
+        "id": "lindstrasse_20",
+        "street": "Lindstrasse",
+        "housenumber": "20",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.730074882507324, 47.503089904785156]
       },
       "properties": {
         "id": "lindstrasse_21",
         "street": "Lindstrasse",
         "housenumber": "21",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725129127502441, 47.507957458496094]
+      },
+      "properties": {
+        "id": "lindstrasse_22",
+        "street": "Lindstrasse",
+        "housenumber": "22",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.730009078979492, 47.50328063964844]
+      },
+      "properties": {
+        "id": "lindstrasse_23",
+        "street": "Lindstrasse",
+        "housenumber": "23",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.724569320678711, 47.50831985473633]
+      },
+      "properties": {
+        "id": "lindstrasse_24",
+        "street": "Lindstrasse",
+        "housenumber": "24",
         "status": "auto"
       }
     },
@@ -43308,12 +45050,51 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.724032402038574, 47.508724212646484]
+      },
+      "properties": {
+        "id": "lindstrasse_32",
+        "street": "Lindstrasse",
+        "housenumber": "32",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.727775573730469, 47.50519561767578]
       },
       "properties": {
         "id": "lindstrasse_35",
         "street": "Lindstrasse",
         "housenumber": "35",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.723655700683594, 47.50901412963867]
+      },
+      "properties": {
+        "id": "lindstrasse_36",
+        "street": "Lindstrasse",
+        "housenumber": "36",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.723465919494629, 47.5091552734375]
+      },
+      "properties": {
+        "id": "lindstrasse_38",
+        "street": "Lindstrasse",
+        "housenumber": "38",
         "status": "auto"
       }
     },
@@ -43379,6 +45160,32 @@
         "id": "lindstrasse_45",
         "street": "Lindstrasse",
         "housenumber": "45",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.724452018737793, 47.508113861083984]
+      },
+      "properties": {
+        "id": "lindstrasse_47",
+        "street": "Lindstrasse",
+        "housenumber": "47",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.723892211914062, 47.50847625732422]
+      },
+      "properties": {
+        "id": "lindstrasse_51",
+        "street": "Lindstrasse",
+        "housenumber": "51",
         "status": "auto"
       }
     },
@@ -43626,6 +45433,19 @@
         "id": "lärchenstrasse_60",
         "street": "Lärchenstrasse",
         "housenumber": "60",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.718871116638184, 47.509342193603516]
+      },
+      "properties": {
+        "id": "löwenstrasse_1",
+        "street": "Löwenstrasse",
+        "housenumber": "1",
         "status": "auto"
       }
     },
@@ -43978,6 +45798,84 @@
         "street": "Maienstrasse/Schaffhauserstrasse",
         "housenumber": "15",
         "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.72811222076416, 47.50822830200195]
+      },
+      "properties": {
+        "id": "malzstrasse_1",
+        "street": "Malzstrasse",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.727906227111816, 47.5082893371582]
+      },
+      "properties": {
+        "id": "malzstrasse_3",
+        "street": "Malzstrasse",
+        "housenumber": "3",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.72769832611084, 47.50835418701172]
+      },
+      "properties": {
+        "id": "malzstrasse_5",
+        "street": "Malzstrasse",
+        "housenumber": "5",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.72769832611084, 47.50835418701172]
+      },
+      "properties": {
+        "id": "malzstrasse_7",
+        "street": "Malzstrasse",
+        "housenumber": "5",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.727490425109863, 47.508419036865234]
+      },
+      "properties": {
+        "id": "malzstrasse_7",
+        "street": "Malzstrasse",
+        "housenumber": "7",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.727289199829102, 47.50848388671875]
+      },
+      "properties": {
+        "id": "malzstrasse_9",
+        "street": "Malzstrasse",
+        "housenumber": "9",
+        "status": "auto"
       }
     },
     {
@@ -45076,6 +46974,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "merkurstrasse_5",
+        "street": "Merkurstrasse",
+        "housenumber": "5",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "merkurstrasse_8",
+        "street": "Merkurstrasse",
+        "housenumber": "8",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.726313, 47.501842]
       },
       "properties": {
@@ -45986,6 +47910,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.736577033996582, 47.5014533996582]
+      },
+      "properties": {
+        "id": "museumstrasse_9",
+        "street": "Museumstrasse",
+        "housenumber": "9",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.737046241760254, 47.50181579589844]
       },
       "properties": {
@@ -46051,6 +47988,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.732678413391113, 47.501373291015625]
+      },
+      "properties": {
+        "id": "museumstrasse_44",
+        "street": "Museumstrasse",
+        "housenumber": "44",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.731609344482422, 47.501365661621094]
       },
       "properties": {
@@ -46084,6 +48034,32 @@
         "street": "Museumstrasse",
         "housenumber": "53",
         "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.729471206665039, 47.5014533996582]
+      },
+      "properties": {
+        "id": "museumstrasse_54",
+        "street": "Museumstrasse",
+        "housenumber": "54",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.72913646697998, 47.50157165527344]
+      },
+      "properties": {
+        "id": "museumstrasse_56",
+        "street": "Museumstrasse",
+        "housenumber": "56",
+        "status": "auto"
       }
     },
     {
@@ -46149,6 +48125,19 @@
         "street": "Museumstrasse",
         "housenumber": "71",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "museumstrasse_73",
+        "street": "Museumstrasse",
+        "housenumber": "73",
+        "status": "todo"
       }
     },
     {
@@ -46304,6 +48293,19 @@
         "id": "mörsburgstrasse_3",
         "street": "Mörsburgstrasse",
         "housenumber": "3",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.769767761230469, 47.53959274291992]
+      },
+      "properties": {
+        "id": "mörsburgstrasse_22",
+        "street": "Mörsburgstrasse",
+        "housenumber": "22",
         "status": "auto"
       }
     },
@@ -46701,6 +48703,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "münzgasse_1",
+        "street": "Münzgasse",
+        "housenumber": "1",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.724997520446777, 47.499420166015625]
       },
       "properties": {
@@ -46708,6 +48723,19 @@
         "street": "Münzgasse",
         "housenumber": "2",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "münzgasse_3",
+        "street": "Münzgasse",
+        "housenumber": "3",
+        "status": "todo"
       }
     },
     {
@@ -46824,6 +48852,19 @@
         "id": "neftenbacherstrasse_28",
         "street": "Neftenbacherstrasse",
         "housenumber": "28",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.73391056060791, 47.50273513793945]
+      },
+      "properties": {
+        "id": "nelkenstrasse_2",
+        "street": "Nelkenstrasse",
+        "housenumber": "2",
         "status": "auto"
       }
     },
@@ -48040,6 +50081,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.732803344726562, 47.49959945678711]
+      },
+      "properties": {
+        "id": "neustadtgasse_30",
+        "street": "Neustadtgasse",
+        "housenumber": "30",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.732828140258789, 47.49969482421875]
+      },
+      "properties": {
+        "id": "neustadtgasse_32",
+        "street": "Neustadtgasse",
+        "housenumber": "32",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.732730865478516, 47.499755859375]
       },
       "properties": {
@@ -48047,6 +50114,19 @@
         "street": "Neustadtgasse",
         "housenumber": "33",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "neustadtgasse_34",
+        "street": "Neustadtgasse",
+        "housenumber": "34",
+        "status": "todo"
       }
     },
     {
@@ -48723,6 +50803,19 @@
         "street": "Nussbaumweg",
         "housenumber": "7",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "nägelseestrasse_4",
+        "street": "Nägelseestrasse",
+        "housenumber": "4",
+        "status": "todo"
       }
     },
     {
@@ -49795,6 +51888,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.746936798095703, 47.496543884277344]
+      },
+      "properties": {
+        "id": "oberer_deutweg_1",
+        "street": "Oberer Deutweg",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.746463775634766, 47.496551513671875]
       },
       "properties": {
@@ -49866,6 +51972,19 @@
         "id": "oberer_deutweg_41",
         "street": "Oberer Deutweg",
         "housenumber": "41",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.741777420043945, 47.49395751953125]
+      },
+      "properties": {
+        "id": "oberer_deutweg_59",
+        "street": "Oberer Deutweg",
+        "housenumber": "59",
         "status": "auto"
       }
     },
@@ -49970,6 +52089,19 @@
         "id": "oberer_graben_14",
         "street": "Oberer Graben",
         "housenumber": "14",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.731322288513184, 47.498924255371094]
+      },
+      "properties": {
+        "id": "oberer_graben_16",
+        "street": "Oberer Graben",
+        "housenumber": "16",
         "status": "auto"
       }
     },
@@ -52369,6 +54501,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.702553749084473, 47.50937271118164]
+      },
+      "properties": {
+        "id": "oberfeldweg_17",
+        "street": "Oberfeldweg",
+        "housenumber": "17",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.702890396118164, 47.50906753540039]
       },
       "properties": {
@@ -54657,6 +56802,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "obertor_48",
+        "street": "Obertor",
+        "housenumber": "48",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.733382, 47.499977]
       },
       "properties": {
@@ -54787,6 +56945,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.739043235778809, 47.503116607666016]
+      },
+      "properties": {
+        "id": "oststrasse_8",
+        "street": "Oststrasse",
+        "housenumber": "8",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.73885726928711, 47.50322723388672]
+      },
+      "properties": {
+        "id": "oststrasse_10",
+        "street": "Oststrasse",
+        "housenumber": "10",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.737351417541504, 47.50334167480469]
       },
       "properties": {
@@ -54878,12 +57062,51 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.738018989562988, 47.498592376708984]
+      },
+      "properties": {
+        "id": "palmstrasse_20",
+        "street": "Palmstrasse",
+        "housenumber": "20",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738019943237305, 47.49875259399414]
+      },
+      "properties": {
+        "id": "palmstrasse_22",
+        "street": "Palmstrasse",
+        "housenumber": "22",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.73819637298584, 47.50009536743164]
       },
       "properties": {
         "id": "palmstrasse_26",
         "street": "Palmstrasse",
         "housenumber": "26",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.737424850463867, 47.5001106262207]
+      },
+      "properties": {
+        "id": "palmstrasse_27",
+        "street": "Palmstrasse",
+        "housenumber": "27",
         "status": "auto"
       }
     },
@@ -55736,6 +57959,58 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "pflanzschulstrasse_1",
+        "street": "Pflanzschulstrasse",
+        "housenumber": "1",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.741386413574219, 47.49436950683594]
+      },
+      "properties": {
+        "id": "pflanzschulstrasse_2",
+        "street": "Pflanzschulstrasse",
+        "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.74096393585205, 47.494354248046875]
+      },
+      "properties": {
+        "id": "pflanzschulstrasse_3",
+        "street": "Pflanzschulstrasse",
+        "housenumber": "3",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "pflanzschulstrasse_5",
+        "street": "Pflanzschulstrasse",
+        "housenumber": "5",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.741386413574219, 47.495479583740234]
       },
       "properties": {
@@ -55743,6 +58018,19 @@
         "street": "Pflanzschulstrasse",
         "housenumber": "6a",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "pflanzschulstrasse_7",
+        "street": "Pflanzschulstrasse",
+        "housenumber": "7",
+        "status": "todo"
       }
     },
     {
@@ -55775,12 +58063,51 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "pflanzschulstrasse_10",
+        "street": "Pflanzschulstrasse",
+        "housenumber": "10",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.740614891052246, 47.49493408203125]
+      },
+      "properties": {
+        "id": "pflanzschulstrasse_11",
+        "street": "Pflanzschulstrasse",
+        "housenumber": "11",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.740711212158203, 47.496070861816406]
       },
       "properties": {
         "id": "pflanzschulstrasse_12",
         "street": "Pflanzschulstrasse",
         "housenumber": "12",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.740570068359375, 47.49510192871094]
+      },
+      "properties": {
+        "id": "pflanzschulstrasse_13",
+        "street": "Pflanzschulstrasse",
+        "housenumber": "13",
         "status": "auto"
       }
     },
@@ -56067,6 +58394,19 @@
         "id": "pflanzschulstrasse_64",
         "street": "Pflanzschulstrasse",
         "housenumber": "64",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "pflanzschulstrasse_80",
+        "street": "Pflanzschulstrasse",
+        "housenumber": "80",
         "status": "todo"
       }
     },
@@ -60117,6 +62457,45 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.723095893859863, 47.50989532470703]
+      },
+      "properties": {
+        "id": "rosenbergstrasse_2",
+        "street": "Rosenbergstrasse",
+        "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.723228454589844, 47.51014709472656]
+      },
+      "properties": {
+        "id": "rosenbergstrasse_4",
+        "street": "Rosenbergstrasse",
+        "housenumber": "4",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.72342586517334, 47.510162353515625]
+      },
+      "properties": {
+        "id": "rosenbergstrasse_6",
+        "street": "Rosenbergstrasse",
+        "housenumber": "6",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.724349021911621, 47.511714935302734]
       },
       "properties": {
@@ -60130,12 +62509,51 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.724727630615234, 47.51146697998047]
+      },
+      "properties": {
+        "id": "rosenrain_2",
+        "street": "Rosenrain",
+        "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.724780082702637, 47.511474609375]
+      },
+      "properties": {
+        "id": "rosenrain_4",
+        "street": "Rosenrain",
+        "housenumber": "4",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.724788665771484, 47.512603759765625]
       },
       "properties": {
         "id": "rosenrain_17",
         "street": "Rosenrain",
         "housenumber": "17",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725951194763184, 47.51184844970703]
+      },
+      "properties": {
+        "id": "rosenrain_18",
+        "street": "Rosenrain",
+        "housenumber": "18",
         "status": "auto"
       }
     },
@@ -60266,6 +62684,32 @@
         "id": "rosentalstrasse_65",
         "street": "Rosentalstrasse",
         "housenumber": "65",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rosentalstrasse_69",
+        "street": "Rosentalstrasse",
+        "housenumber": "69",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.723883628845215, 47.5106086730957]
+      },
+      "properties": {
+        "id": "rosentalstrasse_78",
+        "street": "Rosentalstrasse",
+        "housenumber": "78",
         "status": "auto"
       }
     },
@@ -61872,6 +64316,58 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.724859237670898, 47.50600051879883]
+      },
+      "properties": {
+        "id": "rundstrasse_11",
+        "street": "Rundstrasse",
+        "housenumber": "11",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.724702835083008, 47.50598907470703]
+      },
+      "properties": {
+        "id": "rundstrasse_13",
+        "street": "Rundstrasse",
+        "housenumber": "13",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.72449779510498, 47.50596237182617]
+      },
+      "properties": {
+        "id": "rundstrasse_15",
+        "street": "Rundstrasse",
+        "housenumber": "15",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.724370002746582, 47.50588607788086]
+      },
+      "properties": {
+        "id": "rundstrasse_17",
+        "street": "Rundstrasse",
+        "housenumber": "17",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.72476577758789, 47.506195068359375]
       },
       "properties": {
@@ -61891,6 +64387,58 @@
         "id": "rundstrasse_19",
         "street": "Rundstrasse",
         "housenumber": "19",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.724709510803223, 47.50630187988281]
+      },
+      "properties": {
+        "id": "rundstrasse_20",
+        "street": "Rundstrasse",
+        "housenumber": "20",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.724696159362793, 47.50642013549805]
+      },
+      "properties": {
+        "id": "rundstrasse_22",
+        "street": "Rundstrasse",
+        "housenumber": "22",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.724382400512695, 47.50639343261719]
+      },
+      "properties": {
+        "id": "rundstrasse_24",
+        "street": "Rundstrasse",
+        "housenumber": "24",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.724322319030762, 47.50630569458008]
+      },
+      "properties": {
+        "id": "rundstrasse_26",
+        "street": "Rundstrasse",
+        "housenumber": "26",
         "status": "auto"
       }
     },
@@ -61924,6 +64472,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.72205924987793, 47.506446838378906]
+      },
+      "properties": {
+        "id": "rundstrasse_38",
+        "street": "Rundstrasse",
+        "housenumber": "38",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.720693588256836, 47.50647735595703]
       },
       "properties": {
@@ -61943,6 +64504,19 @@
         "id": "rundstrasse_43",
         "street": "Rundstrasse",
         "housenumber": "43",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.721295356750488, 47.506561279296875]
+      },
+      "properties": {
+        "id": "rundstrasse_44",
+        "street": "Rundstrasse",
+        "housenumber": "44",
         "status": "auto"
       }
     },
@@ -61989,12 +64563,51 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.723331451416016, 47.50987243652344]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_1",
+        "street": "Rychenbergstrasse",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.723356246948242, 47.509639739990234]
       },
       "properties": {
         "id": "rychenbergstrasse_2",
         "street": "Rychenbergstrasse",
         "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.723618507385254, 47.50994110107422]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_3",
+        "street": "Rychenbergstrasse",
+        "housenumber": "3",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.724204063415527, 47.509727478027344]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_10",
+        "street": "Rychenbergstrasse",
+        "housenumber": "10",
         "status": "auto"
       }
     },
@@ -62028,6 +64641,71 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.725052833557129, 47.509727478027344]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_14",
+        "street": "Rychenbergstrasse",
+        "housenumber": "14",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725560188293457, 47.50956726074219]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_22",
+        "street": "Rychenbergstrasse",
+        "housenumber": "22",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725693702697754, 47.5097541809082]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_23",
+        "street": "Rychenbergstrasse",
+        "housenumber": "23",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_25",
+        "street": "Rychenbergstrasse",
+        "housenumber": "25",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_29",
+        "street": "Rychenbergstrasse",
+        "housenumber": "29",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.725886, 47.509875]
       },
       "properties": {
@@ -62035,6 +64713,110 @@
         "street": "Rychenbergstrasse",
         "housenumber": "31",
         "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.72658920288086, 47.50924301147461]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_32",
+        "street": "Rychenbergstrasse",
+        "housenumber": "32",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.727228164672852, 47.509010314941406]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_38",
+        "street": "Rychenbergstrasse",
+        "housenumber": "38",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.727084159851074, 47.50950622558594]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_39",
+        "street": "Rychenbergstrasse",
+        "housenumber": "39",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.727426528930664, 47.50897979736328]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_40",
+        "street": "Rychenbergstrasse",
+        "housenumber": "40",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.727110862731934, 47.50949478149414]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_41",
+        "street": "Rychenbergstrasse",
+        "housenumber": "41",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.727627754211426, 47.508914947509766]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_42",
+        "street": "Rychenbergstrasse",
+        "housenumber": "42",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.72777271270752, 47.50886917114258]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_44",
+        "street": "Rychenbergstrasse",
+        "housenumber": "44",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.727932929992676, 47.508819580078125]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_46",
+        "street": "Rychenbergstrasse",
+        "housenumber": "46",
+        "status": "auto"
       }
     },
     {
@@ -62067,51 +64849,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.728691101074219, 47.50848388671875]
+        "coordinates": [8.728562355041504, 47.50859451293945]
       },
       "properties": {
-        "id": "rychenbergstrasse_56",
+        "id": "rychenbergstrasse_54",
         "street": "Rychenbergstrasse",
-        "housenumber": "56",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.730568885803223, 47.507774353027344]
-      },
-      "properties": {
-        "id": "rychenbergstrasse_68",
-        "street": "Rychenbergstrasse",
-        "housenumber": "68",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.730568885803223, 47.507774353027344]
-      },
-      "properties": {
-        "id": "rychenbergstrasse_67",
-        "street": "Rychenbergstrasse",
-        "housenumber": "68",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.731171607971191, 47.50869369506836]
-      },
-      "properties": {
-        "id": "haldenstrasse_83",
-        "street": "Haldenstrasse",
-        "housenumber": "83",
+        "housenumber": "54",
         "status": "auto"
       }
     },
@@ -62132,12 +64875,51 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.728691101074219, 47.50848388671875]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_56",
+        "street": "Rychenbergstrasse",
+        "housenumber": "56",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.729063987731934, 47.508766174316406]
       },
       "properties": {
         "id": "rychenbergstrasse_57",
         "street": "Rychenbergstrasse",
         "housenumber": "55",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.729509353637695, 47.508914947509766]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_57_2",
+        "street": "Rychenbergstrasse",
+        "housenumber": "57",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.730088233947754, 47.509037017822266]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_59",
+        "street": "Rychenbergstrasse",
+        "housenumber": "59",
         "status": "auto"
       }
     },
@@ -62158,12 +64940,38 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.730568885803223, 47.507774353027344]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_67",
+        "street": "Rychenbergstrasse",
+        "housenumber": "68",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.729063987731934, 47.508766174316406]
       },
       "properties": {
         "id": "rychenbergstrasse_67",
         "street": "Rychenbergstrasse",
         "housenumber": "55",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.730568885803223, 47.507774353027344]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_68",
+        "street": "Rychenbergstrasse",
+        "housenumber": "68",
         "status": "auto"
       }
     },
@@ -62184,12 +64992,64 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_71",
+        "street": "Rychenbergstrasse",
+        "housenumber": "71",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.729063987731934, 47.508766174316406]
       },
       "properties": {
         "id": "rychenbergstrasse_73",
         "street": "Rychenbergstrasse",
         "housenumber": "55",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.731728553771973, 47.507225036621094]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_74",
+        "street": "Rychenbergstrasse",
+        "housenumber": "74",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.731649398803711, 47.507598876953125]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_75",
+        "street": "Rychenbergstrasse",
+        "housenumber": "75",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.731947898864746, 47.5070915222168]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_76",
+        "street": "Rychenbergstrasse",
+        "housenumber": "76",
         "status": "auto"
       }
     },
@@ -62204,6 +65064,32 @@
         "street": "Rychenbergstrasse",
         "housenumber": "77",
         "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_78",
+        "street": "Rychenbergstrasse",
+        "housenumber": "78",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_80",
+        "street": "Rychenbergstrasse",
+        "housenumber": "80",
+        "status": "todo"
       }
     },
     {
@@ -62249,6 +65135,45 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_86",
+        "street": "Rychenbergstrasse",
+        "housenumber": "86",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_88",
+        "street": "Rychenbergstrasse",
+        "housenumber": "88",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_90",
+        "street": "Rychenbergstrasse",
+        "housenumber": "90",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.734227180480957, 47.50653839111328]
       },
       "properties": {
@@ -62256,6 +65181,19 @@
         "street": "Rychenbergstrasse",
         "housenumber": "91a",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_92",
+        "street": "Rychenbergstrasse",
+        "housenumber": "92",
+        "status": "todo"
       }
     },
     {
@@ -62288,6 +65226,58 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.73501205444336, 47.506317138671875]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_95",
+        "street": "Rychenbergstrasse",
+        "housenumber": "95",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735071182250977, 47.50569534301758]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_96",
+        "street": "Rychenbergstrasse",
+        "housenumber": "96",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735119819641113, 47.505802154541016]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_98",
+        "street": "Rychenbergstrasse",
+        "housenumber": "98",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735217094421387, 47.50590515136719]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_100",
+        "street": "Rychenbergstrasse",
+        "housenumber": "100",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.736200332641602, 47.50597381591797]
       },
       "properties": {
@@ -62295,6 +65285,19 @@
         "street": "Rychenbergstrasse",
         "housenumber": "101",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_102",
+        "street": "Rychenbergstrasse",
+        "housenumber": "102",
+        "status": "todo"
       }
     },
     {
@@ -62320,6 +65323,19 @@
         "id": "rychenbergstrasse_106",
         "street": "Rychenbergstrasse",
         "housenumber": "106",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.736047744750977, 47.50521469116211]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_108",
+        "street": "Rychenbergstrasse",
+        "housenumber": "108",
         "status": "auto"
       }
     },
@@ -62353,6 +65369,45 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.738113403320312, 47.5061149597168]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_111",
+        "street": "Rychenbergstrasse",
+        "housenumber": "111",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_112",
+        "street": "Rychenbergstrasse",
+        "housenumber": "112",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_114",
+        "street": "Rychenbergstrasse",
+        "housenumber": "114",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.738091468811035, 47.505760192871094]
       },
       "properties": {
@@ -62366,6 +65421,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_116",
+        "street": "Rychenbergstrasse",
+        "housenumber": "116",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.738370895385742, 47.50564193725586]
       },
       "properties": {
@@ -62373,6 +65441,19 @@
         "street": "Rychenbergstrasse",
         "housenumber": "117",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_118",
+        "street": "Rychenbergstrasse",
+        "housenumber": "118",
+        "status": "todo"
       }
     },
     {
@@ -62405,6 +65486,45 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.738728523254395, 47.50556564331055]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_121",
+        "street": "Rychenbergstrasse",
+        "housenumber": "121",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_122",
+        "street": "Rychenbergstrasse",
+        "housenumber": "122",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_124",
+        "street": "Rychenbergstrasse",
+        "housenumber": "124",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.73928165435791, 47.505348205566406]
       },
       "properties": {
@@ -62412,6 +65532,19 @@
         "street": "Rychenbergstrasse",
         "housenumber": "125",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_126",
+        "street": "Rychenbergstrasse",
+        "housenumber": "126",
+        "status": "todo"
       }
     },
     {
@@ -62431,6 +65564,123 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_128",
+        "street": "Rychenbergstrasse",
+        "housenumber": "128",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_130",
+        "street": "Rychenbergstrasse",
+        "housenumber": "130",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.739657402038574, 47.50515365600586]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_131",
+        "street": "Rychenbergstrasse",
+        "housenumber": "131",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_132",
+        "street": "Rychenbergstrasse",
+        "housenumber": "132",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_134",
+        "street": "Rychenbergstrasse",
+        "housenumber": "134",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7396879196167, 47.50464630126953]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_135",
+        "street": "Rychenbergstrasse",
+        "housenumber": "135",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_136",
+        "street": "Rychenbergstrasse",
+        "housenumber": "136",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.740337371826172, 47.504859924316406]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_137",
+        "street": "Rychenbergstrasse",
+        "housenumber": "137",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_138",
+        "street": "Rychenbergstrasse",
+        "housenumber": "138",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.73974895477295, 47.50430679321289]
       },
       "properties": {
@@ -62438,6 +65688,97 @@
         "street": "Rychenbergstrasse",
         "housenumber": "140",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.740865707397461, 47.50444412231445]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_141",
+        "street": "Rychenbergstrasse",
+        "housenumber": "141",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_142",
+        "street": "Rychenbergstrasse",
+        "housenumber": "142",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_144",
+        "street": "Rychenbergstrasse",
+        "housenumber": "144",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_146",
+        "street": "Rychenbergstrasse",
+        "housenumber": "146",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_148",
+        "street": "Rychenbergstrasse",
+        "housenumber": "148",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_150",
+        "street": "Rychenbergstrasse",
+        "housenumber": "150",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_152",
+        "street": "Rychenbergstrasse",
+        "housenumber": "152",
+        "status": "todo"
       }
     },
     {
@@ -62457,6 +65798,84 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_154",
+        "street": "Rychenbergstrasse",
+        "housenumber": "154",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.74202823638916, 47.50389099121094]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_155",
+        "street": "Rychenbergstrasse",
+        "housenumber": "155",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_156",
+        "street": "Rychenbergstrasse",
+        "housenumber": "156",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_158",
+        "street": "Rychenbergstrasse",
+        "housenumber": "158",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.741609573364258, 47.50321578979492]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_160",
+        "street": "Rychenbergstrasse",
+        "housenumber": "160",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_162",
+        "street": "Rychenbergstrasse",
+        "housenumber": "162",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.742639541625977, 47.50299072265625]
       },
       "properties": {
@@ -62470,12 +65889,129 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.742615699768066, 47.502716064453125]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_164",
+        "street": "Rychenbergstrasse",
+        "housenumber": "164",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.742855072021484, 47.5026741027832]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_166",
+        "street": "Rychenbergstrasse",
+        "housenumber": "166",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.743451118469238, 47.503196716308594]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_167",
+        "street": "Rychenbergstrasse",
+        "housenumber": "167",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.742929458618164, 47.502593994140625]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_168",
+        "street": "Rychenbergstrasse",
+        "housenumber": "168",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.743712425231934, 47.502967834472656]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_169",
+        "street": "Rychenbergstrasse",
+        "housenumber": "169",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.74319076538086, 47.50248336791992]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_170",
+        "street": "Rychenbergstrasse",
+        "housenumber": "170",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7437105178833, 47.502349853515625]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_172",
+        "street": "Rychenbergstrasse",
+        "housenumber": "172",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.743943214416504, 47.502254486083984]
       },
       "properties": {
         "id": "rychenbergstrasse_176",
         "street": "Rychenbergstrasse",
         "housenumber": "176",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.744251251220703, 47.502140045166016]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_178",
+        "street": "Rychenbergstrasse",
+        "housenumber": "178",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.745025634765625, 47.50223922729492]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_183",
+        "street": "Rychenbergstrasse",
+        "housenumber": "183",
         "status": "auto"
       }
     },
@@ -62632,6 +66168,19 @@
         "id": "rychenbergstrasse_214",
         "street": "Rychenbergstrasse",
         "housenumber": "214",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.747100830078125, 47.50397872924805]
+      },
+      "properties": {
+        "id": "rychenbergstrasse_222",
+        "street": "Rychenbergstrasse",
+        "housenumber": "222",
         "status": "auto"
       }
     },
@@ -63263,6 +66812,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "rychenbergstrasse_1935",
+        "street": "Rychenbergstrasse",
+        "housenumber": "1935",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.798101425170898, 47.48683166503906]
       },
       "properties": {
@@ -63510,6 +67072,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.737212181091309, 47.50077438354492]
+      },
+      "properties": {
+        "id": "römerstrasse_23",
+        "street": "Römerstrasse",
+        "housenumber": "23",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.738039016723633, 47.50086975097656]
       },
       "properties": {
@@ -63568,6 +67143,19 @@
         "id": "römerstrasse_30",
         "street": "Römerstrasse",
         "housenumber": "30",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.748909950256348, 47.50326919555664]
+      },
+      "properties": {
+        "id": "römerstrasse_31",
+        "street": "Römerstrasse",
+        "housenumber": "31",
         "status": "auto"
       }
     },
@@ -65161,12 +68749,38 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.721552848815918, 47.509857177734375]
+      },
+      "properties": {
+        "id": "rütlistrasse_2",
+        "street": "Rütlistrasse",
+        "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.721905708312988, 47.50889587402344]
       },
       "properties": {
         "id": "rütlistrasse_10",
         "street": "Rütlistrasse",
         "housenumber": "10",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.721880912780762, 47.50838851928711]
+      },
+      "properties": {
+        "id": "rütlistrasse_14",
+        "street": "Rütlistrasse",
+        "housenumber": "14",
         "status": "auto"
       }
     },
@@ -65181,6 +68795,19 @@
         "street": "Rütlistrasse",
         "housenumber": "15",
         "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.722049713134766, 47.508392333984375]
+      },
+      "properties": {
+        "id": "rütlistrasse_21",
+        "street": "Rütlistrasse",
+        "housenumber": "21",
+        "status": "auto"
       }
     },
     {
@@ -65551,6 +69178,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.724882125854492, 47.504276275634766]
+      },
+      "properties": {
+        "id": "schaffhauserstrasse_10",
+        "street": "Schaffhauserstrasse",
+        "housenumber": "10",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.724811553955078, 47.50355911254883]
       },
       "properties": {
@@ -65570,6 +69210,19 @@
         "id": "schaffhauserstrasse_12",
         "street": "Schaffhauserstrasse",
         "housenumber": "12",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.724653244018555, 47.50371551513672]
+      },
+      "properties": {
+        "id": "schaffhauserstrasse_13",
+        "street": "Schaffhauserstrasse",
+        "housenumber": "13",
         "status": "auto"
       }
     },
@@ -65642,6 +69295,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.72380256652832, 47.50636672973633]
+      },
+      "properties": {
+        "id": "schaffhauserstrasse_22",
+        "street": "Schaffhauserstrasse",
+        "housenumber": "22",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.723641395568848, 47.50654602050781]
+      },
+      "properties": {
+        "id": "schaffhauserstrasse_24",
+        "street": "Schaffhauserstrasse",
+        "housenumber": "24",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.72374153137207, 47.50544357299805]
       },
       "properties": {
@@ -65655,12 +69334,77 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.724042892456055, 47.506629943847656]
+      },
+      "properties": {
+        "id": "schaffhauserstrasse_26",
+        "street": "Schaffhauserstrasse",
+        "housenumber": "26",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.72341537475586, 47.506195068359375]
       },
       "properties": {
         "id": "schaffhauserstrasse_27",
         "street": "Schaffhauserstrasse",
         "housenumber": "27",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.724197387695312, 47.506717681884766]
+      },
+      "properties": {
+        "id": "schaffhauserstrasse_28",
+        "street": "Schaffhauserstrasse",
+        "housenumber": "28",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.723402976989746, 47.50638198852539]
+      },
+      "properties": {
+        "id": "schaffhauserstrasse_29",
+        "street": "Schaffhauserstrasse",
+        "housenumber": "29",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.723514556884766, 47.50685119628906]
+      },
+      "properties": {
+        "id": "schaffhauserstrasse_30",
+        "street": "Schaffhauserstrasse",
+        "housenumber": "30",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.723447799682617, 47.50690460205078]
+      },
+      "properties": {
+        "id": "schaffhauserstrasse_30a",
+        "street": "Schaffhauserstrasse",
+        "housenumber": "30a",
         "status": "auto"
       }
     },
@@ -65798,6 +69542,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.722769737243652, 47.51010513305664]
+      },
+      "properties": {
+        "id": "schaffhauserstrasse_46",
+        "street": "Schaffhauserstrasse",
+        "housenumber": "46",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.72283935546875, 47.50801467895508]
       },
       "properties": {
@@ -65856,6 +69613,19 @@
         "id": "schaffhauserstrasse_59",
         "street": "Schaffhauserstrasse",
         "housenumber": "59",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "schaffhauserstrasse_60",
+        "street": "Schaffhauserstrasse",
+        "housenumber": "60",
         "status": "todo"
       }
     },
@@ -66448,6 +70218,45 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.733428001403809, 47.50913619995117]
+      },
+      "properties": {
+        "id": "schickstrasse_3",
+        "street": "Schickstrasse",
+        "housenumber": "3",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.73193073272705, 47.509944915771484]
+      },
+      "properties": {
+        "id": "schickstrasse_4",
+        "street": "Schickstrasse",
+        "housenumber": "4",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.733123779296875, 47.5091552734375]
+      },
+      "properties": {
+        "id": "schickstrasse_5",
+        "street": "Schickstrasse",
+        "housenumber": "5",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.730658531188965, 47.510528564453125]
       },
       "properties": {
@@ -67026,6 +70835,19 @@
         "id": "schlosserstrasse_7",
         "street": "Schlosserstrasse",
         "housenumber": "7",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "schlosshofstrasse_20",
+        "street": "Schlosshofstrasse",
+        "housenumber": "20",
         "status": "todo"
       }
     },
@@ -68086,12 +71908,38 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "schmidgasse_6",
+        "street": "Schmidgasse",
+        "housenumber": "6",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.727306365966797, 47.499847412109375]
       },
       "properties": {
         "id": "schmidgasse_7",
         "street": "Schmidgasse",
         "housenumber": "7",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.727362632751465, 47.49985885620117]
+      },
+      "properties": {
+        "id": "schmidgasse_8",
+        "street": "Schmidgasse",
+        "housenumber": "8",
         "status": "auto"
       }
     },
@@ -68879,12 +72727,38 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "schwalmenackerstrasse_13",
+        "street": "Schwalmenackerstrasse",
+        "housenumber": "13",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.735061645507812, 47.50322723388672]
       },
       "properties": {
         "id": "schwalmenackerstrasse_14",
         "street": "Schwalmenackerstrasse",
         "housenumber": "14",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7350492477417, 47.50339889526367]
+      },
+      "properties": {
+        "id": "schwalmenackerstrasse_16",
+        "street": "Schwalmenackerstrasse",
+        "housenumber": "16",
         "status": "auto"
       }
     },
@@ -69542,6 +73416,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.718992233276367, 47.50365447998047]
+      },
+      "properties": {
+        "id": "schützenstrasse_33",
+        "street": "Schützenstrasse",
+        "housenumber": "33",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.718366622924805, 47.50168228149414]
       },
       "properties": {
@@ -69731,6 +73618,19 @@
         "street": "Schützenstrasse",
         "housenumber": "96",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "schützenstrasse_99",
+        "street": "Schützenstrasse",
+        "housenumber": "99",
+        "status": "todo"
       }
     },
     {
@@ -70569,6 +74469,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.738712310791016, 47.49934768676758]
+      },
+      "properties": {
+        "id": "seidenstrasse_25",
+        "street": "Seidenstrasse",
+        "housenumber": "25",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.73853588104248, 47.49903106689453]
+      },
+      "properties": {
+        "id": "seidenstrasse_27",
+        "street": "Seidenstrasse",
+        "housenumber": "27",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.738218307495117, 47.49934768676758]
       },
       "properties": {
@@ -70706,6 +74632,32 @@
         "street": "Seidenstrasse",
         "housenumber": "52",
         "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.736437797546387, 47.4989013671875]
+      },
+      "properties": {
+        "id": "seidenweg_2",
+        "street": "Seidenweg",
+        "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.736844062805176, 47.498924255371094]
+      },
+      "properties": {
+        "id": "seidenweg_3",
+        "street": "Seidenweg",
+        "housenumber": "3",
+        "status": "auto"
       }
     },
     {
@@ -70914,6 +74866,58 @@
         "street": "Seuzacherstrasse",
         "housenumber": "39",
         "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.71942138671875, 47.51154708862305]
+      },
+      "properties": {
+        "id": "sommerhaldenstrasse_2",
+        "street": "Sommerhaldenstrasse",
+        "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.720135688781738, 47.51177215576172]
+      },
+      "properties": {
+        "id": "sommerhaldenstrasse_16",
+        "street": "Sommerhaldenstrasse",
+        "housenumber": "16",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.720227241516113, 47.51179885864258]
+      },
+      "properties": {
+        "id": "sommerhaldenstrasse_18",
+        "street": "Sommerhaldenstrasse",
+        "housenumber": "18",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.720622062683105, 47.511932373046875]
+      },
+      "properties": {
+        "id": "sommerhaldenstrasse_26",
+        "street": "Sommerhaldenstrasse",
+        "housenumber": "26",
+        "status": "auto"
       }
     },
     {
@@ -71414,6 +75418,71 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.743965148925781, 47.49834442138672]
+      },
+      "properties": {
+        "id": "st_gallerstrasse_79",
+        "street": "St. Gallerstrasse",
+        "housenumber": "79",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.744196891784668, 47.49835205078125]
+      },
+      "properties": {
+        "id": "st_gallerstrasse_81",
+        "street": "St. Gallerstrasse",
+        "housenumber": "81",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.744548797607422, 47.49808883666992]
+      },
+      "properties": {
+        "id": "st_gallerstrasse_82",
+        "street": "St. Gallerstrasse",
+        "housenumber": "82",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.74429702758789, 47.498382568359375]
+      },
+      "properties": {
+        "id": "st_gallerstrasse_83",
+        "street": "St. Gallerstrasse",
+        "housenumber": "83",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.74466323852539, 47.49808120727539]
+      },
+      "properties": {
+        "id": "st_gallerstrasse_84",
+        "street": "St. Gallerstrasse",
+        "housenumber": "84",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.744528770446777, 47.49838638305664]
       },
       "properties": {
@@ -71609,6 +75678,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.7547025680542, 47.49835968017578]
+      },
+      "properties": {
+        "id": "st_gallerstrasse_170",
+        "street": "St. Gallerstrasse",
+        "housenumber": "170",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.758248329162598, 47.49773025512695]
       },
       "properties": {
@@ -71687,6 +75769,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "st_georgen_platz_4",
+        "street": "St.-Georgen-Platz",
+        "housenumber": "4",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.739778518676758, 47.50142288208008]
       },
       "properties": {
@@ -71719,6 +75814,123 @@
         "id": "st_georgen_strasse_13",
         "street": "St.-Georgen-Strasse",
         "housenumber": "13",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738729476928711, 47.50203323364258]
+      },
+      "properties": {
+        "id": "st_georgen_strasse_24",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "24",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738484382629395, 47.50205993652344]
+      },
+      "properties": {
+        "id": "st_georgen_strasse_26",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "26",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.737275123596191, 47.50218200683594]
+      },
+      "properties": {
+        "id": "st_georgen_strasse_27",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "27",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738391876220703, 47.50213623046875]
+      },
+      "properties": {
+        "id": "st_georgen_strasse_28",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "28",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.737245559692383, 47.5021858215332]
+      },
+      "properties": {
+        "id": "st_georgen_strasse_29",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "29",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.73808765411377, 47.50226974487305]
+      },
+      "properties": {
+        "id": "st_georgen_strasse_30",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "30",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.736913681030273, 47.502220153808594]
+      },
+      "properties": {
+        "id": "st_georgen_strasse_31",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "31",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7379789352417, 47.502349853515625]
+      },
+      "properties": {
+        "id": "st_georgen_strasse_32",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "32",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.736886978149414, 47.502220153808594]
+      },
+      "properties": {
+        "id": "st_georgen_strasse_33",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "33",
         "status": "auto"
       }
     },
@@ -71817,6 +76029,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.735336303710938, 47.50264358520508]
+      },
+      "properties": {
+        "id": "st_georgen_strasse_46",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "46",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.735123634338379, 47.50257110595703]
       },
       "properties": {
@@ -71836,6 +76061,71 @@
         "id": "st_georgen_strasse_52",
         "street": "St.-Georgen-Strasse",
         "housenumber": "52",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7351655960083, 47.50233840942383]
+      },
+      "properties": {
+        "id": "st_georgen_strasse_53",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "53",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.732833862304688, 47.502593994140625]
+      },
+      "properties": {
+        "id": "st_georgen_strasse_54",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "54",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.73499870300293, 47.50240707397461]
+      },
+      "properties": {
+        "id": "st_georgen_strasse_55",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "55",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.734436988830566, 47.50243377685547]
+      },
+      "properties": {
+        "id": "st_georgen_strasse_57",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "57",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.73438835144043, 47.50243377685547]
+      },
+      "properties": {
+        "id": "st_georgen_strasse_59",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "59",
         "status": "auto"
       }
     },
@@ -71869,6 +76159,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "st_georgen_strasse_65",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "65",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "st_georgen_strasse_68",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "68",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.731490135192871, 47.502357482910156]
       },
       "properties": {
@@ -71895,6 +76211,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "st_georgen_strasse_78",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "78",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.72853946685791, 47.502620697021484]
       },
       "properties": {
@@ -71915,6 +76244,19 @@
         "street": "St.-Georgen-Strasse",
         "housenumber": "82",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "st_georgen_strasse_86",
+        "street": "St.-Georgen-Strasse",
+        "housenumber": "86",
+        "status": "todo"
       }
     },
     {
@@ -73507,6 +77849,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "stadthausstrasse_141",
+        "street": "Stadthausstrasse",
+        "housenumber": "141",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.724454879760742, 47.49941635131836]
       },
       "properties": {
@@ -73527,6 +77882,32 @@
         "street": "Stadthausstrasse",
         "housenumber": "145",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "stadtpark_6",
+        "street": "Stadtpark",
+        "housenumber": "6",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "stadtpark_9",
+        "street": "Stadtpark",
+        "housenumber": "9",
+        "status": "todo"
       }
     },
     {
@@ -75678,6 +80059,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "sträulistrasse_1",
+        "street": "Sträulistrasse",
+        "housenumber": "1",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "sträulistrasse_3",
+        "street": "Sträulistrasse",
+        "housenumber": "3",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.72835636138916, 47.50170135498047]
       },
       "properties": {
@@ -75762,6 +80169,32 @@
         "id": "stöcklirütistrasse_33",
         "street": "Stöcklirütistrasse",
         "housenumber": "33",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.72906494140625, 47.50272750854492]
+      },
+      "properties": {
+        "id": "sulzbergstrasse_1",
+        "street": "Sulzbergstrasse",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.729097366333008, 47.502933502197266]
+      },
+      "properties": {
+        "id": "sulzbergstrasse_3",
+        "street": "Sulzbergstrasse",
+        "housenumber": "3",
         "status": "auto"
       }
     },
@@ -75977,6 +80410,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.742586135864258, 47.505550384521484]
+      },
+      "properties": {
+        "id": "süsenbergstrasse_15",
+        "street": "Süsenbergstrasse",
+        "housenumber": "15",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.74154281616211, 47.505760192871094]
       },
       "properties": {
@@ -76009,6 +80455,19 @@
         "id": "tachlisbrunnenstrasse_19",
         "street": "Tachlisbrunnenstrasse",
         "housenumber": "19",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.728524208068848, 47.50978088378906]
+      },
+      "properties": {
+        "id": "tachlisbrunnenstrasse_23",
+        "street": "Tachlisbrunnenstrasse",
+        "housenumber": "23",
         "status": "auto"
       }
     },
@@ -77160,6 +81619,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "technikumstrasse_6",
+        "street": "Technikumstrasse",
+        "housenumber": "6",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.7300443649292, 47.49739074707031]
       },
       "properties": {
@@ -77602,6 +82074,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "technikumstrasse_63",
+        "street": "Technikumstrasse",
+        "housenumber": "63",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.727400779724121, 47.49782180786133]
       },
       "properties": {
@@ -77609,6 +82094,19 @@
         "street": "Technikumstrasse",
         "housenumber": "64",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "technikumstrasse_65",
+        "street": "Technikumstrasse",
+        "housenumber": "65",
+        "status": "todo"
       }
     },
     {
@@ -77647,6 +82145,19 @@
         "id": "technikumstrasse_68",
         "street": "Technikumstrasse",
         "housenumber": "68",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.726888656616211, 47.497615814208984]
+      },
+      "properties": {
+        "id": "technikumstrasse_69",
+        "street": "Technikumstrasse",
+        "housenumber": "69",
         "status": "auto"
       }
     },
@@ -78408,6 +82919,45 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.726875305175781, 47.50156784057617]
+      },
+      "properties": {
+        "id": "theaterstrasse_2",
+        "street": "Theaterstrasse",
+        "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.726844787597656, 47.50185012817383]
+      },
+      "properties": {
+        "id": "theaterstrasse_3",
+        "street": "Theaterstrasse",
+        "housenumber": "3",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "theaterstrasse_5",
+        "street": "Theaterstrasse",
+        "housenumber": "5",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.727333068847656, 47.50200271606445]
       },
       "properties": {
@@ -78428,6 +82978,19 @@
         "street": "Theaterstrasse",
         "housenumber": "7",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "theaterstrasse_9",
+        "street": "Theaterstrasse",
+        "housenumber": "9",
+        "status": "todo"
       }
     },
     {
@@ -78525,6 +83088,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.727970123291016, 47.50279235839844]
+      },
+      "properties": {
+        "id": "theaterstrasse_22",
+        "street": "Theaterstrasse",
+        "housenumber": "22",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.727852, 47.503517]
       },
       "properties": {
@@ -78532,6 +83108,32 @@
         "street": "Theaterstrasse",
         "housenumber": "23",
         "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.728533744812012, 47.50293731689453]
+      },
+      "properties": {
+        "id": "theaterstrasse_24",
+        "street": "Theaterstrasse",
+        "housenumber": "24",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.727922439575195, 47.50403594970703]
+      },
+      "properties": {
+        "id": "theaterstrasse_25",
+        "street": "Theaterstrasse",
+        "housenumber": "25",
+        "status": "auto"
       }
     },
     {
@@ -78570,6 +83172,19 @@
         "id": "theaterstrasse_28",
         "street": "Theaterstrasse",
         "housenumber": "28",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.729019165039062, 47.50422286987305]
+      },
+      "properties": {
+        "id": "theaterstrasse_29",
+        "street": "Theaterstrasse",
+        "housenumber": "29",
         "status": "auto"
       }
     },
@@ -78759,6 +83374,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "trollstrasse_6",
+        "street": "Trollstrasse",
+        "housenumber": "6",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "trollstrasse_8",
+        "street": "Trollstrasse",
+        "housenumber": "8",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.73221206665039, 47.5019645690918]
       },
       "properties": {
@@ -78772,12 +83413,77 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "trollstrasse_12",
+        "street": "Trollstrasse",
+        "housenumber": "12",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.732267379760742, 47.50224685668945]
+      },
+      "properties": {
+        "id": "trollstrasse_16",
+        "street": "Trollstrasse",
+        "housenumber": "16",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.732291221618652, 47.50235366821289]
+      },
+      "properties": {
+        "id": "trollstrasse_18",
+        "street": "Trollstrasse",
+        "housenumber": "18",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.731613159179688, 47.502647399902344]
+      },
+      "properties": {
+        "id": "trollstrasse_19",
+        "street": "Trollstrasse",
+        "housenumber": "19",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.732398986816406, 47.50279235839844]
       },
       "properties": {
         "id": "trollstrasse_20",
         "street": "Trollstrasse",
         "housenumber": "20",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.731470108032227, 47.50263977050781]
+      },
+      "properties": {
+        "id": "trollstrasse_21",
+        "street": "Trollstrasse",
+        "housenumber": "21",
         "status": "auto"
       }
     },
@@ -78850,6 +83556,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.732500076293945, 47.50360107421875]
+      },
+      "properties": {
+        "id": "trollstrasse_32",
+        "street": "Trollstrasse",
+        "housenumber": "32",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.732026100158691, 47.5037727355957]
       },
       "properties": {
@@ -78870,6 +83589,19 @@
         "street": "Trollstrasse",
         "housenumber": "34a",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "trollstrasse_37",
+        "street": "Trollstrasse",
+        "housenumber": "37",
+        "status": "todo"
       }
     },
     {
@@ -79162,6 +83894,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "turnerstrasse_2",
+        "street": "Turnerstrasse",
+        "housenumber": "2",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.735221862792969, 47.505191802978516]
       },
       "properties": {
@@ -79233,6 +83978,19 @@
         "id": "tössertobelstrasse_11",
         "street": "Tössertobelstrasse",
         "housenumber": "11",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.735955238342285, 47.506168365478516]
+      },
+      "properties": {
+        "id": "tössertobelstrasse_12",
+        "street": "Tössertobelstrasse",
+        "housenumber": "12",
         "status": "auto"
       }
     },
@@ -79409,6 +84167,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tössfeldstrasse_31",
+        "street": "Tössfeldstrasse",
+        "housenumber": "31",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.714887619018555, 47.491878509521484]
       },
       "properties": {
@@ -79448,12 +84219,129 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.713472366333008, 47.49123764038086]
+      },
+      "properties": {
+        "id": "tössfeldstrasse_43",
+        "street": "Tössfeldstrasse",
+        "housenumber": "43",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.713415145874023, 47.4911994934082]
+      },
+      "properties": {
+        "id": "tössfeldstrasse_45",
+        "street": "Tössfeldstrasse",
+        "housenumber": "45",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.713379859924316, 47.49116897583008]
+      },
+      "properties": {
+        "id": "tössfeldstrasse_47",
+        "street": "Tössfeldstrasse",
+        "housenumber": "47",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.713314056396484, 47.491111755371094]
+      },
+      "properties": {
+        "id": "tössfeldstrasse_49",
+        "street": "Tössfeldstrasse",
+        "housenumber": "49",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.713278770446777, 47.491085052490234]
+      },
+      "properties": {
+        "id": "tössfeldstrasse_51",
+        "street": "Tössfeldstrasse",
+        "housenumber": "51",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.713213920593262, 47.49102783203125]
       },
       "properties": {
         "id": "tössfeldstrasse_53",
         "street": "Tössfeldstrasse",
         "housenumber": "53",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.713179588317871, 47.49100112915039]
+      },
+      "properties": {
+        "id": "tössfeldstrasse_55",
+        "street": "Tössfeldstrasse",
+        "housenumber": "55",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.713114738464355, 47.490943908691406]
+      },
+      "properties": {
+        "id": "tössfeldstrasse_57",
+        "street": "Tössfeldstrasse",
+        "housenumber": "57",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.713079452514648, 47.49091720581055]
+      },
+      "properties": {
+        "id": "tössfeldstrasse_59",
+        "street": "Tössfeldstrasse",
+        "housenumber": "59",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.713035583496094, 47.49087142944336]
+      },
+      "properties": {
+        "id": "tössfeldstrasse_61",
+        "street": "Tössfeldstrasse",
+        "housenumber": "61",
         "status": "auto"
       }
     },
@@ -79903,6 +84791,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.738720893859863, 47.494529724121094]
+      },
+      "properties": {
+        "id": "tösstalstrasse_62",
+        "street": "Tösstalstrasse",
+        "housenumber": "62",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.843171, 47.44095]
       },
       "properties": {
@@ -79910,6 +84811,19 @@
         "street": "Tösstalstrasse",
         "housenumber": "65",
         "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738899230957031, 47.49460983276367]
+      },
+      "properties": {
+        "id": "tösstalstrasse_66",
+        "street": "Tösstalstrasse",
+        "housenumber": "66",
+        "status": "auto"
       }
     },
     {
@@ -79974,6 +84888,32 @@
         "id": "tösstalstrasse_86",
         "street": "Tösstalstrasse",
         "housenumber": "86",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.743047714233398, 47.49311447143555]
+      },
+      "properties": {
+        "id": "tösstalstrasse_87",
+        "street": "Tösstalstrasse",
+        "housenumber": "87",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.743575096130371, 47.49284744262695]
+      },
+      "properties": {
+        "id": "tösstalstrasse_91",
+        "street": "Tösstalstrasse",
+        "housenumber": "91",
         "status": "auto"
       }
     },
@@ -80709,6 +85649,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_257",
+        "street": "Tösstalstrasse",
+        "housenumber": "257",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.760953903198242, 47.482906341552734]
       },
       "properties": {
@@ -80716,6 +85669,19 @@
         "street": "Tösstalstrasse",
         "housenumber": "258",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_259",
+        "street": "Tösstalstrasse",
+        "housenumber": "259",
+        "status": "todo"
       }
     },
     {
@@ -81866,6 +86832,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.739710807800293, 47.49354934692383]
+      },
+      "properties": {
+        "id": "untere_gerberstrasse_1",
+        "street": "Untere Gerberstrasse",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.756985664367676, 47.507205963134766]
       },
       "properties": {
@@ -82685,6 +87664,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.730936050415039, 47.49869155883789]
+      },
+      "properties": {
+        "id": "unterer_graben_7",
+        "street": "Unterer Graben",
+        "housenumber": "7",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.730937957763672, 47.49871063232422]
       },
       "properties": {
@@ -82861,6 +87853,19 @@
         "street": "Unterer Graben",
         "housenumber": "35",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "unterer_graben_37",
+        "street": "Unterer Graben",
+        "housenumber": "37",
+        "status": "todo"
       }
     },
     {
@@ -83224,6 +88229,19 @@
         "id": "untertor_27",
         "street": "Untertor",
         "housenumber": "27",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.725054740905762, 47.499267578125]
+      },
+      "properties": {
+        "id": "untertor_28",
+        "street": "Untertor",
+        "housenumber": "28",
         "status": "auto"
       }
     },
@@ -85486,6 +90504,253 @@
         "id": "weberstrasse_2",
         "street": "Weberstrasse",
         "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738014221191406, 47.494327545166016]
+      },
+      "properties": {
+        "id": "weberstrasse_12",
+        "street": "Weberstrasse",
+        "housenumber": "12",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738025665283203, 47.49430465698242]
+      },
+      "properties": {
+        "id": "weberstrasse_14",
+        "street": "Weberstrasse",
+        "housenumber": "14",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.73808479309082, 47.494205474853516]
+      },
+      "properties": {
+        "id": "weberstrasse_16",
+        "street": "Weberstrasse",
+        "housenumber": "16",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.73809814453125, 47.49418258666992]
+      },
+      "properties": {
+        "id": "weberstrasse_18",
+        "street": "Weberstrasse",
+        "housenumber": "18",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738158226013184, 47.494083404541016]
+      },
+      "properties": {
+        "id": "weberstrasse_20",
+        "street": "Weberstrasse",
+        "housenumber": "20",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "weberstrasse_21",
+        "street": "Weberstrasse",
+        "housenumber": "21",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738168716430664, 47.49406433105469]
+      },
+      "properties": {
+        "id": "weberstrasse_22",
+        "street": "Weberstrasse",
+        "housenumber": "22",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "weberstrasse_23",
+        "street": "Weberstrasse",
+        "housenumber": "23",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738228797912598, 47.49396514892578]
+      },
+      "properties": {
+        "id": "weberstrasse_24",
+        "street": "Weberstrasse",
+        "housenumber": "24",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "weberstrasse_25",
+        "street": "Weberstrasse",
+        "housenumber": "25",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738240242004395, 47.49394607543945]
+      },
+      "properties": {
+        "id": "weberstrasse_26",
+        "street": "Weberstrasse",
+        "housenumber": "26",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738353729248047, 47.49375534057617]
+      },
+      "properties": {
+        "id": "weberstrasse_28",
+        "street": "Weberstrasse",
+        "housenumber": "28",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738367080688477, 47.493736267089844]
+      },
+      "properties": {
+        "id": "weberstrasse_30",
+        "street": "Weberstrasse",
+        "housenumber": "30",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738425254821777, 47.49363708496094]
+      },
+      "properties": {
+        "id": "weberstrasse_32",
+        "street": "Weberstrasse",
+        "housenumber": "32",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738438606262207, 47.493614196777344]
+      },
+      "properties": {
+        "id": "weberstrasse_34",
+        "street": "Weberstrasse",
+        "housenumber": "34",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738496780395508, 47.4935188293457]
+      },
+      "properties": {
+        "id": "weberstrasse_36",
+        "street": "Weberstrasse",
+        "housenumber": "36",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738509178161621, 47.49349594116211]
+      },
+      "properties": {
+        "id": "weberstrasse_38",
+        "street": "Weberstrasse",
+        "housenumber": "38",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738569259643555, 47.4933967590332]
+      },
+      "properties": {
+        "id": "weberstrasse_40",
+        "street": "Weberstrasse",
+        "housenumber": "40",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.738582611083984, 47.49337387084961]
+      },
+      "properties": {
+        "id": "weberstrasse_42",
+        "street": "Weberstrasse",
+        "housenumber": "42",
         "status": "auto"
       }
     },
@@ -89692,6 +94957,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.715115547180176, 47.511409759521484]
+      },
+      "properties": {
+        "id": "wolfensbergstrasse_63",
+        "street": "Wolfensbergstrasse",
+        "housenumber": "63",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.705516815185547, 47.513492584228516]
       },
       "properties": {
@@ -89783,6 +95061,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.72465991973877, 47.49052047729492]
+      },
+      "properties": {
+        "id": "wylandstrasse_3",
+        "street": "Wylandstrasse",
+        "housenumber": "3",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.723245620727539, 47.491943359375]
       },
       "properties": {
@@ -89815,19 +95106,6 @@
         "id": "wylandstrasse_26",
         "street": "Wylandstrasse",
         "housenumber": "26",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.72465991973877, 47.49052047729492]
-      },
-      "properties": {
-        "id": "wylandstrasse_3",
-        "street": "Wylandstrasse",
-        "housenumber": "3",
         "status": "auto"
       }
     },
@@ -90511,6 +95789,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.721504211425781, 47.50360870361328]
+      },
+      "properties": {
+        "id": "wülflingerstrasse_11",
+        "street": "Wülflingerstrasse",
+        "housenumber": "11",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.721122741699219, 47.50374221801758]
       },
       "properties": {
@@ -90660,6 +95951,32 @@
         "id": "wülflingerstrasse_32",
         "street": "Wülflingerstrasse",
         "housenumber": "32",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.717862129211426, 47.50544738769531]
+      },
+      "properties": {
+        "id": "wülflingerstrasse_34",
+        "street": "Wülflingerstrasse",
+        "housenumber": "34",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.717358589172363, 47.5054931640625]
+      },
+      "properties": {
+        "id": "wülflingerstrasse_36",
+        "street": "Wülflingerstrasse",
+        "housenumber": "36",
         "status": "auto"
       }
     },
@@ -93124,6 +98441,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.706351280212402, 47.489742279052734]
+      },
+      "properties": {
+        "id": "zelglistrasse_23",
+        "street": "Zelglistrasse",
+        "housenumber": "23",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.723496437072754, 47.508338928222656]
       },
       "properties": {
@@ -93410,6 +98740,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.730912208557129, 47.49730682373047]
+      },
+      "properties": {
+        "id": "zeughausstrasse_77",
+        "street": "Zeughausstrasse",
+        "housenumber": "77",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.697319030761719, 47.47809600830078]
       },
       "properties": {
@@ -93507,6 +98850,19 @@
         "id": "zielstrasse_73",
         "street": "Zielstrasse",
         "housenumber": "73",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.75336742401123, 47.512569427490234]
+      },
+      "properties": {
+        "id": "zinzikerbergstrasse_25",
+        "street": "Zinzikerbergstrasse",
+        "housenumber": "25",
         "status": "auto"
       }
     },
@@ -94580,6 +99936,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.715930938720703, 47.497467041015625]
+      },
+      "properties": {
+        "id": "zürcherstrasse_30",
+        "street": "Zürcherstrasse",
+        "housenumber": "30",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.716062545776367, 47.497222900390625]
       },
       "properties": {
@@ -94599,6 +99968,32 @@
         "id": "zürcherstrasse_32",
         "street": "Zürcherstrasse",
         "housenumber": "32",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "zürcherstrasse_37",
+        "street": "Zürcherstrasse",
+        "housenumber": "37",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.714420318603516, 47.49623489379883]
+      },
+      "properties": {
+        "id": "zürcherstrasse_39",
+        "street": "Zürcherstrasse",
+        "housenumber": "39",
         "status": "auto"
       }
     },
@@ -96263,812 +101658,6 @@
         "id": "üesslingerstrasse_8",
         "street": "Üesslingerstrasse",
         "housenumber": "8",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.736437797546387, 47.4989013671875]
-      },
-      "properties": {
-        "id": "seidenweg_2",
-        "street": "Seidenweg",
-        "housenumber": "2",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.720622062683105, 47.511932373046875]
-      },
-      "properties": {
-        "id": "sommerhaldenstrasse_26",
-        "street": "Sommerhaldenstrasse",
-        "housenumber": "26",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.71942138671875, 47.51154708862305]
-      },
-      "properties": {
-        "id": "sommerhaldenstrasse_2",
-        "street": "Sommerhaldenstrasse",
-        "housenumber": "2",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.720135688781738, 47.51177215576172]
-      },
-      "properties": {
-        "id": "sommerhaldenstrasse_16",
-        "street": "Sommerhaldenstrasse",
-        "housenumber": "16",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.720227241516113, 47.51179885864258]
-      },
-      "properties": {
-        "id": "sommerhaldenstrasse_18",
-        "street": "Sommerhaldenstrasse",
-        "housenumber": "18",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.717358589172363, 47.5054931640625]
-      },
-      "properties": {
-        "id": "wülflingerstrasse_36",
-        "street": "Wülflingerstrasse",
-        "housenumber": "36",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.717862129211426, 47.50544738769531]
-      },
-      "properties": {
-        "id": "wülflingerstrasse_34",
-        "street": "Wülflingerstrasse",
-        "housenumber": "34",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.721504211425781, 47.50360870361328]
-      },
-      "properties": {
-        "id": "wülflingerstrasse_11",
-        "street": "Wülflingerstrasse",
-        "housenumber": "11",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.706351280212402, 47.489742279052734]
-      },
-      "properties": {
-        "id": "zelglistrasse_23",
-        "street": "Zelglistrasse",
-        "housenumber": "23",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.75336742401123, 47.512569427490234]
-      },
-      "properties": {
-        "id": "zinzikerbergstrasse_25",
-        "street": "Zinzikerbergstrasse",
-        "housenumber": "25",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.715930938720703, 47.497467041015625]
-      },
-      "properties": {
-        "id": "zürcherstrasse_30",
-        "street": "Zürcherstrasse",
-        "housenumber": "30",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "stadthausstrasse_141",
-        "street": "Stadthausstrasse",
-        "housenumber": "141",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.725390434265137, 47.50771713256836]
-      },
-      "properties": {
-        "id": "blatterstrasse_1",
-        "street": "Blatterstrasse",
-        "housenumber": "1",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.725390434265137, 47.50771713256836]
-      },
-      "properties": {
-        "id": "blatterstrasse_2",
-        "street": "Blatterstrasse",
-        "housenumber": "1",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.725390434265137, 47.50771713256836]
-      },
-      "properties": {
-        "id": "blatterstrasse_3",
-        "street": "Blatterstrasse",
-        "housenumber": "1",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.725390434265137, 47.50771713256836]
-      },
-      "properties": {
-        "id": "blatterstrasse_6",
-        "street": "Blatterstrasse",
-        "housenumber": "1",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.725390434265137, 47.50771713256836]
-      },
-      "properties": {
-        "id": "blatterstrasse_7",
-        "street": "Blatterstrasse",
-        "housenumber": "1",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.725851058959961, 47.50802230834961]
-      },
-      "properties": {
-        "id": "blatterstrasse_1",
-        "street": "Blatterstrasse",
-        "housenumber": "10",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.725630760192871, 47.50828552246094]
-      },
-      "properties": {
-        "id": "blatterstrasse_11",
-        "street": "Blatterstrasse",
-        "housenumber": "11",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.7257080078125, 47.508445739746094]
-      },
-      "properties": {
-        "id": "blatterstrasse_13",
-        "street": "Blatterstrasse",
-        "housenumber": "13",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.725390434265137, 47.50771713256836]
-      },
-      "properties": {
-        "id": "blatterstrasse_14",
-        "street": "Blatterstrasse",
-        "housenumber": "1",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.726518630981445, 47.50752258300781]
-      },
-      "properties": {
-        "id": "brunngasse_30",
-        "street": "Brunngasse",
-        "housenumber": "30",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.72690486907959, 47.508419036865234]
-      },
-      "properties": {
-        "id": "brunngasse_36",
-        "street": "Brunngasse",
-        "housenumber": "36",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.727039337158203, 47.508609771728516]
-      },
-      "properties": {
-        "id": "brunngasse_38",
-        "street": "Brunngasse",
-        "housenumber": "38",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.726192474365234, 47.507904052734375]
-      },
-      "properties": {
-        "id": "brunngasse_45",
-        "street": "Brunngasse",
-        "housenumber": "45",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.72811222076416, 47.50822830200195]
-      },
-      "properties": {
-        "id": "malzstrasse_1",
-        "street": "Malzstrasse",
-        "housenumber": "1",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.727906227111816, 47.5082893371582]
-      },
-      "properties": {
-        "id": "malzstrasse_3",
-        "street": "Malzstrasse",
-        "housenumber": "3",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.72769832611084, 47.50835418701172]
-      },
-      "properties": {
-        "id": "malzstrasse_5",
-        "street": "Malzstrasse",
-        "housenumber": "5",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.72769832611084, 47.50835418701172]
-      },
-      "properties": {
-        "id": "malzstrasse_7",
-        "street": "Malzstrasse",
-        "housenumber": "5",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.727289199829102, 47.50848388671875]
-      },
-      "properties": {
-        "id": "malzstrasse_9",
-        "street": "Malzstrasse",
-        "housenumber": "9",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.727490425109863, 47.508419036865234]
-      },
-      "properties": {
-        "id": "malzstrasse_7",
-        "street": "Malzstrasse",
-        "housenumber": "7",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.727224349975586, 47.508296966552734]
-      },
-      "properties": {
-        "id": "brauerstrasse_38",
-        "street": "Brauerstrasse",
-        "housenumber": "38",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.728361129760742, 47.50800704956055]
-      },
-      "properties": {
-        "id": "hopfenstrasse_3",
-        "street": "Hopfenstrasse",
-        "housenumber": "3",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.728562355041504, 47.50859451293945]
-      },
-      "properties": {
-        "id": "rychenbergstrasse_54",
-        "street": "Rychenbergstrasse",
-        "housenumber": "54",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.725156784057617, 47.50874328613281]
-      },
-      "properties": {
-        "id": "brauerstrasse_62",
-        "street": "Brauerstrasse",
-        "housenumber": "62",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.727015495300293, 47.50838088989258]
-      },
-      "properties": {
-        "id": "brauerstrasse_40",
-        "street": "Brauerstrasse",
-        "housenumber": "40",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.725481986999512, 47.50675582885742]
-      },
-      "properties": {
-        "id": "brunngasse_29",
-        "street": "Brunngasse",
-        "housenumber": "29",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.725632667541504, 47.506858825683594]
-      },
-      "properties": {
-        "id": "brunngasse_31",
-        "street": "Brunngasse",
-        "housenumber": "31",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.72569465637207, 47.506961822509766]
-      },
-      "properties": {
-        "id": "brunngasse_33",
-        "street": "Brunngasse",
-        "housenumber": "33",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.717999458312988, 47.50461196899414]
-      },
-      "properties": {
-        "id": "bürglistrasse_2",
-        "street": "Bürglistrasse",
-        "housenumber": "2",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.757651329040527, 47.507720947265625]
-      },
-      "properties": {
-        "id": "dorfstrasse_12",
-        "street": "Dorfstrasse",
-        "housenumber": "12",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.717906951904297, 47.50762176513672]
-      },
-      "properties": {
-        "id": "feldstrasse_10",
-        "street": "Feldstrasse",
-        "housenumber": "10",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.717452049255371, 47.50882339477539]
-      },
-      "properties": {
-        "id": "feldstrasse_4",
-        "street": "Feldstrasse",
-        "housenumber": "4",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.752645492553711, 47.503108978271484]
-      },
-      "properties": {
-        "id": "friedheimstrasse_33",
-        "street": "Friedheimstrasse",
-        "housenumber": "33",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.745264053344727, 47.49835205078125]
-      },
-      "properties": {
-        "id": "geiselweidstrasse_53",
-        "street": "Geiselweidstrasse",
-        "housenumber": "53",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.739710807800293, 47.49354934692383]
-      },
-      "properties": {
-        "id": "untere_gerberstrasse_1",
-        "street": "Untere Gerberstrasse",
-        "housenumber": "1",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "gottfried_keller_strasse_52",
-        "street": "Gottfried-Keller-Strasse",
-        "housenumber": "52",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.719969749450684, 47.51173782348633]
-      },
-      "properties": {
-        "id": "haldenstrasse_14",
-        "street": "Haldenstrasse",
-        "housenumber": "14",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.72044849395752, 47.511878967285156]
-      },
-      "properties": {
-        "id": "haldenstrasse_22",
-        "street": "Haldenstrasse",
-        "housenumber": "22",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.73011302947998, 47.50563430786133]
-      },
-      "properties": {
-        "id": "haldenstrasse_46",
-        "street": "Haldenstrasse",
-        "housenumber": "46",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.730237007141113, 47.50559997558594]
-      },
-      "properties": {
-        "id": "haldenstrasse_48",
-        "street": "Haldenstrasse",
-        "housenumber": "48",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.730388641357422, 47.505558013916016]
-      },
-      "properties": {
-        "id": "haldenstrasse_50",
-        "street": "Haldenstrasse",
-        "housenumber": "50",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "hegistrasse_44",
-        "street": "Hegistrasse",
-        "housenumber": "44",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.758769035339355, 47.506107330322266]
-      },
-      "properties": {
-        "id": "hegistrasse_49",
-        "street": "Hegistrasse",
-        "housenumber": "49",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.746432304382324, 47.50074005126953]
-      },
-      "properties": {
-        "id": "hegistrasse_4ff",
-        "street": "Hegistrasse",
-        "housenumber": "4ff",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.741066932678223, 47.49809646606445]
-      },
-      "properties": {
-        "id": "hermannstrasse_15",
-        "street": "Hermannstrasse",
-        "housenumber": "15",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.713814735412598, 47.495426177978516]
-      },
-      "properties": {
-        "id": "jägerstrasse_83",
-        "street": "Jägerstrasse",
-        "housenumber": "83",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.713800430297852, 47.49543380737305]
-      },
-      "properties": {
-        "id": "jägerstrasse_85",
-        "street": "Jägerstrasse",
-        "housenumber": "85",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.762070655822754, 47.48310089111328]
-      },
-      "properties": {
-        "id": "kanzleistrasse_2",
-        "street": "Kanzleistrasse",
-        "housenumber": "2",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "kanzleistrasse_4",
-        "street": "Kanzleistrasse",
-        "housenumber": "4",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.76203441619873, 47.48332214355469]
-      },
-      "properties": {
-        "id": "kanzleistrasse_6",
-        "street": "Kanzleistrasse",
-        "housenumber": "6",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "nägelseestrasse_4",
-        "street": "Nägelseestrasse",
-        "housenumber": "4",
         "status": "todo"
       }
     }
