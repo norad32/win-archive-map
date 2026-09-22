@@ -51,7 +51,7 @@ from jsonio import load_json, save_json
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "src" / "data"
 MASTER_PATH = DATA_DIR / "archive-master.json"
-BLACKLIST_PATH = DATA_DIR / "archive-blacklist.json"
+BLACKLIST_PATH = "archive-blacklist.json"
 ARCHIVE_PATH = DATA_DIR / "archive.json"
 ADDRESSES_PATH = DATA_DIR / "addresses.geojson"
 SCRIPTS_DIR = Path(__file__).resolve().parent
