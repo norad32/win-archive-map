@@ -14,7 +14,7 @@ function runTests() {
     [
       "--test",
       "--experimental-test-coverage",
-      path.join(__dirname, "../tests/"),
+      path.join(__dirname, "../tests/*.test.js"),
     ],
     {
       stdio: "inherit",

@@ -4,11 +4,11 @@
   "description": "Interactive map viewer for Bildarchiv Winterthur",
   "type": "module",
   "scripts": {
-    "dev": "node --test --test-reporter=dot --test-reporter-destination=stdout tests/ && npx http-server src -p 8000 -o",
+    "dev": "node --test --test-reporter=dot --test-reporter-destination=stdout \"tests/*.test.js\" && npx http-server src -p 8000 -o",
     "build": "node scripts/build.js",
     "deploy": "npm run build && gh-pages -d dist",
     "lint": "eslint src --max-warnings=0",
-    "test": "node --test --experimental-test-coverage tests/",
+    "test": "node --test --experimental-test-coverage \"tests/*.test.js\"",
     "format": "prettier --write . && venv/bin/black scripts src/data"
   },
   "devDependencies": {
