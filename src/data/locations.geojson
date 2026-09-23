@@ -5,6 +5,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.68812, 47.499822]
+      },
+      "properties": {
+        "id": "alt_wülflingen",
+        "street": "Büchlibuckstrasse",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.734898, 47.481071]
       },
       "properties": {
@@ -18,11 +31,63 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.702475, 47.501917]
+      },
+      "properties": {
+        "id": "brühlbergturm",
+        "street": "Obere Brühlbergstrasse",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.74368, 47.504439]
       },
       "properties": {
         "id": "bäumli",
         "street": "Süsenbergstrasse",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.700453, 47.516802]
+      },
+      "properties": {
+        "id": "chöpfi",
+        "street": "Chöpfiweg",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.748958, 47.477413]
+      },
+      "properties": {
+        "id": "paradies",
+        "street": "Obere Loostrasse",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.68156, 47.492744]
+      },
+      "properties": {
+        "id": "pirminsbrunnenn",
+        "street": "Obere Holenstrasse",
         "housenumber": null,
         "status": "manual"
       }
@@ -49,71 +114,6 @@
       "properties": {
         "id": "tugbrüggli",
         "street": "Tugbrügglifussweg",
-        "housenumber": null,
-        "status": "manual"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.702475, 47.501917]
-      },
-      "properties": {
-        "id": "brühlbergturm",
-        "street": "Obere Brühlbergstrasse",
-        "housenumber": null,
-        "status": "manual"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.68812, 47.499822]
-      },
-      "properties": {
-        "id": "alt_wülflingen",
-        "street": "Büchlibuckstrasse",
-        "housenumber": null,
-        "status": "manual"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.68156, 47.492744]
-      },
-      "properties": {
-        "id": "pirminsbrunnenn",
-        "street": "Obere Holenstrasse",
-        "housenumber": null,
-        "status": "manual"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.748958, 47.477413]
-      },
-      "properties": {
-        "id": "paradies",
-        "street": "Obere Loostrasse",
-        "housenumber": null,
-        "status": "manual"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.700453, 47.516802]
-      },
-      "properties": {
-        "id": "chöpfi",
-        "street": "Chöpfiweg",
         "housenumber": null,
         "status": "manual"
       }
