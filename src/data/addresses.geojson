@@ -31,6 +31,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.718315124511719, 47.5029411315918]
+      },
+      "properties": {
+        "id": "elgg_sulzerhof_1",
+        "street": "Sulzerhof",
+        "housenumber": "1",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.865709814581221, 47.48329789681872]
+      },
+      "properties": {
+        "id": "elgg_schlossstrasse_3",
+        "street": "Schlossstrasse",
+        "housenumber": "3",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.717546463012695, 47.5029296875]
       },
       "properties": {

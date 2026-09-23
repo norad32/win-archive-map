@@ -117,6 +117,19 @@
         "housenumber": null,
         "status": "manual"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.637477589353102, 47.51517003682475]
+      },
+      "properties": {
+        "id": "burg_pfungen",
+        "street": null,
+        "housenumber": null,
+        "status": "manual"
+      }
     }
   ]
 }
