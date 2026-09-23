@@ -19,7 +19,8 @@ describe("updateLastUpdated", () => {
 
     assert.match(el.textContent, /^Last updated: /);
     assert.match(el.textContent, /2024/);
-    assert.match(el.textContent, /14:30/);
+    // Time format is locale-dependent (14:30 vs 02:30 PM).
+    assert.match(el.textContent, /(14|02):30/);
   });
 
   it("updateLastUpdated_Should_WriteEmptyText_If_DateIsInvalid", () => {
