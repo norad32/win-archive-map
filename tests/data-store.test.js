@@ -32,13 +32,13 @@ function mockUrls({
   archive = entries,
   addresses = { features: addressFeatures },
   locations = { features: [] },
-  districts = {},
+  streets = {},
 }) {
   globalThis.fetch = async (url) => {
     if (url.includes("archive.json")) return jsonResponse(archive);
     if (url.includes("addresses")) return jsonResponse(addresses);
     if (url.includes("locations")) return jsonResponse(locations);
-    if (url.includes("districts.json")) return jsonResponse(districts);
+    if (url.includes("streets.json")) return jsonResponse(streets);
     return jsonResponse({ features: [] });
   };
 }
@@ -93,7 +93,7 @@ describe("createDataStore", () => {
 
     await store.load();
 
-    // One error per rejected top-level fetch: archive + districts.
+    // One error per rejected top-level fetch: archive + streets.
     // Boundary data swallows its own fetch errors and fulfills with [].
     assert.equal(errors.length, 2);
     assert.equal(store.isLoaded(), false);

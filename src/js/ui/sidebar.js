@@ -15,9 +15,18 @@ export function createSidebar({ domRefs, dataStore, map }) {
     onStatsUpdate: (shown, total) => updateStats(domRefs.statsEl, shown, total),
   });
 
-  function handleDistrictsLoaded(districtsData) {
-    populateDistrictOptions(domRefs.districtSelectEl, districtsData);
-    populateStreetOptions(domRefs.streetOptionsEl, districtsData, "");
+  function handleStreetsLoaded(streetsData) {
+    populateDistrictOptions(domRefs.districtSelectEl, streetsData);
+    populateStreetOptions(domRefs.streetOptionsEl, streetsData, "", "");
+  }
+
+  function repopulateStreetOptions() {
+    populateStreetOptions(
+      domRefs.streetOptionsEl,
+      dataStore.getStreetsData(),
+      domRefs.districtSelectEl.value,
+      domRefs.neighbourhoodSelectEl.value,
+    );
   }
 
   function handleGeoLoaded({ allEntries, lastUpdated }) {
@@ -45,11 +54,7 @@ export function createSidebar({ domRefs, dataStore, map }) {
   function handleDistrictChange(e) {
     const districtVal = e.target.value;
 
-    populateStreetOptions(
-      domRefs.streetOptionsEl,
-      dataStore.getDistrictsData(),
-      districtVal,
-    );
+    repopulateStreetOptions();
     domRefs.streetInputEl.value = "";
 
     updateNeighbourhoodOptions(
@@ -57,6 +62,7 @@ export function createSidebar({ domRefs, dataStore, map }) {
       map.boundaryLayers.getDistrictToNeighbourhoods(),
       districtVal,
     );
+    repopulateStreetOptions();
     map.boundaryLayers.render(
       domRefs.districtSelectEl.value,
       domRefs.neighbourhoodSelectEl.value,
@@ -65,6 +71,7 @@ export function createSidebar({ domRefs, dataStore, map }) {
   }
 
   function handleNeighbourhoodChange() {
+    repopulateStreetOptions();
     map.boundaryLayers.render(
       domRefs.districtSelectEl.value,
       domRefs.neighbourhoodSelectEl.value,
@@ -86,7 +93,7 @@ export function createSidebar({ domRefs, dataStore, map }) {
     );
 
     unsubscribers.push(
-      dataStore.on("districts-loaded", handleDistrictsLoaded),
+      dataStore.on("districts-loaded", handleStreetsLoaded),
       dataStore.on("geo-loaded", handleGeoLoaded),
       dataStore.on("error", handleError),
       dataStore.on("boundary-partial-error", handleBoundaryPartialError),

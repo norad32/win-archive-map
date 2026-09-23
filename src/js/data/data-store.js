@@ -1,5 +1,5 @@
 import { Config } from "./../config.js";
-import { loadDistricts } from "./districts.js";
+import { loadStreets } from "./districts.js";
 import { loadBoundaryData } from "./boundary.js";
 import { groupFeatures } from "./grouping.js";
 
@@ -59,7 +59,7 @@ export function createDataStore() {
   let allEntries = [];
   let unlocatedEntries = [];
   let precomputedGroups = [];
-  let districtsData = {};
+  let streetsData = {};
   let lastUpdated = null;
 
   let dataLoaded = false;
@@ -79,7 +79,7 @@ export function createDataStore() {
       fetchArchive(Config.ARCHIVE_URL, signal),
       fetchGeoJson(Config.ADDRESSES_URL, signal),
       fetchGeoJson(Config.LOCATIONS_URL, signal),
-      loadDistricts(signal),
+      loadStreets(signal),
       loadBoundaryData(signal),
     ]);
 
@@ -87,7 +87,7 @@ export function createDataStore() {
       archiveResult,
       addressesResult,
       locationsResult,
-      districtsResult,
+      streetsResult,
       boundaryResult,
     ] = results;
 
@@ -101,11 +101,11 @@ export function createDataStore() {
       return;
     }
 
-    if (districtsResult.status === "fulfilled") {
-      districtsData = districtsResult.value;
-      emitter.emit("districts-loaded", districtsData);
+    if (streetsResult.status === "fulfilled") {
+      streetsData = streetsResult.value;
+      emitter.emit("districts-loaded", streetsData);
     } else {
-      emitter.emit("error", districtsResult.reason);
+      emitter.emit("error", streetsResult.reason);
     }
 
     if (boundaryResult.status === "fulfilled") {
@@ -166,7 +166,7 @@ export function createDataStore() {
     getEntries: () => allEntries,
     getUnlocatedEntries: () => unlocatedEntries,
     getTotalCount: () => allEntries.length,
-    getDistrictsData: () => districtsData,
+    getStreetsData: () => streetsData,
     getLastUpdated: () => lastUpdated,
     isLoaded: () => dataLoaded,
     isLoading: () => loadInProgress,

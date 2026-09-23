@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Update `district` and `neighbourhood` properties in src/data/archive.json
 by point-in-polygon matching against src/data/districts.geojson and
-src/data/neighbourhoods.geojson.
+src/data/neighbourhoods.geojson, then rebuild src/data/streets.json.
 
 Coordinates are looked up from src/data/addresses.geojson via each entry's
 `loc` reference. Range entries (multiple addresses) resolve every referenced
@@ -13,6 +13,17 @@ left untouched and reported as mixed.
 - Points that fall outside every polygon get `district` "Other" and
 `neighbourhood` null.
 
+streets.json maps every street to the districts and neighbourhoods it
+appears in (a street can belong to several of both):
+
+{
+  "districts":      { "<district>": ["Street", ...], ... },
+  "neighbourhoods": { "<neighbourhood>": ["Street", ...], ... }
+}
+
+"Other" is a valid district (photos outside Winterthur). Legacy compound
+values ("Altstadt/Veltheim") are excluded from streets.json.
+
 Usage:
     venv/bin/python scripts/update-districts.py [--dry-run] [--output PATH]
 """
@@ -21,7 +32,7 @@ from __future__ import annotations
 
 import argparse
 import sys
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 
 from shapely.geometry import Point, shape
@@ -33,10 +44,12 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "src" / "data"
 
 ADDRESSES_PATH = DATA_DIR / "addresses.geojson"
 ARCHIVE_PATH = DATA_DIR / "archive.json"
+STREETS_PATH = DATA_DIR / "streets.json"
 DISTRICTS_PATH = DATA_DIR / "districts.geojson"
 NEIGHBOURHOODS_PATH = DATA_DIR / "neighbourhoods.geojson"
 
 OTHER_DISTRICT = "Other"
+LEGACY_DISTRICT_PREFIX = "Altstadt/"
 
 
 def build_index(features: list[dict], name_property: str) -> tuple[STRtree, list[str]]:
@@ -198,15 +211,57 @@ def main() -> int:
         print("Dry run: archive.json not modified.")
         return 0
 
-    if not district_changes and not neighbourhood_changes:
-        print("Nothing to update.")
-        return 0
-
     output_path = args.output or ARCHIVE_PATH
     save_json(output_path, entries)
 
     print(f"Written to {output_path}")
+    build_streets_json(output_path)
     return 0
+
+
+def build_streets_json(entries_path: Path) -> None:
+    """Derive streets.json: streets per district and per neighbourhood.
+
+    A street can belong to several districts and neighbourhoods; it is
+    listed under every one it occurs in. Legacy compound districts
+    ("Altstadt/Veltheim") are excluded; "Other" is a valid district.
+    """
+    entries = load_json(entries_path)
+
+    by_district: dict[str, set[str]] = defaultdict(set)
+    by_neighbourhood: dict[str, set[str]] = defaultdict(set)
+
+    for entry in entries:
+        street = (entry.get("street") or "").strip()
+        if not street:
+            continue
+        district = (entry.get("district") or "").strip()
+        if district and not district.startswith(LEGACY_DISTRICT_PREFIX):
+            by_district[district].add(street)
+        neighbourhood = (entry.get("neighbourhood") or "").strip()
+        if neighbourhood:
+            by_neighbourhood[neighbourhood].add(street)
+
+    streets = {
+        "districts": {
+            district: sorted(streets, key=str.casefold)
+            for district, streets in sorted(by_district.items())
+        },
+        "neighbourhoods": {
+            neighbourhood: sorted(streets, key=str.casefold)
+            for neighbourhood, streets in sorted(by_neighbourhood.items())
+        },
+    }
+    save_json(STREETS_PATH, streets)
+
+    street_count = len(
+        {s for streets in by_district.values() for s in streets}
+        | {s for streets in by_neighbourhood.values() for s in streets}
+    )
+    print(
+        f"Written to {STREETS_PATH.name}: {street_count} streets, "
+        f"{len(by_district)} districts, {len(by_neighbourhood)} neighbourhoods"
+    )
 
 
 if __name__ == "__main__":

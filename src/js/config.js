@@ -2,7 +2,7 @@ export const Config = Object.freeze({
   ARCHIVE_URL: "data/archive.json",
   ADDRESSES_URL: "data/addresses.geojson",
   LOCATIONS_URL: "data/locations.geojson",
-  DISTRICTS_URL: "data/districts.json",
+  STREETS_URL: "data/streets.json",
   DISTRICTS_GEOJSON_URL: "data/districts.geojson",
   NEIGHBOURHOODS_GEOJSON_URL: "data/neighbourhoods.geojson",
   GLOSSARY_URL: "data/glossary.json",
