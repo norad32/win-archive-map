@@ -79,6 +79,19 @@ export function createSidebar({ domRefs, dataStore, map }) {
     filters.applyFilters();
   }
 
+  function handleClearFilters() {
+    domRefs.titleSearchEl.value = "";
+    domRefs.yearFromEl.value = "";
+    domRefs.yearToEl.value = "";
+    domRefs.streetInputEl.value = "";
+    domRefs.districtSelectEl.value = "";
+    domRefs.neighbourhoodSelectEl.value = "";
+
+    repopulateStreetOptions();
+    map.boundaryLayers.render("", "");
+    filters.applyFilters();
+  }
+
   const unsubscribers = [];
 
   function attachListeners() {
@@ -91,6 +104,7 @@ export function createSidebar({ domRefs, dataStore, map }) {
       "change",
       handleNeighbourhoodChange,
     );
+    domRefs.clearFiltersBtnEl?.addEventListener("click", handleClearFilters);
 
     unsubscribers.push(
       dataStore.on("districts-loaded", handleStreetsLoaded),

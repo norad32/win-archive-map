@@ -1,5 +1,9 @@
 import { el } from "../dom/dom-builder.js";
-import { buildCustomLink, buildReportIssueUrl } from "../utils/link-builder.js";
+import {
+  buildCustomLink,
+  buildReportIssueUrl,
+  buildSignatureLink,
+} from "../utils/link-builder.js";
 import { loadGlossary, findGlossaryMatches } from "./glossary-matcher.js";
 
 export function showError(detailsEl, message) {
@@ -81,31 +85,52 @@ function buildEntryBlock(props) {
     ]),
   );
 
-  return el("div", { className: "entry-block" }, [
-    el("h3", {}, props.title || "Untitled"),
-    el("table", {}, rows),
-    el("div", { className: "entry-links" }, [
+  const links = [];
+  const signatureLink = buildSignatureLink(props);
+  if (signatureLink) {
+    links.push(
       el(
         "a",
         {
           className: "gen-link",
-          href: buildCustomLink(props),
+          href: signatureLink,
           target: "_blank",
           rel: "noopener noreferrer",
+          title:
+            "View this exact record in the Bildarchiv Winterthur",
         },
-        "Search in Bildarchiv Winterthur",
+        "View in Bildarchiv",
       ),
-      el(
-        "a",
-        {
-          className: "report-error-link",
-          href: buildReportIssueUrl(props),
-          target: "_blank",
-          rel: "noopener noreferrer",
-        },
-        "Report incorrect metadata",
-      ),
-    ]),
+    );
+  }
+  links.push(
+    el(
+      "a",
+      {
+        className: "gen-link gen-link--secondary",
+        href: buildCustomLink(props),
+        target: "_blank",
+        rel: "noopener noreferrer",
+        title: "Search fot this and similar records in the Bildarchiv Winterthur",
+      },
+      "Search in Bildarchiv",
+    ),
+    el(
+      "a",
+      {
+        className: "report-error-link",
+        href: buildReportIssueUrl(props),
+        target: "_blank",
+        rel: "noopener noreferrer",
+      },
+      "Report incorrect metadata",
+    ),
+  );
+
+  return el("div", { className: "entry-block" }, [
+    el("h3", {}, props.title || "Untitled"),
+    el("table", {}, rows),
+    el("div", { className: "entry-links" }, links),
   ]);
 }
 
@@ -128,10 +153,10 @@ function buildGlossarySection(matches) {
           ),
           match.category
             ? el(
-                "span",
-                { className: "glossary-category" },
-                ` (${match.category})`,
-              )
+              "span",
+              { className: "glossary-category" },
+              ` (${match.category})`,
+            )
             : null,
         ]),
       ),

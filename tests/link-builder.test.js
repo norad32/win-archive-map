@@ -4,7 +4,25 @@ import { describe, it } from "node:test";
 import {
   buildCustomLink,
   buildReportIssueUrl,
+  buildSignatureLink,
 } from "../src/js/utils/link-builder.js";
+
+describe("buildSignatureLink", () => {
+  it("buildSignatureLink_Should_QueryBySignature_If_SignaturePresent", () => {
+    const url = buildSignatureLink({ signature: "042119" });
+
+    assert.ok(
+      url.startsWith("https://bilddatenbank.winterthur.ch/ims_publisher/images?query="),
+    );
+    assert.equal(new URL(url).searchParams.get("query"), "042119");
+  });
+
+  it("buildSignatureLink_Should_ReturnNull_If_SignatureMissing", () => {
+    assert.equal(buildSignatureLink({}), null);
+    assert.equal(buildSignatureLink({ signature: "" }), null);
+    assert.equal(buildSignatureLink({ signature: "   " }), null);
+  });
+});
 
 describe("buildCustomLink", () => {
   it("buildCustomLink_Should_BuildArchiveQueryUrl_If_AllFieldsPresent", () => {

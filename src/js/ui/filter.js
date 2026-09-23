@@ -9,7 +9,7 @@ export function createFilters({ domRefs, dataStore, map, onStatsUpdate }) {
     const predicate = createFilterPredicate(readFilterFormValues(domRefs));
 
     const filteredGroups = [];
-    let shownCount = 0;
+    const shownIds = new Set();
 
     for (const group of dataStore.getGroups()) {
       const matchingEntries = group.entries.filter(predicate);
@@ -20,19 +20,23 @@ export function createFilters({ domRefs, dataStore, map, onStatsUpdate }) {
         repCoord: group.repCoord,
         entries: matchingEntries,
       });
-      shownCount += matchingEntries.length;
+      // An entry spanning several houses appears in multiple groups; count
+      // each distinct entry only once.
+      for (const entry of matchingEntries) {
+        shownIds.add(entry.id);
+      }
     }
 
     for (const entry of dataStore.getUnlocatedEntries()) {
       if (predicate(entry)) {
-        shownCount += 1;
+        shownIds.add(entry.id);
       }
     }
 
     map.renderGroups(filteredGroups);
 
     if (onStatsUpdate) {
-      onStatsUpdate(shownCount, dataStore.getTotalCount());
+      onStatsUpdate(shownIds.size, dataStore.getTotalCount());
     }
   }
 

@@ -142,6 +142,27 @@
     }
   }
 
+  #clearFiltersBtn {
+    width: 100%;
+    margin-block: 4px 14px;
+    padding: 10px 14px;
+    background: var(--color-brand);
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: var(--shadow-md);
+    transition: background var(--transition-fast);
+
+    &:hover,
+    &:active,
+    &:focus-visible {
+      background: var(--color-brand-hover);
+    }
+  }
+
   #stats {
     font-size: 13px;
     color: var(--color-text-muted);
@@ -196,6 +217,20 @@
       &:hover,
       &:active {
         background: var(--color-brand-hover);
+      }
+    }
+
+    a.gen-link--secondary {
+      background: transparent;
+      border: 1px solid var(--color-border);
+      color: var(--color-text-label);
+      font-weight: 500;
+
+      &:hover,
+      &:active {
+        background: transparent;
+        border-color: var(--color-brand);
+        color: var(--color-brand);
       }
     }
   }
@@ -842,7 +877,8 @@
         font-size: 13px;
       }
 
-      a.gen-link {
+      a.gen-link,
+      a.gen-link--secondary {
         width: 100%;
         text-align: center;
         padding: 12px;

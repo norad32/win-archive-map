@@ -92,11 +92,22 @@
         ☰ Filter
       </button>
 
-      <button id="aboutBtn" aria-haspopup="dialog" aria-controls="aboutModal">
+      <button
+        id="aboutBtn"
+        aria-haspopup="dialog"
+        aria-controls="aboutModal"
+        title="Find out more about Win Archive Map and how to use it"
+      >
         About
       </button>
 
-      <button id="fitResultsBtn" hidden>Zoom to results</button>
+      <button
+        id="fitResultsBtn"
+        hidden
+        title="Fit the map so all filtered entries are visible"
+      >
+        Zoom to results
+      </button>
 
       <main id="map" aria-label="Win Archive Map"></main>
 
@@ -147,6 +158,10 @@
           </div>
         </div>
 
+        <button id="clearFiltersBtn" type="button" title="Reset all filters">
+          Clear Filters
+        </button>
+
         <div id="stats">No data loaded yet.</div>
 
         <h2>Details</h2>
@@ -159,10 +174,20 @@
 
       <div id="layerSelectorPanel" class="layer-selector-panel">
         <div class="layer-mode-toggle">
-          <button class="mode-btn active" data-mode="digitalMap">
+          <button
+            class="mode-btn active"
+            data-mode="digitalMap"
+            title="Historical and current maps of Winterthur. Use the year slider below to switch between map editions from 1850 to today."
+          >
             Digital Map
           </button>
-          <button class="mode-btn" data-mode="aerialImage">Aerial Image</button>
+          <button
+            class="mode-btn"
+            data-mode="aerialImage"
+            title="Historical and current aerial imagery of Winterthur. Use the year slider below to switch between aerial surveys from 1931 to today."
+          >
+            Aerial Image
+          </button>
         </div>
 
         <div class="year-slider-container">

@@ -1,6 +1,13 @@
 import { Config } from "../config.js";
 import { extractFirstYear } from "./parse.js";
 
+export function buildSignatureLink(props) {
+  const signature = (props.signature || "").trim();
+  if (!signature) return null;
+
+  return `https://bilddatenbank.winterthur.ch/ims_publisher/images?query=${encodeURIComponent(signature)}`;
+}
+
 export function buildCustomLink(props) {
   const year = extractFirstYear(props.year);
   const street = props.street || "";

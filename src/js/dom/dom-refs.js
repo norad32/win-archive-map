@@ -21,5 +21,6 @@ export function initDomRefs() {
     sidebarToggleEl: document.getElementById("sidebarToggle"),
     sidebarEl: document.getElementById("sidebar"),
     fitResultsBtnEl: document.getElementById("fitResultsBtn"),
+    clearFiltersBtnEl: document.getElementById("clearFiltersBtn"),
   };
 }

@@ -136,8 +136,16 @@ export function createDataStore() {
         addressFeatures,
         locationFeatures,
       );
-      unlocatedEntries = allEntries.filter((entry) => !entry.loc);
       precomputedGroups = groupFeatures(allEntries, locationsById);
+      // "Unlocated" = no loc at all, or loc references that resolve to no
+      // coordinates such entries appear on no marker and must stay reachable via search/filter.
+      const placedIds = new Set();
+      for (const group of precomputedGroups) {
+        for (const entry of group.entries) placedIds.add(entry.id);
+      }
+      unlocatedEntries = allEntries.filter(
+        (entry) => !entry.loc || !placedIds.has(entry.id),
+      );
       dataLoaded = true;
 
       emitter.emit("geo-loaded", {

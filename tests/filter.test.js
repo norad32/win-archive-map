@@ -176,6 +176,22 @@ describe("createFilters", () => {
     );
   });
 
+  it("createFilters_Should_CountEntryOnce_If_LocSpansSeveralHouses", async () => {
+    const multiGroups = [
+      { key: "street_31", repCoord: [8.7, 47.5], entries: [{ id: "1", title: "Haus 31", year: "1950", street: "Street" }] },
+      { key: "street_33", repCoord: [8.7, 47.5], entries: [{ id: "1", title: "Haus 31", year: "1950", street: "Street" }] },
+      { key: "street_35", repCoord: [8.7, 47.5], entries: [{ id: "1", title: "Haus 31", year: "1950", street: "Street" }] },
+    ];
+    const { filters, runFilterNow, getStats } = buildSetup({
+      entries: [{ id: "1", title: "Haus 31", year: "1950", street: "Street" }],
+      groups: multiGroups,
+    });
+
+    await runFilterNow();
+
+    assert.equal(getStats().shown, 1);
+  });
+
   it("createFilters_Should_CountMatchingUnlocatedEntries_If_UnlocatedPresent", async () => {
     const { filters, runFilterNow, getStats } = buildSetup({
       entries: [],
