@@ -6,3 +6,5 @@ venv
 scripts/__pycache__
 archive-diff.md
 spellcheck-report.md
+todo-report.md
+dedupe-report.md
