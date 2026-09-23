@@ -11796,6 +11796,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "eckwiesenstrasse_8",
+        "street": "Eckwiesenstrasse",
+        "housenumber": "8",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.698387145996094, 47.507728576660156]
       },
       "properties": {
@@ -12524,6 +12537,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "eichliackerstrasse_22",
+        "street": "Eichliackerstrasse",
+        "housenumber": "22",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.71408748626709, 47.48917770385742]
       },
       "properties": {
@@ -12537,6 +12563,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "eichliackerstrasse_24",
+        "street": "Eichliackerstrasse",
+        "housenumber": "24",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.713970184326172, 47.489112854003906]
       },
       "properties": {
@@ -12544,6 +12583,19 @@
         "street": "Eichliackerstrasse",
         "housenumber": "25",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "eichliackerstrasse_26",
+        "street": "Eichliackerstrasse",
+        "housenumber": "26",
+        "status": "todo"
       }
     },
     {
@@ -17243,6 +17295,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "felsenhofstrasse_2",
+        "street": "Felsenhofstrasse",
+        "housenumber": "2",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.717395782470703, 47.509822845458984]
       },
       "properties": {
@@ -18693,6 +18758,19 @@
         "street": "Friedhofstrasse",
         "housenumber": "37",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "friedhofstrasse_51",
+        "street": "Friedhofstrasse",
+        "housenumber": "51",
+        "status": "todo"
       }
     },
     {
@@ -24127,6 +24205,19 @@
         "street": "Haldenstrasse",
         "housenumber": "60",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "haldenstrasse_65",
+        "street": "Haldenstrasse",
+        "housenumber": "65",
+        "status": "todo"
       }
     },
     {
@@ -43568,6 +43659,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "leimenstrasse_27",
+        "street": "Leimenstrasse",
+        "housenumber": "27",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.691895484924316, 47.507972717285156]
       },
       "properties": {
@@ -45082,6 +45186,19 @@
         "id": "lindstrasse_36",
         "street": "Lindstrasse",
         "housenumber": "36",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.728052139282227, 47.50536346435547]
+      },
+      "properties": {
+        "id": "lindstrasse_37",
+        "street": "Lindstrasse",
+        "housenumber": "37",
         "status": "auto"
       }
     },
@@ -46935,77 +47052,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.725738, 47.501469]
+        "coordinates": null
       },
       "properties": {
         "id": "merkurstrasse_1",
         "street": "Merkurstrasse",
         "housenumber": "1",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.726313, 47.501842]
-      },
-      "properties": {
-        "id": "merkurstrasse_3",
-        "street": "Merkurstrasse",
-        "housenumber": "3",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.726313, 47.501842]
-      },
-      "properties": {
-        "id": "merkurstrasse_4",
-        "street": "Merkurstrasse",
-        "housenumber": "4",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "merkurstrasse_5",
-        "street": "Merkurstrasse",
-        "housenumber": "5",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "merkurstrasse_8",
-        "street": "Merkurstrasse",
-        "housenumber": "8",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.726313, 47.501842]
-      },
-      "properties": {
-        "id": "merkurstrasse_9",
-        "street": "Merkurstrasse",
-        "housenumber": "9",
         "status": "todo"
       }
     },
@@ -47962,7 +48014,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.738773, 47.501282]
+        "coordinates": null
       },
       "properties": {
         "id": "museumstrasse_21",
@@ -76302,6 +76354,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "stadlerstrasse_8",
+        "street": "Stadlerstrasse",
+        "housenumber": "8",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "stadlerstrasse_10",
+        "street": "Stadlerstrasse",
+        "housenumber": "10",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.758272171020508, 47.510658264160156]
       },
       "properties": {
@@ -76315,12 +76393,64 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "stadlerstrasse_12",
+        "street": "Stadlerstrasse",
+        "housenumber": "12",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.758831977844238, 47.51070785522461]
       },
       "properties": {
         "id": "stadlerstrasse_14",
         "street": "Stadlerstrasse",
         "housenumber": "14",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.758258819580078, 47.51124954223633]
+      },
+      "properties": {
+        "id": "stadlerstrasse_16",
+        "street": "Stadlerstrasse",
+        "housenumber": "16",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.758331298828125, 47.511253356933594]
+      },
+      "properties": {
+        "id": "stadlerstrasse_18",
+        "street": "Stadlerstrasse",
+        "housenumber": "18",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.758448600769043, 47.511268615722656]
+      },
+      "properties": {
+        "id": "stadlerstrasse_20",
+        "street": "Stadlerstrasse",
+        "housenumber": "20",
         "status": "auto"
       }
     },
@@ -76341,12 +76471,38 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.758522033691406, 47.51127243041992]
+      },
+      "properties": {
+        "id": "stadlerstrasse_22",
+        "street": "Stadlerstrasse",
+        "housenumber": "22",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.7576904296875, 47.5113525390625]
       },
       "properties": {
         "id": "stadlerstrasse_23",
         "street": "Stadlerstrasse",
         "housenumber": "23",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.758111000061035, 47.511573791503906]
+      },
+      "properties": {
+        "id": "stadlerstrasse_24",
+        "street": "Stadlerstrasse",
+        "housenumber": "24",
         "status": "auto"
       }
     },
@@ -76367,12 +76523,129 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.758231163024902, 47.51157760620117]
+      },
+      "properties": {
+        "id": "stadlerstrasse_26",
+        "street": "Stadlerstrasse",
+        "housenumber": "26",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.75830364227295, 47.51158142089844]
+      },
+      "properties": {
+        "id": "stadlerstrasse_28",
+        "street": "Stadlerstrasse",
+        "housenumber": "28",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.758420944213867, 47.5115966796875]
+      },
+      "properties": {
+        "id": "stadlerstrasse_30",
+        "street": "Stadlerstrasse",
+        "housenumber": "30",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.758495330810547, 47.511600494384766]
+      },
+      "properties": {
+        "id": "stadlerstrasse_32",
+        "street": "Stadlerstrasse",
+        "housenumber": "32",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.758084297180176, 47.51190185546875]
+      },
+      "properties": {
+        "id": "stadlerstrasse_34",
+        "street": "Stadlerstrasse",
+        "housenumber": "34",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.758203506469727, 47.511905670166016]
+      },
+      "properties": {
+        "id": "stadlerstrasse_36",
+        "street": "Stadlerstrasse",
+        "housenumber": "36",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.758275985717773, 47.51190948486328]
+      },
+      "properties": {
+        "id": "stadlerstrasse_38",
+        "street": "Stadlerstrasse",
+        "housenumber": "38",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.758393287658691, 47.511924743652344]
+      },
+      "properties": {
+        "id": "stadlerstrasse_40",
+        "street": "Stadlerstrasse",
+        "housenumber": "40",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.757514953613281, 47.5131721496582]
       },
       "properties": {
         "id": "stadlerstrasse_41",
         "street": "Stadlerstrasse",
         "housenumber": "41",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.758467674255371, 47.51192855834961]
+      },
+      "properties": {
+        "id": "stadlerstrasse_42",
+        "street": "Stadlerstrasse",
+        "housenumber": "42",
         "status": "auto"
       }
     },
@@ -76393,6 +76666,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.758057594299316, 47.512229919433594]
+      },
+      "properties": {
+        "id": "stadlerstrasse_44",
+        "street": "Stadlerstrasse",
+        "housenumber": "44",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.757407188415527, 47.51364517211914]
       },
       "properties": {
@@ -76406,12 +76692,116 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.758176803588867, 47.51223373413086]
+      },
+      "properties": {
+        "id": "stadlerstrasse_46",
+        "street": "Stadlerstrasse",
+        "housenumber": "46",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.758249282836914, 47.512237548828125]
+      },
+      "properties": {
+        "id": "stadlerstrasse_48",
+        "street": "Stadlerstrasse",
+        "housenumber": "48",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.758367538452148, 47.51225280761719]
+      },
+      "properties": {
+        "id": "stadlerstrasse_50",
+        "street": "Stadlerstrasse",
+        "housenumber": "50",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.758439064025879, 47.51225662231445]
+      },
+      "properties": {
+        "id": "stadlerstrasse_52",
+        "street": "Stadlerstrasse",
+        "housenumber": "52",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.758280754089355, 47.51273727416992]
+      },
+      "properties": {
+        "id": "stadlerstrasse_54",
+        "street": "Stadlerstrasse",
+        "housenumber": "54",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.758092880249023, 47.51347351074219]
       },
       "properties": {
         "id": "stadlerstrasse_56",
         "street": "Stadlerstrasse",
         "housenumber": "56",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.757970809936523, 47.51424789428711]
+      },
+      "properties": {
+        "id": "stadlerstrasse_58",
+        "street": "Stadlerstrasse",
+        "housenumber": "58",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.757916450500488, 47.514732360839844]
+      },
+      "properties": {
+        "id": "stadlerstrasse_60",
+        "street": "Stadlerstrasse",
+        "housenumber": "60",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7577543258667, 47.51506805419922]
+      },
+      "properties": {
+        "id": "stadlerstrasse_62",
+        "street": "Stadlerstrasse",
+        "housenumber": "62",
         "status": "auto"
       }
     },
@@ -76464,6 +76854,58 @@
         "id": "stadlerstrasse_70",
         "street": "Stadlerstrasse",
         "housenumber": "70",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.757753372192383, 47.515586853027344]
+      },
+      "properties": {
+        "id": "stadlerstrasse_72",
+        "street": "Stadlerstrasse",
+        "housenumber": "72",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "stadlerstrasse_74",
+        "street": "Stadlerstrasse",
+        "housenumber": "74",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.757668495178223, 47.51578140258789]
+      },
+      "properties": {
+        "id": "stadlerstrasse_76",
+        "street": "Stadlerstrasse",
+        "housenumber": "76",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.757648468017578, 47.515960693359375]
+      },
+      "properties": {
+        "id": "stadlerstrasse_78",
+        "street": "Stadlerstrasse",
+        "housenumber": "78",
         "status": "auto"
       }
     },
@@ -77894,19 +78336,6 @@
         "id": "stadtpark_6",
         "street": "Stadtpark",
         "housenumber": "6",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "stadtpark_9",
-        "street": "Stadtpark",
-        "housenumber": "9",
         "status": "todo"
       }
     },
@@ -84622,6 +85051,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_28",
+        "street": "Tösstalstrasse",
+        "housenumber": "28",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_30",
+        "street": "Tösstalstrasse",
+        "housenumber": "30",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.733959, 47.496807]
       },
       "properties": {
@@ -84641,6 +85096,19 @@
         "id": "tösstalstrasse_33",
         "street": "Tösstalstrasse",
         "housenumber": "33",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_34",
+        "street": "Tösstalstrasse",
+        "housenumber": "34",
         "status": "todo"
       }
     },
@@ -85194,12 +85662,116 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_169",
+        "street": "Tösstalstrasse",
+        "housenumber": "169",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.751903533935547, 47.48883056640625]
+      },
+      "properties": {
+        "id": "tösstalstrasse_171",
+        "street": "Tösstalstrasse",
+        "housenumber": "171",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.752236366271973, 47.48866271972656]
+      },
+      "properties": {
+        "id": "tösstalstrasse_173",
+        "street": "Tösstalstrasse",
+        "housenumber": "173",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.846637725830078, 47.43073654174805]
+      },
+      "properties": {
+        "id": "tösstalstrasse_175",
+        "street": "Tösstalstrasse",
+        "housenumber": "175",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_177",
+        "street": "Tösstalstrasse",
+        "housenumber": "177",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.846305847167969, 47.43055725097656]
+      },
+      "properties": {
+        "id": "tösstalstrasse_179",
+        "street": "Tösstalstrasse",
+        "housenumber": "179",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.752614974975586, 47.48858642578125]
+      },
+      "properties": {
+        "id": "tösstalstrasse_181",
+        "street": "Tösstalstrasse",
+        "housenumber": "181",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.752143859863281, 47.48826599121094]
       },
       "properties": {
         "id": "tösstalstrasse_182",
         "street": "Tösstalstrasse",
         "housenumber": "182",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.75234603881836, 47.48841857910156]
+      },
+      "properties": {
+        "id": "tösstalstrasse_183",
+        "street": "Tösstalstrasse",
+        "housenumber": "183",
         "status": "auto"
       }
     },
@@ -85259,6 +85831,45 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.753402709960938, 47.487998962402344]
+      },
+      "properties": {
+        "id": "tösstalstrasse_191",
+        "street": "Tösstalstrasse",
+        "housenumber": "191",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_193",
+        "street": "Tösstalstrasse",
+        "housenumber": "193",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_195",
+        "street": "Tösstalstrasse",
+        "housenumber": "195",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.754140853881836, 47.487918853759766]
       },
       "properties": {
@@ -85278,6 +85889,45 @@
         "id": "tösstalstrasse_199",
         "street": "Tösstalstrasse",
         "housenumber": "199",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_201",
+        "street": "Tösstalstrasse",
+        "housenumber": "201",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_203",
+        "street": "Tösstalstrasse",
+        "housenumber": "203",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.754986763000488, 47.4871711730957]
+      },
+      "properties": {
+        "id": "tösstalstrasse_205",
+        "street": "Tösstalstrasse",
+        "housenumber": "205",
         "status": "auto"
       }
     },
@@ -85324,6 +85974,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_213",
+        "street": "Tösstalstrasse",
+        "housenumber": "213",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.755963325500488, 47.48678207397461]
       },
       "properties": {
@@ -85337,6 +86000,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_217",
+        "street": "Tösstalstrasse",
+        "housenumber": "217",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.756264686584473, 47.4860725402832]
       },
       "properties": {
@@ -85344,6 +86020,19 @@
         "street": "Tösstalstrasse",
         "housenumber": "218",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_219",
+        "street": "Tösstalstrasse",
+        "housenumber": "219",
+        "status": "todo"
       }
     },
     {
@@ -85376,6 +86065,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_225",
+        "street": "Tösstalstrasse",
+        "housenumber": "225",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.758149147033691, 47.485572814941406]
       },
       "properties": {
@@ -85383,6 +86085,19 @@
         "street": "Tösstalstrasse",
         "housenumber": "227",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_229",
+        "street": "Tösstalstrasse",
+        "housenumber": "229",
+        "status": "todo"
       }
     },
     {
@@ -85454,6 +86169,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_237",
+        "street": "Tösstalstrasse",
+        "housenumber": "237",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.759897232055664, 47.484336853027344]
+      },
+      "properties": {
+        "id": "tösstalstrasse_239",
+        "street": "Tösstalstrasse",
+        "housenumber": "239",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.76005744934082, 47.48432159423828]
       },
       "properties": {
@@ -85513,6 +86254,19 @@
         "street": "Tösstalstrasse",
         "housenumber": "244a",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "tösstalstrasse_245",
+        "street": "Tösstalstrasse",
+        "housenumber": "245",
+        "status": "todo"
       }
     },
     {
@@ -87697,32 +88451,6 @@
         "street": "Unterer Graben",
         "housenumber": "11",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.730896, 47.498417]
-      },
-      "properties": {
-        "id": "unterer_graben_13",
-        "street": "Unterer Graben",
-        "housenumber": "13",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.730896, 47.498417]
-      },
-      "properties": {
-        "id": "unterer_graben_15",
-        "street": "Unterer Graben",
-        "housenumber": "15",
-        "status": "todo"
       }
     },
     {
@@ -100820,6 +101548,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "zürcherstrasse_126",
+        "street": "Zürcherstrasse",
+        "housenumber": "126",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.706839561462402, 47.491416931152344]
       },
       "properties": {
@@ -100827,6 +101568,19 @@
         "street": "Zürcherstrasse",
         "housenumber": "127",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "zürcherstrasse_128",
+        "street": "Zürcherstrasse",
+        "housenumber": "128",
+        "status": "todo"
       }
     },
     {
@@ -100846,6 +101600,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "zürcherstrasse_130",
+        "street": "Zürcherstrasse",
+        "housenumber": "130",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.706643104553223, 47.491092681884766]
       },
       "properties": {
@@ -100853,6 +101620,19 @@
         "street": "Zürcherstrasse",
         "housenumber": "131",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "zürcherstrasse_132",
+        "street": "Zürcherstrasse",
+        "housenumber": "132",
+        "status": "todo"
       }
     },
     {
@@ -100872,6 +101652,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "zürcherstrasse_134",
+        "street": "Zürcherstrasse",
+        "housenumber": "134",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.706192970275879, 47.49066162109375]
       },
       "properties": {
@@ -100885,6 +101678,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "zürcherstrasse_136",
+        "street": "Zürcherstrasse",
+        "housenumber": "136",
+        "status": "todo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.705789566040039, 47.49075698852539]
       },
       "properties": {
@@ -100892,6 +101698,19 @@
         "street": "Zürcherstrasse",
         "housenumber": "137",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "properties": {
+        "id": "zürcherstrasse_138",
+        "street": "Zürcherstrasse",
+        "housenumber": "138",
+        "status": "todo"
       }
     },
     {
@@ -101607,19 +102426,6 @@
         "street": "Zürcherstrasse",
         "housenumber": "380",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.721128, 47.498489]
-      },
-      "properties": {
-        "id": "zürcherstrasse_5228",
-        "street": "Zürcherstrasse",
-        "housenumber": "5228",
-        "status": "todo"
       }
     },
     {
