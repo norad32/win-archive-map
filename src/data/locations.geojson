@@ -221,6 +221,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.728607, 47.49897]
+      },
+      "properties": {
+        "id": "kirchplatz",
+        "street": "Kirchplatz",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.864315, 47.501156]
       },
       "properties": {

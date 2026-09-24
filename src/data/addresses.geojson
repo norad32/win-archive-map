@@ -499,19 +499,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "albanistrasse_22",
-        "street": "Albanistrasse",
-        "housenumber": "22",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.732229232788086, 47.50627899169922]
       },
       "properties": {
@@ -4211,19 +4198,6 @@
         "street": "Bahnstrasse",
         "housenumber": "27",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "bahnstrasse_34a",
-        "street": "Bahnstrasse",
-        "housenumber": "34a",
-        "status": "todo"
       }
     },
     {
@@ -12537,19 +12511,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "eichliackerstrasse_22",
-        "street": "Eichliackerstrasse",
-        "housenumber": "22",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.71408748626709, 47.48917770385742]
       },
       "properties": {
@@ -12563,19 +12524,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "eichliackerstrasse_24",
-        "street": "Eichliackerstrasse",
-        "housenumber": "24",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.713970184326172, 47.489112854003906]
       },
       "properties": {
@@ -12583,19 +12531,6 @@
         "street": "Eichliackerstrasse",
         "housenumber": "25",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "eichliackerstrasse_26",
-        "street": "Eichliackerstrasse",
-        "housenumber": "26",
-        "status": "todo"
       }
     },
     {
