@@ -88,12 +88,18 @@
         Win Archive Map – Historical Images of Winterthur
       </h1>
 
-      <button id="sidebarToggle" aria-expanded="false" aria-controls="sidebar">
+      <button
+        id="sidebarToggle"
+        class="btn-primary"
+        aria-expanded="false"
+        aria-controls="sidebar"
+      >
         ☰ Filter
       </button>
 
       <button
         id="aboutBtn"
+        class="btn-primary"
         aria-haspopup="dialog"
         aria-controls="aboutModal"
         title="Find out more about Win Archive Map and how to use it"
@@ -103,6 +109,7 @@
 
       <button
         id="fitResultsBtn"
+        class="btn-primary"
         hidden
         title="Fit the map so all filtered entries are visible"
       >
@@ -158,7 +165,12 @@
           </div>
         </div>
 
-        <button id="clearFiltersBtn" type="button" title="Reset all filters">
+        <button
+          id="clearFiltersBtn"
+          type="button"
+          class="btn-primary"
+          title="Reset all filters"
+        >
           Clear Filters
         </button>
 
@@ -175,14 +187,14 @@
       <div id="layerSelectorPanel" class="layer-selector-panel">
         <div class="layer-mode-toggle">
           <button
-            class="mode-btn active"
+            class="mode-btn btn-primary active"
             data-mode="digitalMap"
             title="Historical and current maps of Winterthur. Use the year slider below to switch between map editions from 1850 to today."
           >
             Digital Map
           </button>
           <button
-            class="mode-btn"
+            class="mode-btn btn-secondary"
             data-mode="aerialImage"
             title="Historical and current aerial imagery of Winterthur. Use the year slider below to switch between aerial surveys from 1931 to today."
           >

@@ -94,7 +94,7 @@ function openCoordinatesPopup(map, latlng) {
   const button = el(
     "button",
     {
-      className: "coord-popup-copy",
+      className: "coord-popup-copy btn-secondary",
       type: "button",
       onClick: async () => {
         const copied = await copyText(text);
@@ -337,10 +337,12 @@ function createLeafletMap(elId) {
 
   document.querySelectorAll(".mode-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
-      document
-        .querySelectorAll(".mode-btn")
-        .forEach((b) => b.classList.remove("active"));
-      btn.classList.add("active");
+      document.querySelectorAll(".mode-btn").forEach((b) => {
+        b.classList.remove("active", "btn-primary");
+        b.classList.add("btn-secondary");
+      });
+      btn.classList.add("active", "btn-primary");
+      btn.classList.remove("btn-secondary");
       currentMode = btn.dataset.mode;
       setupSliderForMode(currentMode);
       updateLayer();
@@ -351,10 +353,6 @@ function createLeafletMap(elId) {
 
   setupSliderForMode(currentMode);
   updateLayer();
-
-  map.createPane("boundaryLabelPane");
-  map.getPane("boundaryLabelPane").style.zIndex = 650;
-  map.getPane("boundaryLabelPane").style.pointerEvents = "none";
 
   window.__map = map;
 

@@ -21,7 +21,7 @@ export const Config = Object.freeze({
   MAP_MAX_NATIVE_ZOOM: 18,
   MAP_MAX_BOUNDS: [
     [47.42, 8.59], // south-west
-    [47.59, 8.89], // north-east
+    [47.60, 8.96] // north-east
   ],
 
   // Marker sizing: plain pins scale with entry count (log, 1..PIN_MAX_COUNT),

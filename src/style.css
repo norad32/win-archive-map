@@ -142,25 +142,53 @@
     }
   }
 
-  #clearFiltersBtn {
-    width: 100%;
-    margin-block: 4px 14px;
+  .btn-primary,
+  .btn-secondary {
+    display: inline-block;
     padding: 10px 14px;
-    background: var(--color-brand);
-    border: none;
     border-radius: var(--radius-md);
     cursor: pointer;
     font-size: 14px;
-    font-weight: bold;
+    font-family: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    transition:
+      background var(--transition-fast),
+      border-color var(--transition-fast),
+      color var(--transition-fast);
+  }
+
+  .btn-primary {
+    background: var(--color-brand);
+    border: none;
     color: #fff;
+    font-weight: bold;
     box-shadow: var(--shadow-md);
-    transition: background var(--transition-fast);
 
     &:hover,
     &:active,
     &:focus-visible {
       background: var(--color-brand-hover);
     }
+  }
+
+  .btn-secondary {
+    background: transparent;
+    border: 1px solid var(--color-border);
+    color: var(--color-text-label);
+    font-weight: 500;
+
+    &:hover,
+    &:focus-visible {
+      background: transparent;
+      border-color: var(--color-brand);
+      color: var(--color-brand);
+    }
+  }
+
+  #clearFiltersBtn {
+    width: 100%;
+    margin-block: 4px 14px;
   }
 
   #stats {
@@ -201,37 +229,7 @@
     }
 
     a.gen-link {
-      display: inline-block;
       margin-block-start: 10px;
-      padding: 8px 12px;
-      background: var(--color-brand);
-      color: #fff;
-      text-decoration: none;
-      border-radius: var(--radius-sm);
-      font-size: 13px;
-      border: none;
-      cursor: pointer;
-      transition: background var(--transition-fast);
-      font-weight: bold;
-
-      &:hover,
-      &:active {
-        background: var(--color-brand-hover);
-      }
-    }
-
-    a.gen-link--secondary {
-      background: transparent;
-      border: 1px solid var(--color-border);
-      color: var(--color-text-label);
-      font-weight: 500;
-
-      &:hover,
-      &:active {
-        background: transparent;
-        border-color: var(--color-brand);
-        color: var(--color-brand);
-      }
     }
   }
 
@@ -268,21 +266,6 @@
     position: fixed;
     top: 10px;
     z-index: var(--z-panel);
-    padding: 10px 14px;
-    background: var(--color-brand);
-    border: none;
-    border-radius: var(--radius-md);
-    font-size: 14px;
-    font-weight: bold;
-    color: #fff;
-    box-shadow: var(--shadow-md);
-    cursor: pointer;
-    transition: background var(--transition-fast);
-
-    &:hover,
-    &:active {
-      background: var(--color-brand-hover);
-    }
   }
 
   #aboutBtn {
@@ -558,33 +541,6 @@
     z-index: 1000;
   }
 
-  .district-label,
-  .neighbourhood-label {
-    text-align: center;
-    white-space: nowrap;
-    font-weight: 750;
-    color: var(--color-text);
-    text-shadow:
-      -1px -1px 0 var(--color-surface),
-      1px -1px 0 var(--color-surface),
-      -1px 1px 0 var(--color-surface),
-      1px 1px 0 var(--color-surface);
-
-    & > div {
-      transform: translate(-50%, -50%);
-    }
-  }
-
-  .district-label {
-    font-size: 0.75vw;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-  }
-
-  .neighbourhood-label {
-    font-size: 0.5vw;
-  }
-
   .entry-block {
     margin-block-end: 10px;
   }
@@ -647,37 +603,11 @@
     justify-content: center;
   }
 
+  /* Inactive mode buttons share the secondary look, the active one the
+     primary look (same recipe as .btn-secondary / .btn-primary). */
   .mode-btn {
     padding: 8px 16px;
-    background: transparent;
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-sm);
-    cursor: pointer;
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--color-text-label);
     white-space: nowrap;
-    transition:
-      background var(--transition-fast),
-      border-color var(--transition-fast),
-      color var(--transition-fast);
-
-    &:hover {
-      background: color-mix(
-        in srgb,
-        var(--color-surface) 70%,
-        var(--color-border)
-      );
-      border-color: var(--color-text-muted);
-      color: var(--color-text);
-    }
-
-    &.active {
-      background: var(--color-brand);
-      color: #fff;
-      border-color: var(--color-brand);
-      font-weight: 600;
-    }
   }
 
   .year-slider-container {
@@ -877,8 +807,8 @@
         font-size: 13px;
       }
 
-      a.gen-link,
-      a.gen-link--secondary {
+      a.btn-primary,
+      a.btn-secondary {
         width: 100%;
         text-align: center;
         padding: 12px;
@@ -990,22 +920,6 @@
   flex: none;
   padding: 4px 10px;
   font-size: 12px;
-  font-weight: 500;
-  background: transparent;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-sm);
-  color: var(--color-text-label);
-  cursor: pointer;
-  transition:
-    background var(--transition-fast),
-    border-color var(--transition-fast),
-    color var(--transition-fast);
-
-  &:hover:not(:disabled),
-  &:focus-visible {
-    border-color: var(--color-brand);
-    color: var(--color-brand);
-  }
 
   &:disabled {
     color: var(--color-text-muted);

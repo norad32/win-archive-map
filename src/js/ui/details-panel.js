@@ -92,7 +92,7 @@ function buildEntryBlock(props) {
       el(
         "a",
         {
-          className: "gen-link",
+          className: "btn-primary",
           href: signatureLink,
           target: "_blank",
           rel: "noopener noreferrer",
@@ -107,7 +107,7 @@ function buildEntryBlock(props) {
     el(
       "a",
       {
-        className: "gen-link gen-link--secondary",
+        className: "btn-secondary",
         href: buildCustomLink(props),
         target: "_blank",
         rel: "noopener noreferrer",
