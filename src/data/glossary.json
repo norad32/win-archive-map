@@ -114,7 +114,7 @@
     "subtitle": "",
     "category": "Natur und Pärke",
     "url": "https://www.winterthur-glossar.ch/affenschlucht",
-    "tags": ""
+    "tags": "Affenschlucht"
   },
   {
     "title": "Africana",
@@ -268,7 +268,7 @@
     "subtitle": "",
     "category": "Aus dem Bildarchiv",
     "url": "https://www.winterthur-glossar.ch/als-die-epa-noch-leuchtete",
-    "tags": ""
+    "address": "bahnhofplatz_1, bahnhofplatz_2, bahnhofplatz_3, bahnhofplatz_4"
   },
   {
     "title": "Alte Garde Winterthur",
@@ -338,6 +338,7 @@
     "subtitle": "Lindstrasse 10",
     "category": "Öffentliche Bauten",
     "url": "https://www.winterthur-glossar.ch/altes-bezirksgebaeude",
+    "address": "Lindstrasse 10",
     "tags": ""
   },
   {
@@ -369,6 +370,7 @@
     "subtitle": "",
     "category": "Grosskonzerne",
     "url": "https://www.winterthur-glossar.ch/amag-retail-winterthur",
+    "address": "Zürcherstrasse 312",
     "tags": ""
   },
   {
@@ -596,6 +598,7 @@
     "subtitle": "Sportzentrum im Deutweg (Win4)",
     "category": "Sport- und Freizeitanlagen",
     "url": "https://www.winterthur-glossar.ch/axa-arena",
+    "address": "Grüzefeldstrasse 36",
     "tags": ""
   },
   {
@@ -649,14 +652,14 @@
     "subtitle": "Hauptstrasse / St. Gallerstrasse",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/bahnhof-hegi",
-    "tags": ""
+    "tags": "Bahnhof Hegi"
   },
   {
     "title": "Bahnhof Oberwinterthur",
     "subtitle": "",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/bahnhof-oberwinterthur",
-    "tags": ""
+    "address": "Frauenfelderstrasse 25"
   },
   {
     "title": "Bahnhof Seen und die Tösstallinie",
@@ -671,14 +674,14 @@
     "subtitle": "Stationsstrasse",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/bahnhof-toess",
-    "tags": ""
+    "address": "Stationsstrasse 19-22"
   },
   {
     "title": "Bahnhof Wallrüti",
     "subtitle": "Stofflerenweg",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/bahnhof-wallrueti",
-    "tags": ""
+    "tags": "Walrüti"
   },
   {
     "title": "Bahnhof Wülflingen",
@@ -692,7 +695,7 @@
     "subtitle": "",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/bahnhofplatz",
-    "tags": ""
+    "street": "Bahnhofplatz"
   },
   {
     "title": "Bahnübergang Bachtelstrasse",

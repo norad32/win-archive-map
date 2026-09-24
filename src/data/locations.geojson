@@ -5,6 +5,31 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.679231, 47.54123]
+      },
+      "properties": {
+        "id": "aesch",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.67469581192168, 47.51810790299321]
+      },
+      "properties": {
+        "id": "affenschlucht",
+        "street": "Wülflingerstrasse",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.68812, 47.499822]
       },
       "properties": {
@@ -23,6 +48,32 @@
       "properties": {
         "id": "aussichtsturm_eschenberg",
         "street": "Turmfussweg",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.768983269466336, 47.501439195786304]
+      },
+      "properties": {
+        "id": "bahnhof_hegi",
+        "street": "St. Gallerstrasse",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.76086476798488, 47.51677860923703]
+      },
+      "properties": {
+        "id": "bahnhof_walrüti",
+        "street": "Stofflerenweg",
         "housenumber": null,
         "status": "manual"
       }
@@ -83,6 +134,42 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.732951, 47.563598]
+      },
+      "properties": {
+        "id": "dägerlen_berg",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.739367, 47.548291]
+      },
+      "properties": {
+        "id": "dägerlen_bänk",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.73014, 47.556763]
+      },
+      "properties": {
+        "id": "dägerlen_rutschwil",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.867545, 47.490194]
       },
       "properties": {
@@ -114,6 +201,18 @@
       "properties": {
         "id": "guemühliweiher",
         "street": "Weiherstrasse/Grundstrasse",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.683448, 47.562656]
+      },
+      "properties": {
+        "id": "henggart",
         "housenumber": null,
         "status": "manual"
       }
@@ -179,6 +278,19 @@
       "properties": {
         "id": "tugbrüggli",
         "street": "Tugbrügglifussweg",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.828392360006617, 47.46977727176019]
+      },
+      "properties": {
+        "id": "unterschlatt",
+        "street": null,
         "housenumber": null,
         "status": "manual"
       }

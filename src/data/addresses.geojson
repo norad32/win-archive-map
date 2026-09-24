@@ -77238,19 +77238,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733033, 47.500607]
-      },
-      "properties": {
-        "id": "stadthausstrasse_2",
-        "street": "Stadthausstrasse",
-        "housenumber": "2",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.73107, 47.500801]
       },
       "properties": {
