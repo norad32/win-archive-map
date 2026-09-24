@@ -44,6 +44,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.637477589353102, 47.51517003682475]
+      },
+      "properties": {
+        "id": "burg_pfungen",
+        "street": null,
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.74368, 47.504439]
       },
       "properties": {
@@ -62,6 +75,58 @@
       "properties": {
         "id": "chöpfi",
         "street": "Chöpfiweg",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.867545, 47.490194]
+      },
+      "properties": {
+        "id": "elgg_kirche",
+        "street": "Lindenplatz",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.85592739166844, 47.48226780524383]
+      },
+      "properties": {
+        "id": "fahrenbach",
+        "street": null,
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.865162719713855, 47.47274329646554]
+      },
+      "properties": {
+        "id": "guemühliweiher",
+        "street": "Weiherstrasse/Grundstrasse",
+        "housenumber": null,
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.864315, 47.501156]
+      },
+      "properties": {
+        "id": "neu_elgg",
+        "street": null,
         "housenumber": null,
         "status": "manual"
       }
@@ -114,19 +179,6 @@
       "properties": {
         "id": "tugbrüggli",
         "street": "Tugbrügglifussweg",
-        "housenumber": null,
-        "status": "manual"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.637477589353102, 47.51517003682475]
-      },
-      "properties": {
-        "id": "burg_pfungen",
-        "street": null,
         "housenumber": null,
         "status": "manual"
       }

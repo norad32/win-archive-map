@@ -31,32 +31,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.718315124511719, 47.5029411315918]
-      },
-      "properties": {
-        "id": "elgg_sulzerhof_1",
-        "street": "Sulzerhof",
-        "housenumber": "1",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.865709814581221, 47.48329789681872]
-      },
-      "properties": {
-        "id": "elgg_schlossstrasse_3",
-        "street": "Schlossstrasse",
-        "housenumber": "3",
-        "status": "manual"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.717546463012695, 47.5029296875]
       },
       "properties": {
@@ -14565,12 +14539,116 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.866839707936752, 47.49054991340945]
+        "coordinates": [8.859082993298323, 47.47585853259666]
+      },
+      "properties": {
+        "id": "elgg_guwilmüli_1",
+        "street": "Guwilmüli",
+        "housenumber": "1",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.869194452345102, 47.488897549097565]
+      },
+      "properties": {
+        "id": "elgg_hintergasse_19",
+        "street": "Hintergasse",
+        "housenumber": "19",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.873094357653274, 47.4889275310874]
+      },
+      "properties": {
+        "id": "elgg_humbergstrasse_17",
+        "street": "Humbergstrasse",
+        "housenumber": "17",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.866731244699915, 47.49049147345292]
       },
       "properties": {
         "id": "elgg_lindenplatz_3",
         "street": "Lindenplatz",
         "housenumber": "3",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.866359894947436, 47.4900828993063]
+      },
+      "properties": {
+        "id": "elgg_lindenplatz_4",
+        "street": "Lindenplatz",
+        "housenumber": "4",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.864354939689408, 47.49231988020595]
+      },
+      "properties": {
+        "id": "elgg_mühlegasse_2",
+        "street": "Mühlegasse",
+        "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.868435090699355, 47.49033070866285]
+      },
+      "properties": {
+        "id": "elgg_obergasse_2",
+        "street": "Obergasse",
+        "housenumber": "2",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.865709814581221, 47.48329789681872]
+      },
+      "properties": {
+        "id": "elgg_schlossstrasse_3",
+        "street": "Schlossstrasse",
+        "housenumber": "3",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.892848, 47.495091]
+      },
+      "properties": {
+        "id": "elgg_sulzerhof_1",
+        "street": "Sulzerhof",
+        "housenumber": "1",
         "status": "manual"
       }
     },
@@ -26779,19 +26857,6 @@
         "street": "Hegifeldstrasse",
         "housenumber": "125",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.760556, 47.506939]
-      },
-      "properties": {
-        "id": "hegifeldstrasse_129",
-        "street": "Hegifeldstrasse",
-        "housenumber": "129",
-        "status": "todo"
       }
     },
     {
@@ -48833,6 +48898,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.645816802978516, 47.52589416503906]
+      },
+      "properties": {
+        "id": "neftenbach_wartgutstrasse_80",
+        "street": "Wartgutstrasse",
+        "housnumber": "80",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.678879737854004, 47.5167236328125]
       },
       "properties": {
@@ -70647,13 +70725,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.69338321685791, 47.50157928466797]
+        "coordinates": [8.743468, 47.458351]
       },
       "properties": {
         "id": "schloss_1",
         "street": "Schloss",
         "housenumber": "1",
-        "status": "auto"
+        "status": "manual"
       }
     },
     {
@@ -89932,19 +90010,6 @@
         "id": "wallrütistrasse_121",
         "street": "Wallrütistrasse",
         "housenumber": "121",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.645816802978516, 47.52589416503906]
-      },
-      "properties": {
-        "id": "wartgutstrasse_80",
-        "street": "Wartgutstrasse",
-        "housenumber": "80",
         "status": "auto"
       }
     },
