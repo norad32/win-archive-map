@@ -31,10 +31,8 @@
 
     --shadow-sm: 0 1px 3px rgb(0 0 0 / 0.3);
     --shadow-md: 0 2px 6px rgb(0 0 0 / 0.3);
-    --shadow-lg: light-dark(
-      0 4px 24px rgb(0 0 0 / 0.2),
-      0 4px 24px rgb(0 0 0 / 0.5)
-    );
+    --shadow-lg: light-dark(0 4px 24px rgb(0 0 0 / 0.2),
+        0 4px 24px rgb(0 0 0 / 0.5));
 
     --z-panel: 999;
     --z-sidebar: 998;
@@ -46,6 +44,7 @@
 }
 
 @layer reset {
+
   *,
   *::before,
   *::after {
@@ -54,6 +53,7 @@
 }
 
 @layer base {
+
   html,
   body {
     height: 100%;
@@ -71,13 +71,11 @@
     padding: 8px;
   }
 
-  :is(
-    #aboutModalClose,
+  :is(#aboutModalClose,
     .mode-btn,
     .year-slider,
     .modal-section a,
-    .glossary-matches a
-  ):focus-visible {
+    .glossary-matches a):focus-visible {
     outline: var(--focus-ring);
     outline-offset: 2px;
   }
@@ -97,7 +95,7 @@
   }
 
   #sidebar {
-    width: min(365px, 100%);
+    width: min(375px, 100%);
     background: var(--color-surface);
     border-inline-start: 1px solid var(--color-border);
     padding: 16px;
@@ -272,7 +270,7 @@
   }
 
   #fitResultsBtn {
-    inset-inline-end: 375px;
+    inset-inline-end: 385px;
   }
 
   #sidebarToggle {
@@ -706,7 +704,7 @@
       &.open {
         transform: translateX(0);
 
-        ~ #layerSelectorPanel {
+        ~#layerSelectorPanel {
           display: none;
         }
       }
