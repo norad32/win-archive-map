@@ -512,9 +512,11 @@
       "Zum Park"
     ],
     "Other": [
+      "Alte Frauenfelderstrasse",
       "Aspstrasse",
       "Baumschulstrasse",
       "Deisrütistrasse",
+      "Dorfstrasse",
       "Erdbühlstrasse",
       "Guwilmüli",
       "Hintergasse",
@@ -522,6 +524,7 @@
       "Kirchgasse",
       "Limmatquai",
       "Lindenplatz",
+      "Mörsburgstrasse",
       "Mühlegasse",
       "Müliswiesstrasse",
       "Obergasse",
@@ -1011,7 +1014,6 @@
       "Burgstrasse",
       "Büchlibuckstrasse",
       "Chöpfiweg",
-      "Dorfstrasse",
       "Dättnauerstrasse",
       "Eckwiesenstrasse",
       "Eckwiesenstrasse/Oberfeldstrasse",
@@ -1558,7 +1560,6 @@
       "Zentralstrasse"
     ],
     "Lindenplatz": [
-      "Dorfstrasse",
       "Erlenstrasse",
       "Eulachstrasse",
       "Hohfurristrasse",

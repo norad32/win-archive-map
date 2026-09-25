@@ -1786,6 +1786,18 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.789228479875755, 47.535383622304664]
+      },
+      "properties": {
+        "id": "attikon_bahnhof",
+        "street": "Stationsstrasse",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.70158, 47.48644]
       },
       "properties": {
@@ -41202,6 +41214,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.77467, 47.457827]
+      },
+      "properties": {
+        "id": "kollbrunn",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.723394393920898, 47.50144958496094]
       },
       "properties": {
@@ -48838,7 +48861,7 @@
       "properties": {
         "id": "neftenbach_wartgutstrasse_80",
         "street": "Wartgutstrasse",
-        "housnumber": "80",
+        "housenumber": "80",
         "status": "manual"
       }
     },
@@ -93313,6 +93336,82 @@
         "street": "Weststrasse",
         "housenumber": "115",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.787796, 47.522425]
+      },
+      "properties": {
+        "id": "wiesendangen",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.775890281840832, 47.52541099336594]
+      },
+      "properties": {
+        "id": "wiesendangen_alte_frauenfelderstrasse_1_3",
+        "street": "Alte Frauenfelderstrasse",
+        "housenumber": "1",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.788486221908801, 47.52059830199679]
+      },
+      "properties": {
+        "id": "wiesendangen_dorfstrasse_26",
+        "street": "Dorfstrasse",
+        "housenumber": "26",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.78947469498639, 47.521228770146195]
+      },
+      "properties": {
+        "id": "wiesendangen_dorfstrasse_45",
+        "street": "Dorfstrasse",
+        "housenumber": "45",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.790112272417709, 47.52132963993784]
+      },
+      "properties": {
+        "id": "wiesendangen_dorfstrasse_49",
+        "street": "Dorfstrasse",
+        "housenumber": "49",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.776533, 47.527138]
+      },
+      "properties": {
+        "id": "wiesendangen_mörsburgstrasse_1",
+        "street": "Mörsburgstrasse",
+        "housenumber": "1",
+        "status": "manual"
       }
     },
     {
