@@ -20,8 +20,8 @@ export const Config = Object.freeze({
   // Tiles are only fetched up to this zoom, beyond it they are upscaled instead of missing.
   MAP_MAX_NATIVE_ZOOM: 18,
   MAP_MAX_BOUNDS: [
-    [47.42, 8.59], // south-west
-    [47.60, 8.96] // north-east
+    [47.285750, 8.443680], // south-west
+    [47.624215, 8.986130] // north-east
   ],
 
   // Marker sizing: plain pins scale with entry count (log, 1..PIN_MAX_COUNT),
