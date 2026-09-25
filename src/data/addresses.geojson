@@ -41966,6 +41966,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.718144416809082, 47.49486541748047]
+      },
+      "properties": {
+        "id": "lagerplatz_18",
+        "street": "Lagerplatz",
+        "housenumber": "18",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.718209266662598, 47.49413299560547]
       },
       "properties": {

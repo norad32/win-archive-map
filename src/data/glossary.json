@@ -468,6 +468,7 @@
     "subtitle": "",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/aquarienverein",
+    "address": "Kanzleistrasse 24",
     "tags": ""
   },
   {
@@ -482,6 +483,7 @@
     "subtitle": "",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/arch",
+    "address": "Archplatz 2",
     "tags": ""
   },
   {
@@ -489,6 +491,7 @@
     "subtitle": "Archplatz",
     "category": "Industrie- und Gewerbeanlagen",
     "url": "https://www.winterthur-glossar.ch/archhoefe",
+    "address": "Archplatz 2",
     "tags": ""
   },
   {
@@ -496,6 +499,7 @@
     "subtitle": "",
     "category": "Vereine und Verbände",
     "url": "https://www.winterthur-glossar.ch/armbrust-schuetzenverein",
+    "address": "Frauenfeldstrasse 39",
     "tags": ""
   },
   {
@@ -847,7 +851,7 @@
     "subtitle": "",
     "category": "Aus dem Bildarchiv",
     "url": "https://www.winterthur-glossar.ch/besuch-vom-general",
-    "tags": ""
+    "tags": "General Guisan"
   },
   {
     "title": "Bezirksgebäude",
@@ -914,6 +918,7 @@
     "subtitle": "",
     "category": "Stadtkreise und Quartiere",
     "url": "https://www.winterthur-glossar.ch/blueemliquartier",
+    "street": "",
     "tags": ""
   },
   {
@@ -921,6 +926,7 @@
     "subtitle": "",
     "category": "Sport- und Freizeitanlagen",
     "url": "https://www.winterthur-glossar.ch/bocciodromo",
+    "address": "Flüelistrasse 9",
     "tags": ""
   },
   {
@@ -935,6 +941,7 @@
     "subtitle": "",
     "category": "Hotels und Gastronomie",
     "url": "https://www.winterthur-glossar.ch/bolero-club",
+    "address": "Untere Vogelsangstrasse",
     "tags": ""
   },
   {
@@ -950,6 +957,7 @@
     "subtitle": "",
     "category": "Sport- und Freizeitanlagen",
     "url": "https://www.winterthur-glossar.ch/boulderhalle-blockfeld",
+    "address": "Oberer Deutweg 4",
     "tags": ""
   },
   {
@@ -1118,7 +1126,7 @@
     "subtitle": "",
     "category": "Sport- und Freizeitanlagen",
     "url": "https://www.winterthur-glossar.ch/bruehlberg-aussichtsturm",
-    "tags": ""
+    "tags": "Brühlbergturm"
   },
   {
     "title": "Brühlgut-Stiftung",
@@ -1132,7 +1140,7 @@
     "subtitle": "",
     "category": "Natur und Pärke",
     "url": "https://www.winterthur-glossar.ch/bruehlgutpark",
-    "tags": ""
+    "tags": "Bühlgutpark"
   },
   {
     "title": "Brüttener Tunnel und Überwerfung Töss",
@@ -1146,6 +1154,7 @@
     "subtitle": "Heute Orell Füssli Winterthur",
     "category": "KMU und Gewerbe",
     "url": "https://www.winterthur-glossar.ch/buchhandlung-vogel",
+    "address": "Marktgasse 41",
     "tags": ""
   },
   {
@@ -1161,14 +1170,14 @@
     "subtitle": "",
     "category": "Burgen, Schlösser und Stadtbefestigung",
     "url": "https://www.winterthur-glossar.ch/burgruine-alt-wuelflingen",
-    "tags": ""
+    "tags": "Alt-Wülflingen"
   },
   {
     "title": "Burgstelle Gamser",
     "subtitle": "",
     "category": "Burgen, Schlösser und Stadtbefestigung",
     "url": "https://www.winterthur-glossar.ch/burgstelle-gamser",
-    "tags": ""
+    "tags": "Gamser"
   },
   {
     "title": "Burgstelle Rossberg Töss",

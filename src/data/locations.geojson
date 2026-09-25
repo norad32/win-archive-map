@@ -107,6 +107,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.71399, 47.496682]
+      },
+      "properties": {
+        "id": "brühlgutpark",
+        "street": "Zürcherstrasse",
+        "housenumber": null,
+        "status": "manual",
+        "district": "Winterthur-Stadt",
+        "neighbourhood": "Brühlberg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.637477589353102, 47.51517003682475]
       },
       "properties": {
@@ -212,6 +227,21 @@
         "housenumber": null,
         "status": "manual",
         "district": "Other"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.73204, 47.461841]
+      },
+      "properties": {
+        "id": "gamser",
+        "street": null,
+        "housenumber": null,
+        "status": "manual",
+        "district": "Winterthur-Stadt",
+        "neighbourhood": "Heiligberg"
       }
     },
     {
