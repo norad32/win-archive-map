@@ -6,7 +6,7 @@
     <meta name="color-scheme" content="light dark" />
     <meta
       name="description"
-      content="Explore historical images of Winterthur on an interactive map. Filter the Bildarchiv Winterthur photo archive by street, district, and year."
+      content="Explore historic images from the Bildarchiv Winterthur on an interactive map. Search by title, street, district, neighbourhood and year, and compare historic maps and aerial imagery."
     />
     <meta name="author" content="norad32" />
     <meta
@@ -34,7 +34,7 @@
     />
     <meta
       property="og:description"
-      content="Explore historical images of Winterthur on an interactive map. Filter the Bildarchiv Winterthur photo archive by street, district, and year."
+      content="Explore historic images from the Bildarchiv Winterthur on an interactive map. Search by title, street, district, neighbourhood and year, and compare historic maps and aerial imagery."
     />
     <meta
       property="og:url"
@@ -54,7 +54,7 @@
     />
     <meta
       name="twitter:description"
-      content="Explore historical images of Winterthur on an interactive map. Filter the Bildarchiv Winterthur photo archive by street, district, and year."
+      content="Explore historic images from the Bildarchiv Winterthur on an interactive map. Search by title, street, district, neighbourhood and year, and compare historic maps and aerial imagery."
     />
 
     <script type="application/ld+json">
@@ -63,7 +63,7 @@
         "@type": "WebApplication",
         "name": "Win Archive Map",
         "url": "https://norad32.github.io/win-archive-map/",
-        "description": "Interactive map viewer for the Bildarchiv Winterthur. Browse historical images of Winterthur on a map, filter by title, street, district, and year, and explore historical map layers.",
+        "description": "Explore historic images from the Bildarchiv Winterthur on an interactive map. Search by title, street, district, neighbourhood and year, and compare historic maps and aerial imagery.",
         "applicationCategory": "MapApplication",
         "operatingSystem": "Any",
         "browserRequirements": "Requires JavaScript",
@@ -238,30 +238,82 @@
             <h2 id="aboutTitle">About Win Archive Map</h2>
           </div>
 
-          <!-- DESCRIPTION -->
           <section class="modal-section">
-            <h3>What is Win Archive Map?</h3>
+            <h3>What is this?</h3>
             <p>
-              Win Archive Map is an interactive map viewer for the
+              Win Archive Map is an interactive way to explore historical
+              images from the
               <a
                 href="https://bilddatenbank.winterthur.ch"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
+                >Bildarchiv Winterthur</a
               >
-                Bildarchiv Winterthur </a
-              >.
+              in their geographic context.</p>
+              <p>Browse places and streets, compare
+              historic maps and aerial imagery, and discover related articles
+              from the <a
+                href="https://www.winterthur-glossar.ch"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Winterthur-Glossar</a>.
             </p>
-            <p>It lets you:</p>
+          </section>
+
+          <section class="modal-section">
+            <h3>How do I use it?</h3>
             <ul>
               <li>
-                Browse image archive entries in their geographical context
+                Search words in a title, or filter by year, district,
+                neighbourhood or street.
               </li>
-              <li>Filter results by title, street, district, and date range</li>
+              <li>
+                Choose <strong>Digital Map</strong> or
+                <strong>Aerial Image</strong>, then use the year slider to
+                browse available historic editions.
+              </li>
+              <li>
+                Click a marker to see its archive record. Marker size indicates
+                the number of records at a location, the exact number of entries is available by tooltip.
+              </li>
+              <li>
+                <strong>View in Bildarchiv</strong> searches the exact entry in Bildarchive.
+                <strong>Search in Bildarchiv</strong> searches the Bildarchiv by metadata and may reveal similar images.
+              </li>
+              <li>
+                <strong>Zoom to results</strong> fits the current results to the screen. </li>
+              <li> 
+                <strong>Clear Filters</strong> resets the filters.
+              </li>
+              <li>
+                Right-click the map to copy coordinates.
+              </li>
             </ul>
           </section>
 
-          <!-- DATA SOURCE -->
           <section class="modal-section">
+            <h3>The coordinates of this landmark are wrong</h3>
+            <p>
+              Open the marker and select
+              <strong>Report incorrect metadata</strong>
+              in the record details. This opens a pre-filled GitHub issue.
+              Describe the problem and, if possible, include the correct
+              location or coordinates (right-click the map to copy them). The
+              same link can also be used to report an incorrect title, date or
+              address.
+            </p>
+          </section>
+
+          
+          <section class="modal-section">
+            <h3>Who is this cute lion?</h3>
+            <p>
+              Why its <strong>Geoleo</strong> the friendly, starburst lion from Winterthur. He sits on the selected marker to
+              help you spot the location you’re exploring.
+            </p>
+          </section>
+
+                    <section class="modal-section">
             <h3>Data Source</h3>
             <p>
               Image metadata (address, year, title and district) is sourced from
@@ -292,152 +344,7 @@
               >.
             </p>
           </section>
-
-          <!-- CREDITS -->
-          <section class="modal-section">
-            <h3>Built With</h3>
-
-            <div class="credits-list">
-              <div class="credit-item">
-                <strong
-                  ><a
-                    href="https://bilddatenbank.winterthur.ch"
-                    target="_blank"
-                    rel="noopener"
-                    >Bildarchiv Winterthur</a
-                  ></strong
-                >
-                <p>Image metadata source.</p>
-              </div>
-
-              <div class="credit-item">
-                <strong
-                  ><a
-                    href="https://www.winterthur-glossar.ch"
-                    target="_blank"
-                    rel="noopener"
-                    >Winterthur-Glossar</a
-                  ></strong
-                >
-                <p>
-                  Glossary entries / background information on places and topics
-                  in Winterthur.
-                </p>
-              </div>
-
-              <div class="credit-item">
-                <strong
-                  ><a
-                    href="https://www.geolion.zh.ch"
-                    target="_blank"
-                    rel="noopener"
-                    >Kanton Zürich – Amt für Raumentwicklung</a
-                  ></strong
-                >
-                <p>District and neighbourhood boundary data.</p>
-              </div>
-
-              <div class="credit-item">
-                <strong
-                  ><a
-                    href="https://www.geo.admin.ch"
-                    target="_blank"
-                    rel="noopener"
-                    >geo.admin.ch</a
-                  ></strong
-                >
-                <p>Swiss federal geospatial API used for address geocoding.</p>
-              </div>
-
-              <div class="credit-item">
-                <strong
-                  ><a
-                    href="https://www.swisstopo.admin.ch"
-                    target="_blank"
-                    rel="noopener"
-                    >swisstopo</a
-                  ></strong
-                >
-                <p>
-                  Swiss federal geospatial agency providing the base map imagery
-                  (Pixelkarte and Luftbild).
-                </p>
-              </div>
-
-              <div class="credit-item">
-                <strong
-                  ><a
-                    href="https://leafletjs.com"
-                    target="_blank"
-                    rel="noopener"
-                    >Leaflet</a
-                  ></strong
-                >
-                <p>Open-source JavaScript library for interactive maps.</p>
-              </div>
-
-              <div class="credit-item">
-                <strong
-                  ><a
-                    href="https://github.com/Leaflet/Leaflet.markercluster"
-                    target="_blank"
-                    rel="noopener"
-                    >Leaflet.markercluster</a
-                  ></strong
-                >
-                <p>
-                  Marker clustering plugin for organizing large point datasets.
-                </p>
-              </div>
-
-              <div class="credit-item">
-                <strong
-                  ><a
-                    href="https://playwright.dev/python/"
-                    target="_blank"
-                    rel="noopener"
-                    >Playwright</a
-                  ></strong
-                >
-                <p>
-                  Browser automation for scraping dynamic web pages and fetching
-                  archive detail pages.
-                </p>
-              </div>
-
-              <div class="credit-item">
-                <strong
-                  ><a
-                    href="https://www.crummy.com/software/BeautifulSoup/"
-                    target="_blank"
-                    rel="noopener"
-                    >BeautifulSoup4</a
-                  ></strong
-                >
-                <p>
-                  HTML/XML parsing library for extracting address metadata from
-                  archive pages.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          <!-- TECHNICAL STACK -->
-          <section class="modal-section">
-            <h3>Technical Stack</h3>
-            <ul class="tech-list">
-              <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
-              <li><strong>Mapping:</strong> Leaflet, Leaflet.markercluster</li>
-              <li>
-                <strong>Backend:</strong> Python (Playwright, BeautifulSoup,
-                httpx)
-              </li>
-              <li><strong>Geocoding:</strong> geo.admin.ch REST API</li>
-              <li><strong>Data Format:</strong> GeoJSON</li>
-            </ul>
-          </section>
-
-          <!--AUTHOR -->
+                    <!--AUTHOR -->
           <section class="modal-section">
             <p>
               Made with <span aria-label="love" role="img">❤️</span> by

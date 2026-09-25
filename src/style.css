@@ -75,7 +75,6 @@
     .mode-btn,
     .year-slider,
     .modal-section a,
-    .credit-item strong a,
     .glossary-matches a):focus-visible {
     outline: var(--focus-ring);
     outline-offset: 2px;
@@ -414,7 +413,6 @@
   }
 
   .modal-section a,
-  .credit-item strong a,
   .glossary-matches a {
     color: var(--color-link);
     text-decoration: none;
@@ -428,69 +426,6 @@
 
   .modal-section a {
     font-weight: 500;
-  }
-
-  .credits-list {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  }
-
-  .credit-item {
-    padding: 12px;
-    background: color-mix(in srgb,
-        var(--color-surface) 70%,
-        var(--color-border));
-    border: 1px solid var(--color-border);
-    border-inline-start: 3px solid var(--color-brand);
-    border-radius: var(--radius-md);
-    transition:
-      background var(--transition-fast),
-      border-color var(--transition-fast);
-
-    &:hover {
-      background: color-mix(in srgb,
-          var(--color-surface) 80%,
-          var(--color-brand));
-      border-inline-start-color: var(--color-brand-hover);
-      border-color: var(--color-brand);
-    }
-
-    strong {
-      display: block;
-      margin-block-end: 6px;
-      color: var(--color-text);
-      font-size: 14px;
-    }
-
-    p {
-      margin: 0;
-      font-size: 13px;
-      line-height: 1.4;
-      color: var(--color-text-muted);
-    }
-  }
-
-  .tech-list {
-    margin: 12px 0 0 20px;
-    padding: 0;
-    list-style: disc;
-
-    li {
-      margin-block-end: 8px;
-      font-size: 14px;
-      line-height: 1.5;
-      color: var(--color-text-muted);
-
-      &:last-child {
-        margin-block-end: 0;
-      }
-    }
-
-    strong {
-      color: var(--color-text);
-      font-weight: 600;
-    }
   }
 
   .pin-marker {
@@ -829,10 +764,6 @@
 
     .modal-section h3 {
       font-size: 15px;
-    }
-
-    .credit-item {
-      padding: 10px;
     }
 
     #app:has(#sidebar.open) :is(#aboutBtn, #fitResultsBtn) {
