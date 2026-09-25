@@ -38,8 +38,8 @@ A JSON array containing one record per Bildarchiv record. `id` and `signature` i
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `id`                        | Bildarchiv record id, stored as a string.                                                                                                                                |
 | `signature`                 | Bildarchiv signature. Together with `id`, identifies a scraped record when applying updates.                                                                             |
-| `title`, `year`             | Archive title and date text.                                                                                                                                    |
-| `street`, `housenumber`     | Street and house-number text when provided.                                                                                                |
+| `title`, `year`             | Archive title and date text.                                                                                                                                             |
+| `street`, `housenumber`     | Street and house-number text when provided.                                                                                                                              |
 | `district`, `neighbourhood` | Derived area labels. Can be `null`. For a range spanning areas, these are `null` on the parent record.                                                                   |
 | `loc`                       | Address/POI id, an array of ids for a range, or `null` when no map point is assigned.                                                                                    |
 | `locationParts`             | Optional array when a range crosses areas. Each part has `district`, `neighbourhood`, `housenumbers` and that segment's `loc` ids. The archive record is not duplicated. |
@@ -138,7 +138,7 @@ venv/bin/python scripts/update-districts.py [--dry-run]
 venv/bin/python scripts/update-glossary.py [--dry-run]
 ```
 
-`update-districts.py` checks address and curated-place coordinates against boundary polygons, updates archive and POI area labels, creates `locationParts` for ranges crossing areas, and rebuilds `streets.json`. 
+`update-districts.py` checks address and curated-place coordinates against boundary polygons, updates archive and POI area labels, creates `locationParts` for ranges crossing areas, and rebuilds `streets.json`.
 
 ### Spell-checking titles
 
