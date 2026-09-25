@@ -99,6 +99,49 @@ describe("createDataStore", () => {
     assert.equal(store.isLoaded(), false);
   });
 
+  it("createDataStore_Should_PlaceSplitLocationPartsOnTheirOwnGroups", async () => {
+    const splitEntry = {
+      id: "range-1",
+      signature: "042119",
+      title: "Bahnhofstrasse 1-5",
+      year: "1950",
+      street: "Bahnhofstrasse",
+      loc: ["bahnhofstrasse_1", "bahnhofstrasse_3", "bahnhofstrasse_5"],
+      locationParts: [
+        {
+          district: "Winterthur-Stadt",
+          neighbourhood: "Altstadt",
+          housenumbers: ["1", "3"],
+          loc: ["bahnhofstrasse_1", "bahnhofstrasse_3"],
+        },
+        {
+          district: "Veltheim",
+          neighbourhood: "Rosenberg",
+          housenumbers: ["5"],
+          loc: ["bahnhofstrasse_5"],
+        },
+      ],
+    };
+    mockUrls({
+      archive: [splitEntry],
+      addresses: {
+        features: [
+          { type: "Feature", geometry: { type: "Point", coordinates: [8.7, 47.5] }, properties: { id: "bahnhofstrasse_1" } },
+          { type: "Feature", geometry: { type: "Point", coordinates: [8.701, 47.501] }, properties: { id: "bahnhofstrasse_3" } },
+          { type: "Feature", geometry: { type: "Point", coordinates: [8.702, 47.502] }, properties: { id: "bahnhofstrasse_5" } },
+        ],
+      },
+    });
+    const store = createDataStore();
+    await store.load();
+
+    const groups = store.getGroups();
+    assert.equal(groups.length, 3);
+    assert.equal(groups.find((g) => g.key === "bahnhofstrasse_1").entries[0].district, "Winterthur-Stadt");
+    assert.equal(groups.find((g) => g.key === "bahnhofstrasse_5").entries[0].district, "Veltheim");
+    assert.equal(store.getUnlocatedEntries().length, 0);
+  });
+
   it("createDataStore_Should_MergeLocationsFromLocationsFile_If_Provided", async () => {
     mockUrls({
       archive: [{ id: "4", loc: "poi:stadtgarten", year: "1990" }],

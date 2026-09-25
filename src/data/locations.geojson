@@ -10,7 +10,8 @@
       "properties": {
         "id": "aesch",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Other"
       }
     },
     {
@@ -23,7 +24,8 @@
         "id": "affenschlucht",
         "street": "Wülflingerstrasse",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Other"
       }
     },
     {
@@ -36,7 +38,9 @@
         "id": "alt_wülflingen",
         "street": "Büchlibuckstrasse",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Wülflingen",
+        "neighbourhood": "Neuburg"
       }
     },
     {
@@ -49,7 +53,9 @@
         "id": "aussichtsturm_eschenberg",
         "street": "Turmfussweg",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Mattenbach",
+        "neighbourhood": "Deutweg"
       }
     },
     {
@@ -62,7 +68,9 @@
         "id": "bahnhof_hegi",
         "street": "St. Gallerstrasse",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Oberwinterthur",
+        "neighbourhood": "Grüze"
       }
     },
     {
@@ -75,7 +83,9 @@
         "id": "bahnhof_walrüti",
         "street": "Stofflerenweg",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Oberwinterthur",
+        "neighbourhood": "Zinzikon"
       }
     },
     {
@@ -88,7 +98,9 @@
         "id": "brühlbergturm",
         "street": "Obere Brühlbergstrasse",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Winterthur-Stadt",
+        "neighbourhood": "Brühlberg"
       }
     },
     {
@@ -101,7 +113,8 @@
         "id": "burg_pfungen",
         "street": null,
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Other"
       }
     },
     {
@@ -114,7 +127,9 @@
         "id": "bäumli",
         "street": "Süsenbergstrasse",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Winterthur-Stadt",
+        "neighbourhood": "Lind"
       }
     },
     {
@@ -127,7 +142,9 @@
         "id": "chöpfi",
         "street": "Chöpfiweg",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Wülflingen",
+        "neighbourhood": "Weinberg"
       }
     },
     {
@@ -139,7 +156,8 @@
       "properties": {
         "id": "dägerlen_berg",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Other"
       }
     },
     {
@@ -151,7 +169,8 @@
       "properties": {
         "id": "dägerlen_bänk",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Other"
       }
     },
     {
@@ -163,7 +182,8 @@
       "properties": {
         "id": "dägerlen_rutschwil",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Other"
       }
     },
     {
@@ -176,7 +196,8 @@
         "id": "elgg_kirche",
         "street": "Lindenplatz",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Other"
       }
     },
     {
@@ -189,7 +210,8 @@
         "id": "fahrenbach",
         "street": null,
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Other"
       }
     },
     {
@@ -202,7 +224,8 @@
         "id": "guemühliweiher",
         "street": "Weiherstrasse/Grundstrasse",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Other"
       }
     },
     {
@@ -214,7 +237,8 @@
       "properties": {
         "id": "henggart",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Other"
       }
     },
     {
@@ -227,7 +251,9 @@
         "id": "kirchplatz",
         "street": "Kirchplatz",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Winterthur-Stadt",
+        "neighbourhood": "Altstadt"
       }
     },
     {
@@ -240,7 +266,8 @@
         "id": "neu_elgg",
         "street": null,
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Other"
       }
     },
     {
@@ -253,7 +280,9 @@
         "id": "paradies",
         "street": "Obere Loostrasse",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Seen",
+        "neighbourhood": "Ganzenbühl"
       }
     },
     {
@@ -266,7 +295,9 @@
         "id": "pirminsbrunnenn",
         "street": "Obere Holenstrasse",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Wülflingen",
+        "neighbourhood": "Neuburg"
       }
     },
     {
@@ -279,7 +310,9 @@
         "id": "stadtgarten",
         "street": "Museumstrasse",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Winterthur-Stadt",
+        "neighbourhood": "Altstadt"
       }
     },
     {
@@ -292,7 +325,9 @@
         "id": "tugbrüggli",
         "street": "Tugbrügglifussweg",
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Winterthur-Stadt",
+        "neighbourhood": "Heiligberg"
       }
     },
     {
@@ -305,7 +340,8 @@
         "id": "unterschlatt",
         "street": null,
         "housenumber": null,
-        "status": "manual"
+        "status": "manual",
+        "district": "Other"
       }
     }
   ]

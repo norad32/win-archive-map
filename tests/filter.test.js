@@ -177,19 +177,116 @@ describe("createFilters", () => {
   });
 
   it("createFilters_Should_CountEntryOnce_If_LocSpansSeveralHouses", async () => {
-    const multiGroups = [
-      { key: "street_31", repCoord: [8.7, 47.5], entries: [{ id: "1", title: "Haus 31", year: "1950", street: "Street" }] },
-      { key: "street_33", repCoord: [8.7, 47.5], entries: [{ id: "1", title: "Haus 31", year: "1950", street: "Street" }] },
-      { key: "street_35", repCoord: [8.7, 47.5], entries: [{ id: "1", title: "Haus 31", year: "1950", street: "Street" }] },
-    ];
-    const { filters, runFilterNow, getStats } = buildSetup({
-      entries: [{ id: "1", title: "Haus 31", year: "1950", street: "Street" }],
+    const entry = {
+      id: "1",
+      title: "Haus 31-35",
+      year: "1950",
+      street: "Street",
+      signature: "sig-1",
+    };
+    const multiGroups = ["31", "33", "35"].map((number) => ({
+      key: `street_${number}`,
+      repCoord: [8.7, 47.5],
+      entries: [{ ...entry }],
+    }));
+    const { filters, runFilterNow, getStats, getRendered } = buildSetup({
+      entries: [entry],
       groups: multiGroups,
     });
 
     await runFilterNow();
 
+    assert.equal(getRendered().length, 3);
     assert.equal(getStats().shown, 1);
+  });
+
+  it("createFilters_Should_CountOneArchiveEntryOnce_If_LocationIsSplitByBoundaries", async () => {
+    const base = {
+      id: "2",
+      signature: "sig-2",
+      title: "Bahnhofstrasse 1-5",
+      year: "1950",
+      street: "Bahnhofstrasse",
+    };
+    const splitGroups = [
+      {
+        key: "bahnhofstrasse_1",
+        repCoord: [8.7, 47.5],
+        entries: [{ ...base, district: "Winterthur-Stadt", neighbourhood: "Altstadt", housenumber: "1, 3" }],
+      },
+      {
+        key: "bahnhofstrasse_5",
+        repCoord: [8.702, 47.502],
+        entries: [{ ...base, district: "Veltheim", neighbourhood: "Rosenberg", housenumber: "5" }],
+      },
+    ];
+    const { filters, runFilterNow, getStats, getRendered } = buildSetup({
+      entries: [base],
+      groups: splitGroups,
+    });
+
+    await runFilterNow();
+
+    assert.equal(getRendered().length, 2);
+    assert.equal(getStats().shown, 1);
+  });
+
+  it("createFilters_Should_FilterSplitEntryByPartDistrict_If_DistrictSelected", async () => {
+    const base = {
+      id: "2",
+      signature: "sig-2",
+      title: "Bahnhofstrasse 1-5",
+      year: "1950",
+      street: "Bahnhofstrasse",
+    };
+    const groups = [
+      {
+        key: "bahnhofstrasse_1",
+        repCoord: [8.7, 47.5],
+        entries: [{ ...base, district: "Winterthur-Stadt", neighbourhood: "Altstadt", housenumber: "1, 3" }],
+      },
+      {
+        key: "bahnhofstrasse_5",
+        repCoord: [8.702, 47.502],
+        entries: [{ ...base, district: "Töss", neighbourhood: "Schlosstal", housenumber: "5" }],
+      },
+    ];
+    const { domRefs, filters, runFilterNow, getRendered, getStats } = buildSetup({
+      entries: [base],
+      groups,
+    });
+    domRefs.districtSelectEl.value = "Töss";
+
+    await runFilterNow();
+
+    assert.deepEqual(getRendered().map((group) => group.key), ["bahnhofstrasse_5"]);
+    assert.equal(getRendered()[0].entries[0].housenumber, "5");
+    assert.equal(getStats().shown, 1);
+  });
+
+  it("createFilters_Should_CountSeparateSignaturesSeparately_If_IdsAreShared", async () => {
+    const base = { id: "3", title: "Shared id", year: "1950", street: "Street" };
+    const entries = [
+      { ...base, signature: "sig-a" },
+      { ...base, signature: "sig-b" },
+    ];
+    const groups = [
+      {
+        key: "street_1",
+        repCoord: [8.7, 47.5],
+        entries: entries.map((entry) => ({ ...entry })),
+      },
+      {
+        key: "street_2",
+        repCoord: [8.71, 47.51],
+        entries: entries.map((entry) => ({ ...entry })),
+      },
+    ];
+    const { filters, runFilterNow, getStats } = buildSetup({ entries, groups });
+
+    await runFilterNow();
+
+    assert.equal(getStats().shown, 2);
   });
 
   it("createFilters_Should_CountMatchingUnlocatedEntries_If_UnlocatedPresent", async () => {

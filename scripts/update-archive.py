@@ -258,6 +258,100 @@ def parse_ids_arg(raw: str) -> list[int]:
     return sorted(set(ids))
 
 
+DECISIONS_PATH = SCRIPTS_DIR / "unlocated-blacklist-groups.json"
+
+
+def load_decisions() -> dict[str, str]:
+    if not DECISIONS_PATH.exists():
+        save_json(DECISIONS_PATH, {})
+        print(
+            f"Created empty {DECISIONS_PATH.name} — set group keys to "
+            '"blacklist" (see todo-report.md, section "Unplaced entries '
+            'without street") and re-run with --blacklist-groups.'
+        )
+    return load_json(DECISIONS_PATH)
+
+
+def signature_prefix(signature) -> str:
+    """Group key: everything before the first digit."""
+    match = re.match(r"^(\D+)", str(signature or "").strip())
+    prefix = (match.group(1) if match else "").strip(" _-.")
+    return prefix or "numeric"
+
+
+def run_blacklist_groups(args) -> int:
+    """Blacklist street-less unplaced entries per the decisions file.
+
+    Only entries with loc == null AND no street are ever touched: entries
+    with an address stay placeable, located entries are never removed.
+    """
+    decisions = load_decisions()
+    blacklist_groups = {
+        key for key, verdict in decisions.items() if verdict == "blacklist"
+    }
+    if not blacklist_groups:
+        print("No groups marked 'blacklist' in the decisions file. Nothing to do.")
+        return 0
+
+    master = load_json(MASTER_PATH)
+    archive = load_json(ARCHIVE_PATH)
+    blacklist = load_blacklist()
+
+    stats = {}
+    removed_ids: set[int] = set()
+
+    def is_target(record: dict) -> bool:
+        if record.get("loc"):
+            return False
+        if (record.get("street") or "").strip():
+            return False
+        prefix = signature_prefix(record.get("signature"))
+        return prefix in blacklist_groups
+
+    for source_name, records in (("archive", archive), ("master", master)):
+        targets = [record for record in records if is_target(record)]
+        by_group: dict[str, int] = {}
+        for record in targets:
+            by_group[signature_prefix(record.get("signature"))] = (
+                by_group.get(signature_prefix(record.get("signature")), 0) + 1
+            )
+            removed_ids.add(int(record["id"]))
+        stats[source_name] = (len(targets), by_group)
+
+    new_ids = sorted(removed_ids - blacklist)
+    blacklist.update(removed_ids)
+
+    if args.dry_run:
+        print("Dry run — nothing removed or blacklisted.")
+        for name, (count, by_group) in stats.items():
+            print(f"  {name}: would remove {count} records")
+            for group in sorted(by_group):
+                print(f"    {group}: {by_group[group]}")
+        print(f"  would blacklist {len(new_ids)} new ids")
+        return 0
+
+    kept_archive = [
+        record for record in archive if int(record["id"]) not in removed_ids
+    ]
+    kept_master = [record for record in master if int(record["id"]) not in removed_ids]
+    save_json(ARCHIVE_PATH, kept_archive)
+    save_json(MASTER_PATH, kept_master)
+    save_blacklist(blacklist)
+
+    print(
+        f"Blacklisted {len(removed_ids)} ids "
+        f"(+{len(new_ids)} new), removed {len(archive) - len(kept_archive)} "
+        f"archive and {len(master) - len(kept_master)} master records."
+    )
+    for name, (count, by_group) in stats.items():
+        print(f"  {name}:")
+        for group in sorted(by_group):
+            print(f"    {group}: {by_group[group]}")
+
+    run_script("todo-report.py")
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
@@ -284,9 +378,18 @@ def main() -> int:
         help="skip the spell-check report after apply",
     )
     parser.add_argument(
+        "--blacklist-groups",
+        action="store_true",
+        help="blacklist street-less unplaced entries per "
+        "scripts/unlocated-blacklist-groups.json",
+    )
+    parser.add_argument(
         "--diff-report", nargs="?", const="archive-diff.md", default=None
     )
     args = parser.parse_args()
+
+    if args.blacklist_groups:
+        return run_blacklist_groups(args)
 
     if args.diff_report:
         return write_diff_report(args)
@@ -345,10 +448,10 @@ def run_apply_pipeline(args) -> None:
 
     existing_house_ids = {f["properties"]["id"] for f in addresses.get("features", [])}
     house_by_pair = {
-        (f["properties"]["street"], f["properties"]["housenumber"]): f["properties"][
-            "id"
-        ]
-        for f in addresses.get("features", [])
+        (props.get("street"), props.get("housenumber")): props["id"]
+        for feature in addresses.get("features", [])
+        if (props := feature.get("properties", {})).get("street")
+        and props.get("housenumber")
     }
 
     merged = 0

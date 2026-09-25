@@ -20,16 +20,16 @@ export function createFilters({ domRefs, dataStore, map, onStatsUpdate }) {
         repCoord: group.repCoord,
         entries: matchingEntries,
       });
-      // An entry spanning several houses appears in multiple groups; count
-      // each distinct entry only once.
+      // An entry spanning several houses or location parts appears in multiple
+      // groups, count each archive record once.
       for (const entry of matchingEntries) {
-        shownIds.add(entry.id);
+        shownIds.add(`${entry.id}\u0000${entry.signature ?? ""}`);
       }
     }
 
     for (const entry of dataStore.getUnlocatedEntries()) {
       if (predicate(entry)) {
-        shownIds.add(entry.id);
+        shownIds.add(`${entry.id}\u0000${entry.signature ?? ""}`);
       }
     }
 

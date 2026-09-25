@@ -90,4 +90,66 @@ describe("groupFeatures", () => {
     assert.equal(group.key, "marktgasse_1");
     assert.deepEqual(group.repCoord, [8.72, 47.499]);
   });
+
+  it("groupFeatures_Should_SplitEntryByLocationPart_If_RangeCrossesBoundaries", () => {
+    const entry = {
+      id: "range-1",
+      signature: "042119",
+      title: "Bahnhofstrasse 1-5",
+      locationParts: [
+        {
+          district: "Winterthur-Stadt",
+          neighbourhood: "Altstadt",
+          housenumbers: ["1", "3"],
+          loc: ["bahnhofstrasse_1", "bahnhofstrasse_3"],
+        },
+        {
+          district: "Veltheim",
+          neighbourhood: "Rosenberg",
+          housenumbers: ["5"],
+          loc: ["bahnhofstrasse_5"],
+        },
+      ],
+    };
+    const coords = buildLocations([
+      ["bahnhofstrasse_1", 8.7, 47.5],
+      ["bahnhofstrasse_3", 8.701, 47.501],
+      ["bahnhofstrasse_5", 8.702, 47.502],
+    ]);
+
+    const groups = groupFeatures([entry], coords);
+
+    assert.equal(groups.length, 3);
+    const altstadtGroup = groups.find((group) => group.key === "bahnhofstrasse_1");
+    const veltheimGroup = groups.find((group) => group.key === "bahnhofstrasse_5");
+    assert.equal(altstadtGroup.entries[0].district, "Winterthur-Stadt");
+    assert.equal(altstadtGroup.entries[0].neighbourhood, "Altstadt");
+    assert.equal(altstadtGroup.entries[0].housenumber, "1, 3");
+    assert.equal(veltheimGroup.entries[0].district, "Veltheim");
+    assert.equal(veltheimGroup.entries[0].neighbourhood, "Rosenberg");
+    assert.equal(veltheimGroup.entries[0].housenumber, "5");
+    assert.equal(altstadtGroup.entries[0].id, veltheimGroup.entries[0].id);
+    assert.equal(altstadtGroup.entries[0].signature, veltheimGroup.entries[0].signature);
+  });
+
+  it("groupFeatures_Should_UseOriginalEntry_If_LocationPartsAreAbsent", () => {
+    const entry = { id: "single-1", loc: "marktgasse_1", district: "Altstadt" };
+    const [group] = groupFeatures([entry], locations);
+
+    assert.equal(group.entries[0], entry);
+  });
+
+  it("groupFeatures_Should_NotDuplicateEntryWithinPart_If_SameLocRepeated", () => {
+    const entry = {
+      id: "range-2",
+      locationParts: [
+        { district: "Altstadt", neighbourhood: "Altstadt", loc: ["römerstrasse_8", "römerstrasse_8"] },
+      ],
+    };
+
+    const groups = groupFeatures([entry], locations);
+
+    assert.equal(groups.length, 1);
+    assert.equal(groups[0].entries.length, 1);
+  });
 });

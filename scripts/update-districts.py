@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
-"""Update `district` and `neighbourhood` properties in src/data/archive.json
-by point-in-polygon matching against src/data/districts.geojson and
-src/data/neighbourhoods.geojson, then rebuild src/data/streets.json.
+"""Update district and neighbourhood metadata using coordinate locations.
 
-Coordinates are looked up from src/data/addresses.geojson via each entry's
-`loc` reference. Range entries (multiple addresses) resolve every referenced
-address.
+Coordinates are looked up from both src/data/addresses.geojson and
+src/data/locations.geojson. Results update archive.json and locations.geojson,
+then streets.json is rebuilt. Range entries resolve every referenced point and
+are split into locationParts when they span different district/neighbourhoods.
 
-- If the addresses disagree on district or neighbourhood, the entry is
-left untouched and reported as mixed.
+- If an entry spans district/neighbourhood boundaries, it stays as one
+archive record and gets `locationParts`, one per district/neighbourhood pair.
+  The app displays that same record at each part's locations with that part's
+  district, neighbourhood and housenumbers.
 - Entries without a loc are left untouched.
 - Points that fall outside every polygon get `district` "Other" and
 `neighbourhood` null.
@@ -38,11 +39,13 @@ from pathlib import Path
 from shapely.geometry import Point, shape
 from shapely.strtree import STRtree
 
+from housenumbers import housenumber_sort_key
 from jsonio import load_json, save_json
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "src" / "data"
 
 ADDRESSES_PATH = DATA_DIR / "addresses.geojson"
+LOCATIONS_PATH = DATA_DIR / "locations.geojson"
 ARCHIVE_PATH = DATA_DIR / "archive.json"
 STREETS_PATH = DATA_DIR / "streets.json"
 DISTRICTS_PATH = DATA_DIR / "districts.geojson"
@@ -86,21 +89,54 @@ def main() -> int:
     args = parser.parse_args()
 
     addresses = load_json(ADDRESSES_PATH)
+    locations = load_json(LOCATIONS_PATH)
     entries = load_json(ARCHIVE_PATH)
     districts = load_json(DISTRICTS_PATH)["features"]
     neighbourhoods = load_json(NEIGHBOURHOODS_PATH)["features"]
 
-    coordinates_by_id = {}
+    address_by_id = {}
     for feature in addresses.get("features", []):
         props = feature.get("properties", {})
         coords = feature.get("geometry", {}).get("coordinates")
-        if props.get("id") and coords:
-            coordinates_by_id[props["id"]] = coords
+        if props.get("id"):
+            address_by_id[props["id"]] = {
+                "coordinates": coords,
+                "housenumber": props.get("housenumber"),
+            }
 
     district_tree, district_names = build_index(districts, "district")
     neighbourhood_tree, neighbourhood_names = build_index(
         neighbourhoods, "neighbourhood"
     )
+
+    locations_changed = 0
+    for feature in locations.get("features", []):
+        props = feature.get("properties", {})
+        coords = feature.get("geometry", {}).get("coordinates")
+        if not props.get("id") or not coords:
+            continue
+        lon, lat = coords[:2]
+        district = point_in_polygon(
+            district_tree, district_tree.geometries, district_names, lon, lat
+        )
+        neighbourhood = point_in_polygon(
+            neighbourhood_tree,
+            neighbourhood_tree.geometries,
+            neighbourhood_names,
+            lon,
+            lat,
+        )
+        district = district or OTHER_DISTRICT
+        if props.get("district") != district:
+            props["district"] = district
+            locations_changed += 1
+        if props.get("neighbourhood") != neighbourhood:
+            props["neighbourhood"] = neighbourhood
+            locations_changed += 1
+        address_by_id[props["id"]] = {
+            "coordinates": coords,
+            "housenumber": props.get("housenumber"),
+        }
 
     district_changes: Counter[str] = Counter()
     neighbourhood_changes: Counter[str] = Counter()
@@ -119,13 +155,15 @@ def main() -> int:
         loc_ids = loc if isinstance(loc, list) else [loc]
         address_results = []
         for loc_id in loc_ids:
-            coords = coordinates_by_id.get(loc_id)
+            address = address_by_id.get(loc_id)
+            coords = address.get("coordinates") if address else None
             if not coords:
                 continue
             lon, lat = coords[:2]
             address_results.append(
                 (
                     loc_id,
+                    address.get("housenumber"),
                     point_in_polygon(
                         district_tree,
                         district_tree.geometries,
@@ -148,47 +186,60 @@ def main() -> int:
         if len(address_results) < len(loc_ids):
             partial += 1
 
-        resolved_districts = [d for _, d, _ in address_results]
-        resolved_neighbourhoods = [n for _, _, n in address_results]
-
-        districts_agree = (
-            len({(d if d is not None else OTHER_DISTRICT) for d in resolved_districts})
-            == 1
-        )
-        neighbourhoods_agree = len(set(resolved_neighbourhoods)) == 1
-
-        if not districts_agree or not neighbourhoods_agree:
-            mixed += 1
-            print(
-                f"  MIXED LOCATIONS: id={entry.get('id')} signature={entry.get('signature')} "
-                f"street={entry.get('street')} housenumber={entry.get('housenumber')} "
-                f"({len(address_results)}/{len(loc_ids)} addresses resolvable) — entry not updated:",
+        partitions = defaultdict(list)
+        for loc_id, housenumber, district_value, neighbourhood_value in address_results:
+            if district_value is None:
+                unmatched += 1
+                district_value = OTHER_DISTRICT
+            partitions[(district_value, neighbourhood_value)].append(
+                (loc_id, housenumber)
             )
-            for loc_id, d, n in address_results:
+
+        if len(partitions) > 1:
+            mixed += 1
+            entry["locationParts"] = [
+                {
+                    "district": district,
+                    "neighbourhood": neighbourhood,
+                    "housenumbers": sorted(
+                        {hn for _, hn in part_addresses if hn},
+                        key=housenumber_sort_key,
+                    ),
+                    "loc": [loc_id for loc_id, _ in part_addresses],
+                }
+                for (district, neighbourhood), part_addresses in sorted(
+                    partitions.items(), key=lambda item: (item[0][0], item[0][1] or "")
+                )
+            ]
+            entry["district"] = None
+            entry["neighbourhood"] = None
+            print(
+                f"  SPLIT LOCATIONS: id={entry.get('id')} signature={entry.get('signature')} "
+                f"street={entry.get('street')} housenumber={entry.get('housenumber')} "
+                f"into {len(partitions)} district/neighbourhood parts"
+            )
+            for (district, neighbourhood), part_addresses in sorted(
+                partitions.items(), key=lambda item: (item[0][0], item[0][1] or "")
+            ):
                 print(
-                    f"    {loc_id}: district={d if d is not None else OTHER_DISTRICT} "
-                    f"neighbourhood={n if n is not None else 'null'}",
+                    f"    district={district} neighbourhood={neighbourhood or 'null'} "
+                    f"addresses={len(part_addresses)}"
                 )
             continue
 
-        district = resolved_districts[0] or OTHER_DISTRICT
-        neighbourhood = resolved_neighbourhoods[0]
-
-        if district is OTHER_DISTRICT and resolved_districts[0] is None:
-            unmatched += 1
-
-        if entry.get("district") != district:
-            district_changes[f"{entry.get('district')} → {district}"] += 1
-            entry["district"] = district
-        if entry.get("neighbourhood") != neighbourhood:
-            neighbourhood_changes[
-                f"{entry.get('neighbourhood')} → {neighbourhood}"
-            ] += 1
-            entry["neighbourhood"] = neighbourhood
-
+        entry.pop("locationParts", None)
+        district, neighbourhood = next(iter(partitions))
+        old_district = entry.get("district")
+        old_neighbourhood = entry.get("neighbourhood")
+        if old_district != district:
+            district_changes[f"{old_district} → {district}"] += 1
+        if old_neighbourhood != neighbourhood:
+            neighbourhood_changes[f"{old_neighbourhood} → {neighbourhood}"] += 1
+        entry["district"] = district
+        entry["neighbourhood"] = neighbourhood
     print(f"Checked {total} entries ({unlocated} without loc, skipped).")
     print(f'Outside all polygons (set to district "{OTHER_DISTRICT}"): {unmatched}')
-    print(f"Ranges spanning multiple districts/neighbourhoods (not updated): {mixed}")
+    print(f"Entries split into district/neighbourhood location parts: {mixed}")
     print(
         f"Ranges with only partially resolvable addresses (updated from resolvable ones): {partial}"
     )
@@ -208,13 +259,18 @@ def main() -> int:
         print("No neighbourhood changes.")
 
     if args.dry_run:
-        print("Dry run: archive.json not modified.")
+        print(
+            f"Dry run: archive.json and locations.geojson not modified "
+            f"({locations_changed} location metadata fields would change)."
+        )
         return 0
 
     output_path = args.output or ARCHIVE_PATH
     save_json(output_path, entries)
+    save_json(LOCATIONS_PATH, locations)
 
     print(f"Written to {output_path}")
+    print(f"Updated location metadata fields: {locations_changed}")
     build_streets_json(output_path)
     return 0
 
@@ -227,6 +283,8 @@ def build_streets_json(entries_path: Path) -> None:
     ("Altstadt/Veltheim") are excluded; "Other" is a valid district.
     """
     entries = load_json(entries_path)
+    locations = load_json(LOCATIONS_PATH).get("features", [])
+    entries.extend(feature.get("properties", {}) for feature in locations)
 
     by_district: dict[str, set[str]] = defaultdict(set)
     by_neighbourhood: dict[str, set[str]] = defaultdict(set)
@@ -235,12 +293,14 @@ def build_streets_json(entries_path: Path) -> None:
         street = (entry.get("street") or "").strip()
         if not street:
             continue
-        district = (entry.get("district") or "").strip()
-        if district and not district.startswith(LEGACY_DISTRICT_PREFIX):
-            by_district[district].add(street)
-        neighbourhood = (entry.get("neighbourhood") or "").strip()
-        if neighbourhood:
-            by_neighbourhood[neighbourhood].add(street)
+        parts = entry.get("locationParts") or [entry]
+        for part in parts:
+            district = (part.get("district") or "").strip()
+            if district and not district.startswith(LEGACY_DISTRICT_PREFIX):
+                by_district[district].add(street)
+            neighbourhood = (part.get("neighbourhood") or "").strip()
+            if neighbourhood:
+                by_neighbourhood[neighbourhood].add(street)
 
     streets = {
         "districts": {

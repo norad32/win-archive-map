@@ -139,12 +139,15 @@ export function createDataStore() {
       precomputedGroups = groupFeatures(allEntries, locationsById);
       // "Unlocated" = no loc at all, or loc references that resolve to no
       // coordinates such entries appear on no marker and must stay reachable via search/filter.
+      const entryKey = (entry) => `${entry.id}\u0000${entry.signature ?? ""}`;
       const placedIds = new Set();
       for (const group of precomputedGroups) {
-        for (const entry of group.entries) placedIds.add(entry.id);
+        for (const entry of group.entries) placedIds.add(entryKey(entry));
       }
       unlocatedEntries = allEntries.filter(
-        (entry) => !entry.loc || !placedIds.has(entry.id),
+        (entry) =>
+          !(entry.locationParts?.length || entry.loc) ||
+          !placedIds.has(entryKey(entry)),
       );
       dataLoaded = true;
 

@@ -20,18 +20,45 @@ export function groupFeatures(entries, locationsById) {
   const groups = new Map();
 
   for (const entry of entries) {
-    const loc = entry.loc;
-    if (!loc) continue;
+    const parts = entry.locationParts?.length
+      ? entry.locationParts
+      : [{
+          loc: entry.loc,
+          district: entry.district,
+          neighbourhood: entry.neighbourhood,
+          housenumbers: entry.housenumber ? [entry.housenumber] : [],
+        }];
 
-    const locIds = Array.isArray(loc) ? loc : [loc];
-    for (const locId of locIds) {
-      const coord = locationsById.get(locId);
-      if (!coord) continue;
+    for (const part of parts) {
+      if (!part.loc) continue;
+      const locIds = Array.isArray(part.loc) ? part.loc : [part.loc];
+      const locationEntry = entry.locationParts?.length
+        ? {
+            ...entry,
+            loc: part.loc,
+            district: part.district,
+            neighbourhood: part.neighbourhood,
+            housenumber: part.housenumbers?.join(", ") || entry.housenumber,
+          }
+        : entry;
 
-      if (!groups.has(locId)) {
-        groups.set(locId, { key: locId, repCoord: coord, entries: [] });
+      for (const locId of locIds) {
+        const coord = locationsById.get(locId);
+        if (!coord) continue;
+
+        if (!groups.has(locId)) {
+          groups.set(locId, { key: locId, repCoord: coord, entries: [] });
+        }
+        const group = groups.get(locId);
+        if (!group.entries.some((existing) =>
+          existing.id === locationEntry.id &&
+          existing.signature === locationEntry.signature &&
+          existing.district === locationEntry.district &&
+          existing.neighbourhood === locationEntry.neighbourhood
+        )) {
+          group.entries.push(locationEntry);
+        }
       }
-      groups.get(locId).entries.push(entry);
     }
   }
 
