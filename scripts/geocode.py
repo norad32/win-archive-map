@@ -45,10 +45,10 @@ STATUS_MANUAL = "manual"
 # Must match MAP_MAX_BOUNDS in src/js/config.js (Winterthur and surroundings).
 # Geocoded results outside these bounds are pissibly wrong and stay "todo".
 MAP_MAX_BOUNDS = {
-    "lat_min": 47.368449,
-    "lat_max": 47.589595,
-    "lon_min": 8.53753,
-    "lon_max": 8.886116,
+    "lat_min": 47.285750,
+    "lat_max": 47.624215,
+    "lon_min": 8.443680,
+    "lon_max": 8.986130,
 }
 
 
