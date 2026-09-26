@@ -71,6 +71,10 @@ function collectGlossaryMatches(entries, glossary) {
   );
 }
 
+function hasDisplayValue(value) {
+  return value != null && String(value).trim() !== "";
+}
+
 function buildEntryBlock(props) {
   const rows = [
     ["Year", props.year],
@@ -78,12 +82,15 @@ function buildEntryBlock(props) {
     ["House number", props.housenumber],
     ["District", props.district],
     ["Neighbourhood", props.neighbourhood],
-  ].map(([label, value]) =>
-    el("tr", {}, [
-      el("td", { className: "key" }, label),
-      el("td", {}, value || ""),
-    ]),
-  );
+  ]
+    .filter(([, value]) => hasDisplayValue(value))
+    .map(([label, value]) =>
+      el("tr", {}, [
+        el("td", { className: "key" }, label),
+        el("td", {}, value),
+      ]),
+    );
+
 
   const links = [];
   const signatureLink = buildSignatureLink(props);
