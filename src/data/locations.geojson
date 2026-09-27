@@ -349,6 +349,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.72884, 47.498959]
+      },
+      "properties": {
+        "id": "stadtkirche",
+        "street": "Kirchplatz",
+        "housenumber": null,
+        "status": "manual",
+        "district": "Winterthur-Stadt",
+        "neighbourhood": "Altstadt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.720779, 47.480835]
       },
       "properties": {
