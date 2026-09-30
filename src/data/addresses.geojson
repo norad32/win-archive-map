@@ -41342,6 +41342,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.718809, 47.495798]
+      },
+      "properties": {
+        "id": "lagerplatz_3",
+        "street": "Lagerplatz",
+        "housenumber": "3",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.718321800231934, 47.495365142822266]
       },
       "properties": {
