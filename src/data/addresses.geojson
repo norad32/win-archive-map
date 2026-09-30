@@ -3943,19 +3943,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.731840133666992, 47.49888229370117]
-      },
-      "properties": {
-        "id": "haldenstrasse_63",
-        "street": "Haldenstrasse",
-        "housenumber": "63",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.731827735900879, 47.49882507324219]
       },
       "properties": {
@@ -4301,19 +4288,6 @@
         "street": "Bankstrasse",
         "housenumber": "5",
         "status": "manual"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "bankstrasse_6",
-        "street": "Bankstrasse",
-        "housenumber": "6",
-        "status": "todo"
       }
     },
     {
@@ -6004,19 +5978,6 @@
         "street": "Bosshardengässchen",
         "housenumber": "5",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "brauerstrasse_3",
-        "street": "Brauerstrasse",
-        "housenumber": "3",
-        "status": "todo"
       }
     },
     {
@@ -11782,19 +11743,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "eckwiesenstrasse_8",
-        "street": "Eckwiesenstrasse",
-        "housenumber": "8",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.698387145996094, 47.507728576660156]
       },
       "properties": {
@@ -14603,6 +14551,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.7641019821167, 47.503475189208984]
+      },
+      "properties": {
+        "id": "else-züblin-strasse_90",
+        "street": "Else-Züblin-Strasse",
+        "housenumber": "90",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.706477, 47.492135]
       },
       "properties": {
@@ -16670,6 +16631,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.761280059814453, 47.50071716308594]
+      },
+      "properties": {
+        "id": "fabrikstrasse_12",
+        "street": "Fabrikstrasse",
+        "housenumber": "12",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.735453605651855, 47.502830505371094]
       },
       "properties": {
@@ -17340,19 +17314,6 @@
         "street": "Feldstrasse",
         "housenumber": "57",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "felsenhofstrasse_2",
-        "street": "Felsenhofstrasse",
-        "housenumber": "2",
-        "status": "todo"
       }
     },
     {
@@ -22546,13 +22507,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.766988, 47.481613]
+        "coordinates": [8.770314, 47.481122]
       },
       "properties": {
         "id": "grünmattstrasse_29",
         "street": "Grünmattstrasse",
         "housenumber": "29",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -24262,13 +24223,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
+        "coordinates": [8.731840133666992, 47.49888229370117]
       },
       "properties": {
-        "id": "haldenstrasse_65",
+        "id": "haldenstrasse_63",
         "street": "Haldenstrasse",
-        "housenumber": "65",
-        "status": "todo"
+        "housenumber": "63",
+        "status": "manual"
       }
     },
     {
@@ -40083,58 +40044,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.728243827819824, 47.49938201904297]
-      },
-      "properties": {
-        "id": "kirchgasse_3",
-        "street": "Kirchgasse",
-        "housenumber": "3",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.72829, 47.499279]
-      },
-      "properties": {
-        "id": "kirchgasse_4",
-        "street": "Kirchgasse",
-        "housenumber": "4",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.72937297821045, 47.498722076416016]
-      },
-      "properties": {
-        "id": "kirchgasse_6",
-        "street": "Kirchgasse",
-        "housenumber": "6",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.726153, 47.533525]
-      },
-      "properties": {
-        "id": "kirchgasse_27",
-        "street": "Kirchgasse",
-        "housenumber": "27",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.729266166687012, 47.498634338378906]
       },
       "properties": {
@@ -40233,45 +40142,6 @@
         "street": "Kirchplatz",
         "housenumber": "8",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.728348, 47.498772]
-      },
-      "properties": {
-        "id": "kirchplatz_9",
-        "street": "Kirchplatz",
-        "housenumber": "9",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.728348, 47.498772]
-      },
-      "properties": {
-        "id": "kirchplatz_11",
-        "street": "Kirchplatz",
-        "housenumber": "11",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.729266, 47.498634]
-      },
-      "properties": {
-        "id": "kirchplatz_12",
-        "street": "Kirchplatz",
-        "housenumber": "12",
-        "status": "todo"
       }
     },
     {
@@ -45268,6 +45138,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.682511329650879, 47.50681686401367]
+      },
+      "properties": {
+        "id": "magnolienweg_7",
+        "street": "Magnolienweg",
+        "housenumber": "7",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.682650566101074, 47.506927490234375]
+      },
+      "properties": {
+        "id": "magnolienweg_9",
+        "street": "Magnolienweg",
+        "housenumber": "9",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.690704345703125, 47.51637268066406]
       },
       "properties": {
@@ -49798,6 +49694,32 @@
         "id": "neuwiesenstrasse_2",
         "street": "Neuwiesenstrasse",
         "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.720269203186035, 47.50074005126953]
+      },
+      "properties": {
+        "id": "neuwiesenstrasse_6",
+        "street": "Neuwiesenstrasse",
+        "housenumber": "6",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.720473289489746, 47.50105285644531]
+      },
+      "properties": {
+        "id": "neuwiesenstrasse_8",
+        "street": "Neuwiesenstrasse",
+        "housenumber": "8",
         "status": "auto"
       }
     },
@@ -65665,6 +65587,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.828907752922243, 47.44062328159641]
+      },
+      "properties": {
+        "id": "rämismühle_mühlestrasse_2",
+        "street": "Mühlestrasse",
+        "housenumber": "2",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.798101425170898, 47.48683166503906]
       },
       "properties": {
@@ -73647,6 +73582,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.725976709154304, 47.533492037332294]
+      },
+      "properties": {
+        "id": "seuzach_kirchgasse_27",
+        "street": "Kirchgasse",
+        "housenumber": "27",
+        "status": "manual"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.720166206359863, 47.51724624633789]
       },
       "properties": {
@@ -74362,19 +74310,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.747572, 47.498137]
-      },
-      "properties": {
-        "id": "st_gallerstrasse_114",
-        "street": "St. Gallerstrasse",
-        "housenumber": "114",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.747802734375, 47.497894287109375]
       },
       "properties": {
@@ -74388,19 +74323,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.747572, 47.498137]
-      },
-      "properties": {
-        "id": "st_gallerstrasse_118",
-        "street": "St. Gallerstrasse",
-        "housenumber": "118",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.747745513916016, 47.498443603515625]
       },
       "properties": {
@@ -74408,19 +74330,6 @@
         "street": "St. Gallerstrasse",
         "housenumber": "119",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.747572, 47.498137]
-      },
-      "properties": {
-        "id": "st_gallerstrasse_120",
-        "street": "St. Gallerstrasse",
-        "housenumber": "120",
-        "status": "todo"
       }
     },
     {
@@ -79516,6 +79425,32 @@
         "id": "sulzerallee_50",
         "street": "Sulzerallee",
         "housenumber": "50",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.763773918151855, 47.50247573852539]
+      },
+      "properties": {
+        "id": "sulzerallee_65",
+        "street": "Sulzerallee",
+        "housenumber": "65",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.765103340148926, 47.50233459472656]
+      },
+      "properties": {
+        "id": "sulzerallee_70",
+        "street": "Sulzerallee",
+        "housenumber": "70",
         "status": "auto"
       }
     },
@@ -86445,6 +86380,19 @@
         "id": "untere_kirchgasse_2",
         "street": "Untere Kirchgasse",
         "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.728243827819824, 47.49938201904297]
+      },
+      "properties": {
+        "id": "untere_kirchgasse_3",
+        "street": "Untere Kirchgasse",
+        "housenumber": "3",
         "status": "auto"
       }
     },

@@ -2974,7 +2974,7 @@
     "subtitle": "",
     "category": "Bildung und Soziales",
     "url": "https://www.winterthur-glossar.ch/geometerschule-winterthur",
-    "tags": ""
+    "address": "Technikumstrassse 9"
   },
   {
     "title": "Georg / Georges / Giorgio Miez",
@@ -3112,6 +3112,7 @@
     "subtitle": "",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/gottfried-keller-strasse-67",
+    "address": "Stadthausstrasse 4a",
     "tags": ""
   },
   {
@@ -3447,6 +3448,7 @@
     "subtitle": "Bahnhofplatz",
     "category": "Verkehr und Infrastruktur",
     "url": "https://www.winterthur-glossar.ch/hauptbahnhof-winterthur",
+    "street": "Bahnhofplatz",
     "tags": ""
   },
   {
