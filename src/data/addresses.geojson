@@ -84008,19 +84008,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.79913, 47.443899]
-      },
-      "properties": {
-        "id": "tösstalstrasse_71",
-        "street": "Tösstalstrasse",
-        "housenumber": "71",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.740731239318848, 47.49398422241211]
       },
       "properties": {
@@ -84164,13 +84151,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.747197, 47.490784]
+        "coordinates": [8.747063, 47.49089]
       },
       "properties": {
         "id": "tösstalstrasse_130",
         "street": "Tösstalstrasse",
         "housenumber": "130",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -84411,19 +84398,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "tösstalstrasse_177",
-        "street": "Tösstalstrasse",
-        "housenumber": "177",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.846305847167969, 47.43055725097656]
       },
       "properties": {
@@ -84541,32 +84515,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "tösstalstrasse_193",
-        "street": "Tösstalstrasse",
-        "housenumber": "193",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "tösstalstrasse_195",
-        "street": "Tösstalstrasse",
-        "housenumber": "195",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.754140853881836, 47.487918853759766]
       },
       "properties": {
@@ -84587,32 +84535,6 @@
         "street": "Tösstalstrasse",
         "housenumber": "199",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "tösstalstrasse_201",
-        "street": "Tösstalstrasse",
-        "housenumber": "201",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "tösstalstrasse_203",
-        "street": "Tösstalstrasse",
-        "housenumber": "203",
-        "status": "todo"
       }
     },
     {
@@ -84671,19 +84593,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "tösstalstrasse_213",
-        "street": "Tösstalstrasse",
-        "housenumber": "213",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.755963325500488, 47.48678207397461]
       },
       "properties": {
@@ -84697,19 +84606,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "tösstalstrasse_217",
-        "street": "Tösstalstrasse",
-        "housenumber": "217",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.756264686584473, 47.4860725402832]
       },
       "properties": {
@@ -84717,19 +84613,6 @@
         "street": "Tösstalstrasse",
         "housenumber": "218",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "tösstalstrasse_219",
-        "street": "Tösstalstrasse",
-        "housenumber": "219",
-        "status": "todo"
       }
     },
     {
@@ -84762,19 +84645,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "tösstalstrasse_225",
-        "street": "Tösstalstrasse",
-        "housenumber": "225",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.758149147033691, 47.485572814941406]
       },
       "properties": {
@@ -84782,19 +84652,6 @@
         "street": "Tösstalstrasse",
         "housenumber": "227",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "tösstalstrasse_229",
-        "street": "Tösstalstrasse",
-        "housenumber": "229",
-        "status": "todo"
       }
     },
     {
@@ -84957,19 +84814,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "tösstalstrasse_245",
-        "street": "Tösstalstrasse",
-        "housenumber": "245",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.760392189025879, 47.48393630981445]
       },
       "properties": {
@@ -85100,38 +84944,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.926209449768066, 47.338768005371094]
-      },
-      "properties": {
-        "id": "tösstalstrasse_257",
-        "street": "Tösstalstrasse",
-        "housenumber": "257",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.760953903198242, 47.482906341552734]
       },
       "properties": {
         "id": "tösstalstrasse_258",
         "street": "Tösstalstrasse",
         "housenumber": "258",
-        "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.926159858703613, 47.33872985839844]
-      },
-      "properties": {
-        "id": "tösstalstrasse_259",
-        "street": "Tösstalstrasse",
-        "housenumber": "259",
         "status": "auto"
       }
     },

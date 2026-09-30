@@ -290,6 +290,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.665716, 47.506494]
+      },
+      "properties": {
+        "id": "kloster_berenberg",
+        "street": "Klosterruinenstrasse",
+        "housenumber": null,
+        "status": "manual",
+        "district": "Wülflingen",
+        "neighbourhood": "Neuburg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.607823015620166, 47.64236229108166]
       },
       "properties": {
