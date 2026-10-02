@@ -1,4 +1,4 @@
-import { extractFirstYear } from "../utils/parse.js";
+import { extractYearRange } from "../utils/parse.js";
 
 const FILTER_DEBOUNCE_MS = 300;
 
@@ -84,9 +84,20 @@ function createFilterPredicate(criteria) {
 }
 
 function yearInRange(props, from, to) {
-  if (from === -Infinity && to === Infinity) return true;
-  const year = extractFirstYear(props.year);
-  return !Number.isNaN(year) && year >= from && year <= to;
+  const hasFrom = Number.isFinite(from);
+  const hasTo = Number.isFinite(to);
+  if (!hasFrom && !hasTo) return true;
+
+  const yearRange = extractYearRange(props.year);
+  if (!yearRange) return false;
+
+  if (hasFrom && !hasTo) {
+    return from >= yearRange.start && from <= yearRange.end;
+  }
+  if (!hasFrom && hasTo) {
+    return to >= yearRange.start && to <= yearRange.end;
+  }
+  return yearRange.start <= to && yearRange.end >= from;
 }
 
 function streetIncludes(props, street) {

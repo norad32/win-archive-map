@@ -116,7 +116,7 @@ describe("createFilters", () => {
     assert.equal(getRendered().length, 2);
   });
 
-  it("createFilters_Should_FilterByYear_If_RangeSet", async () => {
+  it("createFilters_Should_FilterByYearRange_If_BothBoundsAreSet", async () => {
     const { domRefs, filters, runFilterNow, getRendered } = buildSetup({
       entries: [],
       groups: GROUPS,
@@ -131,6 +131,116 @@ describe("createFilters", () => {
       shown.map((e) => e.id),
       ["1"],
     );
+  });
+
+  it("createFilters_Should_MatchExactYear_If_OnlyFromBoundIsSet", async () => {
+    const { domRefs, filters, runFilterNow, getRendered } = buildSetup({
+      entries: [],
+      groups: GROUPS,
+    });
+    domRefs.yearFromEl.value = "1956";
+
+    await runFilterNow();
+
+    assert.deepEqual(
+      getRendered().flatMap((group) => group.entries.map((entry) => entry.id)),
+      ["1"],
+    );
+  });
+
+  it("createFilters_Should_MatchExactYear_If_OnlyToBoundIsSet", async () => {
+    const { domRefs, filters, runFilterNow, getRendered } = buildSetup({
+      entries: [],
+      groups: GROUPS,
+    });
+    domRefs.yearToEl.value = "1956";
+
+    await runFilterNow();
+
+    assert.deepEqual(
+      getRendered().flatMap((group) => group.entries.map((entry) => entry.id)),
+      ["1"],
+    );
+  });
+
+  it("createFilters_Should_MatchDecade_If_BoundFallsWithinDecade", async () => {
+    const groups = [
+      {
+        key: "decade",
+        repCoord: [8.7, 47.5],
+        entries: [
+          { id: "1", title: "Nineties", year: "90er" },
+          { id: "2", title: "Eighties", year: "1980er-Jahre" },
+          { id: "3", title: "Nineties with question", year: "1990er-Jahre?" },
+        ],
+      },
+    ];
+    const { domRefs, filters, runFilterNow, getRendered } = buildSetup({
+      entries: groups[0].entries,
+      groups,
+    });
+    domRefs.yearFromEl.value = "1995";
+
+    await runFilterNow();
+
+    assert.deepEqual(
+      getRendered().flatMap((group) => group.entries.map((entry) => entry.id)),
+      ["1", "3"],
+    );
+  });
+
+  it("createFilters_Should_MatchOverlappingDecade_If_RangePartiallyOverlaps", async () => {
+    const groups = [
+      {
+        key: "decade",
+        repCoord: [8.7, 47.5],
+        entries: [{ id: "1", title: "Eighties", year: "1980er-Jahre" }],
+      },
+    ];
+    const { domRefs, filters, runFilterNow, getRendered } = buildSetup({
+      entries: groups[0].entries,
+      groups,
+    });
+    domRefs.yearFromEl.value = "1985";
+    domRefs.yearToEl.value = "1995";
+
+    await runFilterNow();
+
+    assert.deepEqual(
+      getRendered().flatMap((group) => group.entries.map((entry) => entry.id)),
+      ["1"],
+    );
+  });
+
+  it("createFilters_Should_ExcludeEntriesWithoutParsedYear_If_YearBoundIsSet", async () => {
+    const groups = [
+      {
+        key: "years",
+        repCoord: [8.7, 47.5],
+        entries: [
+          { id: "year", title: "Year", year: "um 1956" },
+          { id: "missing", title: "No year", year: null },
+          { id: "invalid", title: "Invalid year", year: "undatiert" },
+        ],
+      },
+    ];
+    const unlocated = [
+      { id: "unlocated-missing", title: "Unlocated no year", year: null },
+    ];
+    const { domRefs, filters, runFilterNow, getRendered, getStats } = buildSetup({
+      entries: [...groups[0].entries, ...unlocated],
+      groups,
+      unlocated,
+    });
+    domRefs.yearFromEl.value = "1956";
+
+    await runFilterNow();
+
+    assert.deepEqual(
+      getRendered().flatMap((group) => group.entries.map((entry) => entry.id)),
+      ["year"],
+    );
+    assert.equal(getStats().shown, 1);
   });
 
   it("createFilters_Should_FilterByStreet_If_StreetSet", async () => {
