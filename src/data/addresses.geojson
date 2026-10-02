@@ -32452,6 +32452,32 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.746374130249023, 47.49168395996094]
+      },
+      "properties": {
+        "id": "hörnlistrasse_36",
+        "street": "Hörnlistrasse",
+        "housenumber": "34",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.746374130249023, 47.49168395996094]
+      },
+      "properties": {
+        "id": "hörnlistrasse_38",
+        "street": "Hörnlistrasse",
+        "housenumber": "34",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.749059677124023, 47.49070358276367]
       },
       "properties": {
@@ -46685,13 +46711,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.703048, 47.493622]
+        "coordinates": [8.703192710876465, 47.49359130859375]
       },
       "properties": {
         "id": "metzgerstrasse_1",
         "street": "Metzgerstrasse",
         "housenumber": "1",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -51742,13 +51768,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.731305, 47.498447]
+        "coordinates": [8.731339, 47.499364]
       },
       "properties": {
         "id": "oberer_graben_32",
         "street": "Oberer Graben",
         "housenumber": "32",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -52977,19 +53003,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.695645, 47.509304]
-      },
-      "properties": {
-        "id": "oberfeldstrasse_103",
-        "street": "Oberfeldstrasse",
-        "housenumber": "103",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.697364807128906, 47.50882339477539]
       },
       "properties": {
@@ -53023,19 +53036,6 @@
         "street": "Oberfeldstrasse",
         "housenumber": "106",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.694821, 47.509583]
-      },
-      "properties": {
-        "id": "oberfeldstrasse_107",
-        "street": "Oberfeldstrasse",
-        "housenumber": "107",
-        "status": "todo"
       }
     },
     {
@@ -53153,19 +53153,6 @@
         "street": "Oberfeldstrasse",
         "housenumber": "118",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.696248, 47.509438]
-      },
-      "properties": {
-        "id": "oberfeldstrasse_120",
-        "street": "Oberfeldstrasse",
-        "housenumber": "120",
-        "status": "todo"
       }
     },
     {
@@ -53322,19 +53309,6 @@
         "street": "Oberfeldstrasse",
         "housenumber": "130",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.695356, 47.50946]
-      },
-      "properties": {
-        "id": "oberfeldstrasse_132",
-        "street": "Oberfeldstrasse",
-        "housenumber": "132",
-        "status": "todo"
       }
     },
     {
@@ -54128,71 +54102,6 @@
         "street": "Obergasse",
         "housenumber": "40",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.730947, 47.500084]
-      },
-      "properties": {
-        "id": "obergasseunterer_graben_2",
-        "street": "Obergasse/Unterer Graben",
-        "housenumber": "2",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.730947, 47.500084]
-      },
-      "properties": {
-        "id": "obergasseunterer_graben_4",
-        "street": "Obergasse/Unterer Graben",
-        "housenumber": "4",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.730947, 47.500084]
-      },
-      "properties": {
-        "id": "obergasseunterer_graben_6",
-        "street": "Obergasse/Unterer Graben",
-        "housenumber": "6",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.730947, 47.500084]
-      },
-      "properties": {
-        "id": "obergasseunterer_graben_8",
-        "street": "Obergasse/Unterer Graben",
-        "housenumber": "8",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.730947, 47.500084]
-      },
-      "properties": {
-        "id": "obergasseunterer_graben_10",
-        "street": "Obergasse/Unterer Graben",
-        "housenumber": "10",
-        "status": "todo"
       }
     },
     {
@@ -55460,13 +55369,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.733382, 47.499977]
+        "coordinates": [8.732814, 47.500152]
       },
       "properties": {
         "id": "obertor_10",
         "street": "Obertor",
         "housenumber": "10",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -83800,13 +83709,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.731343, 47.498116]
+        "coordinates": [8.7352, 47.496876]
       },
       "properties": {
         "id": "tösstalstrasse_33",
         "street": "Tösstalstrasse",
         "housenumber": "33",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -86387,19 +86296,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.718755, 47.492088]
-      },
-      "properties": {
-        "id": "untere_vogelsangstrasse_134",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "134",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.718633651733398, 47.492034912109375]
       },
       "properties": {
@@ -86407,19 +86303,6 @@
         "street": "Untere Vogelsangstrasse",
         "housenumber": "135",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.718755, 47.492088]
-      },
-      "properties": {
-        "id": "untere_vogelsangstrasse_136",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "136",
-        "status": "todo"
       }
     },
     {
@@ -86442,35 +86325,9 @@
         "coordinates": [8.718755, 47.492088]
       },
       "properties": {
-        "id": "untere_vogelsangstrasse_138",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "138",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.718755, 47.492088]
-      },
-      "properties": {
         "id": "untere_vogelsangstrasse_139",
         "street": "Untere Vogelsangstrasse",
         "housenumber": "139",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.718755, 47.492088]
-      },
-      "properties": {
-        "id": "untere_vogelsangstrasse_140",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "140",
         "status": "todo"
       }
     },
@@ -86491,19 +86348,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.718755, 47.492088]
-      },
-      "properties": {
-        "id": "untere_vogelsangstrasse_142",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "142",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.718487739562988, 47.491851806640625]
       },
       "properties": {
@@ -86511,19 +86355,6 @@
         "street": "Untere Vogelsangstrasse",
         "housenumber": "143",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.718755, 47.492088]
-      },
-      "properties": {
-        "id": "untere_vogelsangstrasse_144",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "144",
-        "status": "todo"
       }
     },
     {
@@ -86543,19 +86374,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.718755, 47.492088]
-      },
-      "properties": {
-        "id": "untere_vogelsangstrasse_146",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "146",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.718414306640625, 47.49176025390625]
       },
       "properties": {
@@ -86563,19 +86381,6 @@
         "street": "Untere Vogelsangstrasse",
         "housenumber": "147",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.718755, 47.492088]
-      },
-      "properties": {
-        "id": "untere_vogelsangstrasse_148",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "148",
-        "status": "todo"
       }
     },
     {
@@ -86595,19 +86400,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.718755, 47.492088]
-      },
-      "properties": {
-        "id": "untere_vogelsangstrasse_150",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "150",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.718341827392578, 47.491668701171875]
       },
       "properties": {
@@ -86615,19 +86407,6 @@
         "street": "Untere Vogelsangstrasse",
         "housenumber": "151",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.718755, 47.492088]
-      },
-      "properties": {
-        "id": "untere_vogelsangstrasse_152",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "152",
-        "status": "todo"
       }
     },
     {
@@ -86647,19 +86426,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.718755, 47.492088]
-      },
-      "properties": {
-        "id": "untere_vogelsangstrasse_154",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "154",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.718270301818848, 47.4915771484375]
       },
       "properties": {
@@ -86667,19 +86433,6 @@
         "street": "Untere Vogelsangstrasse",
         "housenumber": "155",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.718755, 47.492088]
-      },
-      "properties": {
-        "id": "untere_vogelsangstrasse_156",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "156",
-        "status": "todo"
       }
     },
     {
@@ -86699,19 +86452,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.718755, 47.492088]
-      },
-      "properties": {
-        "id": "untere_vogelsangstrasse_158",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "158",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.718195915222168, 47.49148178100586]
       },
       "properties": {
@@ -86719,19 +86459,6 @@
         "street": "Untere Vogelsangstrasse",
         "housenumber": "159",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.718755, 47.492088]
-      },
-      "properties": {
-        "id": "untere_vogelsangstrasse_160",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "160",
-        "status": "todo"
       }
     },
     {
@@ -86754,35 +86481,9 @@
         "coordinates": [8.718755, 47.492088]
       },
       "properties": {
-        "id": "untere_vogelsangstrasse_162",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "162",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.718755, 47.492088]
-      },
-      "properties": {
         "id": "untere_vogelsangstrasse_163",
         "street": "Untere Vogelsangstrasse",
         "housenumber": "163",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.718755, 47.492088]
-      },
-      "properties": {
-        "id": "untere_vogelsangstrasse_164",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "164",
         "status": "todo"
       }
     },
@@ -86797,19 +86498,6 @@
         "street": "Untere Vogelsangstrasse",
         "housenumber": "165",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.718755, 47.492088]
-      },
-      "properties": {
-        "id": "untere_vogelsangstrasse_166",
-        "street": "Untere Vogelsangstrasse",
-        "housenumber": "166",
-        "status": "todo"
       }
     },
     {
@@ -86848,19 +86536,6 @@
         "id": "unterer_deutweg_2",
         "street": "Unterer Deutweg",
         "housenumber": "2",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.73853, 47.492645]
-      },
-      "properties": {
-        "id": "unterer_deutweg_3",
-        "street": "Unterer Deutweg",
-        "housenumber": "3",
         "status": "todo"
       }
     },
@@ -87089,13 +86764,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.730896, 47.498417]
+        "coordinates": [8.730939, 47.499527]
       },
       "properties": {
         "id": "unterer_graben_31",
         "street": "Unterer Graben",
         "housenumber": "31",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -87122,32 +86797,6 @@
         "street": "Unterer Graben",
         "housenumber": "35",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "unterer_graben_37",
-        "street": "Unterer Graben",
-        "housenumber": "37",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.730896, 47.498417]
-      },
-      "properties": {
-        "id": "unterer_graben_46",
-        "street": "Unterer Graben",
-        "housenumber": "46",
-        "status": "todo"
       }
     },
     {
@@ -98787,6 +98436,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.7407808303833, 47.49293899536133]
+      },
+      "properties": {
+        "id": "zwinglistrasse_2",
+        "street": "Zwinglistrasse",
+        "housenumber": "2",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.74083137512207, 47.49250030517578]
       },
       "properties": {
@@ -100100,7 +99762,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.705367, 47.490917]
+        "coordinates": [8.705439, 47.490898]
       },
       "properties": {
         "id": "zürcherstrasse_122",
@@ -100152,13 +99814,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
+        "coordinates": [8.705242, 47.490775]
       },
       "properties": {
         "id": "zürcherstrasse_126",
         "street": "Zürcherstrasse",
         "housenumber": "126",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -100178,13 +99840,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
+        "coordinates": [8.705107, 47.490698]
       },
       "properties": {
         "id": "zürcherstrasse_128",
         "street": "Zürcherstrasse",
         "housenumber": "128",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -100204,13 +99866,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
+        "coordinates": [8.705026, 47.490622]
       },
       "properties": {
         "id": "zürcherstrasse_130",
         "street": "Zürcherstrasse",
         "housenumber": "130",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -100230,13 +99892,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
+        "coordinates": [8.704938, 47.490572]
       },
       "properties": {
         "id": "zürcherstrasse_132",
         "street": "Zürcherstrasse",
         "housenumber": "132",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -100256,13 +99918,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
+        "coordinates": [8.704887, 47.490541]
       },
       "properties": {
         "id": "zürcherstrasse_134",
         "street": "Zürcherstrasse",
         "housenumber": "134",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -100282,13 +99944,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
+        "coordinates": [8.704778, 47.490484]
       },
       "properties": {
         "id": "zürcherstrasse_136",
         "street": "Zürcherstrasse",
         "housenumber": "136",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -100964,7 +100626,7 @@
         "id": "zürcherstrasse_315",
         "street": "Zürcherstrasse",
         "housenumber": "315",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
