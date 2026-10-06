@@ -275,6 +275,21 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [8.719945, 47.501431]
+      },
+      "properties": {
+        "id": "kirche_peter_paul",
+        "street": "Tellstrasse",
+        "housenumber": null,
+        "status": "manual",
+        "district": "Winterthur-Stadt",
+        "neighbourhood": "Neuwiesen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [8.728607, 47.49897]
       },
       "properties": {

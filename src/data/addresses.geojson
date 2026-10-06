@@ -4164,19 +4164,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.721669, 47.498434]
-      },
-      "properties": {
-        "id": "bahnmeisterweg_10",
-        "street": "Bahnmeisterweg",
-        "housenumber": "10",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.720902442932129, 47.497764587402344]
       },
       "properties": {
@@ -16293,32 +16280,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.679349, 47.510735]
-      },
-      "properties": {
-        "id": "euelstrasse_7",
-        "street": "Euelstrasse",
-        "housenumber": "7",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.682467, 47.508636]
-      },
-      "properties": {
-        "id": "euelstrasse_9",
-        "street": "Euelstrasse",
-        "housenumber": "9",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.68234920501709, 47.50905227661133]
       },
       "properties": {
@@ -18776,19 +18737,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "friedhofstrasse_51",
-        "street": "Friedhofstrasse",
-        "housenumber": "51",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.72262954711914, 47.496761322021484]
       },
       "properties": {
@@ -20024,19 +19972,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.742504, 47.500584]
-      },
-      "properties": {
-        "id": "geiselweidstrasse_34",
-        "street": "Geiselweidstrasse",
-        "housenumber": "34",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.744068145751953, 47.49943923950195]
       },
       "properties": {
@@ -21084,19 +21019,6 @@
         "street": "Gleitstrasse",
         "housenumber": "13",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "gottfried_keller_strasse_52",
-        "street": "Gottfried-Keller-Strasse",
-        "housenumber": "52",
-        "status": "todo"
       }
     },
     {
@@ -22650,26 +22572,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.766528, 47.486862]
+        "coordinates": [8.768029, 47.486717]
       },
       "properties": {
         "id": "grüntalstrasse_21",
         "street": "Grüntalstrasse",
         "housenumber": "21",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.766528, 47.486862]
+        "coordinates": [8.768206, 47.486335]
       },
       "properties": {
         "id": "grüntalstrasse_23",
         "street": "Grüntalstrasse",
         "housenumber": "23",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -23235,19 +23157,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.758926, 47.510807]
-      },
-      "properties": {
-        "id": "guggenbühlstrasse_173",
-        "street": "Guggenbühlstrasse",
-        "housenumber": "173",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.752215385437012, 47.5357780456543]
       },
       "properties": {
@@ -23261,13 +23170,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.751822, 47.530735]
+        "coordinates": [8.754846572875977, 47.53731155395508]
       },
       "properties": {
-        "id": "gusslistrasse_67",
-        "street": "Gusslistrasse",
+        "id": "haldenrainstrasse_67",
+        "street": "Haldenrainstrasse",
         "housenumber": "67",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -23417,13 +23326,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.736678, 47.497726]
+        "coordinates": [8.734049, 47.49768]
       },
       "properties": {
         "id": "gärtnerstrasse_21",
         "street": "Gärtnerstrasse",
         "housenumber": "21",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -23586,19 +23495,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.705323, 47.492527]
-      },
-      "properties": {
-        "id": "gätzibrunnenstrasse_13",
-        "street": "Gätzibrunnenstrasse",
-        "housenumber": "13",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.704922676086426, 47.49319839477539]
       },
       "properties": {
@@ -23606,6 +23502,19 @@
         "street": "Gätzibrunnenstrasse",
         "housenumber": "14",
         "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.599416023009473, 47.569295208440764]
+      },
+      "properties": {
+        "id": "berg_am_irchel_schlossgasse_10",
+        "street": "Schlossgasse",
+        "housenumber": "10",
+        "status": "manual"
       }
     },
     {
@@ -23742,13 +23651,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.73521, 47.507797]
+        "coordinates": [8.737198829650879, 47.50883483886719]
       },
       "properties": {
-        "id": "gütlistrasse_19",
-        "street": "Gütlistrasse",
-        "housenumber": "19",
-        "status": "todo"
+        "id": "oberes_alpgut_1",
+        "street": "Oberes Alpgut",
+        "housenumber": "1",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.737251281738281, 47.50901794433594]
+      },
+      "properties": {
+        "id": "oberes_alpgut_2",
+        "street": "Oberes Alpgut",
+        "housenumber": "2",
+        "status": "auto"
       }
     },
     {
@@ -23989,13 +23911,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.761662, 47.534733]
+        "coordinates": [8.761719703674316, 47.535037994384766]
       },
       "properties": {
-        "id": "haldenrainstrasse_10",
-        "street": "Haldenrainstrasse",
+        "loc": "flochenstrasse_8",
+        "street": "Flochenstrasse",
+        "housenumber": "8",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.761786460876465, 47.534912109375]
+      },
+      "properties": {
+        "loc": "flochenstrasse_10",
+        "street": "Flochenstrasse",
         "housenumber": "10",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -34129,143 +34064,143 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.778659, 47.504772]
+        "coordinates": [8.776405, 47.50563]
       },
       "properties": {
         "id": "im_gern_1",
         "street": "Im Gern",
         "housenumber": "1",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.778142, 47.505043]
+        "coordinates": [8.775987, 47.505966]
       },
       "properties": {
         "id": "im_gern_2",
         "street": "Im Gern",
         "housenumber": "2",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.778659, 47.504772]
+        "coordinates": [8.776471, 47.505634]
       },
       "properties": {
         "id": "im_gern_3",
         "street": "Im Gern",
         "housenumber": "3",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.778142, 47.505043]
+        "coordinates": [8.775999, 47.505768]
       },
       "properties": {
         "id": "im_gern_4",
         "street": "Im Gern",
         "housenumber": "4",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.778659, 47.504772]
+        "coordinates": [8.776543, 47.505637]
       },
       "properties": {
         "id": "im_gern_5",
         "street": "Im Gern",
         "housenumber": "5",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.778142, 47.505043]
+        "coordinates": [8.776028, 47.505592]
       },
       "properties": {
         "id": "im_gern_6",
         "street": "Im Gern",
         "housenumber": "6",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.778659, 47.504772]
+        "coordinates": [8.776616, 47.505642]
       },
       "properties": {
         "id": "im_gern_7",
         "street": "Im Gern",
         "housenumber": "7",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.778659, 47.504772]
+        "coordinates": [8.776681, 47.505646]
       },
       "properties": {
         "id": "im_gern_9",
         "street": "Im Gern",
         "housenumber": "9",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.778659, 47.504772]
+        "coordinates": [8.776757, 47.505649]
       },
       "properties": {
         "id": "im_gern_11",
         "street": "Im Gern",
         "housenumber": "11",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.779418, 47.504677]
+        "coordinates": [8.776707, 47.505782]
       },
       "properties": {
         "id": "im_gern_13",
         "street": "Im Gern",
         "housenumber": "13",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.778659, 47.504772]
+        "coordinates": [8.7767, 47.505842]
       },
       "properties": {
         "id": "im_gern_15",
         "street": "Im Gern",
         "housenumber": "15",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -38354,91 +38289,78 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.716484, 47.494469]
+        "coordinates": [8.715861320495605, 47.49468231201172]
       },
       "properties": {
-        "id": "jägerstrasse_1",
-        "street": "Jägerstrasse",
+        "id": "ernst_jung_gasse_1",
+        "street": "Ernst-Jung-Gasse",
         "housenumber": "1",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.716484, 47.494469]
+        "coordinates": [8.715683937072754, 47.49477767944336]
       },
       "properties": {
-        "id": "jägerstrasse_2",
-        "street": "Jägerstrasse",
-        "housenumber": "2",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.716484, 47.494469]
-      },
-      "properties": {
-        "id": "jägerstrasse_3",
-        "street": "Jägerstrasse",
+        "id": "ernst_jung_gasse_3",
+        "street": "Ernst-Jung-Gasse",
         "housenumber": "3",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.716484, 47.494469]
+        "coordinates": [8.715496063232422, 47.494876861572266]
       },
       "properties": {
-        "id": "jägerstrasse_5",
-        "street": "Jägerstrasse",
+        "id": "ernst_jung_gasse_5",
+        "street": "Ernst-Jung-Gasse",
         "housenumber": "5",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.716484, 47.494469]
+        "coordinates": [8.715312957763672, 47.49497604370117]
       },
       "properties": {
-        "id": "jägerstrasse_7",
-        "street": "Jägerstrasse",
+        "id": "ernst_jung_gasse_7",
+        "street": "Ernst-Jung-Gasse",
         "housenumber": "7",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.716484, 47.494469]
+        "coordinates": [8.71513843536377, 47.49507141113281]
       },
       "properties": {
-        "id": "jägerstrasse_9",
-        "street": "Jägerstrasse",
+        "id": "ernst_jung_gasse_9",
+        "street": "Ernst-Jung-Gasse",
         "housenumber": "9",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.716484, 47.494469]
+        "coordinates": [8.714969635009766, 47.49515914916992]
       },
       "properties": {
-        "id": "jägerstrasse_11",
-        "street": "Jägerstrasse",
+        "id": "ernst_jung_gasse_11",
+        "street": "Ernst-Jung-Gasse",
         "housenumber": "11",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -45385,13 +45307,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.715102, 47.492416]
+        "coordinates": [8.715102195739746, 47.49241638183594]
       },
       "properties": {
-        "id": "maienstrasseschaffhauserstrasse_15",
-        "street": "Maienstrasse/Schaffhauserstrasse",
+        "id": "maienstrasse_15",
+        "street": "Maienstrasse",
         "housenumber": "15",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -50123,58 +50045,6 @@
         "id": "neuwiesenstrasse_96",
         "street": "Neuwiesenstrasse",
         "housenumber": "96",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.759624, 47.510834]
-      },
-      "properties": {
-        "id": "neuwiesenstrassepalmstrasse_12",
-        "street": "Neuwiesenstrasse/Palmstrasse",
-        "housenumber": "12",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.719595, 47.500183]
-      },
-      "properties": {
-        "id": "neuwiesenstrassewartstrasse_2",
-        "street": "Neuwiesenstrasse/Wartstrasse",
-        "housenumber": "2",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.719595, 47.500183]
-      },
-      "properties": {
-        "id": "neuwiesenstrassewartstrasse_4",
-        "street": "Neuwiesenstrasse/Wartstrasse",
-        "housenumber": "4",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.719595, 47.500183]
-      },
-      "properties": {
-        "id": "neuwiesenstrassewartstrasse_6",
-        "street": "Neuwiesenstrasse/Wartstrasse",
-        "housenumber": "6",
         "status": "todo"
       }
     },
@@ -57501,39 +57371,39 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.705796, 47.490658]
+        "coordinates": [8.706449, 47.490234]
       },
       "properties": {
         "id": "poststrasse_5",
         "street": "Poststrasse",
         "housenumber": "5",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.705796, 47.490658]
+        "coordinates": [8.706562, 47.49015]
       },
       "properties": {
         "id": "poststrasse_7",
         "street": "Poststrasse",
         "housenumber": "7",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.705796, 47.490658]
+        "coordinates": [8.706766, 47.49003]
       },
       "properties": {
         "id": "poststrasse_9",
         "street": "Poststrasse",
         "housenumber": "9",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -57553,26 +57423,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.705796, 47.490658]
+        "coordinates": [8.706669, 47.490084]
       },
       "properties": {
         "id": "poststrasse_11",
         "street": "Poststrasse",
         "housenumber": "11",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.705796, 47.490658]
+        "coordinates": [8.706763, 47.490023]
       },
       "properties": {
         "id": "poststrasse_13",
         "street": "Poststrasse",
         "housenumber": "13",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -58736,13 +58606,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.717063, 47.501537]
+        "coordinates": [8.716473579406738, 47.5026969909668]
       },
       "properties": {
-        "id": "rennweg_2",
-        "street": "Rennweg",
-        "housenumber": "2",
-        "status": "todo"
+        "id": "wartstrasse_49",
+        "street": "Wartstrasse",
+        "housenumber": "49",
+        "status": "auto"
       }
     },
     {
@@ -58775,7 +58645,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.716461, 47.500149]
+        "coordinates": [8.716706, 47.502466]
       },
       "properties": {
         "id": "rennweg_8",
@@ -58814,26 +58684,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.717387, 47.50235]
+        "coordinates": [8.716353416442871, 47.50273895263672]
       },
       "properties": {
-        "id": "rennweg_49",
-        "street": "Rennweg",
-        "housenumber": "49",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.717387, 47.50235]
-      },
-      "properties": {
-        "id": "rennweg_51",
-        "street": "Rennweg",
+        "id": "wartstrasse_51",
+        "street": "Wartstrasse",
         "housenumber": "51",
-        "status": "todo"
+        "status": "auto"
       }
     },
     {
@@ -58905,26 +58762,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.75187, 47.527058]
+        "coordinates": [8.757964, 47.521938]
       },
       "properties": {
         "id": "reutlingerstrasse_6",
         "street": "Reutlingerstrasse",
         "housenumber": "6",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.750414, 47.528461]
+        "coordinates": [8.757807, 47.522274]
       },
       "properties": {
         "id": "reutlingerstrasse_10",
         "street": "Reutlingerstrasse",
         "housenumber": "10",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -58977,45 +58834,6 @@
         "street": "Reutlingerstrasse",
         "housenumber": "22",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.755985, 47.523415]
-      },
-      "properties": {
-        "id": "reutlingerstrasse_23",
-        "street": "Reutlingerstrasse",
-        "housenumber": "23",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.755985, 47.523415]
-      },
-      "properties": {
-        "id": "reutlingerstrasse_24",
-        "street": "Reutlingerstrasse",
-        "housenumber": "24",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.755985, 47.523415]
-      },
-      "properties": {
-        "id": "reutlingerstrasse_25",
-        "street": "Reutlingerstrasse",
-        "housenumber": "25",
-        "status": "todo"
       }
     },
     {
@@ -68590,19 +68408,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.722839, 47.508015]
-      },
-      "properties": {
-        "id": "schaffhauserstrassezentralstrasse_51",
-        "street": "Schaffhauserstrasse/Zentralstrasse",
-        "housenumber": "51",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.704216003417969, 47.49032974243164]
       },
       "properties": {
@@ -74342,20 +74147,20 @@
         "id": "st_gallerstrasse_143",
         "street": "St. Gallerstrasse",
         "housenumber": "143",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.751725, 47.498247]
+        "coordinates": [8.752035, 47.498278]
       },
       "properties": {
         "id": "st_gallerstrasse_150",
         "street": "St. Gallerstrasse",
         "housenumber": "150",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -81811,19 +81616,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.718831, 47.501213]
-      },
-      "properties": {
-        "id": "tellstrasse_19",
-        "street": "Tellstrasse",
-        "housenumber": "19",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.720108985900879, 47.502418518066406]
       },
       "properties": {
@@ -81831,19 +81623,6 @@
         "street": "Tellstrasse",
         "housenumber": "20",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.718831, 47.501213]
-      },
-      "properties": {
-        "id": "tellstrasse_21",
-        "street": "Tellstrasse",
-        "housenumber": "21",
-        "status": "todo"
       }
     },
     {
@@ -81993,19 +81772,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "theaterstrasse_5",
-        "street": "Theaterstrasse",
-        "housenumber": "5",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.727333068847656, 47.50200271606445]
       },
       "properties": {
@@ -82026,19 +81792,6 @@
         "street": "Theaterstrasse",
         "housenumber": "7",
         "status": "auto"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      },
-      "properties": {
-        "id": "theaterstrasse_9",
-        "street": "Theaterstrasse",
-        "housenumber": "9",
-        "status": "todo"
       }
     },
     {
@@ -82084,52 +81837,52 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.726816, 47.501816]
+        "coordinates": [8.728084, 47.502776]
       },
       "properties": {
         "id": "theaterstrasse_18",
         "street": "Theaterstrasse",
         "housenumber": "18",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.727852, 47.503517]
+        "coordinates": [8.726739, 47.503488]
       },
       "properties": {
         "id": "theaterstrasse_19",
         "street": "Theaterstrasse",
         "housenumber": "19",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.726816, 47.501816]
+        "coordinates": [8.728113, 47.502884]
       },
       "properties": {
         "id": "theaterstrasse_20",
         "street": "Theaterstrasse",
         "housenumber": "20",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.727852, 47.503517]
+        "coordinates": [8.727891, 47.503862]
       },
       "properties": {
         "id": "theaterstrasse_21",
         "street": "Theaterstrasse",
         "housenumber": "21",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -82149,13 +81902,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.727852, 47.503517]
+        "coordinates": [8.727484, 47.503935]
       },
       "properties": {
         "id": "theaterstrasse_23",
         "street": "Theaterstrasse",
         "housenumber": "23",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -82253,13 +82006,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.726816, 47.501816]
+        "coordinates": [8.72908, 47.503861]
       },
       "properties": {
         "id": "theaterstrasse_38",
         "street": "Theaterstrasse",
         "housenumber": "38",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -82396,19 +82149,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.732492, 47.503357]
-      },
-      "properties": {
-        "id": "trollstrasse_3",
-        "street": "Trollstrasse",
-        "housenumber": "3",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.732254981994629, 47.50157165527344]
       },
       "properties": {
@@ -82422,26 +82162,26 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
+        "coordinates": [8.732259, 47.50175]
       },
       "properties": {
         "id": "trollstrasse_6",
         "street": "Trollstrasse",
         "housenumber": "6",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
+        "coordinates": [8.732253, 47.501895]
       },
       "properties": {
         "id": "trollstrasse_8",
         "street": "Trollstrasse",
         "housenumber": "8",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -82461,13 +82201,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
+        "coordinates": [8.732277, 47.502172]
       },
       "properties": {
         "id": "trollstrasse_12",
         "street": "Trollstrasse",
         "housenumber": "12",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -82643,13 +82383,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": null
+        "coordinates": [8.732312, 47.504175]
       },
       "properties": {
         "id": "trollstrasse_37",
         "street": "Trollstrasse",
         "housenumber": "37",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -87284,19 +87024,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.751232, 47.504284]
-      },
-      "properties": {
-        "id": "unterwegli_2",
-        "street": "Unterwegli",
-        "housenumber": "2",
-        "status": "todo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [8.7506685256958, 47.50315475463867]
       },
       "properties": {
@@ -87882,13 +87609,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.760356, 47.482319]
+        "coordinates": [8.749444, 47.483554]
       },
       "properties": {
         "id": "waldeggstrasse_84",
         "street": "Waldeggstrasse",
         "housenumber": "84",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -87947,13 +87674,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.713351, 47.497108]
+        "coordinates": [8.713413, 47.497466]
       },
       "properties": {
         "id": "waldhofstrasse_6",
         "street": "Waldhofstrasse",
         "housenumber": "6",
-        "status": "todo"
+        "status": "manual"
       }
     },
     {
@@ -99053,6 +98780,19 @@
         "id": "zürcherstrasse_46",
         "street": "Zürcherstrasse",
         "housenumber": "46",
+        "status": "auto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.713356018066406, 47.49556350708008]
+      },
+      "properties": {
+        "id": "zürcherstrasse_47",
+        "street": "Zürcherstrasse",
+        "housenumber": "47",
         "status": "auto"
       }
     },
