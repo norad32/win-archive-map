@@ -7,12 +7,17 @@ import { loadStreets, populateStreetOptions, populateDistrictOptions } from "../
 
 const streetsData = {
   districts: {
-    "Winterthur-Stadt": ["Römerstrasse", "Marktgasse", "Bahnhofplatz"],
-    Töss: ["Bahnstrasse", "Bahnhofplatz"],
+    "Winterthur-Stadt": [
+      "Römerstrasse",
+      "Marktgasse",
+      "Bahnhofplatz",
+      "Stadthausstrasse/Marktgasse/Untertor",
+    ],
+    Töss: ["Bahnstrasse", "Bahnhofplatz", "Stadthausstrasse/Marktgasse/Untertor"],
     Other: ["Waldweg"],
   },
   neighbourhoods: {
-    Altstadt: ["Marktgasse", "Bahnhofplatz"],
+    Altstadt: ["Marktgasse", "Bahnhofplatz", "Stadthausstrasse/Marktgasse/Untertor"],
     "Brühlberg": ["Römerstrasse", "Bahnhofplatz"],
     Schlosstal: ["Bahnstrasse"],
   },
@@ -31,8 +36,16 @@ describe("loadStreets", () => {
 
     assert.ok(data.districts instanceof Map);
     assert.ok(data.neighbourhoods instanceof Map);
-    assert.deepEqual(data.districts.get("Töss"), ["Bahnstrasse", "Bahnhofplatz"]);
-    assert.deepEqual(data.neighbourhoods.get("Altstadt"), ["Marktgasse", "Bahnhofplatz"]);
+    assert.deepEqual(data.districts.get("Töss"), [
+      "Bahnstrasse",
+      "Bahnhofplatz",
+      "Stadthausstrasse/Marktgasse/Untertor",
+    ]);
+    assert.deepEqual(data.neighbourhoods.get("Altstadt"), [
+      "Marktgasse",
+      "Bahnhofplatz",
+      "Stadthausstrasse/Marktgasse/Untertor",
+    ]);
   });
 
   it("loadStreets_Should_Throw_If_FetchFails", async () => {
@@ -100,6 +113,8 @@ describe("populateStreetOptions", () => {
       "Bahnstrasse",
       "Marktgasse",
       "Römerstrasse",
+      "Stadthausstrasse",
+      "Untertor",
       "Waldweg",
     ]);
   });
@@ -107,14 +122,23 @@ describe("populateStreetOptions", () => {
   it("populateStreetOptions_Should_ListDistrictStreets_If_DistrictSelected", () => {
     populateStreetOptions(datalist, dataAsMaps(), "Töss", "");
 
-    assert.deepEqual(streetValues(), ["Bahnhofplatz", "Bahnstrasse"]);
+    assert.deepEqual(
+      streetValues(),
+      ["Bahnhofplatz", "Bahnstrasse", "Marktgasse", "Stadthausstrasse", "Untertor"],
+    );
   });
 
   it("populateStreetOptions_Should_ListNeighbourhoodStreets_If_NeighbourhoodSelected", () => {
     populateStreetOptions(datalist, dataAsMaps(), "Winterthur-Stadt", "Altstadt");
 
-    // Neighbourhood wins over district.
-    assert.deepEqual(streetValues(), ["Bahnhofplatz", "Marktgasse"]);
+    // Neighbourhood wins over district; combined archive listings become
+    // individual street suggestions.
+    assert.deepEqual(streetValues(), [
+      "Bahnhofplatz",
+      "Marktgasse",
+      "Stadthausstrasse",
+      "Untertor",
+    ]);
   });
 
   it("populateStreetOptions_Should_ListNeighbourhoodStreets_If_OnlyNeighbourhoodSelected", () => {

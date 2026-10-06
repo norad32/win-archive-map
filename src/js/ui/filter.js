@@ -103,9 +103,8 @@ function yearInRange(props, from, to) {
 function streetIncludes(props, street) {
   if (!street) return true;
   return String(props.street ?? "")
-    .trim()
-    .toLocaleLowerCase()
-    .includes(street);
+    .split("/")
+    .some((part) => part.trim().toLocaleLowerCase() === street);
 }
 
 function districtEquals(props, district) {

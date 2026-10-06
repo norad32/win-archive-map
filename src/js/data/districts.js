@@ -51,9 +51,18 @@ export function populateStreetOptions(
     streets = [...new Set([...streetsData.districts.values()].flat())];
   }
 
-  const sorted = [...new Set(streets)].sort((a, b) => a.localeCompare(b, "de"));
+  const sorted = [
+    ...new Set(streets.flatMap(splitStreetListing)),
+  ].sort((a, b) => a.localeCompare(b, "de"));
 
   const options = sorted.map((s) => el("option", { value: s }));
 
   setChildren(streetOptionsEl, options);
+}
+
+function splitStreetListing(street) {
+  return String(street)
+    .split("/")
+    .map((part) => part.trim())
+    .filter(Boolean);
 }

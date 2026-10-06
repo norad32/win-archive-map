@@ -258,6 +258,32 @@ describe("createFilters", () => {
     );
   });
 
+  it("createFilters_Should_MatchStreetComponent_If_EntryHasSlashSeparatedStreetListing", async () => {
+    const groups = [
+      {
+        key: "combined-street",
+        repCoord: [8.7, 47.5],
+        entries: [
+          {
+            id: "combined",
+            title: "Stadthausstrasse/Marktgasse/Untertor",
+            year: "1950",
+            street: "Stadthausstrasse/Marktgasse/Untertor",
+          },
+        ],
+      },
+    ];
+    const { domRefs, filters, runFilterNow, getRendered } = buildSetup({
+      entries: groups[0].entries,
+      groups,
+    });
+    domRefs.streetInputEl.value = "Marktgasse";
+
+    await runFilterNow();
+
+    assert.deepEqual(getRendered().flatMap((group) => group.entries.map((entry) => entry.id)), ["combined"]);
+  });
+
   it("createFilters_Should_FilterByDistrictAndNeighbourhood_If_Set", async () => {
     const { domRefs, filters, runFilterNow, getRendered } = buildSetup({
       entries: [],
